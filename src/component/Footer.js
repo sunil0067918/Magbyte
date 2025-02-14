@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import bannerimage from "../images/Layer4.png";
-// import heroImage from "../images/Group images/Group15.png";
+import heroImage from "../images/Group images/Group15.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
