@@ -377,7 +377,7 @@ const Nav = () => {
                             />
                           </svg>
 
-                          <span className="text-[14px]">Web Designing</span>
+                         <Link to="/webdesign"> <span className="text-[14px]">Web Designing</span></Link>
                         </li>
 
                         <li className=" flex gap-3  items-center text-[14px]">

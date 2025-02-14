@@ -1,16 +1,13 @@
-import React, { useEffect } from "react";
 import Nav from "./Nav";
 import img1 from "../images/Contactimages/images1.png";
 import Footer from "./Footer";
 
 const Contact = () => {
-
-
   return (
     <div className="">
       <Nav />
       <div className="mt-6  relative">
-        <svg 
+        <svg
           width="1440"
           height="600"
           viewBox="0 0 1440 600"
@@ -37,14 +34,13 @@ const Contact = () => {
           </defs>
         </svg>
 
-        <svg  
+        <svg
           width="1440"
           height="619"
           viewBox="0 0 1440 619"
           fill="none"
           xmlns="http://www.w3.org/2000/svg "
-
-           className="   absolute top-[333px] right-[50px] hidden "
+          className="   absolute top-[333px] right-[50px] hidden "
         >
           <path
             opacity="0.1"
@@ -67,7 +63,7 @@ const Contact = () => {
                       We are here for you! How can we help?
                     </span>
                   </div>
-                  <form className="mt-7 space-y-10"  action="submit">
+                  <form className="mt-7 space-y-10" action="submit">
                     <input
                       className=" w-[484px]  bg-[#F4F4F9] py-[18px]  px-[20px] focus:outline-none "
                       placeholder="Enter Your name"
@@ -538,7 +534,16 @@ const Contact = () => {
       </div>
 
       <div className=" flex justify-center h-[526px] mt-[300px]">
-      <iframe   className="w-[90%] " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.316359861323!2d77.3771150262129!3d28.627752477897186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce54abba0e991%3A0xb19fd0c499e0f89b!2sMageBytes%20Pvt.%20Ltd.%20%7C%20Software%20and%20E-Commerce%20Development%20Company%20in%20India!5e0!3m2!1sen!2sin!4v1739121842071!5m2!1sen!2sin" width="600" height="450" style={{"border":0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          className="w-[90%] "
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.316359861323!2d77.3771150262129!3d28.627752477897186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce54abba0e991%3A0xb19fd0c499e0f89b!2sMageBytes%20Pvt.%20Ltd.%20%7C%20Software%20and%20E-Commerce%20Development%20Company%20in%20India!5e0!3m2!1sen!2sin!4v1739121842071!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <Footer />
