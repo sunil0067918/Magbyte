@@ -243,7 +243,7 @@ const Nav = () => {
                   </defs>
                 </svg>
               </div>
-              <p className="w-[373px]">
+              <p className="">
                 110, H Block, Sector 63, Noida, Uttar Pradesh 201301
               </p>
             </div>
@@ -376,8 +376,14 @@ const Nav = () => {
                               fill="#406EF1"
                             />
                           </svg>
+<Link
 
-                          <span className="text-[14px]">Web Designing</span>
+to="/webdesign"
+
+>
+
+<span className="text-[14px]">Web Designing</span>
+</Link>
                         </li>
 
                         <li className=" flex gap-3  items-center text-[14px]">

@@ -237,9 +237,10 @@ const Faq = () => {
           </p>
         </div>
 
-
         <div className="flex flex-col items-center space-y-6 ">
-          <button className="text-[#FFFFFF] border-[0.75px]  border-[#FFFFFF] px-[15px] py-[7px] rounded-[24px]">Get A Quote For Your Project</button>
+          <button className="text-[#FFFFFF] border-[0.75px]  border-[#FFFFFF] px-[15px] py-[7px] rounded-[24px]">
+            Get A Quote For Your Project
+          </button>
           <u className="text-[#FFFFFF]">Or Start a conversation</u>
         </div>
       </div>

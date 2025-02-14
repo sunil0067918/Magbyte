@@ -16,6 +16,7 @@ import img13 from "../images/Groupimages3/image6.png";
 import img14 from "../images/Groupimages3/image7.png";
 import Footer from "./Footer";
 
+
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to top of the page on component load
