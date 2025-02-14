@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../../Services/Webapp/Images/images.png";
+import img1 from "../Webapp/images3.png";
 import img2 from "../../../component/Services/Webapp/images1.png";
 
 const Webappbanner = () => {

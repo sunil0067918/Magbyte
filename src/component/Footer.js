@@ -4,7 +4,7 @@ import bannerimage from "../images/Layer4.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-const  []  =  useState(0)
+  // const  []  =  useState(0)
   return (
     <div className="">
       <div
@@ -389,8 +389,7 @@ const  []  =  useState(0)
               <li className="hover:text-blue-700 ">Mangento Devlopment</li>
               <li className="hover:text-blue-700">Python Devlopment</li>
               <li className="hover:text-blue-700">Woo Commarce Devlopment</li>
-              <li className="hover:text-blue-700">
-              Spotify Devlopment</li>
+              <li className="hover:text-blue-700">Spotify Devlopment</li>
               <li className="hover:text-blue-700">Big Commarce Devlopment</li>
             </ul>
           </div>
@@ -426,11 +425,9 @@ const  []  =  useState(0)
               <li className="hover:text-blue-700 ">About Us</li>
               <li className="hover:text-blue-700">Contact us</li>
               <li className="hover:text-blue-700">Blog</li>
-              
             </ul>
           </div>
 
-          
           <svg
             width="375"
             height="1"

@@ -23,7 +23,7 @@ const About = () => {
   return (
     <>
       <Nav />
-      <div className="bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[422px] mt-4 relative">
+      <div className="bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[422px]  relative">
         <div className="w-full flex justify-center">
           <div className=" w-[80%] text-white  cursor-pointer flex  justify-between items-center ">
             <div className=" w-[636px] h-[187px] space-y-4">

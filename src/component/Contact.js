@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="">
       <Nav />
-      <div className="mt-6  relative">
+      <div className="  relative">
         <svg
           width="1440"
           height="600"
