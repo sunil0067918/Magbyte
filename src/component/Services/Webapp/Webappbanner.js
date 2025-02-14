@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../../images/ServicesEcommarceimages/images1.png";
-import img2 from "../../../component/Services/Webapp/images1.png"
+import img1 from "../Webapp/images3.png";
+import img2 from "../../../component/Services/Webapp/images1.png";
 
 const Webappbanner = () => {
   return (
@@ -9,6 +9,7 @@ const Webappbanner = () => {
         className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center sm:items-center pt-[20px] sm:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
+          backgroundSize :`cover`
         }}
       >
         <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] md:flex-row flex-col ">
@@ -189,8 +190,7 @@ const Webappbanner = () => {
                 </div>
 
                 <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
-                
-                <img alt=""  src={img2} className="w-[20px] h-[20px]"/>
+                  <img alt="" src={img2} className="w-[20px] h-[20px]" />
                   <span className="tetx-[14px] font-[400] text-white">
                     Flutter
                   </span>

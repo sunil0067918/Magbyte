@@ -444,7 +444,7 @@ const Ourecommarcedevsolutions = () => {
         </div>
       </div>
 
-      <div className=" bg-[#FFFFFF] flex justify-center pt-[70px] pb-[50px]">
+      <div className=" bg-[#E9F5F6] flex justify-center pt-[70px] pb-[50px]">
         <div className="w-[90%] flex items-center gap-10  ">
           <div className="flex flex-col space-y-4">
             <span className="text-[20px]  font-[400]">

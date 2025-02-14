@@ -1023,7 +1023,7 @@ export const Homepage = () => {
                 viewBox="0 0 1 812"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className=" absolute left-[379px] top-[-136px]"
+                className=" absolute left-[379px] top-[-136px] hidden sm:block"
               >
                 <line
                   opacity="0.5"
@@ -1193,7 +1193,7 @@ export const Homepage = () => {
 
         <div className="flex justify-center px-4 w-full ">
           <div className=" sm:w-[50%] sm:mt-16 mt-5">
-            <div className="">
+            <div className=" flex flex-col   items-center justify-center">
               <div className=" flex flex-col items-center  text-white text-center">
                 <span className="sm:text-[36px] text-[24px]  font-[700] ">
                   {" "}
@@ -1801,7 +1801,7 @@ export const Homepage = () => {
         </svg>
 
         <div className=" flex justify-center  ">
-          <div className=" flex sm:w-[75%] w-full py-16 gap-8 flex-col sm:flex-row px-5">
+          <div className=" flex sm:w-[75%] w-full py-16 gap-8 flex-col lg:flex-row px-5">
             <form className="sm:w-[604px]   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-20  z-[10]  ">
               <span className=" sm:text-[34px] text-[24px] font-[700]  pl-10 ">
                 For Project Inquiries

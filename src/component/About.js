@@ -24,7 +24,7 @@ const About = () => {
   return (
     <>
       <Nav />
-      <div className="bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[422px] mt-4 relative">
+      <div className="bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[422px]  relative">
         <div className="w-full flex justify-center">
           <div className=" w-[80%] text-white  cursor-pointer flex  justify-between items-center ">
             <div className=" w-[636px] h-[187px] space-y-4">
@@ -505,10 +505,10 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <sapn className="text-[20px]  font-[400]  ">
+                <span className="text-[20px]  font-[400]  ">
                   We have 10+ years of experience with creating eCommerce
                   websites.
-                </sapn>
+                </span>
               </div>
             </div>
             <div className="relative">
@@ -561,10 +561,10 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <sapn className="text-[20px]  font-[400]  ">
+                <span className="text-[20px]  font-[400]  ">
                   Our group is knowledgeable in Shopify, Magento, Magento 2,
                   Laravel, WooCommerce, and WordPress.
-                </sapn>
+                </span>
               </div>
             </div>
 
@@ -618,11 +618,11 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <sapn className="text-[20px]  font-[400]  ">
+                <span className="text-[20px]  font-[400]  ">
                   Along with these technologies we are also well versed in
                   digital marketing and graphic designing. Our experts know
                   their way in and out of the technological world.
-                </sapn>
+                </span>
               </div>
             </div>
 
@@ -676,10 +676,10 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <sapn className="text-[20px]  font-[400]  ">
+                <span className="text-[20px]  font-[400]  ">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
-                </sapn>
+                </span>
               </div>
             </div>
           </div>

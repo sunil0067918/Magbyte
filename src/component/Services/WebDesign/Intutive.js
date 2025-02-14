@@ -110,7 +110,9 @@ const Intutive = () => {
           </div>
 
           <div className="flex justify-center">
-            <button className="text-[18px] font-[500] px-[30px] py-[10px] bg-black text-white  mt-6 rounded-[50px]">Get Started</button>
+            <button className="text-[18px] font-[500] px-[30px] py-[10px] bg-black text-white  mt-6 rounded-[50px]">
+              Get Started
+            </button>
           </div>
         </div>
       </div>

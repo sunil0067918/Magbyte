@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import bannerimage from "../images/Layer4.png";
 // import heroImage from "../images/Group images/Group15.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  // const  []  =  useState(0)
   return (
     <div className="">
       <div
@@ -244,8 +245,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#111428] flex  items-center flex-col h-[500px] sm:hidden   ">
-        <div className=" w-[90%] flex flex-col pt-12 text-center items-center ">
+      <div className="bg-[#111428] flex  items-center flex-col  sm:hidden  py-3  ">
+        <div className=" w-[90%] flex flex-col pt-7 text-center items-center ">
           <svg
             width="178"
             height="34"
@@ -317,21 +318,30 @@ const Footer = () => {
           </p>
         </div>
         <div className=" pt-10 space-y-4">
-          <div className="w-[335px]  h-[18px] flex text-white justify-between  items-center">
-            <span className="text-[16px] font-[500]">Quick Links</span>
-            <svg
-              width="18"
-              height="8"
-              viewBox="0 0 18 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-[17px]"
-            >
-              <path
-                d="M8.85313 7.19699C9.39849 6.71318 9.92204 6.23894 10.451 5.76949C12.5507 3.92524 14.6504 2.08098 16.75 0.231939C16.7609 0.222358 16.7773 0.207988 16.7882 0.198407C17.05 -0.0267357 17.2681 -0.0602676 17.4481 0.0978114C17.628 0.25589 17.5899 0.447501 17.3281 0.677434C14.6231 3.05341 11.9235 5.42938 9.21852 7.80536C8.91857 8.06882 8.74405 8.06403 8.43865 7.79578C5.75 5.42938 3.06135 3.06299 0.367253 0.701386C0.339985 0.677434 0.312717 0.658273 0.290902 0.634322C0.0836636 0.442711 0.061849 0.25589 0.225458 0.107392C0.383614 -0.031526 0.623575 -0.0171552 0.825359 0.155295C1.4089 0.658273 1.98153 1.17083 2.55962 1.6786C4.59383 3.46537 6.63349 5.25693 8.6677 7.04371C8.71678 7.08203 8.76587 7.12035 8.85313 7.19699Z"
-                fill="white"
-              />
-            </svg>
+          <div className="w-[335px] ">
+            <div className=" h-[18px] flex text-white justify-between  items-center">
+              <span className="text-[16px] font-[500]">Services</span>
+              <svg
+                width="18"
+                height="8"
+                viewBox="0 0 18 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-[17px]"
+              >
+                <path
+                  d="M8.85313 7.19699C9.39849 6.71318 9.92204 6.23894 10.451 5.76949C12.5507 3.92524 14.6504 2.08098 16.75 0.231939C16.7609 0.222358 16.7773 0.207988 16.7882 0.198407C17.05 -0.0267357 17.2681 -0.0602676 17.4481 0.0978114C17.628 0.25589 17.5899 0.447501 17.3281 0.677434C14.6231 3.05341 11.9235 5.42938 9.21852 7.80536C8.91857 8.06882 8.74405 8.06403 8.43865 7.79578C5.75 5.42938 3.06135 3.06299 0.367253 0.701386C0.339985 0.677434 0.312717 0.658273 0.290902 0.634322C0.0836636 0.442711 0.061849 0.25589 0.225458 0.107392C0.383614 -0.031526 0.623575 -0.0171552 0.825359 0.155295C1.4089 0.658273 1.98153 1.17083 2.55962 1.6786C4.59383 3.46537 6.63349 5.25693 8.6677 7.04371C8.71678 7.08203 8.76587 7.12035 8.85313 7.19699Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+              <li className="hover:text-blue-700 ">Web Design</li>
+              <li className="hover:text-blue-700">Web and App Devlopment</li>
+              <li className="hover:text-blue-700">Digital Markting</li>
+              <li className="hover:text-blue-700">E-commarce</li>
+              <li className="hover:text-blue-700">Manitence Support</li>
+            </ul>
           </div>
           <svg
             width="375"
@@ -343,7 +353,7 @@ const Footer = () => {
             <line opacity="0.11" y1="0.5" x2="375" y2="0.5" stroke="white" />
           </svg>
 
-          <div className="w-[335px]  h-[18px] flex text-white justify-between  items-center">
+          {/* <div className="w-[335px]  h-[18px] flex text-white justify-between  items-center">
             <span>Technologies</span>
             <svg
               width="18"
@@ -357,7 +367,33 @@ const Footer = () => {
                 fill="white"
               />
             </svg>
+          </div> */}
+          <div className="w-[335px] ">
+            <div className=" h-[18px] flex text-white justify-between  items-center">
+              <span className="text-[16px] font-[600]">Technologies</span>
+              <svg
+                width="18"
+                height="8"
+                viewBox="0 0 18 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-[17px]"
+              >
+                <path
+                  d="M8.85313 7.19699C9.39849 6.71318 9.92204 6.23894 10.451 5.76949C12.5507 3.92524 14.6504 2.08098 16.75 0.231939C16.7609 0.222358 16.7773 0.207988 16.7882 0.198407C17.05 -0.0267357 17.2681 -0.0602676 17.4481 0.0978114C17.628 0.25589 17.5899 0.447501 17.3281 0.677434C14.6231 3.05341 11.9235 5.42938 9.21852 7.80536C8.91857 8.06882 8.74405 8.06403 8.43865 7.79578C5.75 5.42938 3.06135 3.06299 0.367253 0.701386C0.339985 0.677434 0.312717 0.658273 0.290902 0.634322C0.0836636 0.442711 0.061849 0.25589 0.225458 0.107392C0.383614 -0.031526 0.623575 -0.0171552 0.825359 0.155295C1.4089 0.658273 1.98153 1.17083 2.55962 1.6786C4.59383 3.46537 6.63349 5.25693 8.6677 7.04371C8.71678 7.08203 8.76587 7.12035 8.85313 7.19699Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+              <li className="hover:text-blue-700 ">Mangento Devlopment</li>
+              <li className="hover:text-blue-700">Python Devlopment</li>
+              <li className="hover:text-blue-700">Woo Commarce Devlopment</li>
+              <li className="hover:text-blue-700">Spotify Devlopment</li>
+              <li className="hover:text-blue-700">Big Commarce Devlopment</li>
+            </ul>
           </div>
+
           <svg
             width="375"
             height="1"
@@ -368,27 +404,37 @@ const Footer = () => {
             <line opacity="0.11" y1="0.5" x2="375" y2="0.5" stroke="white" />
           </svg>
 
-          <div className="w-[335px]  h-[18px] flex text-white justify-between  items-center">
-            <span>Company</span>
-            <svg
-              width="18"
-              height="8"
-              viewBox="0 0 18 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.85313 7.19699C9.39849 6.71318 9.92204 6.23894 10.451 5.76949C12.5507 3.92524 14.6504 2.08098 16.75 0.231939C16.7609 0.222358 16.7773 0.207988 16.7882 0.198407C17.05 -0.0267357 17.2681 -0.0602676 17.4481 0.0978114C17.628 0.25589 17.5899 0.447501 17.3281 0.677434C14.6231 3.05341 11.9235 5.42938 9.21852 7.80536C8.91857 8.06882 8.74405 8.06403 8.43865 7.79578C5.75 5.42938 3.06135 3.06299 0.367253 0.701386C0.339985 0.677434 0.312717 0.658273 0.290902 0.634322C0.0836636 0.442711 0.061849 0.25589 0.225458 0.107392C0.383614 -0.031526 0.623575 -0.0171552 0.825359 0.155295C1.4089 0.658273 1.98153 1.17083 2.55962 1.6786C4.59383 3.46537 6.63349 5.25693 8.6677 7.04371C8.71678 7.08203 8.76587 7.12035 8.85313 7.19699Z"
-                fill="white"
-              />
-            </svg>
+          <div className="w-[335px] ">
+            <div className=" h-[18px] flex text-white justify-between  items-center">
+              <span className="text-[16px] font-[600]">Company</span>
+              <svg
+                width="18"
+                height="8"
+                viewBox="0 0 18 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-[17px]"
+              >
+                <path
+                  d="M8.85313 7.19699C9.39849 6.71318 9.92204 6.23894 10.451 5.76949C12.5507 3.92524 14.6504 2.08098 16.75 0.231939C16.7609 0.222358 16.7773 0.207988 16.7882 0.198407C17.05 -0.0267357 17.2681 -0.0602676 17.4481 0.0978114C17.628 0.25589 17.5899 0.447501 17.3281 0.677434C14.6231 3.05341 11.9235 5.42938 9.21852 7.80536C8.91857 8.06882 8.74405 8.06403 8.43865 7.79578C5.75 5.42938 3.06135 3.06299 0.367253 0.701386C0.339985 0.677434 0.312717 0.658273 0.290902 0.634322C0.0836636 0.442711 0.061849 0.25589 0.225458 0.107392C0.383614 -0.031526 0.623575 -0.0171552 0.825359 0.155295C1.4089 0.658273 1.98153 1.17083 2.55962 1.6786C4.59383 3.46537 6.63349 5.25693 8.6677 7.04371C8.71678 7.08203 8.76587 7.12035 8.85313 7.19699Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+              <li className="hover:text-blue-700 ">About Us</li>
+              <li className="hover:text-blue-700">Contact us</li>
+              <li className="hover:text-blue-700">Blog</li>
+            </ul>
           </div>
+
           <svg
             width="375"
             height="1"
             viewBox="0 0 375 1"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="pb-5"
           >
             <line opacity="0.11" y1="0.5" x2="375" y2="0.5" stroke="white" />
           </svg>

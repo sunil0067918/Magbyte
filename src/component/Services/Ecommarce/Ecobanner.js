@@ -6,6 +6,8 @@ const Ecobanner = () => {
     <>
       <div className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center items-center " style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
+
+                 backgroundSize :`cover`
               }}>
         <div className=" absolute w-[90%] flex gap-14 items-center rounded-[5px] md:flex-row flex-col ">
           <div className="">

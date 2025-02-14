@@ -4,8 +4,8 @@ import img2 from "../../../component/Services/Webapp/images2.png"
 const Ourwebappmobiledev = () => {
   return (
     <div>
-      <div className="bg-[#F5F5F5] flex justify-center pt-[80px] pb-[60px] cursor-pointer">
-        <div className="w-[80%] ">
+      <div className="bg-[#F5F5F5] flex justify-center  pt-[80px] pb-[60px] cursor-pointer">
+        <div className="w-[90%] ">
           <div className="flex justify-center  flex-col items-center text-center space-y-4">
             <span className="sm:text-[32px]  text-[24px] font-[600]">
               Our Web & Mobile Application Development Services
@@ -18,7 +18,7 @@ const Ourwebappmobiledev = () => {
           </div>
 
           <div className="pt-20 flex flex-col gap-16 flex-wrap ">
-            <div className=" flex gap-8 flex-wrap ">
+            <div className=" flex gap-8 flex-wrap justify-center ">
               <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px]">
@@ -189,7 +189,7 @@ const Ourwebappmobiledev = () => {
               </div>
             </div>
 
-            <div className=" flex gap-8 flex-wrap ">
+            <div className=" flex gap-8 flex-wrap  justify-center">
               <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px]">
@@ -377,8 +377,8 @@ const Ourwebappmobiledev = () => {
         </div>
       </div>
 
-      <div className=" flex justify-center bg-[#7938AD] h-[600px] pt-[50px]">
-        <div className="  w-[90%] text-white flex  items-center gap-9  justify-center">
+      <div className=" flex justify-center bg-[#7938AD]  overflow-hidden pt-[50px]">
+        <div className="  w-[90%] text-white flex  flex-col sm:flex-row sm:items-center gap-9  justify-center">
           <div className="flex flex-col space-y-4">
             <span className="text-[24px] font-[500]">Work</span>
             <span className="text-[32px] font-[700]">Dealing Application</span>
@@ -403,7 +403,7 @@ const Ourwebappmobiledev = () => {
                 viewBox="0 0 447 447"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className=" "
+                className=" w-[171px] sm:w-[400px] "
               >
                 <circle
                   opacity="0.05"
@@ -420,7 +420,7 @@ const Ourwebappmobiledev = () => {
                 viewBox="0 0 404 404"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className=" absolute top-[20px] left-[22px]"
+                className=" absolute top-[22px] left-[21px] w-[359px]  "
               >
                 <circle opacity="0.1" cx="202" cy="202" r="202" fill="white" />
               </svg>
@@ -431,7 +431,7 @@ const Ourwebappmobiledev = () => {
                 viewBox="0 0 351 351"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className=" absolute top-[50px] left-[50px]"
+                className=" absolute top-[50px]  w-[309px] left-[46px]"
               >
                 <circle
                   opacity="0.3"
@@ -443,7 +443,7 @@ const Ourwebappmobiledev = () => {
               </svg>
              </div>
 
-             <img alt="" src={img2} className=" absolute top-[27px] left-[108px]"/>
+             <img alt="" src={img2} className=" absolute top-[27px] left-[85px] "/>
 
              
             </div>
