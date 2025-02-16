@@ -15,14 +15,14 @@ import img13 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepower
 
 const EcommarcePowerfullplateform = () => {
   return (
-    <div className="h-[528px]  bg-[#FFFFFF] flex justify-center ">
+    <div className="  bg-[#FFFFFF] flex justify-center ">
       <div className="w-[90%] pt-[50px] pb-[40px]  ">
         <div className="flex justify-center">
-          <div className=" flex  flex-col  text-center w-[782px]">
-            <span className="text-[32px] font-[600]  ">
+          <div className=" flex  flex-col  text-center w-[782px]     gap-y-5">
+            <span className="  text-[24px]  sm:text-[32px] font-[600]  ">
               Powerful Platforms We Use For Uncompromised Services
             </span>
-            <p className="text-[18px] font-[400]">
+            <p className="   text-[12px] sm:text-[18px] sm:font-[400]">
               Choosing the right platform for your eCommerce business determines
               its success and failure. To provide the finest and uninterrupted
               user experience, here are some powerful platforms our developers
@@ -31,8 +31,8 @@ const EcommarcePowerfullplateform = () => {
           </div>
         </div>
 
-        <div className="flex flex-col  pt-16 space-y-9">
-          <div className="w-full flex justify-between">
+        <div className="flex flex-col  pt-16 space-y-9 flex-wrap">
+          <div className="w-full flex justify-between flex-wrap sm:gap-0 gap-[68px] ">
             <img
               src={img1}
               alt=""
@@ -71,7 +71,7 @@ const EcommarcePowerfullplateform = () => {
             />
           </div>
 
-          <div className="flex justify-center gap-[60px] ">
+          <div className="flex justify-center gap-[60px] flex-wrap">
             <img
               src={img6}
               alt=""

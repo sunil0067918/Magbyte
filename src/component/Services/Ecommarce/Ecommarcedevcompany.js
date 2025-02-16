@@ -3,13 +3,13 @@ import React from "react";
 const Ecommarcedevcompany = () => {
   return (
     <div className=" flex justify-center ">
-      <div className="w-[90%] bg-[#4687C7]   rounded-[40px] mt-[80px] sm:py-[60px] md:px-[100px] px[20px]">
-        <span className="text-[24px] font-[600] flex justify-center  text-white">
+      <div className="  w-[90%] bg-[#4687C7]   rounded-[40px]  mt-5 sm:mt-[80px] py-[20px] sm:py-[60px] md:px-[100px] px-[20px]">
+        <span className="sm:text-[24px] sm:font-[600]  text-[16px]  font-[400] flex justify-center  text-white">
           Reasons to Choose Us as Your <b>eCommerce Development</b> Company
         </span>
         <div className="pt-20 flex-col  flex gap-10">
           <div className="flex gap-10 flex-wrap sm:flex-nowrap sm:flex-row ">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="">
                 <svg
                   width="40"
@@ -41,20 +41,20 @@ const Ecommarcedevcompany = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className="  text-[14px] sm:text-[20px] font-[500]  sm:font-[600] ">
                   Ecommerce Website <br />
                   Development
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 Our eCommerce website development gives you a wide range of
                 customization. You think and we create. You can incorporate as
                 many features and pages as you want and we will make sure that
                 your website stands out in design as well as performance.
               </p>
             </div>
-            <div className=" bg-white px-[30px] py-[40px] space-y-4  md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px]space-y-4  md:w-[580px] w-full rounded-[5px]   ">
               <div className="">
                 <svg
                   width="40"
@@ -102,13 +102,13 @@ const Ecommarcedevcompany = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className=" text-[14px] sm:text-[20px] font-[500]  sm:font-[600]">
                   Ecommerce application <br />
                   development
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 Our eCommerce application development will deliver a reliable,
                 robust, and easy to navigate app for both android and iOS
                 platforms along with an impeccable design. Once a customer
@@ -116,7 +116,7 @@ const Ecommarcedevcompany = () => {
                 again.
               </p>
             </div>
-            <div className=" bg-white px-[40px] py-[40px] space-y-4  md:w-[580px] w-full  rounded-[5px]   ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px]space-y-4  md:w-[580px] w-full  rounded-[5px]   ">
               <div className="">
                 <svg
                   width="40"
@@ -160,13 +160,13 @@ const Ecommarcedevcompany = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className=" text-[14px] sm:text-[20px] font-[500]  sm:font-[600] ">
                   eCommerce Maintenance & <br />
                   Support
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 If you already own an eCommerce website, our team will be happy
                 to provide technical support and maintenance for your website.
                 Keeping up with the ever-changing technology and trends is a big
@@ -176,7 +176,7 @@ const Ecommarcedevcompany = () => {
           </div>
 
           <div className="flex gap-10 flex-wrap sm:flex-nowrap sm:flex-row ">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full   rounded-[5px]    ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4 md:w-[580px] w-full   rounded-[5px]    ">
               <div className="">
                 <svg
                   width="40"
@@ -246,12 +246,12 @@ const Ecommarcedevcompany = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className="text-[14px] sm:text-[20px] font-[500]  sm:font-[600]">
                   eCommerce UX testing
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 No one likes to visit a website with bugs, be they minor or
                 major. Poor performance and security breaches are quite common
                 nowadays and hamper your business on a large scale. Our testers
@@ -259,7 +259,7 @@ const Ecommarcedevcompany = () => {
                 your website runs smoothly.
               </p>
             </div>
-            <div className=" bg-white px-[30px] py-[40px] space-y-4 md:w-[580px] w-full    rounded-[5px]   ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4 md:w-[580px] w-full    rounded-[5px]   ">
               <div className="">
                 <svg
                   width="40"
@@ -279,13 +279,13 @@ const Ecommarcedevcompany = () => {
                   />
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className="text-[14px] sm:text-[20px] font-[500]  sm:font-[600] ">
                   eCommerce Strategy & <br />
                   Consulting
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 Stuck somewhere? Do not worry. Consult our experts to get an
                 efficient solution to your problems. Our technical guide will
                 help you bridge the gap between your current status and your
@@ -293,7 +293,7 @@ const Ecommarcedevcompany = () => {
                 for you today and tomorrow.
               </p>
             </div>
-            <div className=" bg-white px-[40px] py-[40px] space-y-4  md:w-[580px] w-full   rounded-[5px]  ">
+            <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4  md:w-[580px] w-full   rounded-[5px]  ">
               <div className="">
                 <svg
                   width="40"
@@ -331,12 +331,12 @@ const Ecommarcedevcompany = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className=" text-[14px] sm:text-[20px] font-[500]  sm:font-[600] ">
                   eCommerce & CRM Integration
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="flex-wrap text-[10px] sm:text-[16px] font-[400]">
                 To grow our business, we need a good relationship with the
                 customers. Integrate CRM in your e-commerce business to give a
                 personalized experience to your clients. CRM includes multiple

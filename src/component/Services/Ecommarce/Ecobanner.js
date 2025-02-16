@@ -4,32 +4,32 @@ import img1 from "../../../images/ServicesEcommarceimages/images1.png";
 const Ecobanner = () => {
   return (
     <>
-      <div className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center items-center " style={{
+      <div className=" relative md:h-[540px] h-[750px]  bg-blue-600 flex justify-center items-center " style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
 
                  backgroundSize :`cover`
               }}>
         <div className=" absolute w-[90%] flex gap-14 items-center rounded-[5px] md:flex-row flex-col ">
-          <div className="">
-            <div className=" space-y-4">
-              <span className="text-[32px] font-[700] text-white">
+          <div className=" ">
+            <div className="space-y-2 sm:space-y-4">
+              <span className=" text-[18px] sm:text-[32px] font-[700] text-white">
                 E-commerce Development
               </span>
-              <p className="text-[18px]  font-[500] text-white">
+              <p className=" text-[12px]  sm:text-[18px]  font-[500] text-white">
                 Personalized E-Commerce Development Services
               </p>
             </div>
 
-            <div className=" flex gap-5 pt-10">
-              <div className="space-y-7">
-                <div className="flex gap-2">
-                  <svg
+            <div className=" flex pt-5 sm:pt-10 gap-10">
+              <div className=" space-y-4 sm:space-y-7">
+                <div className="flex gap-2  items-center">
+                  <svg 
                     width="30"
                     height="30"
                     viewBox="0 0 30 30"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-[30px]  w-[29px]"
+                    className="sm:h-[30px] h-[20px]  sm:w-[29px] w-[19px]"
                   >
                     <g clip-path="url(#clip0_489_1814)">
                       <path
@@ -71,7 +71,7 @@ const Ecobanner = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className=" text-[12px] sm:text-[18px]  font-[400] sm:font-[600] text-white">
                     Customized Online Storefronts
                   </span>
                 </div>
@@ -125,7 +125,7 @@ const Ecobanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className="text-[12px] sm:text-[18px]  font-[400] sm:font-[600]  text-white">
                     Smooth Platform Migration Services
                   </span>
                 </div>
@@ -176,13 +176,13 @@ const Ecobanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className="text-[12px] sm:text-[18px]  font-[400] sm:font-[600] text-white">
                     Round-the-Clock Support and Maintenance
                   </span>
                 </div>
               </div>
 
-              <div className="space-y-7">
+              <div className="space-y-4 sm:space-y-7">
                 <div className="flex gap-2">
                   <svg
                     width="30"
@@ -212,7 +212,7 @@ const Ecobanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className="text-[12px] sm:text-[18px]  font-[400] sm:font-[600] text-white">
                     Mobile-Optimized Commerce Designs
                   </span>
                 </div>
@@ -258,7 +258,7 @@ const Ecobanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className="text-[12px] sm:text-[18px]  font-[400] sm:font-[600]  text-white">
                     Integration with External Platforms
                   </span>
                 </div>
@@ -305,7 +305,7 @@ const Ecobanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="text-[18px]  font-[600] text-white">
+                  <span className="text-[12px] sm:text-[18px]  font-[400] sm:font-[600]  text-white">
                     Safe and Secure Payment Gateway Solutions
                   </span>
                 </div>
@@ -318,10 +318,10 @@ const Ecobanner = () => {
             className=" bg-[#2E2E2E] rounded-[5px] px-[14px] py-[40px]"
           >
             <div className="flex flex-col  text-center ">
-              <span className="text-[20px]  font-[800] text-[#FFFFFF]">
+              <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">
                 Book Free Consultation
               </span>
-              <p className="text-[14px] font-[500] text-[#FFFFFF] text-center">
+              <p className=" text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
                 Fill Out the Form and Our Expert Will Contact You Within 24hrs{" "}
               </p>
             </div>
@@ -329,13 +329,13 @@ const Ecobanner = () => {
             <div className="flex  flex-col  space-y-5 pt-10">
               <div className="flex  justify-between">
                 <input
-                  className=" text-[14px] px-[10px] py-[10px] rounded-[6px] focus:outline-none "
+                  className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="text"
                   placeholder="FirstName*"
                 />
 
                 <input
-                  className=" text-[14px] px-[10px] py-[10px] rounded-[6px] focus:outline-none "
+                  className="  text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="email"
                   placeholder="Email*"
                 />
@@ -343,13 +343,13 @@ const Ecobanner = () => {
 
               <div className="flex  justify-between">
                 <input
-                  className="text-[14px] px-[10px] py-[10px] rounded-[6px] focus:outline-none"
+                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="number"
                   placeholder="Phone Number*"
                 />
 
                 <input
-                  className=" text-[14px] px-[10px] py-[10px] rounded-[6px] focus:outline-none"
+                  className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="text"
                   placeholder="Company Name*"
                 />
@@ -357,10 +357,10 @@ const Ecobanner = () => {
               <input
                 type="text"
                 placeholder="Your Requirement*"
-                className="text-[14px] px-[10px] py-[10px] rounded-[6px] flex  focus:outline-none"
+                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] flex  focus:outline-none"
               />
 
-              <button className="text-[14px]  font-[700] text-white bg-[#4687C7] px-[10px]  py-[10px] rounded-[6px]">
+              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  font-[700] text-white bg-[#4687C7]  rounded-[6px]">
                 Submit Your Requirement!
               </button>
             </div>

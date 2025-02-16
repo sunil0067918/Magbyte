@@ -7,18 +7,18 @@ import img4 from "../../../images/ServicesEcommarceimages/images5.png";
 const Ourecommarcedevsolutions = () => {
   return (
     <div className="">
-      <div className=" bg-[#FFFFFF] py-[140px] flex justify-center   ">
+      <div className=" bg-[#FFFFFF] py-[60px] sm:py-[140px] flex justify-center   ">
         <div className="w-[90%] flex flex-col  ">
           <div className="">
             <div className="flex justify-center">
-              <span className="text-[32px]  font-[600]">
+              <span className=" text-[24px] sm:text-[32px]  font-[400] flex text-center sm:font-[600]">
                 Our eCommerce Development Services
               </span>
             </div>
 
-            <div className="pt-20 flex-col gap-10 flex justify-center ">
-              <div className="flex   flex-wrap justify-between  ">
-                <div className=" w-full md:w-[30%] bg-white  px-[30px] py-[40px] space-y-4  rounded-[5px]  border-[2px]  border-[#4687C7]  ">
+            <div className=" pt-10 sm:pt-20 flex-col sm:gap-10 flex justify-center ">
+              <div className="flex   flex-wrap justify-between sm:gap-0 gap-7 ">
+                <div className=" w-full md:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4  rounded-[5px]  border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -54,20 +54,20 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className=" text-[18px] sm:text-[24px] font-[400] sm:font-[600] ">
                       eCommerce
                       <br />
                       Consulting
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Improve your operational efficiency and user experience with
                     our expert’s advice on business, technology and operational
                     aspects.
                   </p>
                 </div>
-                <div className=" w-full md:w-[30%] bg-white px-[30px] py-[40px] space-y-4    rounded-[5px]  border-[2px]  border-[#4687C7] ">
+                <div className=" w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px]  border-[2px]  border-[#4687C7] ">
                   <div className="">
                     <svg
                       width="50"
@@ -117,19 +117,19 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className=" text-[18px] sm:text-[24px] font-[400] sm:font-[600] ">
                       eCommerce <br />
                       Implementation
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap  text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Get cloud platforms, payment gateways, POS systems, and CRMs
                     implemented to your eCommerce web stores and mobile
                     applications.
                   </p>
                 </div>
-                <div className=" w-full md:w-[30%] bg-white px-[40px] py-[40px] space-y-4    rounded-[5px] border-[2px]  border-[#4687C7]  ">
+                <div className=" w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px] border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -171,22 +171,22 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className=" text-[18px] sm:text-[24px] font-[400] sm:font-[600] ">
                       eCommerce
                       <br />
                       Marketing
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap  text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Stay ahead of the competition with our eCommerce marketing
                     team, which consists of SEO, PPC, and social media experts.
                   </p>
                 </div>
               </div>
 
-              <div className="flex w-full  flex-wrap justify-between ">
-                <div className="w-full md:w-[30%] bg-white  px-[30px] py-[40px] space-y-4 rounded-[5px]  border-[2px]  border-[#4687C7]  ">
+              <div className="flex w-full  flex-wrap justify-between pt-10 sm:gap-0 gap-7 ">
+                <div className="w-full md:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  space-y-4 rounded-[5px]  border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -224,20 +224,20 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className=" text-[18px] sm:text-[24px] font-[400] sm:font-[600] ">
                       eCommerce Web
                       <br />
                       Design
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Our eCommerce web designers enable you sell online using
                     responsive designs that look great on desktop and mobile
                     devices.
                   </p>
                 </div>
-                <div className="w-full md:w-[30%] bg-white px-[30px] py-[40px] space-y-4    rounded-[5px]  border-[2px]  border-[#4687C7] ">
+                <div className="w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  border-[2px] border-[#4687C7] ">
                   <div className="">
                     <svg
                       width="35"
@@ -287,20 +287,20 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className="  text-[18px] sm:text-[24px] font-[400] sm:font-[600]">
                       eCommerce
                       <br />
                       Migration
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Our team ensures your eCommerce platforms are continuously
                     performing and secure, with proactive support and strategic
                     updates to meet business evolution.
                   </p>
                 </div>
-                <div className="w-full md:w-[30%] bg-white px-[40px] py-[40px] space-y-4   rounded-[5px] border-[2px]  border-[#4687C7]  ">
+                <div className="w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4   rounded-[5px] border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="43"
@@ -338,12 +338,12 @@ const Ourecommarcedevsolutions = () => {
                       </defs>
                     </svg>
 
-                    <span className=" text-[24px]  font-[600] ">
+                    <span className=" ttext-[18px] sm:text-[24px] font-[400] sm:font-[600]">
                       Maintenance &<br /> Management
                     </span>
                   </div>
 
-                  <p className="flex-wrap text-[18px] font-[400]">
+                  <p className="flex-wrap text-[12px] font-[300] sm:text-[18px] sm:font-[400]">
                     Our team ensures your eCommerce platforms are continuously
                     performing and secure, with proactive support and strategic
                     updates to meet business evolution.
@@ -357,27 +357,27 @@ const Ourecommarcedevsolutions = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#D9D9D9]  flex justify-center pt-[60px] pb-[50px]">
+      <div className="bg-[#D9D9D9]  flex justify-center sm:pt-[60px] pt-[30px] pb-[25px]  sm:pb-[50px]">
         <div className="w-[90%] flex gap-[150px] flex-col sm:flex-row">
           <div className="flex flex-col space-y-4">
             <span className="text-[20px] font-[600] text-[#444444]">
               Our Different Models
             </span>
-            <span className="text-[24px]  font-[600]">
+            <span className="sm:text-[24px]  sm:font-[600] text-[18px]">
               {" "}
               E-Commerce Solutions Tailored for Every Business
             </span>
-            <p className="text-[16px]  font-[500] text-[#222222]">
+            <p className="sm:text-[16px] text-[10px] font-[500] text-[#222222]">
               Our Goal is to develop e-commerce platforms that are simple to
               navigate, highly intuitive, and user-friendly
             </p>
           </div>
 
           <div className=" flex flex-col gap-9">
-            <div className=" flex gap-6 ">
-              <div className="flex flex-col items-center space-y-3">
-                <img alt="" src={img1} className="w-[316] h-[210px]" />
-                <span className="text-[20px]  font-[500] text-center flex text-[#222222]">
+            <div className=" flex gap-6  justify-center  ">
+              <div className="flex flex-col items-center justify-center space-y-3">
+                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <span className="  text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2B) Business to Business{" "}
                 </span>
                 <svg
@@ -386,14 +386,15 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
               </div>
 
               <div className="flex flex-col items-center space-y-3">
-                <img alt="" src={img1} className="w-[316] h-[210px]" />
-                <span className="text-[20px]  font-[500] text-center flex text-[#222222]">
+                <img alt="" src={img1} className="  sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2C) Business to Consumer{" "}
                 </span>
                 <svg
@@ -402,15 +403,16 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                   className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
               </div>
             </div>
-            <div className=" flex gap-6 ">
-              <div className="flex flex-col items-center space-y-3">
-                <img alt="" src={img1} className="w-[316] h-[210px]" />
-                <span className="text-[20px]  font-[500] text-center flex text-[#222222]">
+            <div className=" flex gap-6 justify-center  ">
+              <div className="flex flex-col items-center  space-y-3">
+                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2B) Business to Business{" "}
                 </span>
                 <svg
@@ -419,14 +421,15 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                   className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
               </div>
 
-              <div className="flex flex-col items-center space-y-3">
-                <img alt="" src={img1} className="w-[316] h-[210px]" />
-                <span className="text-[20px]  font-[500] text-center flex text-[#222222]">
+              <div className="flex flex-col items-center  space-y-3">
+                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2C) Business to Consumer{" "}
                 </span>
                 <svg
@@ -435,6 +438,7 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                   className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
@@ -444,16 +448,16 @@ const Ourecommarcedevsolutions = () => {
         </div>
       </div>
 
-      <div className=" bg-[#E9F5F6] flex justify-center pt-[70px] pb-[50px]">
-        <div className="w-[90%] flex items-center gap-10  ">
+      <div className=" bg-[#E9F5F6] flex justify-center pt-[30px] pb-[20px] sm:pt-[70px] sm:pb-[50px]">
+        <div className="w-[90%] flex items-center gap-10 flex-col sm:flex-row ">
           <div className="flex flex-col space-y-4">
-            <span className="text-[20px]  font-[400]">
+            <span className=" text-[14px] sm:text-[20px] sm:font-[400] font-[300] ">
               E-Commerce Solutions
             </span>
-            <span className="text-[24px]  font-[600]">
+            <span className="   text-[16px] sm:text-[24px] font-[600]">
               Renowned for outstanding achievements in e-commerce development
             </span>
-            <p className="text-[16px] font-[500]">
+            <p className="    text-[10px] sm:text-[16px] font-[500]">
               As a trusted authority in e-commerce development, with
               industry-leading certifications, We offer effective e-commerce app
               development solutions designed to deliver personalized shopping
@@ -465,17 +469,17 @@ const Ourecommarcedevsolutions = () => {
             <img
               alt=""
               src={img2}
-              className="w-[180px] h-[67px] object-cover"
+              className="sm:w-[180px]  w-[140px]  h-[47px] sm:h-[67px] object-cover"
             />
             <img
               alt=""
               src={img3}
-              className="w-[180px] h-[67px] object-cover "
+              className="sm:w-[180px] sm:h-[67px] w-[140px]  h-[47px] object-cover "
             />
             <img
               alt=""
               src={img4}
-              className="w-[180px] h-[67px] object-cover"
+              className="sm:w-[180px] sm:h-[67px]  w-[140px]  h-[47px] object-cover"
             />
           </div>
         </div>

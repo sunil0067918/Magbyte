@@ -4,7 +4,7 @@ import bannerimage from "../images/Layer4.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  // const  []  =  useState(0)
+  const  [count , setcount]  =  useState(0)
   return (
     <div className="">
       <div
@@ -319,7 +319,7 @@ const Footer = () => {
         </div>
         <div className=" pt-10 space-y-4">
           <div className="w-[335px] ">
-            <div className=" h-[18px] flex text-white justify-between  items-center">
+            <div onClick={() => count === 1 ? setcount(0) : setcount(1)} className=" h-[18px] flex text-white justify-between  items-center">
               <span className="text-[16px] font-[500]">Services</span>
               <svg
                 width="18"
@@ -335,7 +335,7 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+            <ul className={`${count === 1 ? "block" :  "hidden"} text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer`}>
               <li className="hover:text-blue-700 ">Web Design</li>
               <li className="hover:text-blue-700">Web and App Devlopment</li>
               <li className="hover:text-blue-700">Digital Markting</li>
@@ -369,7 +369,7 @@ const Footer = () => {
             </svg>
           </div> */}
           <div className="w-[335px] ">
-            <div className=" h-[18px] flex text-white justify-between  items-center">
+            <div  onClick={() => count === 2 ? setcount(0) : setcount(2)}  className=" h-[18px] flex text-white justify-between  items-center">
               <span className="text-[16px] font-[600]">Technologies</span>
               <svg
                 width="18"
@@ -385,7 +385,7 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+            <ul className={`${count === 2 ? "block" :  "hidden"} text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer`}>
               <li className="hover:text-blue-700 ">Mangento Devlopment</li>
               <li className="hover:text-blue-700">Python Devlopment</li>
               <li className="hover:text-blue-700">Woo Commarce Devlopment</li>
@@ -405,7 +405,7 @@ const Footer = () => {
           </svg>
 
           <div className="w-[335px] ">
-            <div className=" h-[18px] flex text-white justify-between  items-center">
+            <div onClick={() => count === 3 ? setcount(0) : setcount(3)}  className=" h-[18px] flex text-white justify-between  items-center">
               <span className="text-[16px] font-[600]">Company</span>
               <svg
                 width="18"
@@ -421,7 +421,7 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <ul className=" text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer">
+            <ul className={`${count === 3 ? "block" :  "hidden"} text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer`}>
               <li className="hover:text-blue-700 ">About Us</li>
               <li className="hover:text-blue-700">Contact us</li>
               <li className="hover:text-blue-700">Blog</li>

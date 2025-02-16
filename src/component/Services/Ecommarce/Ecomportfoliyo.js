@@ -4,12 +4,12 @@ import img1 from "../../../images/ServicesEcommarceimages/Serviceecoportfoliyoim
 const Ecomportfoliyo = () => {
   return (
     <div className="bg-[#D9D9D9]   flex justify-center py-[100px]">
-      <div className="w-[90%] flex  gap-16 ">
+      <div className="w-[90%] flex  gap-16 flex-col sm:flex-row">
         <div className=" space-y-10 flex flex-col ">
           <div className="space-y-6">
-            <span className="font-[500] text-[24px]">e-Commerce Portfolio</span>
-            <span className="font-[400] text-[24px]">Lorem Ipsum</span>
-            <p className="text-[16px] font-[500]">
+            <span className="font-[500]  text-[16px] sm:text-[24px]">e-Commerce Portfolio</span>
+            <span className="font-[400]   text-[16px] sm:text-[24px]">Lorem Ipsum</span>
+            <p className="   text-[10px]  sm:text-[16px] font-[500]">
               <b>What We Did:</b> Magento to BigCommerce Migration, Data
               Migration, BigCommerce Store Design, Custom Theme Development,
               SEO, Integration.
@@ -20,8 +20,8 @@ const Ecomportfoliyo = () => {
             <div className=" flex flex-col space-y-5">
               <div>
                 <div className="flex justify-between">
-                  <span>INCREASED CONVERSIONS</span>
-                  <span>+85%</span>
+                  <span   className="sm:text-[16px] text-[12px]">INCREASED CONVERSIONS</span>
+                  <span className="sm:text-[16px] text-[12px]">+85%</span>
                 </div>
 
                 <svg
@@ -30,7 +30,7 @@ const Ecomportfoliyo = () => {
                   viewBox="0 0 570 1"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="my-5"
+                  className="my-5 w-[384px] sm:w-[569px]"
                 >
                   <line
                     opacity="0.4"
@@ -44,8 +44,8 @@ const Ecomportfoliyo = () => {
 
               <div className="">
                 <div className="flex justify-between">
-                  <span>INCREASED REVENUE </span>
-                  <span>+85%</span>
+                  <span className="sm:text-[16px] text-[12px]">INCREASED REVENUE </span>
+                  <span className="sm:text-[16px] text-[12px]">+85%</span>
                 </div>
 
                 <svg
@@ -54,7 +54,7 @@ const Ecomportfoliyo = () => {
                   viewBox="0 0 570 1"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="my-5"
+                  className="my-5 w-[384px] sm:w-[569px]"
                 >
                   <line
                     opacity="0.4"
@@ -68,8 +68,8 @@ const Ecomportfoliyo = () => {
 
               <div>
                 <div className="flex justify-between">
-                  <span>INCREASED AOV</span>
-                  <span>+85%</span>
+                  <span className="sm:text-[16px] text-[12px]">INCREASED AOV</span>
+                  <span className="sm:text-[16px] text-[12px]">+85%</span>
                 </div>
 
                 <svg
@@ -78,7 +78,7 @@ const Ecomportfoliyo = () => {
                   viewBox="0 0 570 1"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="my-5"
+                  className="my-5 w-[384px] sm:w-[569px]"
                 >
                   <line
                     opacity="0.4"
@@ -93,7 +93,7 @@ const Ecomportfoliyo = () => {
           </div>
 
           <div className=" flex gap-5">
-            <button className="border-[1.5px] rounded-full border-[#000000] text-[#0B56E4] hover:border-[#0B56E4] px-[20px] py-[20px]">
+            <button className="border-[1.5px] rounded-full border-[#000000] text-[#0B56E4] hover:border-[#0B56E4] px-[12px] py-[12px] sm:h-[44px] sm:w-[44px]">
               <svg
                 width="18"
                 height="20"
@@ -118,7 +118,7 @@ const Ecomportfoliyo = () => {
               </svg>
             </button>
 
-            <button className="border-[1.5px] rounded-full border-[#000000] text-[#0B56E4] hover:border-[#0B56E4] px-[20px] py-[20px]">
+            <button className="border-[1.5px] rounded-full border-[#000000] text-[#0B56E4] hover:border-[#0B56E4] px-[12px] py-[12px] h-[44px] w-[44px]">
               <svg
                 width="18"
                 height="20"

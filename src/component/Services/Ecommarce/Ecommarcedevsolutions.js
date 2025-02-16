@@ -2,21 +2,21 @@ import React from "react";
 
 const Ecommarcedevsolutions = () => {
   return (
-    <div className="flex justify-center py-20  bg-[#F5F5F5] ">
+    <div className="flex justify-center py-10 sm:py-20  bg-[#F5F5F5] ">
       <div className="w-[90%] ">
         <div className=" flex flex-col items-center space-y-4">
-          <span className="text-[32px]  font-[600]">
+          <span className=" text-[24px] sm:text-[32px] font-[400] sm:font-[600] flex text-center">
             eCommerce Development Solutions We Offer
           </span>
-          <p className="text-[18px]  font-[500]">
+          <p className=" text-[12px] sm:text-[18px]  sm:font-[500] font-[400] flex text-center">
             Find the perfect solution for all your eCommerce needs with our
             premium eCommerce services.{" "}
           </p>
         </div>
 
-        <div className="pt-20 flex flex-col gap-10 flex-wrap">
+        <div className=" pt-10 sm:t-20 flex flex-col gap-10 flex-wrap">
           <div className="flex gap-10 justify-center flex-wrap ">
-            <div className=" bg-white  px-[30px] py-[50px] space-y-4 md:w-[40%] w-full rounded-[27px]  ">
+            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%] w-full rounded-[20px] sm:rounded-[27px]  ">
               <div className="">
                 <svg
                   width="40"
@@ -66,12 +66,12 @@ const Ecommarcedevsolutions = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <span className=" text-[24px]  font-[600] ">
+                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400] ">
                   eCommerce Migration Services
                 </span>
               </div>
 
-              <p className="flex-wrap text-[18px] font-[400]">
+              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -80,7 +80,7 @@ const Ecommarcedevsolutions = () => {
                 needed.
               </p>
             </div>
-            <div className=" bg-white px-[30px] py-[50px] space-y-4 md:w-[40%]  w-full   rounded-[27px] ">
+            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full    rounded-[20px] sm:rounded-[27px]">
               <div className="">
                 <svg
                   width="40"
@@ -102,12 +102,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[24px]  font-[600] ">
+                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400] ">
                   eCommerce Design & Development
                 </span>
               </div>
 
-              <p className="flex-wrap text-[18px] font-[400]">
+              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -119,7 +119,7 @@ const Ecommarcedevsolutions = () => {
           </div>
 
           <div className="flex gap-10 justify-center flex-wrap ">
-            <div className=" bg-white  px-[30px] py-[50px] space-y-4 md:w-[40%]  w-full rounded-[27px] ">
+            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full   rounded-[20px] sm:rounded-[27px] ">
               <div className="">
                 <svg
                   width="50"
@@ -145,12 +145,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[24px]  font-[600] ">
+                <span className="  sm:text-[24px]  sm:font-[600] text-[18px] font-[400]  ">
                   eCommerce Strategy & Consultancy
                 </span>
               </div>
 
-              <p className="flex-wrap text-[18px] font-[400]">
+              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
                 We don’t believe in jumping the gun. Our team takes time to know
                 your business, industry, and customers to correctly identify
                 your business requirements and devise a marketing and branding
@@ -158,7 +158,7 @@ const Ecommarcedevsolutions = () => {
                 milestones.
               </p>
             </div>
-            <div className=" bg-white px-[30px] py-[50px] space-y-4 md:w-[40%]  w-full  rounded-[27px] ">
+            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full  rounded-[20px] sm:rounded-[27px]">
               <div className="">
                 <svg
                   width="40"
@@ -192,12 +192,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[24px]  font-[600] ">
+                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400]  ">
                   eCommerce Integration Services
                 </span>
               </div>
 
-              <p className="flex-wrap text-[18px] font-[400]">
+              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
                 Our eCommerce integration services allow you to run your store
                 seamlessly using powerful platforms such as Magento,
                 WooCommerce, Shopify, etc. We can help you connect to

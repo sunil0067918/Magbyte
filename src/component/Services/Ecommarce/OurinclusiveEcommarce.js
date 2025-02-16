@@ -2,13 +2,13 @@ import React from "react";
 
 const OurinclusiveEcommarce = () => {
   return (
-    <div className="bg-[#FFFFFF]  flex justify-center pt-[60px] pb-[50px]">
-      <div className="w-[90%] flex flex-col items-center gap-y-[200px]">
-        <div className="flex justify-center text-center flex-col  w-[782px] space-y-3 ">
-          <span className="text-[32px]  font-[600]">
+    <div className="bg-[#FFFFFF]  flex justify-center pt-[60px]  pb-[50px]">
+      <div className="w-[90%] flex flex-col items-center gap-y-[200px] px-8">
+        <div className="flex justify-center text-center flex-col  sm:w-[782px] space-y-3 ">
+          <span className="  text-[22px] sm:text-[32px]  font-[600]">
             Our All-inclusive Ecommerce Development Process
           </span>
-          <p className="text-[18px] font-[400]">
+          <p className="  text-[12px]  sm:text-[18px] font-[400] text-wrap">
             Want your eCommerce website to stand out? With our all-inclusive
             eCommerce development process, that's what you get. From determining
             the functionality to the right set of features, here's how we make
@@ -16,7 +16,7 @@ const OurinclusiveEcommarce = () => {
           </p>
         </div>
 
-        <div className="flex ">
+        <div className="flex hidden sm:block">
           <div className="flex flex-col space-y-4">
             <span>01</span>
             <span className="text-[18px] font-[600] ">

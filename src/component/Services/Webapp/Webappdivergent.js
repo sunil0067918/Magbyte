@@ -4,7 +4,10 @@ import Footer from "../../../component/Footer";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../../component/Services/Webapp/Images/Webappdivergentiamges/images2.png";
+import img1 from "../Webapp/Images/Sliderimages/images1.png";
+import img2 from "../Webapp/Images/Sliderimages/images2.png";
+import img3 from "../Webapp/Images/Sliderimages/images3.png";
+import img4 from "../Webapp/Images/Sliderimages/images4.png";
 
 import img5 from "../Webapp/Images/Webappdivergentiamges/images5.png";
 import img6 from "../Webapp/Images/Webappdivergentiamges/images6.png";
@@ -25,14 +28,14 @@ const Webappdivergent = () => {
       {
         breakpoint: 1400,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1300,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
@@ -82,8 +85,8 @@ const Webappdivergent = () => {
   };
 
   return (
-    <div className="w-full">
-      <div className=" h-[839px] flex justify-center my-10">
+    <div className="w-full ">
+      <div className="  w-11/12 md:w-10/12 mx-auto flex justify-center my-10">
         {/* <div className="w-[90%] py-[50px] bg-[#F5F5F5]">
           <span className="text-[34px]  font-[600] flex justify-center  text-center ">
             Web and app development services
@@ -92,50 +95,36 @@ const Webappdivergent = () => {
         </div> */}
 
           <Slider {...settings} className="w-full">
-            <div className="p-3">
               <img
-                className="md:w-[200px] w-[180px]  h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer"
+                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
                 src={img1}
                 alt="clients121"
                 
               />
-            </div>
-            <div className="p-3">
+     
               <img
-                className="md:w-[400px] w-[300px]  h-[1000px] object-contain grayscale hover:grayscale-0 cursor-pointer"
-                // src={img2}
+                className="md:w-[400px] w-[300px] h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+                src={img2}
                 alt="clientsanarock"
                 
               />
-            </div>
-            <div className="p-3">
+ 
               <img
-                className="md:w-[200px] w-[180px]  h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer"
-                src={img1}
+                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+                src={img3}
                 alt="clientsbharat"
                 
               />
-            </div>
-            <div className="p-3">
-              <img
-                className="md:w-[200px] w-[180px]  h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer"
-                src={img1}
+             <img
+                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+                src={img4}
                 alt="clientsByju"
                 width={200}
                 loading="lazy"
                 height={70}
               />
-            </div>
-            <div className="p-3">
-              <img
-                className="md:w-[200px] w-[180px]  h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer"
-                src={img1}
-                alt="clientscapgemini"
-                
-              />
-            </div>
             
-
+          
             
             {/* <div>
             <img className="w-[200px] h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer" src={nine} alt="clients" />
