@@ -13,7 +13,7 @@ const Digitalbanner = () => {
           backgroundSize: `cover`,
         }}
       >
-        <div className=" absolute w-[90%] flex gap-6 justify-between sm:items-baseline lg:items-center rounded-[5px] lg:flex-row flex-col ">
+        <div className=" absolute w-[90%] flex gap-6 justify-between sm:items-baseline lg:items-center pt-6   rounded-[5px] lg:flex-row flex-col ">
           <div className=" flex flex-col items-start space-y-4">
             <div className=" space-y-4 flex flex-col  ">
               <span className=" text-[18px] sm:text-[24px] font-[600] text-white">
@@ -89,8 +89,8 @@ const Digitalbanner = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-10  ">
-        <div className="w-[90%]   bg-gradient-to-r  from-[#3F4864] py-10 to-[white] border rounded-[8px] px-[10px] ">
+      <div className="flex justify-center my-10   ">
+        <div className="w-[90%]   bg-gradient-to-r  from-[#3F4864] py-10 to-[white] border rounded-[8px] px-[10px] lg:py-0 lg:px-0 ">
           <div className="flex justify-between items-center flex-col lg:flex-row">
             <div className="lg:w-[655px] pl-[50px] flex items-center flex-col ">
               <div className=" relative">
@@ -125,7 +125,7 @@ const Digitalbanner = () => {
                 </b>
               </p>
             </div>
-            <img src={img2} alt="" className="h-[435px] lg:w-[600px]  pt-5 " />
+            <img src={img2} alt="" className="h-[435px] lg:w-[600px]  pt-5 lg:pt-0 " />
           </div>
         </div>
       </div>
