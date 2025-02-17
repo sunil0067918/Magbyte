@@ -5,7 +5,7 @@ const Ecommarcedevsolutions = () => {
     <div className="flex justify-center py-10 sm:py-20  bg-[#F5F5F5] ">
       <div className="w-[90%] ">
         <div className=" flex flex-col items-center space-y-4">
-          <span className=" text-[24px] sm:text-[32px] font-[400] sm:font-[600] flex text-center">
+          <span className=" text-[24px] lg:text-[32px] font-[400] lg:font-[600] sm:text-[28px] sm:font-[300] flex text-center">
             eCommerce Development Solutions We Offer
           </span>
           <p className=" text-[12px] sm:text-[18px]  sm:font-[500] font-[400] flex text-center">
@@ -15,8 +15,8 @@ const Ecommarcedevsolutions = () => {
         </div>
 
         <div className=" pt-10 sm:t-20 flex flex-col gap-10 flex-wrap">
-          <div className="flex gap-10 justify-center flex-wrap ">
-            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%] w-full rounded-[20px] sm:rounded-[27px]  ">
+          <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row ">
+            <div className=" bg-white  px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%] w-full rounded-[20px] sm:rounded-[27px]  ">
               <div className="">
                 <svg
                   width="40"
@@ -66,7 +66,7 @@ const Ecommarcedevsolutions = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400] ">
+                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
                   eCommerce Migration Services
                 </span>
               </div>
@@ -80,7 +80,7 @@ const Ecommarcedevsolutions = () => {
                 needed.
               </p>
             </div>
-            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full    rounded-[20px] sm:rounded-[27px]">
+            <div className=" bg-white   px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full    rounded-[20px] sm:rounded-[27px]">
               <div className="">
                 <svg
                   width="40"
@@ -102,7 +102,7 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400] ">
+                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
                   eCommerce Design & Development
                 </span>
               </div>
@@ -118,8 +118,8 @@ const Ecommarcedevsolutions = () => {
             </div>
           </div>
 
-          <div className="flex gap-10 justify-center flex-wrap ">
-            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full   rounded-[20px] sm:rounded-[27px] ">
+          <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row  ">
+            <div className=" bg-white   px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full   rounded-[20px] sm:rounded-[27px] ">
               <div className="">
                 <svg
                   width="50"
@@ -145,7 +145,7 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className="  sm:text-[24px]  sm:font-[600] text-[18px] font-[400]  ">
+                <span className="  lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
                   eCommerce Strategy & Consultancy
                 </span>
               </div>
@@ -158,7 +158,7 @@ const Ecommarcedevsolutions = () => {
                 milestones.
               </p>
             </div>
-            <div className=" bg-white  px-[15px] py-[25px]  sm:px-[30px] sm:py-[50px] space-y-4 md:w-[40%]  w-full  rounded-[20px] sm:rounded-[27px]">
+            <div className="  bg-white  px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full  rounded-[20px] sm:rounded-[27px]">
               <div className="">
                 <svg
                   width="40"
@@ -192,7 +192,7 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" sm:text-[24px]  sm:font-[600] text-[18px] font-[400]  ">
+                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400]">
                   eCommerce Integration Services
                 </span>
               </div>

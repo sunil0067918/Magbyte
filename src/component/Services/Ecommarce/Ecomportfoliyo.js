@@ -4,7 +4,7 @@ import img1 from "../../../images/ServicesEcommarceimages/Serviceecoportfoliyoim
 const Ecomportfoliyo = () => {
   return (
     <div className="bg-[#D9D9D9]   flex justify-center py-[100px]">
-      <div className="w-[90%] flex  gap-16 flex-col sm:flex-row">
+      <div className="w-[90%] flex  gap-16 flex-col lg:flex-row">
         <div className=" space-y-10 flex flex-col ">
           <div className="space-y-6">
             <span className="font-[500]  text-[16px] sm:text-[24px]">e-Commerce Portfolio</span>

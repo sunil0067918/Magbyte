@@ -7,18 +7,18 @@ import img4 from "../../../images/ServicesEcommarceimages/images5.png";
 const Ourecommarcedevsolutions = () => {
   return (
     <div className="">
-      <div className=" bg-[#FFFFFF] py-[60px] sm:py-[140px] flex justify-center   ">
+      <div className=" bg-[#FFFFFF] py-[60px] lg:py-[140px] flex justify-center   ">
         <div className="w-[90%] flex flex-col  ">
           <div className="">
             <div className="flex justify-center">
-              <span className=" text-[24px] sm:text-[32px]  font-[400] flex text-center sm:font-[600]">
+              <span className=" text-[24px]  lg:text-[32px] sm:text-[28px] sm:font-[300]  font-[400] flex text-center lg:font-[600]">
                 Our eCommerce Development Services
               </span>
             </div>
 
             <div className=" pt-10 sm:pt-20 flex-col sm:gap-10 flex justify-center ">
-              <div className="flex   flex-wrap justify-between sm:gap-0 gap-7 ">
-                <div className=" w-full md:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4  rounded-[5px]  border-[2px]  border-[#4687C7]  ">
+              <div className="flex   flex-wrap justify-between lg:gap-0 gap-7 sm:flex-col lg:flex-row ">
+                <div className=" w-full lg:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4  rounded-[5px]  border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -67,7 +67,7 @@ const Ourecommarcedevsolutions = () => {
                     aspects.
                   </p>
                 </div>
-                <div className=" w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px]  border-[2px]  border-[#4687C7] ">
+                <div className=" w-full lg:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px]  border-[2px]  border-[#4687C7] ">
                   <div className="">
                     <svg
                       width="50"
@@ -129,7 +129,7 @@ const Ourecommarcedevsolutions = () => {
                     applications.
                   </p>
                 </div>
-                <div className=" w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px] border-[2px]  border-[#4687C7]  ">
+                <div className=" w-full lg:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4    rounded-[5px] border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -185,8 +185,8 @@ const Ourecommarcedevsolutions = () => {
                 </div>
               </div>
 
-              <div className="flex w-full  flex-wrap justify-between pt-10 sm:gap-0 gap-7 ">
-                <div className="w-full md:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  space-y-4 rounded-[5px]  border-[2px]  border-[#4687C7]  ">
+              <div className="flex w-full  flex-wrap justify-between pt-10 lg:gap-0 gap-7  sm:flex-col lg:flex-row  ">
+                <div className="w-full lg:w-[30%] bg-white  sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  space-y-4 rounded-[5px]  border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="40"
@@ -237,7 +237,7 @@ const Ourecommarcedevsolutions = () => {
                     devices.
                   </p>
                 </div>
-                <div className="w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  border-[2px] border-[#4687C7] ">
+                <div className="w-full lg:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px]  border-[2px] border-[#4687C7] ">
                   <div className="">
                     <svg
                       width="35"
@@ -300,7 +300,7 @@ const Ourecommarcedevsolutions = () => {
                     updates to meet business evolution.
                   </p>
                 </div>
-                <div className="w-full md:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4   rounded-[5px] border-[2px]  border-[#4687C7]  ">
+                <div className="w-full lg:w-[30%] bg-white sm:px-[30px] sm:py-[40px] px-[20px] py-[30px] space-y-4   rounded-[5px] border-[2px]  border-[#4687C7]  ">
                   <div className="">
                     <svg
                       width="43"
@@ -351,14 +351,16 @@ const Ourecommarcedevsolutions = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center"><button className="text-[16px]   font-[500]  text-white bg-[#4687C7] px-[10px] py-[10px]  mt-7 rounded-[10px]">
-              Let’s Connect
-            </button></div>
+            <div className="flex justify-center">
+              <button className="text-[16px]   font-[500]  text-white bg-[#4687C7] px-[10px] py-[10px]  mt-7 rounded-[10px]">
+                Let’s Connect
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <div className="bg-[#D9D9D9]  flex justify-center sm:pt-[60px] pt-[30px] pb-[25px]  sm:pb-[50px]">
-        <div className="w-[90%] flex gap-[150px] flex-col sm:flex-row">
+        <div className="w-[90%] flex gap-[150px] flex-col lg:flex-row">
           <div className="flex flex-col space-y-4">
             <span className="text-[20px] font-[600] text-[#444444]">
               Our Different Models
@@ -376,7 +378,11 @@ const Ourecommarcedevsolutions = () => {
           <div className=" flex flex-col gap-9">
             <div className=" flex gap-6  justify-center  ">
               <div className="flex flex-col items-center justify-center space-y-3">
-                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <img
+                  alt=""
+                  src={img1}
+                  className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]"
+                />
                 <span className="  text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2B) Business to Business{" "}
                 </span>
@@ -393,7 +399,11 @@ const Ourecommarcedevsolutions = () => {
               </div>
 
               <div className="flex flex-col items-center space-y-3">
-                <img alt="" src={img1} className="  sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <img
+                  alt=""
+                  src={img1}
+                  className="  sm:w-[316px] sm:h-[210px]  w-full h-[100px]"
+                />
                 <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2C) Business to Consumer{" "}
                 </span>
@@ -403,7 +413,7 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                   className=" w-[125px] sm:w-full "
+                  className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
@@ -411,7 +421,11 @@ const Ourecommarcedevsolutions = () => {
             </div>
             <div className=" flex gap-6 justify-center  ">
               <div className="flex flex-col items-center  space-y-3">
-                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <img
+                  alt=""
+                  src={img1}
+                  className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]"
+                />
                 <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2B) Business to Business{" "}
                 </span>
@@ -421,14 +435,18 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                   className=" w-[125px] sm:w-full "
+                  className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
               </div>
 
               <div className="flex flex-col items-center  space-y-3">
-                <img alt="" src={img1} className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]" />
+                <img
+                  alt=""
+                  src={img1}
+                  className="sm:w-[316px] sm:h-[210px]  w-full h-[100px]"
+                />
                 <span className="text-[12px] sm:text-[20px]  font-[400] sm:font-[500] text-center flex text-[#222222]">
                   (B2C) Business to Consumer{" "}
                 </span>
@@ -438,7 +456,7 @@ const Ourecommarcedevsolutions = () => {
                   viewBox="0 0 316 7"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                   className=" w-[125px] sm:w-full "
+                  className=" w-[125px] sm:w-full "
                 >
                   <rect width="316" height="7" fill="#4687C7" />
                 </svg>
@@ -449,7 +467,7 @@ const Ourecommarcedevsolutions = () => {
       </div>
 
       <div className=" bg-[#E9F5F6] flex justify-center pt-[30px] pb-[20px] sm:pt-[70px] sm:pb-[50px]">
-        <div className="w-[90%] flex items-center gap-10 flex-col sm:flex-row ">
+        <div className="w-[90%] flex items-center gap-10 flex-col lg:flex-row ">
           <div className="flex flex-col space-y-4">
             <span className=" text-[14px] sm:text-[20px] sm:font-[400] font-[300] ">
               E-Commerce Solutions

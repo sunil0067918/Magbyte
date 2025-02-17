@@ -7,10 +7,10 @@ const Ourwebappmobiledev = () => {
       <div className="bg-[#F5F5F5] flex justify-center  pt-[80px] pb-[60px] cursor-pointer">
         <div className="w-[90%] ">
           <div className="flex justify-center  flex-col items-center text-center space-y-4">
-            <span className="sm:text-[32px]  text-[24px] font-[600]">
+            <span className="lg:text-[32px]  text-[24px] font-[600]">
               Our Web & Mobile Application Development Services
             </span>
-            <p className="sm:text-[18px] text-[12px] font-[500] sm:w-[866px]  ">
+            <p className="lg:text-[18px] text-[14px] font-[500] lg:w-[866px]  ">
               From Android and iOS to hybrid apps and PWAs, our offerings cover
               all things mobile! And that is not all of it: whether it’s IoT
               apps, m-Commerce, or gaming apps, you can count on us!
@@ -18,8 +18,8 @@ const Ourwebappmobiledev = () => {
           </div>
 
           <div className="pt-20 flex flex-col gap-16 flex-wrap ">
-            <div className=" flex gap-8 flex-wrap justify-center ">
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+            <div className=" flex  gap-16  lg:gap-8 flex-wrap justify-center ">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px] relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px]">
                     Android App Development
@@ -78,7 +78,7 @@ const Ourwebappmobiledev = () => {
                 </svg>
               </div>
 
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]   relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px] ">
                     Back end development
@@ -129,7 +129,7 @@ const Ourwebappmobiledev = () => {
                 </svg>
               </div>
 
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]   relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px] ">
                     Custom Software development
@@ -189,8 +189,8 @@ const Ourwebappmobiledev = () => {
               </div>
             </div>
 
-            <div className=" flex gap-8 flex-wrap  justify-center">
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+            <div className=" flex gap-16  lg:gap-8  flex-wrap  justify-center">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px]">
                     Android App Development
@@ -241,7 +241,7 @@ const Ourwebappmobiledev = () => {
                 </svg>
               </div>
 
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px] ">
                     Back end development
@@ -304,7 +304,7 @@ const Ourwebappmobiledev = () => {
                 </svg>
               </div>
 
-              <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+              <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
                   <span className="font-[700] text-[20px] ">
                     Custom Software development

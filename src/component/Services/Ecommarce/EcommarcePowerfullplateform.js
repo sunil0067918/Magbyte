@@ -9,7 +9,7 @@ import img7 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerf
 import img8 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images8.png";
 import img9 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images9.png";
 import img10 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images10.png";
-import img11 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images11.png";
+// import img11 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images11.png";
 import img12 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images12.png";
 import img13 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images13.png";
 
@@ -32,7 +32,7 @@ const EcommarcePowerfullplateform = () => {
         </div>
 
         <div className="flex flex-col  pt-16 space-y-9 flex-wrap">
-          <div className="w-full flex justify-between flex-wrap sm:gap-0 gap-[68px] ">
+          <div className="w-full flex justify-between flex-wrap lg:gap-0 gap-[48px] ">
             <img
               src={img1}
               alt=""
@@ -64,11 +64,11 @@ const EcommarcePowerfullplateform = () => {
               className="w-[150px] h-[44px] object-cover "
             />
 
-            <img
+            {/* <img
               src={img11}
               alt=""
               className="w-[150px] h-[44px] object-contain "
-            />
+            /> */}
           </div>
 
           <div className="flex justify-center gap-[60px] flex-wrap">

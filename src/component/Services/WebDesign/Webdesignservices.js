@@ -7,14 +7,14 @@ const Webdesignservices = () => {
         <span className="text-[32px]  font-[600] ">Web Design Services</span>
       </div>
 
-      <div className="pt-20 flex flex-col gap-16 flex-wrap ">
-        <div className=" flex gap-8 flex-wrap justify-center ">
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+      <div className="pt-20 flex flex-col gap-16 flex-wrap px-[20px] ">
+        <div className=" flex gap-16 lg:gap-8 flex-wrap justify-center ">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px]">
+              <span className="lg:font-[700] font-[500] lg:text-[20px]">
                 Wordpress Web Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -72,12 +72,12 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] ">
+              <span className="lg:font-[700] lg:text-[20px]  font-[500] ">
                 Website Redesign Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -123,12 +123,12 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] ">
+              <span className="lg:font-[700] lg:text-[20px]   font-[500]">
                 Responsive Website Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -183,11 +183,11 @@ const Webdesignservices = () => {
           </div>
         </div>
 
-        <div className=" flex gap-8 flex-wrap  justify-center">
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+        <div className=" flex gap-16 lg:gap-8  flex-wrap  justify-center">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px]">UI/UX Web Design</span>
-              <p className="text-[18px]  font-[500]">
+              <span className="lg:font-[700] lg:text-[20px]  font-[500] ">UI/UX Web Design</span>
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -229,12 +229,12 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] ">
+              <span className="lg:font-[700] lg:text-[20px]   font-[500] ">
                 Shopify Web Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -280,12 +280,12 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] ">
+              <span className="lg:font-[700] lg:text-[20px]  font-[500] ">
                 Magento Web Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -332,13 +332,13 @@ const Webdesignservices = () => {
           </div>
         </div>
 
-        <div className=" flex gap-8 flex-wrap  justify-center">
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+        <div className=" flex  gap-16 lg:gap-8 flex-wrap  justify-center">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px]">
+              <span className="lg:font-[700] lg:text-[20px]  font-[500]">
                 Corporate Blog Design
               </span>
-              <p className="text-[18px]  font-[500]">
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -384,10 +384,10 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] ">CMS Web Design</span>
-              <p className="text-[18px]  font-[500]">
+              <span className="lg:font-[700] lg:text-[20px]   font-[500]">CMS Web Design</span>
+              <p className="lg:text-[18px]  lg:font-[500]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
@@ -445,10 +445,10 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="sm:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
-              <span className="font-[700] text-[20px] "></span>
-              <p className="text-[18px]  font-[500]">
+              <span className="lg:font-[700] lg:text-[20px]  font-[500]  "></span>
+              <p className="lg:text-[18px]  lg:font-[500]">
                 We develop a backend for an app and If any application requires
                 the storge and transfer of any data to servers, our team
                 delivers the solution.

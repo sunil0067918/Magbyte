@@ -9,18 +9,18 @@ import img6 from "../Digitalmarketing/Images/images9.png";
 const Digitalserviceprovider = () => {
   return (
     <div className="bg-[#D9D9D9] py-[40px] flex justify-center">
-      <div className="w-[80%] flex  flex-col  items-center">
+      <div className="lg:w-[80%] flex  flex-col  items-center">
         <div className="flex flex-col justify-center items-center text-center">
-          <span className="text-[32px]  font-[700]">Service We Provide</span>
-          <span>
+          <span className="lg:text-[32px] text-[24px] font-[500]  lg:font-[700]  text-center flex ">Service We Provide</span>
+          <span  className="lg:text-[24px] text-[20px] font-[400]">
             We cultivate a collaborative bond with our clients, akin to
             friendship, to ensure the delivery of optimal and tailored
             solutions.
           </span>
         </div>
 
-        <div className="flex flex-col gap-6 py-20">
-          <div className="flex  gap-9 flex-col sm:flex-row">
+        <div className="flex flex-col gap-6 py-20 px-[30px]">
+          <div className="flex  gap-9 flex-col lg:flex-row">
             <div className=" bg-white  px-[30px] py-[40px] space-y-6  w-full rounded-[5px] h-[437px]    ">
               <div className=" flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img1} />
@@ -70,7 +70,7 @@ const Digitalserviceprovider = () => {
             </div>
           </div>
 
-          <div className="flex  gap-9 flex-col sm:flex-row">
+          <div className="flex  gap-9 flex-col lg:flex-row">
             <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]   ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img4} />

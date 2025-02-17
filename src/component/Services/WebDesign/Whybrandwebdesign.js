@@ -9,7 +9,7 @@ const Whybrandwebdesign = () => {
         </span>
 
         <div className="flex flex-col gap-6 py-20 items-center">
-          <div className="flex  gap-9 flex-col sm:flex-row">
+          <div className="flex  gap-9 flex-col  lg:flex-row">
             <div className=" bg-white  px-[30px] py-[40px] space-y-6 md:w-[580px] w-full rounded-[5px]    ">
               <div className=" flex flex-col">
                 <svg

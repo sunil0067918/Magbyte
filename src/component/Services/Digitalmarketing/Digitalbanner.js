@@ -7,13 +7,13 @@ const Digitalbanner = () => {
   return (
     <div>
       <div
-        className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center sm:items-center pt-[20px] sm:pt-0 "
+        className=" relative lg:h-[540px] h-[650px] sm:h-[700px]  bg-blue-600 flex justify-center  items-baseline lg:tems-center pt-[20px] sm:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize: `cover`,
         }}
       >
-        <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] md:flex-row flex-col ">
+        <div className=" absolute w-[90%] flex gap-6 justify-between sm:items-baseline lg:items-center rounded-[5px] lg:flex-row flex-col ">
           <div className=" flex flex-col items-start space-y-4">
             <div className=" space-y-4 flex flex-col  ">
               <span className=" text-[18px] sm:text-[24px] font-[600] text-white">
@@ -90,11 +90,11 @@ const Digitalbanner = () => {
       </div>
 
       <div className="flex justify-center my-10  ">
-        <div className="w-[90%]   bg-gradient-to-r  from-[#3F4864] to-[white] border rounded-[8px] ">
-          <div className="flex justify-between items-center ">
-            <div className="w-[655px] pl-[50px] ">
+        <div className="w-[90%]   bg-gradient-to-r  from-[#3F4864] py-10 to-[white] border rounded-[8px] px-[10px] ">
+          <div className="flex justify-between items-center flex-col lg:flex-row">
+            <div className="lg:w-[655px] pl-[50px] flex items-center flex-col ">
               <div className=" relative">
-                <span className="text-[32px] font-[700] text-white">
+                <span className="lg:text-[32px]  text-[24px] font-[500] lg:font-[700] text-white">
                   Hello there!
                 </span>
                 <svg
@@ -116,7 +116,7 @@ const Digitalbanner = () => {
                 </svg>
               </div>
 
-              <p className="text-[20px]  font-[400] text-white">
+              <p className="lg:text-[20px]  text-[16px] font-[300] lg:font-[400] text-white">
                 As an Magebytes agency that believes results are everything, we
                 help companies grow through ROI-boosting digital marketing
                 programs that make clients smile. 
@@ -125,24 +125,24 @@ const Digitalbanner = () => {
                 </b>
               </p>
             </div>
-            <img src={img2} alt="" className="h-[435px] w-[600px]  " />
+            <img src={img2} alt="" className="h-[435px] lg:w-[600px]  pt-5 " />
           </div>
         </div>
       </div>
 
       <div className="flex justify-center py-16">
-        <div className="flex justify-between w-[90%] gap-20 ">
+        <div className="flex justify-between w-[90%] lg:flex-row flex-col gap-20 ">
           <div className="flex flex-col space-y-11">
-            <span className="text-[32px] font-[600]">
+            <span className=" text-[24px] font-[400px] lg:text-[32px] lg:font-[600]">
               We help you at every stage of your product marketing
             </span>
-            <p className="text-[18px]  font-[400]">
+            <p className="lg:text-[18px]   text-[14px]  font-[300] lg:font-[400]">
               We develop brands with digital and imaginative perspicuity. Our
               kin’s first way to deal with digital services consolidates
               creativity with innovation to construct modified plans that follow
               through on your business goals.
             </p>
-            <p className="text-[18px]  font-[400]">
+            <p className="lg:text-[18px]   text-[14px]  font-[300] lg:font-[400]">
               Get more qualified traffic based on the search items that make the
               biggest difference to your business. We accomplish quantifiable
               outcomes by chipping away at each factor that impacts SERPs.
@@ -153,7 +153,7 @@ const Digitalbanner = () => {
               agreement is agreed upon.
             </p>
 
-            <p className="text-[18px]  font-[400]">
+            <p className="lg:text-[18px]   text-[14px]  font-[300] lg:font-[400]">
               Our group is inventive, open, business shrewd, and responsible. We
               will assimilate your plan of action while utilizing digital
               channels to help you procure and hold clients. Complete digital

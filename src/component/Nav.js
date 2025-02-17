@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <div className="">
       {/* upper nav-- */}
-      <div className=" w-full flex justify-center items-center sm:mt-5 py-5 sm:py-0 relative cursor-pointer  ">
+      <div className=" w-full flex justify-center items-center lg:mt-5 py-3 lg:py-0 relative cursor-pointer  ">
         <div className=" flex  justify-between items-center w-[85%]  ">
           <Link to="/homepage">
             <div className="logo  h-full ">
@@ -79,12 +79,12 @@ const Nav = () => {
             </div>
           </Link>
           {/* <responive nav   */}
-          <div className=" absolute top-0 right-0 block sm:hidden mr-2 mt-[10px] ">
+          <div className=" absolute top-0 right-0 block lg:hidden mr-2 mt-[16px] ">
             <FontAwesomeIcon
               icon={faXmark}
               className={`${
                 change ? "top-[-10px]" : "top-[-100px]"
-              } absolute   block sm:hidden text-4xl  
+              } absolute   block lg:hidden text-4xl  
                 z-[90]  px-2  right-[-6px] border border-gray-400 transition-all duration-[800ms] `}
               onClick={() => setchange(!change)}
             />
@@ -142,7 +142,7 @@ const Nav = () => {
           <div
             className={`transition-all duration-[800ms] absolute ${
               change ? "top-[-12px] left-0" : " top-[-1000px] left-0 "
-            } bg-white w-full h-[500px]   block  sm:hidden z-[40] px-4 pt-20`}
+            } bg-white w-full h-[500px]   block  lg:hidden z-[40] px-4 pt-20`}
           >
             <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
               <li className="flex items-center gap-1 relative group justify-between   ">
@@ -210,7 +210,7 @@ const Nav = () => {
 
           {/* <responive nav  */}
 
-          <div className="hidden sm:block">
+          <div className="hidden lg:block">
             <div className=" flex items-center gap-2 ">
               <div className="logo">
                 <svg
@@ -256,7 +256,7 @@ const Nav = () => {
 
       {/* lowernav */}
 
-      <div className="   hidden sm:block cursor-pointer   ">
+      <div className="   hidden lg:block cursor-pointer   ">
         <div className=" capitalize  py-3 w-full flex justify-center items-center">
           <div className=" w-[85%]  flex justify-between items-center  ">
             <ul className="flex justify-between gap-10 items-center relative   ">

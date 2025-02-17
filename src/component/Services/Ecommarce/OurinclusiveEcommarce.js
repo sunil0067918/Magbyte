@@ -4,7 +4,7 @@ const OurinclusiveEcommarce = () => {
   return (
     <div className="bg-[#FFFFFF]  flex justify-center pt-[60px]  pb-[50px]">
       <div className="w-[90%] flex flex-col items-center gap-y-[200px] px-8">
-        <div className="flex justify-center text-center flex-col  sm:w-[782px] space-y-3 ">
+        <div className="flex justify-center text-center flex-col  lg:w-[782px] space-y-3 ">
           <span className="  text-[22px] sm:text-[32px]  font-[600]">
             Our All-inclusive Ecommerce Development Process
           </span>
@@ -16,7 +16,8 @@ const OurinclusiveEcommarce = () => {
           </p>
         </div>
 
-        <div className="flex hidden sm:block">
+        <div className="hidden lg:block">
+        <div className="flex gap-[65px] ">
           <div className="flex flex-col space-y-4">
             <span>01</span>
             <span className="text-[18px] font-[600] ">
@@ -76,6 +77,7 @@ const OurinclusiveEcommarce = () => {
               BigCommerce development company.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>

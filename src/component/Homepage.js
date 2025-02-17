@@ -27,7 +27,7 @@ import img25 from "../images/Groupimages2/images8.png";
 import img26 from "../images/Groupimages2/images9.png";
 import img27 from "../images/Groupimages2/images10.png";
 import img28 from "../images/Groupimages2/images11.png";
-// import img29 from "../images/Groupimages2/images12.png";
+import img29 from "../images/Groupimages2/images12.png";
 // import img30 from "../images/Groupimages2/images13.png";
 // import img31 from "../images/Groupimages2/images14.png";
 import img32 from "../images/Groupimages2/images15.png";
@@ -47,7 +47,7 @@ import heroImage from "../images/Group images/Group15.png";
 export const Homepage = () => {
   return (
     <div>
-    {/* <Nav/> */}
+      {/* <Nav/> */}
       <div className=" bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[557px] sm:h-[600px] flex justify-center items-center ">
         <div className="w-[85%] flex items-center flex-col sm:flex-row pt-10 sm:pt-0 text-center sm:text-start">
           <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  ">
@@ -1343,7 +1343,7 @@ export const Homepage = () => {
                 Magento 2, Laravel, Woo Commerce, and WordPress.
               </p>
             </div>
-            <div className=" sm:w-[378px]  shadow-lg rounded-[7px] px-3 px-3 sm:px-5 sm:py-7 py-2   bg-[#FFFFFF] w-[343px]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+            <div className=" w-[378px]  shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2   bg-[#FFFFFF] w-[343px]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
               <div className="space-y-4">
                 <svg
                   width="60"
@@ -1383,7 +1383,7 @@ export const Homepage = () => {
               </p>
             </div>
 
-            <div className=" sm:w-[378px]  shadow-lg rounded-[7px] px-3 sm:px-5 sm:pt-7 pt-2  bg-[#FFFFFF]  w-[343px]  space-y-2 sm:space-y-5   hover:bg-[#4687C7] hover:text-white scale-105">
+            <div className=" w-[378px]  shadow-lg rounded-[7px] px-3 sm:px-5 sm:pt-7 pt-2  bg-[#FFFFFF]  w-[343px]  space-y-2 sm:space-y-5   hover:bg-[#4687C7] hover:text-white scale-105">
               <div className="space-y-4">
                 <svg
                   width="60"
@@ -1443,100 +1443,121 @@ export const Homepage = () => {
               </p>
             </div>
 
-            <div className=" flex justify-between pt-[60px] items-baseline flex-wrap">
-              <div className="space-y-8">
+            <div className=" flex justify-between pt-[60px] items-baseline flex-col sm:flex-row space-y-10  sm:space-y-0">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row gap-[121px] sm:gap-0 w-full ">
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img18} className="w-[45px]" />
-                  <span className="text-[20px]"> Shopify</span>
+                  <img alt="" src={img18} className="  w-[35px]  sm:w-[45px]" />
+                  <span className="   text-[14px]  sm:text-[20px]">
+                    {" "}
+                    Shopify
+                  </span>
                 </div>
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img25} className="w-[45px]" />
-                  <span className="text-[20px]">Python</span>
-                </div>
-              </div>
-
-              <div className="space-y-8">
-                <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img19} className="w-[45px]" />
-                  <span className="text-[20px]">Big Commerce</span>
-                </div>
-
-                <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img26} className="w-[45px]" />
-                  <span className="text-[20px]">React</span>
-                </div>
-
-                <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img32} className="w-[45px]" />
-                  <span className="text-[20px]">ORACLE</span>
+                  <img alt="" src={img25} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="  text-[14px] sm:text-[20px]">Python</span>
                 </div>
               </div>
 
-              <div className="space-y-8">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  ">
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img20} className="w-[45px]" />
-                  <span className="text-[20px]">Woo Commerce</span>
+                  <img alt="" src={img19} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">
+                    Big Commerce
+                  </span>
                 </div>
 
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img27} className="w-[45px]" />
-                  <span className="text-[20px]">Angular Js</span>
+                  <img alt="" src={img26} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">React</span>
                 </div>
 
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img32} className="w-[45px]" />
-                  <span className="text-[20px]">Site Core</span>
+                  <img alt="" src={img32} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">ORACLE</span>
                 </div>
               </div>
-              <div className="space-y-8">
+
+              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  ">
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img21} className="w-[45px]" />
-                  <span className="text-[20px]">Magento</span>
+                  <img alt="" src={img20} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">
+                    Woo Commerce
+                  </span>
+                </div>
+
+                <div className=" flex text-center flex-col items-center">
+                  <img alt="" src={img27} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">
+                    Angular Js
+                  </span>
+                </div>
+
+                <div className=" flex text-center flex-col items-center">
+                  <img alt="" src={img32} className=" w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">Site Core</span>
+                </div>
+              </div>
+              <div className="sm:space-y-8 flex sm:flex-col flex-row items-center justify-between w-full  ">
+                <div className=" flex text-center flex-col items-center">
+                  <img alt="" src={img21} className="w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">Magento</span>
                 </div>
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img28} className="w-[45px]" />
-                  <span className="text-[20px]">Informatica</span>
+                  <img alt="" src={img28} className="w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">
+                    Informatica
+                  </span>
                 </div>
 
                 <div className=" flex text-center flex-col items-center w-[95px] h-[45px] ">
-                  <img alt="" src={img33} className=" w-[95px] h-[45px]" />
-                  <span className="text-[20px]">.NET</span>
+                  <img
+                    alt=""
+                    src={img33}
+                    className=" w-[70px] sm:w-[95px] h-[45px]"
+                  />
+                  <span className="text-[14px]  sm:text-[20px]">.NET</span>
                 </div>
               </div>
 
-              <div className="space-y-6 ">
+              <div className="sm:space-y-6 flex sm:flex-col flex-row   justify-between w-full items-baseline sm:items-center  ">
                 <div className=" flex text-center flex-col items-center ">
-                  <img alt="" src={img22} className="w-[45px] object-contain" />
-                  <span className="text-[20px]">LARAVAL</span>
+                  <img
+                    alt=""
+                    src={img22}
+                    className="w-[35px]  sm:w-[45px] object-contain"
+                  />
+                  <span className="text-[14px]  sm:text-[20px]">LARAVAL</span>
                 </div>
 
-                <div className=" flex  flex-col items-center text-center">
-                  <img alt="" src={img26} className="w-[100px] h-[54px]" />
-                  <span className="text-[20px]">Node JS</span>
+                <div className=" flex  flex-col items-center text-center ">
+                  <img alt="" src={img29} className="w-[100px] h-[54px]" />
+                  <span className="text-[14px]  sm:text-[20px]">Node JS</span>
                 </div>
-                <div className=" flex text-center flex-col  items-center  ">
+                <div className=" flex text-center flex-col  items-center pt-3  ">
                   <img alt="" src={img34} className="w-[117px] h-[34px] " />
                 </div>
               </div>
-              <div className="space-y-16">
-                <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img23} className="w-[45px]" />
-                  <span className="text-[20px]">Commercetools</span>
+              <div className=" flex sm:flex-col flex-row  gap-[80px]   w-full ">
+                <div className=" flex text-center flex-col items-center ">
+                  <img alt="" src={img23} className="w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">
+                    Commercetools
+                  </span>
                 </div>
 
-                <div className=" flex text-center flex-col items-center ">
-                  <span className="text-[20px]"> Markting</span>
+                <div className=" flex text-center flex-col items-center   justify-end  ">
+                  <span className="text-[14px]  sm:text-[20px]"> Markting</span>
                 </div>
               </div>
-              <div className="space-y-8">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row sm:gap-0  gap-[121px]  w-full  ">
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img24} className="w-[45px]" />
-                  <span className="text-[20px]">Shopware</span>
+                  <img alt="" src={img24} className="w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">Shopware</span>
                 </div>
 
                 <div className=" flex text-center flex-col items-center">
-                  <img alt="" src={img24} className="w-[45px]" />
-                  <span className="text-[20px]">Webflow</span>
+                  <img alt="" src={img24} className="w-[35px]  sm:w-[45px]" />
+                  <span className="text-[14px]  sm:text-[20px]">Webflow</span>
                 </div>
               </div>
             </div>
@@ -1801,8 +1822,8 @@ export const Homepage = () => {
         </svg>
 
         <div className=" flex justify-center  ">
-          <div className=" flex sm:w-[75%] w-full py-16 gap-8 flex-col lg:flex-row px-5">
-            <form className="sm:w-[604px]   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-20  z-[10]  ">
+          <div className=" flex sm:w-[75%] w-full   py-8 sm:py-16 gap-8 flex-col lg:flex-row px-5">
+            <form className="sm:w-[604px]   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-6 sm:py-20  z-[10]  ">
               <span className=" sm:text-[34px] text-[24px] font-[700]  pl-10 ">
                 For Project Inquiries
               </span>
@@ -1945,7 +1966,7 @@ export const Homepage = () => {
                 </div>
               </div>
 
-              <div className="sm:w-[463px]  sm:h-[156px] h-[108px] bg-[#FFFFFF] flex  px-10 items-center gap-7  rounded-[12px] shadow-md  border-[1px] border-[#0B60FF]">
+              <div className="sm:w-[463px]  sm:h-[156px] bg-[#FFFFFF] flex  px-10 items-center gap-7  rounded-[12px] shadow-md  border-[1px] border-[#0B60FF]">
                 <svg
                   width="40"
                   height="51"

@@ -12,7 +12,7 @@ import img9 from "../../Services/WebDesign/Images/images14.png";
 const Ourhasselwebsite = () => {
   return (
     <div>
-      <div className=" py-10">
+      <div className=" py-10 hidden lg:bllock">
         <div className="flex flex-col  justify-center items-center  py-[30px] px-[40px]">
           <span className="text-[32px] font-[600] ">
             Our hassle-free Website Designing Process
@@ -41,7 +41,7 @@ const Ourhasselwebsite = () => {
             </svg>
 
             <div className="space-y-[60px] flex flex-col items-center">
-              <div className="flex  w-[678px]">
+              <div className="flex  lg:w-[678px]">
                 <svg
                   width="134"
                   height="134"
@@ -68,7 +68,7 @@ const Ourhasselwebsite = () => {
                 </div>
               </div>
 
-              <div className="flex  w-[678px]">
+              <div className="flex  lg:w-[678px]">
                 <svg
                   width="134"
                   height="134"
@@ -210,7 +210,7 @@ const Ourhasselwebsite = () => {
         </div>
       </div>
 
-      <div className=" relative">
+      <div className=" relative hidden  lg:block">
         <img src={img7} alt="" className="h-[654px] w-full object-cover blur-sm " />
 
         <div className="flex justify-center">

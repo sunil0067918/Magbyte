@@ -6,16 +6,16 @@ const Webdesignbanner = () => {
   return (
     <div>
       <div
-        className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center sm:items-center pt-[20px] sm:pt-0 "
+        className=" relative lg::h-[540px] h-[800px]  bg-blue-600 flex justify-center sm:items-center pt-[20px] sm:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1}) `,
           backgroundSize: `cover`,
         }}
       >
-        <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] md:flex-row flex-col ">
+        <div className=" absolute w-[90%] flex gap-6 justify-between sm:items-baseline   lg:items-center rounded-[5px] lg:flex-row flex-col ">
           <div className=" space-y-4">
             <div className="  sm:w-[602px] w-full ">
-              <span className=" text-[20px] sm:text-[32px] font-[600]  text-wrap text-white">
+              <span className=" text-[20px] lg:text-[32px] sm:text-[24px] font-[600]  text-wrap text-white">
                 Website Design services that Maximize Traffic, Engagement, and
                 Conversion
               </span>
@@ -23,18 +23,18 @@ const Webdesignbanner = () => {
 
             <div className="text-white space-y-6">
               <div className="space-x-6">
-                <span className="text-[18px] font-[600]">100% Mobile Friendly</span>
-                <span className="text-[18px] font-[600]">Stunning Design</span>
+                <span className="lg:text-[18px]    text-[14px] lg:font-[600]">100% Mobile Friendly</span>
+                <span className="lg:text-[18px] lg:font-[600] text-[14px] ">Stunning Design</span>
               </div>
               <div className="space-x-6">
-                <span className="text-[18px] font-[600]">Conversion Friendly Layout</span>
-                <span className="text-[18px] font-[600]">Effective Call to Action</span>
+                <span className="lg:text-[18px]    text-[14px] lg:font-[600]">Conversion Friendly Layout</span>
+                <span className="lg:text-[18px] lg:font-[600] text-[14px] ">Effective Call to Action</span>
               </div>
             </div>
 
 
             <div  className="pt-10">
-                <button className="bg-[#FFFFFF] px-[40px] py-[16px] rounded-[50px]">
+                <button className="bg-[#FFFFFF] px-[40px] py-[16px] rounded-[50px]lg:text-[18px] lg:font-[600] ">
                 Get free consultation
                 </button>
             </div>

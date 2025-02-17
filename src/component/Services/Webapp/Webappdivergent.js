@@ -249,12 +249,12 @@ const Webappdivergent = () => {
       </div>
 
       <div
-        className=" relative h-[342px] flex justify-center py-10"
+        className=" relative  h-[700px] sm:h-[600px] lg:h-[342px] flex justify-center py-10"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.5)), url(${img8})`,
         }}
       >
-        <div className="  absolute w-[90%] flex justify-between  ">
+        <div className="  absolute w-[90%] flex justify-between flex-col lg:flex-row  ">
           <div className="">
             <div className="flex flex-col space-y-5">
               <span className="text-[33px] text-white font-[600]">
@@ -280,7 +280,7 @@ const Webappdivergent = () => {
               viewBox="0 0 484 342"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className=""
+              className=" absolute sm:w-[350px] w-[300px]  lg:top-[-11px] lg:right "
             >
               <ellipse
                 opacity="0.2"
@@ -295,7 +295,8 @@ const Webappdivergent = () => {
             <img
               src={img9}
               alt=""
-              className=" absolute w-[340px] top-[65px] right-[73px] "
+              className=" absolute  lg:w-[340px] w-[190px] right-[63px] top-[100px] left-[54px] sm:top-[94px] 
+              -[24px] sm:left-[59px] sm:w-[225px]  "
             />
           </div>
         </div>

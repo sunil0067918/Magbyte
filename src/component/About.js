@@ -16,11 +16,10 @@ import img13 from "../images/Groupimages3/image6.png";
 import img14 from "../images/Groupimages3/image7.png";
 import Footer from "./Footer";
 
-
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to top of the page on component load
-  }, [])
+  }, []);
   return (
     <>
       <Nav />
@@ -1044,18 +1043,17 @@ const About = () => {
             </div>
           </div>
 
-
           <div className="  flex justify-center h-[184px] bg-[#4687C7]">
-        <div className=" w-[80%] flex justify-between items-center">
-          <span className="text-[30px]  font-[500] text-[#FFFFFF]">
-            See something that excites you?
-          </span>
-          <button className="font-[600]  text-[16px]  bg-[#FFFFFF] py-[16px] px-[20px] rounded-[50px]  border-[1px] ">
-            Let’s Connect
-          </button>
-        </div>
-      </div>
-      <Footer/>
+            <div className=" w-[80%] flex justify-between items-center">
+              <span className="text-[30px]  font-[500] text-[#FFFFFF]">
+                See something that excites you?
+              </span>
+              <button className="font-[600]  text-[16px]  bg-[#FFFFFF] py-[16px] px-[20px] rounded-[50px]  border-[1px] ">
+                Let’s Connect
+              </button>
+            </div>
+          </div>
+          <Footer />
         </div>
       </div>
     </>

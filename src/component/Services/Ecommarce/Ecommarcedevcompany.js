@@ -3,12 +3,12 @@ import React from "react";
 const Ecommarcedevcompany = () => {
   return (
     <div className=" flex justify-center ">
-      <div className="  w-[90%] bg-[#4687C7]   rounded-[40px]  mt-5 sm:mt-[80px] py-[20px] sm:py-[60px] md:px-[100px] px-[20px]">
-        <span className="sm:text-[24px] sm:font-[600]  text-[16px]  font-[400] flex justify-center  text-white">
-          Reasons to Choose Us as Your <b>eCommerce Development</b> Company
+      <div className="  w-[90%] bg-[#4687C7]   rounded-[40px]  mt-5 sm:mt-[80px] py-[20px] lg:py-[60px] lg:px-[100px] px-[20px]">
+        <span className="lg:text-[24px] lg:font-[600]  text-[16px] sm:text-[20px] sm:font-[500]   font-[400] flex justify-center  text-white">
+          Reasons to Choose Us as Your <span>eCommerce Development</span> Company
         </span>
         <div className="pt-20 flex-col  flex gap-10">
-          <div className="flex gap-10 flex-wrap sm:flex-nowrap sm:flex-row ">
+          <div className="flex gap-10 flex-wrap lg:flex-nowrap lg:flex-row  items-center lg:items-stretch flex-col">
             <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="">
                 <svg
@@ -175,7 +175,7 @@ const Ecommarcedevcompany = () => {
             </div>
           </div>
 
-          <div className="flex gap-10 flex-wrap sm:flex-nowrap sm:flex-row ">
+          <div className="flex gap-10 flex-wrap lg:flex-nowrap lg:flex-row  flex-col  items-center lg:items-stretch  ">
             <div className=" bg-white px-[20px]  py-[30px]  sm:px-[30px] sm:py-[40px] space-y-4 md:w-[580px] w-full   rounded-[5px]    ">
               <div className="">
                 <svg

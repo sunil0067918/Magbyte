@@ -4,12 +4,15 @@ import img1 from "../../../images/ServicesEcommarceimages/images1.png";
 const Ecobanner = () => {
   return (
     <>
-      <div className=" relative md:h-[540px] h-[750px]  bg-blue-600 flex justify-center items-center " style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
+      <div
+        className=" relative  sm:h-[880px] lg:h-[540px] h-[750px]  bg-blue-600 flex justify-center items-center "
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
 
-                 backgroundSize :`cover`
-              }}>
-        <div className=" absolute w-[90%] flex gap-14 items-center rounded-[5px] md:flex-row flex-col ">
+          backgroundSize: `cover`,
+        }}
+      >
+        <div className=" absolute w-[90%] flex gap-14 sm:items-baseline lg:items-center rounded-[5px] lg:flex-row flex-col ">
           <div className=" ">
             <div className="space-y-2 sm:space-y-4">
               <span className=" text-[18px] sm:text-[32px] font-[700] text-white">
@@ -20,10 +23,10 @@ const Ecobanner = () => {
               </p>
             </div>
 
-            <div className=" flex pt-5 sm:pt-10 gap-10">
+            <div className=" flex pt-5 sm:pt-10 gap-10 items-end">
               <div className=" space-y-4 sm:space-y-7">
                 <div className="flex gap-2  items-center">
-                  <svg 
+                  <svg
                     width="30"
                     height="30"
                     viewBox="0 0 30 30"
@@ -76,7 +79,7 @@ const Ecobanner = () => {
                   </span>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                   <svg
                     width="30"
                     height="30"
@@ -130,7 +133,7 @@ const Ecobanner = () => {
                   </span>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                   <svg
                     width="30"
                     height="31"
@@ -183,7 +186,7 @@ const Ecobanner = () => {
               </div>
 
               <div className="space-y-4 sm:space-y-7">
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center" >
                   <svg
                     width="30"
                     height="30"
@@ -217,7 +220,7 @@ const Ecobanner = () => {
                   </span>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                   <svg
                     width="30"
                     height="30"
@@ -263,7 +266,7 @@ const Ecobanner = () => {
                   </span>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                   <svg
                     width="30"
                     height="30"

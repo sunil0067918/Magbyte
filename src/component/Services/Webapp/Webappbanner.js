@@ -6,19 +6,19 @@ const Webappbanner = () => {
   return (
     <div>
       <div
-        className=" relative md:h-[540px] h-[1000px]  bg-blue-600 flex justify-center sm:items-center pt-[20px] sm:pt-0 "
+        className=" relative lg:h-[540px] sm:h-[800px] h-[1000px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize :`cover`
         }}
       >
-        <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] md:flex-row flex-col ">
+        <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] space-y-4 lg:flex-row flex-col ">
           <div className="">
             <div className=" space-y-4">
-              <span className=" text-[20px] sm:text-[32px] font-[700] text-white">
+              <span className=" text-[20px] lg:text-[32px] sm:text-[28px] sm:font-[500] lg:font-[700] text-white">
                 Web and App Development
               </span>
-              <p className=" text-[12px] sm:text-[18px]  font-[500] text-white md:w-[700px] text-wrap">
+              <p className=" text-[12px] sm:text-[16px]  font-[400] lg:text-[18px]  lg:font-[500] text-white md:w-[700px] text-wrap">
                 We build scalable, robust applications designed to evolve with
                 your business. Let’s craft a mobile app that your customers will
                 love and that will drive your business forward.
@@ -201,7 +201,7 @@ const Webappbanner = () => {
 
           <form
             action="submit "
-            className=" bg-[#2E2E2E] rounded-[5px] px-[14px] py-[40px]"
+            className=" bg-[#2E2E2E] rounded-[5px] ] px-[14px] py-[40px]"
           >
             <div className="flex flex-col  text-center ">
               <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">

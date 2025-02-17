@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="">
       <div
-        className="h-[700px]   text-white  object-cover bg-no-repeat bg-cover hidden sm:block "
+        className="h-[700px]   text-white  object-cover bg-no-repeat bg-cover hidden lg:block "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 139, 0.9), rgba(0, 0, 139, 0.9)), url(${bannerimage})`,
         }}
@@ -245,7 +245,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#111428] flex  items-center flex-col  sm:hidden  py-3  ">
+      <div className="bg-[#111428] flex  items-center flex-col  lg:hidden  py-3  ">
         <div className=" w-[90%] flex flex-col pt-7 text-center items-center ">
           <svg
             width="178"
