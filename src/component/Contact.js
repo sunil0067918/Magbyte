@@ -1,8 +1,13 @@
 import Nav from "./Nav";
 import img1 from "../images/Contactimages/images1.png";
 import Footer from "./Footer";
+import { useEffect } from "react";
 
 const Contact = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top of the page on component load
+  }, []);
   return (
     <div className="">
       <Nav />

@@ -8,22 +8,22 @@ const Footer = () => {
   return (
     <div className="">
       <div
-        className="h-[700px]   text-white  object-cover bg-no-repeat bg-cover hidden lg:block "
+        className="h-[560px]   text-white  object-cover bg-no-repeat bg-cover hidden lg:block "
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 139, 0.9), rgba(0, 0, 139, 0.9)), url(${bannerimage})`,
+          backgroundImage: `linear-gradient(rgba(4, 2, 115), rgba(0, 0, 115, 0.5)), url(${bannerimage})`,
         }}
       >
-        <div className="flex justify-center pt-10">
+        <div className="flex justify-center py-6">
           <div className="w-[85%]">
             <div className="flex  items-center justify-between ">
               <div className="   capitalize flex flex-col ">
                 <span className="text-[35px] font-[600] ">
                   Let's Devlop somethings awesome together.{" "}
                 </span>
-                <span className="text-[25px] pt-5 ">
+                <span className="text-[25px] pt-2">
                   build beautiful and scale succesfully.
                 </span>
-                <button className="bg-[#4687C7] text-white px-[20px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 w-[205px]  mt-[45px] ">
+                <button className="bg-[#4687C7] text-white px-[20px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 w-[205px]  mt-[25px] ">
                   <span className="text-[16px] font-[400]">Get in Touch</span>
                   <svg
                     width="16"
@@ -84,12 +84,12 @@ const Footer = () => {
 
             <div className="">
               <div>
-                <div className="pt-6">
+                <div className="pt-3">
                   <span className="text-[20px] font-[800] border-b-[10px] border-blue-400  shadow-text-lg">
                     Technologies
                   </span>
-                  <ul className="flex gap-5 pt-5">
-                    <li className="text-[15px] font-[400]">
+                  <ul className="flex gap-5 pt-5 h-[40px] cursor-pointer">
+                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[blue] ">
                       Mangento Devlopment
                     </li>
                     <li className="text-[15px]  font-[400]">
@@ -108,11 +108,11 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="pt-6">
+                <div className="pt-3">
                   <span className="text-[20px] font-[800] border-b-[10px] border-blue-400">
                     Services
                   </span>
-                  <ul className="flex gap-5 pt-5">
+                  <ul className="flex gap-5 pt-3">
                     <li className="text-[15px] font-[400]">Web Design</li>
                     <li className="text-[15px]  font-[400]">
                       Web and App Devlopment
@@ -128,7 +128,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="pt-6 cursor-pointer">
+                <div className="pt-3 cursor-pointer">
                   <span className="text-[20px] font-[800] border-b-[10px] border-blue-400">
                     Company
                   </span>
