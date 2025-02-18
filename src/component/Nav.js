@@ -784,9 +784,16 @@ const Nav = () => {
                     fill="#003C77"
                   />
                 </svg>
+             
 
-                <div className=" absolute bg-white w-[200px] h-[160px] pt-3 top-[24px] hidden group-hover:block z-[10]    ">
-                  <ul className=" px-[20px] py-[10px] ">
+                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px] w-[14vw] group-hover:z-[10]   group-hover:block     ">
+                <div className="w-full relative py-[5px] bg-transparent ">
+                    <FontAwesomeIcon
+                      className="text-white  absolute  top-0 left-10"
+                      icon={faCaretUp}
+                    />
+                  </div>
+                  <ul className=" px-[20px] py-[5px] bg-white">
                     <Link to="/contact">
                       <li className="hover:bg-[#3535b4] hover:text-white py-1 px-3">
                         Contact us
