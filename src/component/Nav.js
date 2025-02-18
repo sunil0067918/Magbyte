@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import img1 from "..//images/Layer3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faCaretUp, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import img2 from  "../component/Tecnology/images/images1.png"
-import img3 from  "../component/Tecnology/images/images2.png"
-import img4 from  "../component/Tecnology/images/images3.png"
-import img5 from  "../component/Tecnology/images/images4.png"
-import img6 from  "../component/Tecnology/images/images5.png"
-import img7 from  "../component/Tecnology/images/images6.png"
-import img8 from  "../component/Tecnology/images/images7.png"
-import img9 from  "../component/Tecnology/images/images8.png"
-import img10 from  "../component/Tecnology/images/images9.png"
-import img11 from  "../component/Tecnology/images/images10.png"
-import img12 from  "../component/Tecnology/images/images11.png"
-import img13 from  "../component/Tecnology/images/images12.png"
+import img2 from "../component/Tecnology/images/images1.png";
+import img3 from "../component/Tecnology/images/images2.png";
+import img4 from "../component/Tecnology/images/images3.png";
+import img5 from "../component/Tecnology/images/images4.png";
+import img6 from "../component/Tecnology/images/images5.png";
+import img7 from "../component/Tecnology/images/images6.png";
+import img8 from "../component/Tecnology/images/images7.png";
+import img9 from "../component/Tecnology/images/images8.png";
+import img10 from "../component/Tecnology/images/images9.png";
+import img11 from "../component/Tecnology/images/images10.png";
+import img12 from "../component/Tecnology/images/images11.png";
+import img13 from "../component/Tecnology/images/images12.png";
 const Nav = () => {
   const [change, setchange] = useState(false);
 
@@ -159,7 +159,7 @@ const Nav = () => {
             <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
               <li className="flex items-center gap-1 relative group justify-between   ">
                 <span className="hover:text-[#4687C7]  text-[20px] font-[600]   ">
-                  services
+                  Services
                 </span>
                 <svg
                   width="16"
@@ -290,8 +290,14 @@ const Nav = () => {
                   />
                 </svg>
 
-                <div className="bg-white   absolute px-4 py-3   top-[56px] w-[58vw] z-[10]  hidden  group-hover:block ">
-                  <div className=" flex justify-between">
+                <div className="  transition-all duration-[400ms] absolute z-[-10] top-[110px] group-hover:top-[63px] w-[58vw] group-hover:z-[10]   group-hover:block ">
+                  <div className="w-full relative py-[5px] bg-transparent">
+                    <FontAwesomeIcon
+                      className="text-white absolute top-0 left-10"
+                      icon={faCaretUp}
+                    />
+                  </div>
+                  <div className=" flex bg-white justify-between px-4 py-3 ">
                     <div className="flex  w-[60%] gap-16 ">
                       <ul className="dropdown space-y-10 w-[50%] ">
                         <li className=" flex gap-3  items-center text-[14px]   ">
@@ -629,7 +635,9 @@ const Nav = () => {
               </li>
 
               <li className="flex py-4 items-center gap-1  relative group  ">
-                <span className="tracking-wider hover:text-[#4687C7]">Technologies</span>
+                <span className="tracking-wider hover:text-[#4687C7]">
+                  Technologies
+                </span>
                 <svg
                   width="16"
                   height="16"
@@ -644,29 +652,36 @@ const Nav = () => {
                   />
                 </svg>
 
-                <div className="bg-white   absolute px-4 py-3   top-[56px] w-[58vw] z-[10]  hidden  group-hover:block ">
-                  <div className=" flex justify-between">
+                <div className="transition-all duration-[400ms] absolute z-[-10] top-[110px] group-hover:top-[63px] w-[58vw] group-hover:z-[10]   group-hover:block  ">
+                <div className="w-full relative py-[5px] bg-transparent">
+                    <FontAwesomeIcon
+                      className="text-white absolute top-0 left-10"
+                      icon={faCaretUp}
+                    />
+                  </div>
+                  <div className=" flex bg-white justify-between px-4 py-3">
                     <div className="flex  w-[60%] gap-16 ">
                       <ul className="dropdown space-y-10 w-[50%] ">
                         <li className=" flex gap-3  items-center text-[14px]   ">
-                         <img alt=""  src={img2} className="w-[40px]"/>
+                          <img alt="" src={img2} className="w-[40px]" />
                           <Link to="/tecno">
                             {" "}
-                            <span className="text-[14px]">Magento Development</span>
+                            <span className="text-[14px] whitespace-nowrap">
+                              Magento Development
+                            </span>
                           </Link>
                         </li>
 
                         <li className=" flex gap-3 items-center text-[14px]">
-                        <img alt=""  src={img3} className="w-[40px]"/>
+                          <img alt="" src={img3} className="w-[40px]" />
 
-                            <span className="text-[14px]">
-                              Web & App Development
-                            </span>
-                       
+                          <span className="text-[14px]">
+                            Web & App Development
+                          </span>
                         </li>
 
                         <li className=" flex gap-3  items-center text-[14px]">
-                        <img alt=""  src={img4} className="w-[40px]"/>
+                          <img alt="" src={img4} className="w-[40px]" />
 
                           <Link to="/webdesign">
                             {" "}
@@ -675,7 +690,7 @@ const Nav = () => {
                         </li>
 
                         <li className=" flex gap-3  items-center text-[14px]">
-                        <img alt=""  src={img5} className="w-[40px]"/>
+                          <img alt="" src={img5} className="w-[40px]" />
 
                           <span className="text-[14px]">Frameworks</span>
                         </li>
@@ -683,7 +698,7 @@ const Nav = () => {
 
                       <ul className="dropdown  space-y-10 w-[50%]">
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img6} className="w-[40px]"/>
+                          <img alt="" src={img6} className="w-[40px]" />
                           <Link to="/digital">
                             <span className="text-[14px]">
                               Digital Marketing
@@ -692,13 +707,13 @@ const Nav = () => {
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img7} className="w-[40px]"/>
+                          <img alt="" src={img7} className="w-[40px]" />
 
                           <span className="text-[14px]">QA & Testing</span>
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img8} className="w-[40px]"/>
+                          <img alt="" src={img8} className="w-[40px]" />
 
                           <span className="text-[14px]">
                             Maintenance & Support
@@ -706,7 +721,7 @@ const Nav = () => {
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img9} className="w-[40px]"/>
+                          <img alt="" src={img9} className="w-[40px]" />
 
                           <span className="text-[14px]">Dedicated Team</span>
                         </li>
@@ -714,7 +729,7 @@ const Nav = () => {
 
                       <ul className="dropdown  space-y-10 w-[50%]">
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img10} className="w-[40px]"/>
+                          <img alt="" src={img10} className="w-[40px]" />
                           <Link to="/digital">
                             <span className="text-[14px]">
                               Digital Marketing
@@ -723,13 +738,13 @@ const Nav = () => {
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img11} className="w-[40px]"/>
+                          <img alt="" src={img11} className="w-[40px]" />
 
                           <span className="text-[14px]">QA & Testing</span>
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img12} className="w-[40px]"/>
+                          <img alt="" src={img12} className="w-[40px]" />
 
                           <span className="text-[14px]">
                             Maintenance & Support
@@ -737,12 +752,11 @@ const Nav = () => {
                         </li>
 
                         <li className=" flex gap-3  items-center">
-                        <img alt=""  src={img13} className="w-[40px]"/>
+                          <img alt="" src={img13} className="w-[40px]" />
 
                           <span className="text-[14px]">Dedicated Team</span>
                         </li>
                       </ul>
-
                     </div>
                     <div className="w-[293px] ">
                       <img
