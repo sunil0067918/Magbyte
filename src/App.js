@@ -7,6 +7,7 @@ import Service from "./component/Services/Service";
 import Webapp from "./component/Services/Webapp";
 import Webdesign from "./component/Services/Webdesign";
 import Digital from "./component/Services/Digital";
+import Tecnologies from "./component/Tecnology/Tecnologies";
 
 const App = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/homepage" element={<Home />} />
           <Route path="/webdesign" element={<Webdesign />} />
           <Route path="/digital" element={<Digital />} />
+          <Route path="/tecno" element={<Tecnologies/>} />
         </Routes>
       </BrowserRouter>
     </>

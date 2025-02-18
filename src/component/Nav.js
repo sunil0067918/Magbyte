@@ -3,6 +3,18 @@ import img1 from "..//images/Layer3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import img2 from  "../component/Tecnology/images/images1.png"
+import img3 from  "../component/Tecnology/images/images2.png"
+import img4 from  "../component/Tecnology/images/images3.png"
+import img5 from  "../component/Tecnology/images/images4.png"
+import img6 from  "../component/Tecnology/images/images5.png"
+import img7 from  "../component/Tecnology/images/images6.png"
+import img8 from  "../component/Tecnology/images/images7.png"
+import img9 from  "../component/Tecnology/images/images8.png"
+import img10 from  "../component/Tecnology/images/images9.png"
+import img11 from  "../component/Tecnology/images/images10.png"
+import img12 from  "../component/Tecnology/images/images11.png"
+import img13 from  "../component/Tecnology/images/images12.png"
 const Nav = () => {
   const [change, setchange] = useState(false);
 
@@ -79,19 +91,19 @@ const Nav = () => {
             </div>
           </Link>
           {/* <responive nav   */}
-          <div className=" absolute top-0 right-0 block lg:hidden mr-2 mt-[16px] ">
+          <div className=" absolute top-0 right-0 block lg:hidden mr-2 mt-[10px] ">
             <FontAwesomeIcon
               icon={faXmark}
               className={`${
                 change ? "top-[-10px]" : "top-[-100px]"
               } absolute   block lg:hidden text-4xl  
-                z-[90]  px-2  right-[-6px] border border-gray-400 transition-all duration-[800ms] `}
+                z-[90]  px-2  right-[-6px] mt-[10px] border border-gray-400 transition-all duration-[800ms] `}
               onClick={() => setchange(!change)}
             />
 
             <button
               className={`flex border border-[#4687C7]  transition-all duration-[800ms]  
-                rounded-[7px]   gap-3 px-3 py-3  w-[122px]  items-center  `}
+                rounded-[7px]   gap-3 px-2 py-2    items-center  `}
               onClick={() => setchange(!change)}
             >
               <svg
@@ -257,7 +269,7 @@ const Nav = () => {
       {/* lowernav */}
 
       <div className="   hidden lg:block cursor-pointer   ">
-        <div className=" capitalize  py-3 w-full flex justify-center items-center">
+        <div className=" capitalize  py-2 w-full flex justify-center items-center">
           <div className=" w-[85%]  flex justify-between items-center  ">
             <ul className="flex justify-between gap-10 items-center relative   ">
               <li className="flex py-4 items-center gap-1 relative group     ">
@@ -616,8 +628,8 @@ const Nav = () => {
                 </div>
               </li>
 
-              <li className="flex items-center gap-1 hover:text-[#4687C7] ">
-                <span className="tracking-wider">Technologies</span>
+              <li className="flex py-4 items-center gap-1  relative group  ">
+                <span className="tracking-wider hover:text-[#4687C7]">Technologies</span>
                 <svg
                   width="16"
                   height="16"
@@ -631,6 +643,116 @@ const Nav = () => {
                     fill="#003C77"
                   />
                 </svg>
+
+                <div className="bg-white   absolute px-4 py-3   top-[56px] w-[58vw] z-[10]  hidden  group-hover:block ">
+                  <div className=" flex justify-between">
+                    <div className="flex  w-[60%] gap-16 ">
+                      <ul className="dropdown space-y-10 w-[50%] ">
+                        <li className=" flex gap-3  items-center text-[14px]   ">
+                         <img alt=""  src={img2} className="w-[40px]"/>
+                          <Link to="/tecno">
+                            {" "}
+                            <span className="text-[14px]">Magento Development</span>
+                          </Link>
+                        </li>
+
+                        <li className=" flex gap-3 items-center text-[14px]">
+                        <img alt=""  src={img3} className="w-[40px]"/>
+
+                            <span className="text-[14px]">
+                              Web & App Development
+                            </span>
+                       
+                        </li>
+
+                        <li className=" flex gap-3  items-center text-[14px]">
+                        <img alt=""  src={img4} className="w-[40px]"/>
+
+                          <Link to="/webdesign">
+                            {" "}
+                            <span className="text-[14px]">Web Designing</span>
+                          </Link>
+                        </li>
+
+                        <li className=" flex gap-3  items-center text-[14px]">
+                        <img alt=""  src={img5} className="w-[40px]"/>
+
+                          <span className="text-[14px]">Frameworks</span>
+                        </li>
+                      </ul>
+
+                      <ul className="dropdown  space-y-10 w-[50%]">
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img6} className="w-[40px]"/>
+                          <Link to="/digital">
+                            <span className="text-[14px]">
+                              Digital Marketing
+                            </span>
+                          </Link>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img7} className="w-[40px]"/>
+
+                          <span className="text-[14px]">QA & Testing</span>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img8} className="w-[40px]"/>
+
+                          <span className="text-[14px]">
+                            Maintenance & Support
+                          </span>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img9} className="w-[40px]"/>
+
+                          <span className="text-[14px]">Dedicated Team</span>
+                        </li>
+                      </ul>
+
+                      <ul className="dropdown  space-y-10 w-[50%]">
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img10} className="w-[40px]"/>
+                          <Link to="/digital">
+                            <span className="text-[14px]">
+                              Digital Marketing
+                            </span>
+                          </Link>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img11} className="w-[40px]"/>
+
+                          <span className="text-[14px]">QA & Testing</span>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img12} className="w-[40px]"/>
+
+                          <span className="text-[14px]">
+                            Maintenance & Support
+                          </span>
+                        </li>
+
+                        <li className=" flex gap-3  items-center">
+                        <img alt=""  src={img13} className="w-[40px]"/>
+
+                          <span className="text-[14px]">Dedicated Team</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div className="w-[293px] ">
+                      <img
+                        src={img1}
+                        alt=""
+                        className=" object-contain w-full    "
+                      />
+                    </div>
+                  </div>
+                </div>
               </li>
 
               <li className="flex items-center gap-1 hover:text-[#4687C7] relative group">

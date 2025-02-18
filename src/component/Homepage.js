@@ -61,6 +61,7 @@ export const Homepage = () => {
               <span className=" sm:text-[38px] text-[24px] font-[800]   tracking-wide   sm:w-[553px] text-white text-center  ">
                 We Challenge GrandeurAnd Perfectness Standard
               </span>
+              <p className="text-white">Construct versatile and well-tested web applications that are ready to handle millions of users with top web designers and developers.</p>
             </div>
             <button className="bg-[#4687C7] text-white px-[20px] py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 sm:w-[141px] w-[125px]">
               <span> Details</span>
@@ -1012,7 +1013,7 @@ export const Homepage = () => {
                 <li className="sm:text-[20px]  text-[16px]  sm:w-[330px] font-[500]  w-[330px] hover:bg-[#4687C7] hover:text-white px-3 py-2 text-[#001943]">
                   Maintenance & Support
                 </li>
-                <li className=" font-[500]  w-[330px] hover:bg-[#4687C7] hover:text-white px-3 py-2 text-[#001943] sm:text-[20px]  text-[16px]  sm:w-[330px]">
+                <li className=" font-[500]  w-[330px] hover:bg-[#4687C7] hover:text-white px-3 py-2 text-[#001943] sm:text-[16px]  text-[12px]  sm:w-[330px]">
                   Dedicated Team
                 </li>
               </ul>
@@ -1266,7 +1267,7 @@ export const Homepage = () => {
                   />
                 </svg>
 
-                <span className=" text-[20px] sm:text-[24px] font-[700]">
+                <span className=" text-[20px] lg:text-[20px] font-[700]">
                   10 + Years of Experience
                 </span>
               </div>

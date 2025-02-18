@@ -11,14 +11,15 @@ const Contact = () => {
   return (
     <div className="">
       <Nav />
-      <div className="  relative">
-        <svg
+      <div className="  relative h-[950px] flex  mx-5 flex-col  lg:h-full ">
+       <div className="flex justify-center">
+       <svg
           width="1440"
           height="600"
           viewBox="0 0 1440 600"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="ml-7 "
+          className="  hidden lg:block "
         >
           <path
             d="M1440 338L0 600V0H1440V338Z"
@@ -38,6 +39,7 @@ const Contact = () => {
             </linearGradient>
           </defs>
         </svg>
+       </div>
 
         <svg
           width="1440"
@@ -54,52 +56,52 @@ const Contact = () => {
           />
         </svg>
 
-        <div className="flex justify-center ">
-          <div className="w-[80%] mt-14">
-            <div className=" absolute h-[803px] w-[1118px] bg-[#FFFFFF] shadow-md top-0 mt-24 rounded-[14px] px-10 py-10 ">
-              <div className="flex gap-10 justify-center">
-                <div className="w-[496px]  h-[573px] ">
+        <div className="flex justify-center  ">
+          <div className="  lg:w-[80%] mt-4 lg:mt-14 flex flex-col lg:flex-row items-center ">
+            <div className=" absolute lg:h-[803px] lg:w-[1118px] border bg-[#FFFFFF] shadow-md top-0 lg:mt-24 mt-4 rounded-[14px] px-5 lg:px-10 py-10  ">
+              <div className="flex gap-10 justify-center flex-col lg:flex-row">
+                <div className="lg:w-[496px]  lg:h-[573px] ">
                   <div className=" ">
-                    <span className="text-[#4687C7] font-[700]  text-[32px]">
+                    <span className="text-[#4687C7] lg:font-[700] text-[24px]  font-[400]  lg:text-[32px]">
                       Get In Touch
                     </span>
                     <br />
-                    <span className="text-[24px] ">
+                    <span className="  text-[20px] lg:text-[24px] ">
                       We are here for you! How can we help?
                     </span>
                   </div>
-                  <form className="mt-7 space-y-10" action="submit">
+                  <form className="mt-7 space-y-10 flex flex-col " action="submit" >
                     <input
-                      className=" w-[484px]  bg-[#F4F4F9] py-[18px]  px-[20px] focus:outline-none "
+                      className=" lg:w-[484px]  bg-[#F4F4F9] lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] focus:outline-none "
                       placeholder="Enter Your name"
                       type="text"
                     />
-                    <div>
-                      <div className=" w-[484px]  bg-[#F4F4F9] py-[18px]  px-[20px] flex gap-2  ">
+                    
+                      <div className=" lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] flex gap-2  ">
                         <img src={img1} alt="" />
                         <input
                           placeholder="Enter Your Email Address"
                           type="number "
-                          className="w-[484px]  focus:outline-none bg-[#F4F4F9]  "
+                          className="lg:w-[484px]  focus:outline-none bg-[#F4F4F9]  "
                         />
                       </div>
-                    </div>
+                    
                     <input
-                      className=" w-[484px]  bg-[#F4F4F9] py-[18px]  px-[20px] text-[16px]  focus:outline-none"
+                      className=" lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] text-[16px]  focus:outline-none"
                       placeholder="Enter Your Phone Number"
                     />
                     <textarea
-                      className="  w-[484px]  bg-[#F4F4F9] py-[18px]  px-[20px] h-[205px] text-[16px]  focus:outline-none"
+                      className="  lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] lg:-[205px] text-[16px]  focus:outline-none"
                       placeholder="Go ahead, we are listening..."
                     ></textarea>
 
-                    <button className="h-[60px] w-[486px]  px-[11px]  bg-[#585DD8] text-[#FFFFFF]">
+                    <button className="lg:h-[60px] lg:w-[486px]  px-[8px] py-[10px] rounded-[10px] text-[12px] lg:text-[18px] lg:px-[11px]  bg-[#585DD8] text-[#FFFFFF]">
                       Submit
                     </button>
                   </form>
                 </div>
 
-                <div className="w-[455px] h-[538px] ">
+                <div className="lg:w-[455px] h-[538px] ">
                   <svg
                     width="324"
                     height="260"
@@ -344,7 +346,7 @@ const Contact = () => {
                     </defs>
                   </svg>
                   <div className="space-y-7 mt-5">
-                    <div className=" w-[455px] h-[48px] flex gap-[10px]  ">
+                    <div className=" lg:w-[455px] h-[48px] flex gap-[10px]  ">
                       <svg
                         width="44"
                         height="44"
@@ -371,7 +373,7 @@ const Contact = () => {
                         </defs>
                       </svg>
 
-                      <span className="font-[400]">
+                      <span className=" lg:text-[20px] text-[16px] font-[300] lg:font-[400]">
                         Suite-106, H-28, H Block, Sector 63, Noida, Uttar
                         Pradesh 201301
                       </span>
@@ -403,7 +405,7 @@ const Contact = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      <span>(+91) 8527259168</span>
+                      <span className="lg:text-[20px] text-[16px] font-[300] lg:font-[400]">(+91) 8527259168</span>
                     </div>
 
                     <div className="flex gap-[10px] items-center">
@@ -446,20 +448,19 @@ const Contact = () => {
                       </svg>
 
                       <div className="   ">
-                        <span>Info@magebytes.com</span>
+                        <span className="lg:text-[20px] text-[16px] font-[300] lg:font-[400]">Info@magebytes.com</span>
                         <br />
-                        <span>sales@magebytes.com</span>
+                        <span className="lg:text-[20px] text-[16px] font-[300] lg:font-[400]">sales@magebytes.com</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className=" absolute bottom-[-215px] w-[74px]  h-[283px] bg-[#4687C7] right-[175px]  rounded-br-[29px]">
-          <div className="flex flex-col justify-center items-center space-y-8 pt-5">
+        <div  className=" relative">
+        <div className=" absolute  lg:w-[74px]  lg:h-[283px] bg-[#4687C7] left-[1119px]  top-[-40px] rounded-br-[29px] hidden lg:block">
+          <div className="flex lg:flex-col justify-center items-center space-y-8 pt-5">
             <svg
               width="24"
               height="24"
@@ -536,6 +537,11 @@ const Contact = () => {
             </svg>
           </div>
         </div>
+        </div>
+          </div>
+        </div>
+
+        
       </div>
 
       <div className=" flex justify-center h-[526px] mt-[300px]">

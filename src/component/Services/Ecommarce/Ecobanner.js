@@ -363,7 +363,7 @@ const Ecobanner = () => {
                 className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] flex  focus:outline-none"
               />
 
-              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  font-[700] text-white bg-[#4687C7]  rounded-[6px]">
+              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  animate-pulse font-[700] text-white bg-[#4687C7]  rounded-[6px]">
                 Submit Your Requirement!
               </button>
             </div>

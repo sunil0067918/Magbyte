@@ -132,7 +132,7 @@ const Whybrandwebdesign = () => {
             </div>
           </div>
 
-          <div className="flex  gap-9 flex-col sm:flex-row">
+          <div className="flex  gap-9 flex-col lg:flex-row">
             <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
@@ -254,7 +254,7 @@ const Whybrandwebdesign = () => {
             </div>
           </div>
 
-          <div className="flex  gap-9 flex-col sm:flex-row">
+          <div className="flex  gap-9 flex-col lg:flex-row">
             <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
