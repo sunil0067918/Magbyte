@@ -1,12 +1,14 @@
 import React from "react";
 import img1 from "../Mangento/bannerimages/images1.png";
 import img2 from "../images/images13.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Mangentobanner = () => {
   return (
     <div>
       <div
-        className=" relative  sm:h-[880px] lg:h-[580px] h-[790px]  justify-center items-center  bg-blue-600 flex  "
+        className=" relative  sm:h-[880px] lg:h-[580px] h-[870px]   justify-center items-center  bg-blue-600 flex  "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize: `cover`,
@@ -21,36 +23,55 @@ const Mangentobanner = () => {
               </span>
             </h1>
             <span className="text-white text-[18px] font-[500]">
-              Hire Certified, Highly Experienced Adobe Commerce Developers
+              Hire Skilled and Certified Adobe Commerce Developers with
+              Extensive Experience
             </span>
 
             <div className="flex  pt-10 text-white gap-10">
               <div className="space-y-4">
-                <div>
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">Adobe Commerce Design & Customization</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    Adobe Commerce Design & Customization
+                  </span>
                 </div>
 
-                <div >
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]"> Adobe Commerce Migration & Upgrade</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    {" "}
+                    Adobe Commerce Migration & Upgrade
+                  </span>
                 </div>
 
-                <div>
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">Adobe Commerce Mobile</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    Adobe Commerce Mobile
+                  </span>
                 </div>
               </div>
 
-
               <div className="space-y-4">
-                <div>
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">Adobe Commerce Marketplace Integration</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    Adobe Commerce Marketplace Integration
+                  </span>
                 </div>
 
-                <div>
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">Adobe Commerce Multi-Store</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    Adobe Commerce Multi-Store
+                  </span>
                 </div>
 
-                <div>
-                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">Adobe Commerce Headless</span>
+                <div className="flex gap-4 items-center">
+                  <FontAwesomeIcon icon={faSquareCheck} />
+                  <span className="  text-[10px]  lg:font-[500] font-[300] lg:text-[20px]">
+                    Adobe Commerce Headless
+                  </span>
                 </div>
               </div>
             </div>
@@ -70,7 +91,7 @@ const Mangentobanner = () => {
             </div>
 
             <div className="flex  flex-col  space-y-5 pt-10">
-              <div className="flex  justify-between">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="text"
@@ -84,7 +105,7 @@ const Mangentobanner = () => {
                 />
               </div>
 
-              <div className="flex  justify-between">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="number"
