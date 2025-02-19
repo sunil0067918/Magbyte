@@ -6,7 +6,7 @@ const Webappbanner = () => {
   return (
     <div>
       <div
-        className=" relative lg:h-[540px] sm:h-[800px] h-[1000px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
+        className=" relative lg:h-[540px] sm:h-[800px] h-[1200px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize :`cover`
@@ -25,9 +25,9 @@ const Webappbanner = () => {
               </p>
             </div>
 
-            <div className="flex  mt-7 flex-col  ">
-              <div className="flex justify-between md:flex-nowrap flex-wrap gap-3">
-                <div className="flex flex-col border-[0.74px]  border-[#FFFFFF] w-[178px] justify-center items-center rounded-[16px]  ">
+            <div className="flex  mt-7 flex-col   ">
+              <div className="flex justify-center sm:justify-between md:flex-nowrap flex-wrap gap-3">
+                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF] w-[178px] justify-center items-center rounded-[16px]  ">
                   <svg
                     width="30"
                     height="18"
@@ -82,7 +82,7 @@ const Webappbanner = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
+                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
                   <svg
                     width="20"
                     height="22"
@@ -113,8 +113,8 @@ const Webappbanner = () => {
                 </div>
               </div>
 
-              <div className="flex justify-between pt-5 md:flex-nowrap flex-wrap gap-3">
-                <div className="flex flex-col border-[0.74px]  border-[#FFFFFF] w-[178px] justify-center items-center rounded-[16px]  ">
+              <div className="flex  justify-center sm:justify-between pt-5 md:flex-nowrap flex-wrap gap-3">
+                <div className="flex flex-col border-[0.74px] lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px]  border-[#FFFFFF]  justify-center  w-[178px] items-center rounded-[16px]  ">
                   <svg
                     width="24"
                     height="24"
@@ -151,11 +151,11 @@ const Webappbanner = () => {
                     </defs>
                   </svg>
 
-                  <span className="tetx-[14px] font-[400] text-white">
+                  <span className="  text-[12px] lg:text-[14px] font-[400] text-white">
                     Hybrid
                   </span>
                 </div>
-                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px] ">
+                <div className="flex flex-col border-[0.74px] lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px] ">
                   <svg
                     width="22"
                     height="18"
@@ -189,7 +189,7 @@ const Webappbanner = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
+                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
                   <img alt="" src={img2} className="w-[20px] h-[20px]" />
                   <span className="tetx-[14px] font-[400] text-white">
                     Flutter
@@ -213,7 +213,7 @@ const Webappbanner = () => {
             </div>
 
             <div className="flex  flex-col  space-y-5 pt-10">
-              <div className="flex  justify-between">
+              <div className="flex  justify-between flex-col gap-3 sm:flex-row">
                 <input
                   className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="text"
@@ -227,7 +227,7 @@ const Webappbanner = () => {
                 />
               </div>
 
-              <div className="flex  justify-between">
+              <div className="flex  justify-between flex-col gap-3 sm:flex-row">
                 <input
                   className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="number"

@@ -9,9 +9,9 @@ const Contact = () => {
     window.scrollTo(0, 0); // Scroll to top of the page on component load
   }, []);
   return (
-    <div className="">
+    <div className="w-full flex items-center justify-center flex-col">
       <Nav />
-      <div className="  relative h-[950px] flex  mx-5 flex-col  lg:h-full ">
+      <div className="z-[5] bg-white w-full relative h-[950px] flex  mx-5 flex-col  lg:h-full ">
        <div className="flex justify-center">
        <svg
           width="1440"

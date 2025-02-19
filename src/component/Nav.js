@@ -52,7 +52,7 @@ const Nav = () => {
   const [change, setchange] = useState(false);
 
   return (
-    <div className="">
+    <div className="w-full">
       {/* upper nav-- */}
       <div className=" w-full flex justify-center items-center lg:mt-5 py-3 lg:py-0 relative cursor-pointer  ">
         <div className=" flex  justify-between items-center w-[85%]  ">
@@ -730,8 +730,8 @@ const Nav = () => {
                   />
                 </svg>
 
-                <div className="transition-all duration-[400ms] absolute left-[-93px] z-[-10] top-[110px] group-hover:top-[63px] w-[88vw] group-hover:z-[10]   group-hover:block   ">
-                  <div className="w-full relative py-[5px] bg-transparent left-[76px]">
+                <div className="transition-all duration-[400ms] absolute left-[-160px] z-[-100] top-[110px] group-hover:top-[63px] w-[88vw] group-hover:z-[100]   group-hover:block   ">
+                  <div className="w-full relative py-[5px] bg-transparent left-[156px]">
                     <FontAwesomeIcon
                       className="text-white absolute top-0 left-10"
                       icon={faCaretUp}
@@ -745,8 +745,11 @@ const Nav = () => {
                             <img
                               src={img14}
                               className="w-[15px] object-contain"
+                              alt=""
                             />
-                            <p className="font-[500]">Custom Development</p>
+                            <p className="font-[500] whitespace-nowrap">
+                              Custom Development
+                            </p>
                           </div>
                           <hr className="border-[1px] border-black" />
                         </div>
@@ -1037,7 +1040,9 @@ const Nav = () => {
                               src={img20}
                               className="w-[15px] object-contain"
                             />
-                            <p className="font-[500]">Mobile Apps</p>
+                            <p className="font-[500] whitespace-nowrap">
+                              Mobile Apps
+                            </p>
                           </div>
                           <hr className="border-[1px] border-black" />
                         </div>
@@ -1231,7 +1236,9 @@ const Nav = () => {
                               className="w-[20px] object-contain "
                               alt=""
                             />
-                            <p className="font-[500]">Full Stack</p>
+                            <p className="font-[500] whitespace-nowrap">
+                              Full Stack
+                            </p>
                           </div>
                           <hr className="border-[1px] border-black" />
                         </div>
@@ -1333,7 +1340,7 @@ const Nav = () => {
                   />
                 </svg>
 
-                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px] w-[14vw] group-hover:z-[10]   group-hover:block     ">
+                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[46px] w-[14vw] group-hover:z-[10]   group-hover:block     ">
                   <div className="w-full relative py-[5px] bg-transparent ">
                     <FontAwesomeIcon
                       className="text-white  absolute  top-0 left-10"
