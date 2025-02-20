@@ -48,13 +48,12 @@ export const Homepage = () => {
   return (
     <div>
       {/* <Nav/> */}
-      <div className=" bg-gradient-to-b  from-[#111429] to-[#4687C7]  h-[557px] sm:h-[600px] flex justify-center items-center ">
-        <div className="w-[85%] flex items-center flex-col sm:flex-row pt-10 sm:pt-0 text-center sm:text-start">
-          <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  ">
-            <div className="  sm:w-[576px] ">
-              <h1 className="font-[Wix Madefor Display] sm:text-[24px] text-[18px]">
-                Web
-                <span className="text-[#FDB92C]">Designing </span>
+      <div className=" bg-gradient-to-b  from-[#111429] to-[#4687C7]    flex justify-center items-center ">
+        <div className="lg:w-[85%] flex items-center flex-col  px-[6px] sm:px-[30px]  lg:py-0 lg:px-0  lg:flex-row pt-10 sm:pt-0 text-center sm:text-start">
+          <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  pt-5 ">
+            <div className="   lg:w-[576px] ">
+              <h1 className="font-[Wix Madefor Display]  text-white lgf:text-[24px] text-[18px]">
+                Web<span className="text-[#FDB92C]">Designing </span>
                 And
                 <span className="text-[#FDB92C]"> Development</span>
               </h1>
@@ -67,7 +66,7 @@ export const Homepage = () => {
                 developers.
               </p>
             </div>
-            <button className="bg-[#4687C7] text-white px-[20px] py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 sm:w-[141px] w-[125px]">
+            <button className="bg-[#4687C7] text-white px-[20px] py-[10px] lg:px-[40px] lg:py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 ">
               <span> Details</span>
               <svg
                 width="16"
@@ -84,11 +83,11 @@ export const Homepage = () => {
             </button>
           </div>
 
-          <div className=" flex items-center justify-center relative w-6/12">
+          <div className=" flex items-center justify-center relative lg:w-6/12 mt-6">
             <img
               src={img2}
               alt=""
-              className=" absolute top-[84px] left-[-107px]  "
+              className=" absolute  sm:top-[129px] sm:left-[-77px] top-[-14px] left-[-59px] lg:top-[84px] lg:left-[-107px]  "
             />
             <img
               src={img1}
@@ -101,7 +100,7 @@ export const Homepage = () => {
 
       {/* hompage section */}
 
-      <div className=" bg-gradient-to-b   pb-36 from-[#151D36] w-full to-[#111429] relative overflow-hidden">
+      <div className=" bg-gradient-to-b  pb-24 md:pb-36 from-[#151D36] w-full to-[#111429] relative overflow-hidden ">
         <svg
           width="654"
           height="491"
@@ -826,14 +825,14 @@ export const Homepage = () => {
           </svg>
         </div>
 
-        <span className="flex justify-center text-[#5e5c5c]   text-center sm:text-[100px] text-[40px] capitalize font-[800]  ">
+        <span className="flex justify-center text-[#5e5c5c]   text-center lg:text-[100px] text-[40px] capitalize font-[800]  ">
           ABOUT US
         </span>
         <div className="flex justify-center ">
-          <div className=" flex  w-[90%] flex-col sm:flex-row space-y-8 sm:space-y-0">
-            <div className="  text-white   sm:ml-8  ">
-              <div className="relative">
-                <span className="sm:text-[24px] text-[16px] font-[700] ">
+          <div className=" flex  w-full mx-5  lg:w-[90%] flex-col lg:flex-row space-y-8 sm:space-y-0">
+            <div className="  text-white   sm:ml-8 flex flex-col items-center  lg:items-baseline ">
+              <div className="relative hidden lg:block ">
+                <span className="lg:text-[24px] text-[16px] font-[700] ">
                   About Us
                 </span>
                 <svg
@@ -866,12 +865,12 @@ export const Homepage = () => {
                 </svg>
               </div>
               <div className="sm:w-[80%] space-y-3 pt-5 ">
-                <span className="font-[400]  w-[400px] sm:text-[36px] text-[20px]">
+                <span className="font-[400]  w-[400px] lg:text-[36px] text-[20px]">
                   We Shape Future By Building{" "}
                   <span className="font-[600] "> Stunning Products</span>{" "}
                 </span>
 
-                <p className="sm:text-[20px] text-[16px] mt-4 text-wrap">
+                <p className="lg:text-[20px] text-[16px] mt-4 text-wrap">
                   We are a group of digital strategists, technologists, and
                   masterminds. Together, we aspire to co-imagine the future by
                   adding our unparalleled ability pulled from a different
@@ -882,16 +881,16 @@ export const Homepage = () => {
                   attempt.
                 </p>
 
-                <button className="bg-[#4687C7] text-white px-[20px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 sm:w-[205px] w-[171px] mt-[45px] sm:text-[16px] text-[12px] font-[600] ">
+                <button className="bg-[#4687C7] text-white md:px-[50px] md:py-[16px] px-[30px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 mt-[45px] sm:text-[16px] text-[12px] font-[600] ">
                   <span className="text-[12px] sm:text-[16px] ">
-                    LET'SCONNET
+                    LET'S CONNET
                   </span>
                   <svg
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg text-[24px] "
+                    xmlns="http://www.w3.org/2000/svg text-[20px] "
                   >
                     <path
                       d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
@@ -902,16 +901,16 @@ export const Homepage = () => {
               </div>
             </div>
 
-            <div className=" relative w-full h-[300px] flex justify-center">
+            <div className=" relative w-full lg:h-[300px] flex justify-center ">
               <img
                 src={img13}
                 alt=""
-                className="  rounded-[6px]  sm:w-[1200px] object-contain sm:h-[243px]  w-[265px] h-[158px]  "
+                className="  rounded-[6px]  lg:w-[1200px] object-contain sm:h-[243px]  w-[265px] h-[158px]  "
               />
               <img
                 alt=""
                 src={img14}
-                className="  absolute bottom-[-18px]  right-[78px] rounded-[6px]  sm:w-[1150px] object-contain   sm:h-[209] w-[253px] h-[220px]   "
+                className="  absolute bottom-[-18px] right-[41px] top-[68px] lg:top-[150px] sm:top-[120px] sm:left-[124px] lg:left-[-115px] rounded-[6px]  lg:w-[1150px] object-contain   sm:h-[209] w-[253px] h-[220px]   "
               />
             </div>
           </div>
@@ -958,11 +957,11 @@ export const Homepage = () => {
 
         <div className=" lg:w-[85%] w-full sm:pt-20 relative  flex  mx-2   justify-center ">
           <div className="lg:w-[92%] w-full pt-6">
-            <span className=" text-[16px]   text-[#4687C7] font-[600]  sm:text-[30px] ">
+            <span className=" text-[16px]  sm:text-[24px]  text-[#4687C7] font-[600]  lg:text-[30px] ">
               We offer{" "}
             </span>
             <div className="  relative">
-              <span className="sm:text-[44px]  text-[16px] font-[700] text-white md:w-[509px]  ">
+              <span className="lg:text-[44px] sm:text-[24px]  text-[16px] font-[700] text-white lg:w-[509px]  ">
                 On-Demand IT Services
               </span>
 
@@ -972,7 +971,7 @@ export const Homepage = () => {
                 viewBox="0 0 39 34"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="  absolute sm:left-[492px]  top-[-7px] sm:block  hidden "
+                className="  absolute lg:left-[492px] sm:left-[266px]  top-[-7px] sm:block  hidden "
               >
                 <path
                   d="M8.99997 28.5852C12.7044 27.6579 28.8778 25.5441 28.6079 25"
@@ -990,9 +989,9 @@ export const Homepage = () => {
             </div>
           </div>
 
-          <div className=" absolute bg-white   w-full lg:mt-[200px] rounded-md  sm:p-7  pt-[3px] mt-24  shadow-lg  ">
+          <div className=" absolute bg-white   w-full lg:mt-[200px] rounded-md  sm:p-7  pt-[3px] mt-28 sm:mt-48  shadow-lg  ">
             <div className="w-full flex justify-between flex-col lg:flex-row relative  ">
-              <ul className="flex sm:flex-col gap-5 cursor-pointer    lg:w-[40%] w-full overflow-auto  ">
+              <ul className="flex lg:flex-col gap-5 cursor-pointer    lg:w-[40%] w-full overflow-auto  ">
                 <li className="font-[500] hover:bg-[#4687C7] hover:text-white px-3 py-2 text-[#001943]  w-[330px]  sm:text-[20px]  text-[16px]  whitespace-nowrap ">
                   Web Designing
                 </li>
@@ -1028,7 +1027,7 @@ export const Homepage = () => {
                 viewBox="0 0 1 812"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className=" absolute left-[379px] top-[-136px] hidden sm:block"
+                className=" absolute left-[379px] top-[-136px] hidden lg:block"
               >
                 <line
                   opacity="0.5"
@@ -1040,13 +1039,13 @@ export const Homepage = () => {
                 />
               </svg>
 
-              <div className=" sm:w-[70%] w-full  flex justify-center  px-4 py-8  mt-3 sm:mt-0">
+              <div className=" lg:w-[70%] w-full  flex justify-center  px-4 py-8  mt-3 sm:mt-0">
                 <div>
                   <div>
                     <img
                       alt=" "
                       src={img15}
-                      className="sm:w-[562px]  sm:h-[414px]  "
+                      className=" object-cover w-full  sm:h-[414px]  "
                     />
                   </div>
 
@@ -1146,7 +1145,7 @@ export const Homepage = () => {
           viewBox="0 0 177 166"
           fill="none"
           xmlns="http://www.w3.org/2000/svg  "
-          className=" absolute sm:right-3 sm:top-3 right-[-9px] top-[-1px] sm:w-[177px] sm:h-[166px] w-[73px] h-[53px] "
+          className=" absolute sm:right-3 sm:top-3 right-[-9px] top-[-1px] lg:w-[177px] lg:h-[166px] w-[73px] h-[53px] sm:w-[140px] sm:h-[120px] "
         >
           <g opacity="0.5">
             <ellipse
@@ -1174,7 +1173,7 @@ export const Homepage = () => {
           viewBox="0 0 177 166"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className=" sm:bottom-3 left-2 absolute sm:w-[177px] sm:h-[166px] w-[73px] h-[53px] right-[-9px] bottom-[-1px]"
+          className=" sm:bottom-3 left-2 absolute lg:w-[177px] lg:h-[166px] w-[73px] h-[53px] right-[-9px] bottom-[-1px] sm:w-[140px] sm:h-[120px] "
         >
           <g opacity="0.5">
             <ellipse
@@ -1197,14 +1196,14 @@ export const Homepage = () => {
         </svg>
 
         <div className="flex justify-center px-4 w-full ">
-          <div className=" sm:w-[50%] sm:mt-16 mt-5">
+          <div className=" lg:w-[50%] sm:mt-16 mt-5">
             <div className=" flex flex-col   items-center justify-center">
               <div className=" flex flex-col items-center  text-white text-center">
-                <span className="sm:text-[36px] text-[24px]  font-[700] ">
+                <span className="lg:text-[36px] text-[24px]  font-[700] ">
                   {" "}
                   How We Do
                 </span>
-                <p className="sm:text-[24px] text-[16px] font-[400] pt-3 ">
+                <p className="lg:text-[24px] text-[16px] font-[400] pt-3 ">
                   Each <b>project is unique</b> and requires a different{" "}
                   <b>methodology</b>. To figure out what might be the best way
                   to take, we start with the Discovery Phase. Then we study it
@@ -1225,13 +1224,13 @@ export const Homepage = () => {
       </div>
 
       <div className="relative   items-center flex justify-center   bg-[#F3F5F8] py-10 ">
-        <div className=" flex justify-between items-center flex-col md:w-[80%] ">
+        <div className=" flex justify-between items-center flex-col md:w-[90%] ">
           <span className="text-[#001943] sm:text-[36px] text-[24px] font-[700] flex justify-center ">
             Why Choose Us
           </span>
-          <div className=" flex  gap-16 justify-center mt-10 flex-wrap px-5 flex-col md:flex-row   ">
+          <div className=" flex  gap-16 justify-center mt-10 flex-wrap px-5 flex-col md:flex-row h-full mb-6  ">
             <div className="flex gap-10  flex-col md:flex-row">
-              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]   hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]  md:w-[378px]  hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1276,41 +1275,53 @@ export const Homepage = () => {
                     10 + Years of Experience
                   </span>
                 </div>
-                <p className="font-[400]  sm:text-[20px] text-[16px]  leading-[30px] ">
+                <p className="font-[400]  sm:text-[20px] text-[16px] ">
                   We have 10+ years of experience with creating eCommerce
                   websites. Our group is knowledgeable in Shopify, Magento,
                   Magento 2, Laravel, Woo Commerce, and WordPress.
                 </p>
               </div>
 
-              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF] md:w-[378px]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
                     height="60"
                     viewBox="0 0 60 60"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg "
+                    xmlns="http://www.w3.org/2000/svg"
                     className="sm:w-[60px] sm:h-[60px] h-[60px] w-[40px]"
                   >
                     <circle cx="30" cy="30" r="30" fill="#4687C7" />
-                    <path
-                      d="M14.3326 27.2656C12.1498 24.3486 12.1834 21.4414 14.3709 19.397C16.3842 17.5161 19.3458 17.4883 21.343 19.3284C23.6569 21.461 23.7033 24.1819 21.5669 27.1152C22.4 27.715 23.2204 28.3376 24.0807 28.8998C24.2934 29.0387 24.6372 29.0223 24.9122 28.9896C25.1937 28.957 25.4623 28.8148 25.8429 28.684C24.0503 27.0254 23.0733 25.0382 23.3275 22.5918C23.5242 20.6978 24.4069 19.1372 25.8701 17.9442C28.6046 15.7136 32.4136 16.0094 34.8395 18.6077C37.0223 20.9462 37.8442 25.1526 34.2638 28.6252C35.4407 29.2805 35.4152 29.2462 36.4066 28.4781C37.0526 27.9797 37.785 27.599 38.4742 27.1692C36.2915 24.1999 36.3378 21.4561 38.6565 19.3268C40.6618 17.4867 43.633 17.5144 45.6286 19.3921C47.8162 21.4495 47.8482 24.3306 45.7134 27.2018C46.2811 27.5254 46.8823 27.7983 47.4084 28.1791C49.0571 29.3737 49.8998 31.0405 49.9846 33.0963C50.0198 33.9657 49.9702 34.84 49.999 35.7094C50.0182 36.2781 49.8183 36.6588 49.2906 36.8386C47.7315 37.3664 46.1755 37.9024 44.6068 38.4009C44.0839 38.5659 43.6074 38.3747 43.4794 37.7979C43.3467 37.2079 43.7113 36.9399 44.2598 36.7912C45.4639 36.466 46.6521 36.082 47.8466 35.7208C48.2576 35.5966 48.4399 35.3482 48.3951 34.8808C48.3023 33.8824 48.3951 32.8447 48.16 31.8854C47.7075 30.0355 45.966 28.72 44.0839 28.6644C42.7534 28.6252 41.4182 28.6236 40.0877 28.6644C38.9316 28.6988 37.9369 29.1514 37.107 30.0747C37.3325 30.2904 37.5228 30.4718 37.7115 30.6549C39.3585 32.2515 40.2077 34.2108 40.2524 36.5297C40.2652 37.1834 40.2493 37.8371 40.2477 38.4907C40.2477 40.826 40.2572 40.8489 38.1496 41.7264C32.1962 44.2104 26.3274 43.9881 20.5403 41.1201C19.9582 40.8309 19.7008 40.473 19.7375 39.7981C19.8239 38.226 19.7567 36.6409 19.9294 35.0802C20.1341 33.2222 21.1176 31.7318 22.4624 30.4898C22.5807 30.3803 22.6943 30.2676 22.8062 30.1532C22.8222 30.1368 22.8174 30.1009 22.8334 30.0045C22.0339 29.14 21.0168 28.6857 19.8287 28.6612C18.551 28.635 17.2701 28.6285 15.9924 28.6628C13.6306 28.7249 11.7644 30.5944 11.6205 33.0032C11.6077 33.2205 11.6109 33.4395 11.6109 33.6568C11.6061 35.5754 11.5997 35.595 13.4211 36.2078C14.1759 36.4611 14.961 36.6261 15.7398 36.7945C16.2979 36.9138 16.6529 37.2095 16.5185 37.7995C16.3874 38.3731 15.9141 38.5659 15.3896 38.3992C13.8225 37.9008 12.2649 37.3648 10.7058 36.837C10.1765 36.6588 9.96861 36.2748 10.0038 35.7077C10.0885 34.3269 9.96221 32.8986 10.2676 31.5733C10.7666 29.4211 12.2377 28.0206 14.331 27.2623L14.3326 27.2656ZM30.0406 30.0584C30.0406 30.0813 30.0374 30.1041 30.0374 30.1254C29.2394 30.1254 28.4399 30.109 27.6419 30.1287C24.6228 30.2038 22.1314 32.2106 21.5445 35.2289C21.2999 36.4889 21.4246 37.8224 21.3478 39.1199C21.3207 39.5824 21.5045 39.785 21.8963 39.9631C27.3029 42.416 32.6999 42.4177 38.1065 39.9631C38.5014 39.7834 38.6725 39.5742 38.6533 39.1166C38.6134 38.2211 38.6422 37.3223 38.6342 36.4251C38.6086 33.4313 36.3698 30.7317 33.4547 30.2888C32.3305 30.1172 31.1791 30.1319 30.0406 30.06V30.0584ZM29.9926 28.4749C32.775 28.4749 35.0985 26.1396 35.1129 23.3256C35.1273 20.5001 32.7367 18.0701 29.9654 18.0929C27.2166 18.1158 24.8787 20.5164 24.8835 23.3109C24.8883 26.1233 27.2134 28.4732 29.991 28.4749H29.9926ZM17.929 19.6242C15.9237 19.6095 14.3102 21.2306 14.2958 23.2733C14.2814 25.2997 15.9029 26.9894 17.8698 26.9976C19.8319 27.0057 21.5109 25.3242 21.5269 23.3338C21.5445 21.3319 19.9006 19.6372 17.929 19.6242ZM45.7054 23.3239C45.7166 21.2861 44.1303 19.6405 42.141 19.6258C40.1677 19.6095 38.503 21.2534 38.4726 23.2439C38.4423 25.2588 40.1213 26.9959 42.101 26.9992C44.0663 27.0008 45.6958 25.3405 45.7054 23.3256V23.3239Z"
-                      fill="white"
-                    />
+                    <g clip-path="url(#clip0_147_451)">
+                      <path
+                        d="M47.895 17.6625C46.9688 16.525 45.5875 15.875 44.125 15.875H21.765L21.7 15.3063C21.4075 12.8525 19.3275 11 16.8575 11H14.875C13.9813 11 13.25 11.7312 13.25 12.625C13.25 13.5187 13.9813 14.25 14.875 14.25H16.8575C17.6862 14.25 18.3687 14.8675 18.4663 15.68L20.7087 34.6925C21.1962 38.7875 24.6575 41.875 28.785 41.875H42.5C43.3937 41.875 44.125 41.1437 44.125 40.25C44.125 39.3563 43.3937 38.625 42.5 38.625H28.785C26.6888 38.625 24.8687 37.2925 24.1862 35.375H39.51C43.3775 35.375 46.725 32.6287 47.4725 28.8425L48.9025 21.7087C49.195 20.2788 48.8213 18.8 47.895 17.6625ZM45.7175 21.075L44.2875 28.2087C43.8325 30.4837 41.8175 32.125 39.51 32.125H23.6825L22.155 19.125H44.125C44.6125 19.125 45.0675 19.3362 45.3763 19.7262C45.685 20.1 45.815 20.6037 45.7175 21.075ZM27.875 46.75C27.875 48.5375 26.4125 50 24.625 50C22.8375 50 21.375 48.5375 21.375 46.75C21.375 44.9625 22.8375 43.5 24.625 43.5C26.4125 43.5 27.875 44.9625 27.875 46.75ZM42.5 46.75C42.5 48.5375 41.0375 50 39.25 50C37.4625 50 36 48.5375 36 46.75C36 44.9625 37.4625 43.5 39.25 43.5C41.0375 43.5 42.5 44.9625 42.5 46.75ZM10 20.75C10 19.8562 10.7312 19.125 11.625 19.125H14.1275C15.0212 19.125 15.7525 19.8562 15.7525 20.75C15.7525 21.6438 15.0212 22.375 14.1275 22.375H11.625C10.7312 22.375 10 21.6438 10 20.75ZM10 27.25C10 26.3562 10.7312 25.625 11.625 25.625H14.875C15.7688 25.625 16.5 26.3562 16.5 27.25C16.5 28.1437 15.7688 28.875 14.875 28.875H11.625C10.7312 28.875 10 28.1437 10 27.25ZM18.125 33.75C18.125 34.6437 17.3938 35.375 16.5 35.375H11.625C10.7312 35.375 10 34.6437 10 33.75C10 32.8563 10.7312 32.125 11.625 32.125H16.5C17.3938 32.125 18.125 32.8563 18.125 33.75Z"
+                        fill="white"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_147_451">
+                        <rect
+                          width="39"
+                          height="39"
+                          fill="white"
+                          transform="translate(10 11)"
+                        />
+                      </clipPath>
+                    </defs>
                   </svg>
 
                   <span className="text-[16px] font-[700] sm:text-[20px]">
                     Dedicated Team
                   </span>
                 </div>
-                <p className="font-[400]  text-[16px] sm:text-[20px] ">
+                <p className="font-[400]  text-[16px]   sm:text-[20px]">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
                 </p>
               </div>
 
-              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]    space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]    md:w-[378px] space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1351,7 +1362,7 @@ export const Homepage = () => {
               </div>
             </div>
             <div className="flex gap-10 flex-col md:flex-row">
-              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]    space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]  md:w-[378px] sm:py-7 py-2   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1391,7 +1402,7 @@ export const Homepage = () => {
                 </p>
               </div>
 
-              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:pt-7 pt-2  bg-[#FFFFFF]    space-y-2 sm:space-y-5   hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2  bg-[#FFFFFF]   md:w-[378px]  space-y-2 sm:space-y-5   hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1440,20 +1451,22 @@ export const Homepage = () => {
         className="  sm:w-full   object-contain  pt-10  text-white py-10 "
       >
         <div className="   flex justify-center items-center">
-          <div className="md:w-[80%] px-5 ">
+          <div className="md:w-[80%]  w-full ">
             <div className="flex  flex-col text-center items-center ">
               <span className="text-[16px] font-[500]">
                 Technologies We Work Upon
               </span>
-              <span className="text-[44px] font-[800] ">Our Technologies</span>
-              <p className="text-[18px] font-[400] flex-wrap">
+              <span className="md:text-[44px] text-[24px] font-[800] ">
+                Our Technologies
+              </span>
+              <p className="md:text-[18px] text-[16px]  text-[400] font-[400] ">
                 We leverage cutting-edge technologies for efficiency,
                 productivity, and growth opportunities.
               </p>
             </div>
 
-            <div className=" flex justify-between pt-[60px] items-baseline flex-col sm:flex-row space-y-10  sm:space-y-0">
-              <div className="sm:space-y-8 flex sm:flex-col flex-row gap-[121px] sm:gap-0 w-full ">
+            <div className=" flex justify-between pt-[60px] items-baseline flex-col sm:flex-row space-y-10  sm:space-y-0 px-5">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row gap-[121px] sm:gap-0 w-full flex-wrap ">
                 <div className=" flex text-center flex-col items-center">
                   <img alt="" src={img18} className="  w-[35px]  sm:w-[45px]" />
                   <span className="   text-[14px]  sm:text-[20px]">
@@ -1467,7 +1480,7 @@ export const Homepage = () => {
                 </div>
               </div>
 
-              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  ">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  flex-wrap   ">
                 <div className=" flex text-center flex-col items-center">
                   <img alt="" src={img19} className=" w-[35px]  sm:w-[45px]" />
                   <span className="text-[14px]  sm:text-[20px]">
@@ -1486,7 +1499,7 @@ export const Homepage = () => {
                 </div>
               </div>
 
-              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  ">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row  justify-between w-full  flex-wrap   ">
                 <div className=" flex text-center flex-col items-center">
                   <img alt="" src={img20} className=" w-[35px]  sm:w-[45px]" />
                   <span className="text-[14px]  sm:text-[20px]">
@@ -1506,7 +1519,7 @@ export const Homepage = () => {
                   <span className="text-[14px]  sm:text-[20px]">Site Core</span>
                 </div>
               </div>
-              <div className="sm:space-y-8 flex sm:flex-col flex-row items-center justify-between w-full  ">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row items-center justify-between w-full   flex-wrap  ">
                 <div className=" flex text-center flex-col items-center">
                   <img alt="" src={img21} className="w-[35px]  sm:w-[45px]" />
                   <span className="text-[14px]  sm:text-[20px]">Magento</span>
@@ -1528,7 +1541,7 @@ export const Homepage = () => {
                 </div>
               </div>
 
-              <div className="sm:space-y-6 flex sm:flex-col flex-row   justify-between w-full items-baseline sm:items-center  ">
+              <div className="sm:space-y-6 flex sm:flex-col flex-row   justify-between w-full items-baseline sm:items-center   flex-wrap  ">
                 <div className=" flex text-center flex-col items-center ">
                   <img
                     alt=""
@@ -1546,7 +1559,7 @@ export const Homepage = () => {
                   <img alt="" src={img34} className="w-[117px] h-[34px] " />
                 </div>
               </div>
-              <div className=" flex sm:flex-col flex-row  gap-[80px]   w-full ">
+              <div className=" flex sm:flex-col flex-row  gap-[80px]   w-full   flex-wrap ">
                 <div className=" flex text-center flex-col items-center ">
                   <img alt="" src={img23} className="w-[35px]  sm:w-[45px]" />
                   <span className="text-[14px]  sm:text-[20px]">
@@ -1558,7 +1571,7 @@ export const Homepage = () => {
                   <span className="text-[14px]  sm:text-[20px]"> Markting</span>
                 </div>
               </div>
-              <div className="sm:space-y-8 flex sm:flex-col flex-row sm:gap-0  gap-[121px]  w-full  ">
+              <div className="sm:space-y-8 flex sm:flex-col flex-row sm:gap-0  gap-[121px]  w-full  flex-wrap   ">
                 <div className=" flex text-center flex-col items-center">
                   <img alt="" src={img24} className="w-[35px]  sm:w-[45px]" />
                   <span className="text-[14px]  sm:text-[20px]">Shopware</span>
@@ -1571,15 +1584,15 @@ export const Homepage = () => {
               </div>
             </div>
 
-            <div className=" mt-20 px-5 text-center flex justify-center border-[1px] border-[#FFFFFF] flex-col items-center py-10  rounded-[10px] ">
-              <p className="text-[20px] items-center   text-[#FFFFFF] flex-wrap">
+            <div className=" mt-20 px-5 text-center flex justify-center border-[0.5px] md:border-[1px] border-[#FFFFFF] flex-col items-center py-10 mx-4  rounded-[10px] ">
+              <p className="md:text-[20px]  text-[16px] items-center   text-[#FFFFFF] flex-wrap">
                 Our team of experienced ecommerce developers and ecommerce
                 strategists is well-versed in the nuances of each platform,
                 ensuring we can craft a solution that perfectly aligns with your
                 business goals.
               </p>
 
-              <span className=" border border-[#FFFFFF]  px-3 py-3  mt-10 text-[16px] rounded-[27px]  ">
+              <span className=" border border-[#FFFFFF]  px-3 py-3  mt-10  text-[12px] font-[400] md:font-[500] md:text-[16px] rounded-[27px]  ">
                 FREE EXPERT CONSULTATION
               </span>
             </div>
@@ -1589,8 +1602,8 @@ export const Homepage = () => {
         <div></div>
       </div>
 
-      <div className="flex justify-center py-10 sm:py-0">
-        <div className="sm:h-[398px] h-[392px] flex  items-center justify-between  w-[80%] flex-col sm:flex-row  pt-[20px] sm:pt-0 ">
+      <div className="flex justify-center py-10 ">
+        <div className=" flex  items-center justify-between  w-full px-5 md:w-[80%] flex-col sm:flex-row  pt-[20px] sm:pt-0 ">
           <div className="relative flex flex-col  justify-center ">
             <svg
               width="28"
@@ -1614,13 +1627,15 @@ export const Homepage = () => {
               />
             </svg>
 
-            <span className="sm:text-[36px] text-[24px] font-[700] text-[#060606]">
+            <span className="sm:text-[36px] text-[24px]  md:text-[24px] font-[700] text-[#060606]">
               Our Esteemed Clients
             </span>
-            <span className="text-[24px]">Pleasure to work with</span>
+            <span className=" text-[20px]  md:text-[24px]">
+              Pleasure to work with
+            </span>
           </div>
 
-          <div className=" space-y-4">
+          <div className=" space-y-4 pt-4 md:pt-0">
             <div className="flex gap-4 flex-wrap">
               <div className="border-[0.5px] border-[#4687C7] p-1 rounded-[10px] ">
                 <img
@@ -1678,12 +1693,12 @@ export const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="   bg-[#4687C7] px-[50px] py-[40px]">
+      <div className="   bg-[#4687C7] md:px-[50px] px-[30px] py-[15px] md:py-[40px]">
         <div className="  flex sm:justify-between justify-center text-center items-center gap gap-y-7  flex-col sm:flex-row">
           <span className="sm:text-[30px] text-[20px]  font-[500] text-[#FFFFFF]">
             See something that excites you?
           </span>
-          <button className="font-[600]  sm:text-[16px] text-[14px] w-[133px] sm:w-[146px]   bg-[#FFFFFF] py-[16px] px-[20px] rounded-[50px]  border-[1px] ">
+          <button className="font-[600]  sm:text-[16px] text-[14px] w-[133px] sm:w-[146px]   bg-[#FFFFFF] py-[12px]  px-[16px] md:py-[16px] md:px-[20px] rounded-[50px]  border-[1px] ">
             Let’s Connect
           </button>
         </div>
@@ -1831,48 +1846,48 @@ export const Homepage = () => {
         </svg>
 
         <div className=" flex justify-center  ">
-          <div className=" flex sm:w-[75%] w-full   py-8 sm:py-16 gap-8 flex-col lg:flex-row px-5">
-            <form className="sm:w-[604px]   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-6 sm:py-20  z-[10]  ">
-              <span className=" sm:text-[34px] text-[24px] font-[700]  pl-10 ">
+          <div className=" flex sm:w-[75%] w-full   py-8 sm:py-16 gap-8 flex-col lg:flex-row px-2">
+            <form className="md:w-[604px] w-full   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-6 sm:py-20  z-[10]  ">
+              <span className=" sm:text-[34px] text-[24px] font-[700]  flex justify-center text-center">
                 For Project Inquiries
               </span>
-              <hr className="mt-3 text-[#E0E0E0]  border-[1.5px]  sm:w-[604px] w-[311px] "></hr>
-              <div className=" sm:px-7 sm:pt-9 px-3 pt-3 ">
+              <hr className="mt-3 text-[#E0E0E0]  border-[1.5px]  w-full "></hr>
+              <div className=" sm:px-7 sm:pt-9 px-3 pt-3 flex flex-col  ">
                 <div className=" flex  justify-between flex-col sm:flex-row">
-                  <div className="sm:space-y-8 space-y-2  ">
-                    <div>
+                  <div className="space-y-3 flex flex-col ">
+                    <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
                         First Name*
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black sm:w-[250px]  text-[#E0E0E0] focus:outline-none w-full "
+                        className=" border-0 border-b border-black   text-[#E0E0E0] focus:outline-none w-full "
                         type="text"
                       />
                     </div>
-                    <div>
+                    <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
                         Email Address*
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black sm:w-[250px]  text-[#E0E0E0] focus:outline-none w-full "
+                        className=" border-0 border-b border-black   text-[#E0E0E0] focus:outline-none w-full "
                         type="text"
                       />
                     </div>
                   </div>
-                  <div className=" sm:space-y-8 space-y-2 mt-5">
-                    <div>
+                  <div className="  space-y-3  flex flex-col">
+                    <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
                         Last Name*
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black sm:w-[250px] w-full text-[#E0E0E0] focus:outline-none  "
+                        className=" border-0 border-b border-black w-full text-[#E0E0E0] focus:outline-none  "
                         type="text"
                       />
                     </div>
-                    <div>
+                    <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
                         Phone Number*
                       </label>
@@ -1888,18 +1903,18 @@ export const Homepage = () => {
                   <label className="text-[#33475B]">Message*</label>
                   <br />
                   <textarea
-                    className="border-0 border-b border-black w-[300px] sm:w-[544px] text-[#E0E0E0] focus:outline-none    "
+                    className="border-0 border-b border-black w-full text-[#E0E0E0] focus:outline-none    "
                     type=" text"
                   ></textarea>
                 </div>
-                <button className="sm:w-[169px] sm:h-[56px] w-[100px] h-[30px] font-[600] text-[10px] sm:text-[16px]  rounded-[50px] sm:px-[20px] bg-[#4687C7] sm:py-[16px] flex items-center  justify-center mt-6 text-white ">
+                <button className="sm:w-[169px] sm:h-[56px] h-[30px] font-[600] text-[10px] sm:text-[16px]  rounded-[50px] px-[30px] md:px-[20px] bg-[#4687C7] sm:py-[16px] flex items-center  justify-center mt-6 text-white ">
                   Let’s connect
                 </button>
               </div>
             </form>
 
-            <div className=" space-y-12  z-[10]  px-5 ">
-              <div className=" sm:w-[463px]   h-[156px] bg-[#FFFFFF] flex  px-10 items-center gap-7  rounded-[12px] shadow-md border-[1px] border-[#0B60FF]">
+            <div className=" space-y-12  z-[10]  px-1 ">
+              <div className=" sm:w-[463px]    bg-[#FFFFFF] flex   md:px-10 items-center py-9 md:py-9 px-3 md:items-center gap-7  rounded-[12px] shadow-md border-[1px] border-[#0B60FF]">
                 <svg
                   width="40"
                   height="41"
@@ -1913,19 +1928,19 @@ export const Homepage = () => {
                     fill="#0B60FF"
                   />
                 </svg>
-                <div className="py-3">
+                <div className="md:py-3">
                   <span className="sm:text-[20px] text-[18px] font-[400] text-[#0B60FF]">
                     {" "}
                     Call Us
                   </span>
                   <br />
-                  <span className="sm:text-[20px] text-[18px]  fort-[500 ]">
+                  <span className="sm:text-[20px] text-[14px]  fort-[500 ]">
                     +91 8527259168
                   </span>
                 </div>
               </div>
 
-              <div className="sm:w-[463px]   h-[156px] bg-[#FFFFFF] flex  px-10 items-center gap-7  rounded-[12px]  shadow-md  border-[1px] border-[#0B60FF]">
+              <div className="sm:w-[463px]    bg-[#FFFFFF] flex    gap-7  md:py-9 px-3 py-3 items-center rounded-[12px]  shadow-md  border-[1px] border-[#0B60FF]">
                 <svg
                   width="45"
                   height="32"
@@ -1965,17 +1980,17 @@ export const Homepage = () => {
                     Email Us
                   </span>
                   <br />
-                  <span className="sm:text-[20px] text-[18px]  fort-[500 ]">
+                  <span className="sm:text-[20px] text-[14px]  fort-[500 ]">
                     Info@magebytes.com
                   </span>
                   <br />
-                  <span className="sm:text-[20px] text-[18px]  fort-[500 ]">
+                  <span className="sm:text-[20px] text-[14px]  fort-[500 ]">
                     Sales@magebytes.com
                   </span>
                 </div>
               </div>
 
-              <div className="sm:w-[463px]  sm:h-[156px] bg-[#FFFFFF] flex  px-10 items-center gap-7  rounded-[12px] shadow-md  border-[1px] border-[#0B60FF]">
+              <div className="sm:w-[463px]  sm:h-[156px] bg-[#FFFFFF] flex md:py-9 px-3 py-3 items-center  gap-7  rounded-[12px] shadow-md  border-[1px] border-[#0B60FF]">
                 <svg
                   width="40"
                   height="51"
@@ -1998,12 +2013,12 @@ export const Homepage = () => {
                 </svg>
 
                 <div className="py-3">
-                  <span className="text-[20px] font-[400] text-[#0B60FF]">
+                  <span className="md:text-[20px]  text-[18px] font-[400] text-[#0B60FF]">
                     {" "}
                     Office Location
                   </span>
                   <br />
-                  <span className="sm:text-[20px] text-[18px]  fort-[500 ]">
+                  <span className="sm:text-[20px] text-[14px]  fort-[500]">
                     110, H-28 Block, Sector 63, Noida, Uttar Pradesh 201301
                   </span>
                   <br />

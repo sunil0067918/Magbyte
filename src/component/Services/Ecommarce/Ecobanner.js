@@ -5,7 +5,7 @@ const Ecobanner = () => {
   return (
     <>
       <div
-        className=" relative  sm:h-[880px] lg:h-[540px] h-[750px]  bg-blue-600 flex justify-center items-center "
+        className=" relative  sm:h-[880px] lg:h-[540px] h-[790px]  bg-blue-600 flex justify-center items-center "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
 
@@ -318,10 +318,10 @@ const Ecobanner = () => {
 
           <form
             action="submit "
-            className=" bg-[#2E2E2E] rounded-[5px] px-[14px] py-[40px]"
+            className=" bg-[#2E2E2E] rounded-[5px] py-[15px] px-[20px] lg:px-[14px] lg:py-[40px]"
           >
             <div className="flex flex-col  text-center ">
-              <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">
+              <span className=" text-[16px] sm:text-[20px]  font-[800] text-white   ">
                 Book Free Consultation
               </span>
               <p className=" text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
@@ -329,8 +329,8 @@ const Ecobanner = () => {
               </p>
             </div>
 
-            <div className="flex  flex-col  space-y-5 pt-10">
-              <div className="flex  justify-between">
+            <div className="flex  flex-col  space-y-5 pt-3 lg:pt-10">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="text"
@@ -344,7 +344,7 @@ const Ecobanner = () => {
                 />
               </div>
 
-              <div className="flex  justify-between">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="number"
@@ -363,7 +363,7 @@ const Ecobanner = () => {
                 className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] flex  focus:outline-none"
               />
 
-              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  animate-pulse font-[700] text-white bg-[#4687C7]  rounded-[6px]">
+              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  font-[700] text-white  bg-[#4687C7] animate-pulse   rounded-[6px]">
                 Submit Your Requirement!
               </button>
             </div>

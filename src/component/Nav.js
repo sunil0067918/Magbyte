@@ -47,6 +47,7 @@ import img42 from "../component/Tecnology/images/images42.png";
 import img43 from "../component/Tecnology/images/images43.png";
 import img44 from "../component/Tecnology/images/images44.png";
 import img45 from "../component/Tecnology/images/images45.png";
+import MobileNav from "./MobileNav";
 
 const Nav = () => {
   const [change, setchange] = useState(false);
@@ -130,7 +131,7 @@ const Nav = () => {
               className={`${
                 change ? "top-[-10px]" : "top-[-100px]"
               } absolute   block lg:hidden text-4xl  
-                z-[90]  px-2  right-[-6px] mt-[10px] border border-gray-400 transition-all duration-[800ms] `}
+                z-[90]  px-2  right-[-6px] mt-[10px] border border-gray-400 rounded-md text-white transition-all duration-[800ms] `}
               onClick={() => setchange(!change)}
             />
 
@@ -184,74 +185,7 @@ const Nav = () => {
             </button>
           </div>
 
-          <div
-            className={`transition-all duration-[800ms] absolute ${
-              change ? "top-[-12px] left-0" : " top-[-1000px] left-0 "
-            } bg-white w-full h-[500px]   block  lg:hidden z-[40] px-4 pt-20`}
-          >
-            <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
-              <li className="flex items-center gap-1 relative group justify-between   ">
-                <span className="hover:text-[#4687C7]  text-[20px] font-[600]   ">
-                  Services
-                </span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="16" height="16" fill="white" />
-                  <path
-                    d="M8.0074 11.219C8.71393 10.5355 9.3708 9.89718 10.0312 9.26274C11.7962 7.5659 13.5623 5.87051 15.3294 4.17608C15.3996 4.10917 15.4783 4.01385 15.562 4.00519C15.6884 3.99171 15.8744 4.00086 15.9396 4.07643C16.0143 4.16212 16.0038 4.33349 15.9907 4.46394C15.9847 4.52892 15.8945 4.58958 15.8363 4.6459C13.3562 7.02821 10.8756 9.41052 8.39501 11.7919C8.10619 12.0691 7.94773 12.0691 7.66041 11.7933C5.18483 9.41726 2.71024 7.0412 0.236165 4.66467C0.183013 4.61364 0.125348 4.56503 0.0827259 4.50678C-0.0285927 4.35611 -0.0376185 4.17608 0.117826 4.07932C0.227139 4.01097 0.407154 4.02204 0.550063 4.03937C0.624777 4.04851 0.690465 4.14479 0.75515 4.20688C3.10638 6.46308 5.45711 8.71975 7.80683 10.9779C7.87151 11.04 7.92216 11.1155 8.0074 11.219Z"
-                    fill="#003C77"
-                  />
-                </svg>
-              </li>
-
-              <li className="flex items-center gap-1 hover:text-[#4687C7] justify-between ">
-                <span className="  text-[20px] font-[600] ">Technologies</span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="16" height="16" fill="white" />
-                  <path
-                    d="M8.0074 11.219C8.71393 10.5355 9.3708 9.89718 10.0312 9.26274C11.7962 7.5659 13.5623 5.87051 15.3294 4.17608C15.3996 4.10917 15.4783 4.01385 15.562 4.00519C15.6884 3.99171 15.8744 4.00086 15.9396 4.07643C16.0143 4.16212 16.0038 4.33349 15.9907 4.46394C15.9847 4.52892 15.8945 4.58958 15.8363 4.6459C13.3562 7.02821 10.8756 9.41052 8.39501 11.7919C8.10619 12.0691 7.94773 12.0691 7.66041 11.7933C5.18483 9.41726 2.71024 7.0412 0.236165 4.66467C0.183013 4.61364 0.125348 4.56503 0.0827259 4.50678C-0.0285927 4.35611 -0.0376185 4.17608 0.117826 4.07932C0.227139 4.01097 0.407154 4.02204 0.550063 4.03937C0.624777 4.04851 0.690465 4.14479 0.75515 4.20688C3.10638 6.46308 5.45711 8.71975 7.80683 10.9779C7.87151 11.04 7.92216 11.1155 8.0074 11.219Z"
-                    fill="#003C77"
-                  />
-                </svg>
-              </li>
-
-              <li className="flex items-center gap-1 hover:text-[#4687C7] justify-between ">
-                <span className=" text-[20px] font-[600] ">Company</span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="16" height="16" fill="white" />
-                  <path
-                    d="M8.0074 11.219C8.71393 10.5355 9.3708 9.89718 10.0312 9.26274C11.7962 7.5659 13.5623 5.87051 15.3294 4.17608C15.3996 4.10917 15.4783 4.01385 15.562 4.00519C15.6884 3.99171 15.8744 4.00086 15.9396 4.07643C16.0143 4.16212 16.0038 4.33349 15.9907 4.46394C15.9847 4.52892 15.8945 4.58958 15.8363 4.6459C13.3562 7.02821 10.8756 9.41052 8.39501 11.7919C8.10619 12.0691 7.94773 12.0691 7.66041 11.7933C5.18483 9.41726 2.71024 7.0412 0.236165 4.66467C0.183013 4.61364 0.125348 4.56503 0.0827259 4.50678C-0.0285927 4.35611 -0.0376185 4.17608 0.117826 4.07932C0.227139 4.01097 0.407154 4.02204 0.550063 4.03937C0.624777 4.04851 0.690465 4.14479 0.75515 4.20688C3.10638 6.46308 5.45711 8.71975 7.80683 10.9779C7.87151 11.04 7.92216 11.1155 8.0074 11.219Z"
-                    fill="#003C77"
-                  />
-                </svg>
-              </li>
-
-              <li className=" hover:text-[#4687C7]  text-[20px] font-[600] ">
-                Industries
-              </li>
-
-              <li className=" hover:text-[#4687C7]  text-[20px] font-[600] ">
-                <span>Hire Developers</span>
-              </li>
-            </ul>
-          </div>
+          <MobileNav change={change} />
 
           {/* <responive nav  */}
 
@@ -306,9 +240,12 @@ const Nav = () => {
           <div className=" w-[85%]  flex justify-between items-center  ">
             <ul className="flex justify-between gap-10 items-center relative   ">
               <li className="flex py-4 items-center gap-1 relative group     ">
-                <span className=" hover:text-blue-800  tracking-wider  ">
-                  services
+                <span className="relative inline-block group">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                    Services
+                  </span>
                 </span>
+
                 <svg
                   width="16"
                   height="16"
@@ -713,8 +650,10 @@ const Nav = () => {
               </li>
 
               <li className="flex py-4 items-center gap-1  relative group  ">
-                <span className="tracking-wider hover:text-[#4687C7]">
-                  Technologies
+                <span className="relative inline-block group">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                    Technologies
+                  </span>
                 </span>
                 <svg
                   width="16"
@@ -761,8 +700,8 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img6} className="w-[25px]" />
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
-                                laravel Development
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
+                                Laravel Development
                               </span>
                             </Link>
                           </li>
@@ -771,7 +710,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img7} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Codeigniter Development
                               </span>
                             </Link>
@@ -781,7 +720,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img8} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Python Development
                               </span>
                             </Link>
@@ -791,7 +730,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img10} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Node js Development
                               </span>
                             </Link>
@@ -803,7 +742,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img9} className="w-[25px]" />
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 React Devlopement
                               </span>
                             </Link>
@@ -813,7 +752,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img11} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Angular Devlopement
                               </span>
                             </Link>
@@ -823,7 +762,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img17} className="w-[28px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 HTML5
                               </span>
                             </Link>
@@ -833,7 +772,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img18} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Php Devlopement
                               </span>
                             </Link>
@@ -843,7 +782,7 @@ const Nav = () => {
                             <Link className="flex gap-3">
                               <img alt="" src={img19} className="w-[30px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap object-cover">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 dotnet Devlopement
                               </span>
                             </Link>
@@ -874,7 +813,7 @@ const Nav = () => {
                                 src={img30}
                                 className="w-[25px] object-contain"
                               />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 WordPress
                               </span>
                             </Link>
@@ -888,7 +827,7 @@ const Nav = () => {
                                 className="w-[30px] object-contain]"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Drupal
                               </span>
                             </Link>
@@ -904,7 +843,7 @@ const Nav = () => {
                                 src={img32}
                                 className="w-[25px] object-contain"
                               />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Craft
                               </span>
                             </Link>
@@ -914,7 +853,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img33} className="w-[30px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Joomla
                               </span>
                             </Link>
@@ -928,7 +867,7 @@ const Nav = () => {
                                 className="w-[30px] object-cover"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 SharePoint
                               </span>
                             </Link>
@@ -942,7 +881,7 @@ const Nav = () => {
                                 className="w-[30px] object-cover"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Umbraco
                               </span>
                             </Link>
@@ -956,7 +895,7 @@ const Nav = () => {
                                 className="w-[30px] object-cover"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Sitecore
                               </span>
                             </Link>
@@ -983,7 +922,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img2} className="w-[30px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Magento Development
                               </span>
                             </Link>
@@ -993,7 +932,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img3} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Woocommerce Development
                               </span>
                             </Link>
@@ -1005,7 +944,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img4} className="w-[25px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Spotify Devlopment
                               </span>
                             </Link>
@@ -1015,7 +954,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img5} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 BigCommarce Devlopment
                               </span>
                             </Link>
@@ -1025,7 +964,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img15} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Adobe Devlopment
                               </span>
                             </Link>
@@ -1058,7 +997,7 @@ const Nav = () => {
                                 src={img21}
                                 className="w-[25px] object-contain"
                               />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Android
                               </span>
                             </Link>
@@ -1072,7 +1011,7 @@ const Nav = () => {
                                 className="w-[25px]  object-contain"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 React Native
                               </span>
                             </Link>
@@ -1088,7 +1027,7 @@ const Nav = () => {
                                 src={img22}
                                 className="w-[30px]  object-contain"
                               />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Flutter
                               </span>
                             </Link>
@@ -1102,7 +1041,7 @@ const Nav = () => {
                                 className="w-[40px]  object-contain"
                               />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 IOS
                               </span>
                             </Link>
@@ -1129,7 +1068,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img25} className="w-[30px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Service Now
                               </span>
                             </Link>
@@ -1139,7 +1078,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img26} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Salesforce
                               </span>
                             </Link>
@@ -1151,7 +1090,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img27} className="w-[30px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Hubspot
                               </span>
                             </Link>
@@ -1161,7 +1100,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img28} className="w-[30px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Zoho
                               </span>
                             </Link>
@@ -1188,7 +1127,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img38} className="w-[30px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 AWS
                               </span>
                             </Link>
@@ -1198,7 +1137,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img39} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Azure
                               </span>
                             </Link>
@@ -1210,7 +1149,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img40} className="w-[30px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Google Cloud
                               </span>
                             </Link>
@@ -1220,7 +1159,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img41} className="w-[30px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Devops
                               </span>
                             </Link>
@@ -1250,7 +1189,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img43} className="w-[25px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 MEAN
                               </span>
                             </Link>
@@ -1260,7 +1199,7 @@ const Nav = () => {
                             <Link className="flex gap-3 items-center">
                               <img alt="" src={img44} className="w-[25px]" />
 
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 MERN
                               </span>
                             </Link>
@@ -1272,7 +1211,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img45} className="w-[20px]" />{" "}
-                              <span className="text-[12px] font-[500] whitespace-nowrap">
+                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 JAVA
                               </span>
                             </Link>
@@ -1325,7 +1264,11 @@ const Nav = () => {
               </li>
 
               <li className="flex items-center gap-1 hover:text-[#4687C7] relative group">
-                <span className="tracking-wider z-[10] ">Company</span>
+                <span className="relative inline-block group">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r z-[-10] from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                    Company
+                  </span>
+                </span>
                 <svg
                   width="16"
                   height="16"
@@ -1365,16 +1308,27 @@ const Nav = () => {
                 </div>
               </li>
 
-              <li className=" hover:text-[#4687C7] tracking-wider">
-                Industries
+              <li className=" ">
+                <span className="relative inline-block group">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                    Industries
+                  </span>
+                </span>
               </li>
 
-              <li className=" hover:text-[#4687C7]">
-                <span className="tracking-wider">Hire Developers</span>
+              <li className=" ">
+                <span className="relative inline-block group">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                  Hire Developers
+                  </span>
+                </span>
               </li>
             </ul>
 
-            <button className=" bg-[#4687C7]  px-[16px] py-[16px] w-[100px] h-[44px] text-white  tracking-widest   rounded-[50px] hover:scale-105 flex items-center text-center justify-center ">
+            <button
+              className="bg-[#4687C7] px-6 py-3 w-auto h-[44px] text-white tracking-widest rounded-[50px] flex items-center justify-center 
+                  transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[#357ab7]"
+            >
               Hire Us
             </button>
           </div>

@@ -7,7 +7,7 @@ const Digitalbanner = () => {
   return (
     <div>
       <div
-        className=" relative lg:h-[540px] h-[650px] sm:h-[700px]  bg-blue-600 flex justify-center  items-baseline lg:tems-center pt-[20px] sm:pt-0 "
+        className=" relative lg:h-[540px] h-[700px] sm:h-[700px]  bg-blue-600 flex justify-center  items-baseline lg:tems-center pt-[20px] sm:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize: `cover`,
@@ -16,10 +16,10 @@ const Digitalbanner = () => {
         <div className=" absolute w-[90%] flex gap-6 justify-between sm:items-baseline lg:items-center pt-6   rounded-[5px] lg:flex-row flex-col ">
           <div className=" flex flex-col items-start space-y-4">
             <div className=" space-y-4 flex flex-col  ">
-              <span className=" text-[18px] sm:text-[24px] font-[600] text-white">
+              <span className=" text-[16px] sm:text-[24px] font-[600] text-white">
                 Digital Marketing Agency driven by
               </span>
-              <span className="text-[32px]  font-[800] text-white">
+              <span className="lg:text-[32px] text-[20px]   font-[800] text-white">
                 Relationships& Results
               </span>
               <p className=" text-[12px] sm:text-[16px]  font-[500] text-white md:w-[700px] text-wrap">
@@ -29,17 +29,17 @@ const Digitalbanner = () => {
               </p>
             </div>
 
-            <button className="text-[18px]  font-[600] text-[#FFFFFF] px-[40px] py-[16px] rounded-[50px] bg-white text-black">
+            <button className=" text-[12px] lg:text-[18px]  font-[600] px-[20px]  py-[10px]  lg:px-[40px] lg:py-[16px] rounded-[50px] bg-white text-black">
               Free Consultation
             </button>
           </div>
 
           <form
             action="submit "
-            className=" bg-[#2E2E2E] rounded-[5px] px-[14px] py-[40px]"
+            className=" bg-[#2E2E2E] rounded-[5px] px-[8px]  py-[15px] lg:px-[14px] lg:py-[40px]"
           >
             <div className="flex flex-col  text-center ">
-              <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">
+              <span className=" text-[16px] sm:text-[20px]  font-[800] text-white   ">
                 Book Free Consultation
               </span>
               <p className=" text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
@@ -47,8 +47,8 @@ const Digitalbanner = () => {
               </p>
             </div>
 
-            <div className="flex  flex-col  space-y-5 pt-10">
-              <div className="flex  justify-between">
+            <div className="flex  flex-col  space-y-5 pt-3 lg:pt-10">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
                   type="text"
@@ -62,7 +62,7 @@ const Digitalbanner = () => {
                 />
               </div>
 
-              <div className="flex  justify-between">
+              <div className="flex  justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
                   type="number"
@@ -81,7 +81,7 @@ const Digitalbanner = () => {
                 className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] flex  focus:outline-none"
               />
 
-              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  animate-pulse font-[700] text-white bg-[#4687C7]  rounded-[6px]">
+              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  font-[700] text-white  bg-[#4687C7] animate-pulse   rounded-[6px]">
                 Submit Your Requirement!
               </button>
             </div>
@@ -89,10 +89,10 @@ const Digitalbanner = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-10   ">
-        <div className="w-[90%]   bg-gradient-to-r  from-[#3F4864] py-10 to-[white] border rounded-[8px] px-[10px] lg:py-0 lg:px-0 ">
+      <div className="flex justify-center my-5  lg:my-10   ">
+        <div className="w-[90%]   lg:bg-gradient-to-r  from-[#3F4864]  to-[white] pt-7    bg-gradient-to-b  lg:from-[#3F4864]  lg:to-[white] border rounded-[8px] lg:py-0 lg:px-0 ">
           <div className="flex justify-between items-center flex-col lg:flex-row">
-            <div className="lg:w-[655px] pl-[50px] flex items-center flex-col ">
+            <div className="lg:w-[655px] lg:pl-[50px] flex items-center flex-col px-[8px]">
               <div className=" relative">
                 <span className="lg:text-[32px]  text-[24px] font-[500] lg:font-[700] text-white">
                   Hello there!
@@ -125,7 +125,7 @@ const Digitalbanner = () => {
                 </b>
               </p>
             </div>
-            <img src={img2} alt="" className="h-[435px] lg:w-[600px]  pt-5 lg:pt-0 " />
+            <img src={img2} alt="" className="lg:h-[435px] lg:w-[600px]  pt-5 lg:pt-0  object-contain lg:object-cover" />
           </div>
         </div>
       </div>

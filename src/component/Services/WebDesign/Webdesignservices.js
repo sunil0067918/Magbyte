@@ -2,14 +2,14 @@ import React from "react";
 
 const Webdesignservices = () => {
   return (
-    <div className=" py-20 bg-[#F5F5F5]">
+    <div className="  py-10 lg:py-20 bg-[#F5F5F5]">
       <div className="flex justify-center">
-        <span className="text-[32px]  font-[600] ">Web Design Services</span>
+        <span className="lg:text-[32px] text-[20px]  font-[600] ">Web Design Services</span>
       </div>
 
-      <div className="pt-20 flex flex-col gap-16 flex-wrap px-[20px] ">
+      <div className="  pt-16 lg:pt-20 flex flex-col gap-16 flex-wrap px-3 lg:px-[20px] ">
         <div className=" flex gap-16 lg:gap-8 flex-wrap justify-center ">
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+          <div className="lg:w-[366px] w-full bg-[#FFFFFF] px-[15px] py-[20px] lg:px-[40px] lg:py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] font-[500] lg:text-[20px]">
                 Wordpress Web Design
@@ -72,7 +72,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]  font-[500] ">
                 Website Redesign Design
@@ -123,7 +123,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px]  relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]   font-[500]">
                 Responsive Website Design
@@ -184,7 +184,7 @@ const Webdesignservices = () => {
         </div>
 
         <div className=" flex gap-16 lg:gap-8  flex-wrap  justify-center">
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]  font-[500] ">UI/UX Web Design</span>
               <p className="lg:text-[18px]  lg:font-[500]">
@@ -229,7 +229,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]   font-[500] ">
                 Shopify Web Design
@@ -280,7 +280,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]  font-[500] ">
                 Magento Web Design
@@ -333,7 +333,7 @@ const Webdesignservices = () => {
         </div>
 
         <div className=" flex  gap-16 lg:gap-8 flex-wrap  justify-center">
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]  font-[500]">
                 Corporate Blog Design
@@ -384,7 +384,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]   font-[500]">CMS Web Design</span>
               <p className="lg:text-[18px]  lg:font-[500]">
@@ -445,7 +445,7 @@ const Webdesignservices = () => {
             </svg>
           </div>
 
-          <div className="lg:w-[366px]  bg-[#FFFFFF] px-[40px] py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
+          <div className="lg:w-[366px]  bg-[#FFFFFF]  px-[15px] py-[20px] lg:px-[40px] lg:py-[40px] hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
             <div className="space-y-7 pt-5">
               <span className="lg:font-[700] lg:text-[20px]  font-[500]  "></span>
               <p className="lg:text-[18px]  lg:font-[500]">

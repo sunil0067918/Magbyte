@@ -34,3 +34,36 @@
   display: none !important;
 }
 
+
+
+/* @keyframes scrollFromTop {
+  0% {
+    transform: translateY(-100%);  
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+.scroll-animation {
+  animation: scrollFromTop 2s ease-in-out;  
+} */
+
+
+/* Define the slide from top animation */
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%); /* Start above the viewport */
+  }
+  100% {
+    transform: translateY(0); /* End at its normal position */
+  }
+}
+
+.slide-down {
+  animation: slideFromTop 1s ease-out;  /* 1s duration with ease-out for smoothness */
+}
+
+
+
+

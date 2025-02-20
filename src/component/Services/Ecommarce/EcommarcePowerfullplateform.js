@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images1.png";
 import img2 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images2.png";
-import img3 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images3.png";
+// import img3 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images3.png";
 import img4 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images4.png";
 import img5 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images5.png";
 import img6 from "../../../images/ServicesEcommarceimages/ServicesEcomarcepowerfullimages/images6.png";
@@ -36,32 +36,28 @@ const EcommarcePowerfullplateform = () => {
             <img
               src={img1}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
             <img
               src={img2}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
-            <img
-              src={img3}
-              alt=""
-              className="w-[150px] h-[44px] object-cover"
-            />
+          
             <img
               src={img4}
               alt=""
-              className="w-[150px] h-[44px] object-contain "
+              className="lg:w-[150px] h-[44px] w-full object-contain "
             />
             <img
               src={img5}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
             <img
               src={img10}
               alt=""
-              className="w-[150px] h-[44px] object-cover "
+              className="lg:w-[150px] h-[44px]  w-full object-cover sm:object-none "
             />
 
             {/* <img
@@ -71,36 +67,36 @@ const EcommarcePowerfullplateform = () => {
             /> */}
           </div>
 
-          <div className="flex justify-center gap-[60px] flex-wrap">
+          <div className="flex justify-center gap-[60px] flex-wrap ">
             <img
               src={img6}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
             <img
               src={img7}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
             <img
               src={img8}
               alt=""
-              className="w-[150px] h-[44px] object-contain"
+              className="lg:w-[150px] h-[44px] w-full object-contain"
             />
             <img
               src={img9}
               alt=""
-              className="w-[150px] h-[44px] object-cover"
+              className="lg:w-[150px] h-[44px] w-full object-none"
             />
             <img
               src={img12}
               alt=""
-              className="w-[150px] h-[44px] object-contain "
+              className="lg:w-[150px] h-[44px] w-full object-contain "
             />
             <img
               src={img13}
               alt=""
-              className="w-[150px] h-[44px] object-contain "
+              className="lg:w-[150px] h-[44px] w-full object-contain "
             />
           </div>
         </div>

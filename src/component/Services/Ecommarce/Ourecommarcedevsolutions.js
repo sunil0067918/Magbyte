@@ -360,7 +360,7 @@ const Ourecommarcedevsolutions = () => {
         </div>
       </div>
       <div className="bg-[#D9D9D9]  flex justify-center sm:pt-[60px] pt-[30px] pb-[25px]  sm:pb-[50px]">
-        <div className="w-[90%] flex gap-[150px] flex-col lg:flex-row">
+        <div className="lg:w-[90%] flex gap-[150px] lg:px-0  px-5 flex-col lg:flex-row">
           <div className="flex flex-col space-y-4">
             <span className="text-[20px] font-[600] text-[#444444]">
               Our Different Models
@@ -467,7 +467,7 @@ const Ourecommarcedevsolutions = () => {
       </div>
 
       <div className=" bg-[#E9F5F6] flex justify-center pt-[30px] pb-[20px] sm:pt-[70px] sm:pb-[50px]">
-        <div className="w-[90%] flex items-center gap-10 flex-col lg:flex-row ">
+        <div className="lg:w-[90%] lg:px-0 px-2 flex items-center gap-10 flex-col lg:flex-row ">
           <div className="flex flex-col space-y-4">
             <span className=" text-[14px] sm:text-[20px] sm:font-[400] font-[300] ">
               E-Commerce Solutions
