@@ -11,9 +11,9 @@ import img9 from "../../../images/ServicesEcommarceimages/Ecommarcebenefitsimage
 
 const Ecommarcebenefits = () => {
   return (
-    <div className=" bg-[#FFFFFF] flex justify-center py-[10px]">
+    <div className=" bg-[#FFFFFF] flex justify-center  lg:py-[10px]">
       <div className="lg:w-[90%] w-[95%] flex  flex-col items-center">
-        <div className="flex justify-center text-center flex-col  lg:w-[800px] space-y-3  items-center ">
+        <div className="flex justify-center text-center flex-col  lg:w-[800px] space-y-3  pt-6 items-center ">
           <span className="  text-[22px] sm:text-[32px]  font-[600]">
             Benefits of Developing An
             <br />
@@ -27,7 +27,7 @@ const Ecommarcebenefits = () => {
           </p>
         </div>
 
-        <div className="py-20 flex-col gap-10 flex justify-center px-[20px] ">
+        <div className="lg:py-20  py-10 flex-col gap-10 flex justify-center px-2 lg:px-[20px] ">
           <div className="flex   flex-wrap justify-between gap-8 flex-col lg:flex-row ">
             <div className=" w-full lg:w-[30%] bg-white   px-[15px] sm:px-[30px] py-[20px] sm:py-[40px] space-y-4 flex flex-col items-center text-center rounded-[5px]  border-[2px]  border-[#4687C7]  ">
               <div className=" flex flex-col items-center">

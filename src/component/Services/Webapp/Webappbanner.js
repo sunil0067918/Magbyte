@@ -6,7 +6,7 @@ const Webappbanner = () => {
   return (
     <div>
       <div
-        className=" relative lg:h-[540px] sm:h-[800px] h-[1000px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
+        className=" relative lg:h-[540px] sm:h-[800px] h-[900px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize :`cover`
@@ -201,7 +201,7 @@ const Webappbanner = () => {
 
           <form
             action="submit "
-            className=" bg-[#2E2E2E] rounded-[5px] ] px-[14px] py-[40px]"
+            className=" bg-[#2E2E2E] rounded-[5px] ] py-[15px] px-[20px] sm:px-[14px] md:py-[40px]"
           >
             <div className="flex flex-col  text-center ">
               <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">
@@ -212,7 +212,7 @@ const Webappbanner = () => {
               </p>
             </div>
 
-            <div className="flex  flex-col  space-y-5 pt-10">
+            <div className="flex  flex-col  space-y-5 pt-3 lg:pt-10">
               <div className="flex  justify-between">
                 <input
                   className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "

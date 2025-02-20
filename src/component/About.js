@@ -96,8 +96,8 @@ const About = () => {
       <Nav />
       <div className="     relative">
         <div className="w-full flex justify-center bg-gradient-to-b  from-[#111429] to-[#4687C7]  lg:h-[422px]">
-          <div className=" w-[80%] text-white  cursor-pointer flex  flex-col lg:flex-row justify-between items-center mt-5  lg:mt-0">
-            <div className=" h-[187px] space-y-4">
+          <div className=" w-full lg:w-[80%] text-white  cursor-pointer flex  flex-col lg:flex-row justify-between items-center mt-5  lg:mt-0">
+            <div className="  px-6 space-y-4">
               <span className="lg:w-[342px] font-[700]  text-[24px]  lg:text-[30px]">
                 We empower brands to succeed in digital
               </span>

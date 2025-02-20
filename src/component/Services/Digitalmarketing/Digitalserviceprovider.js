@@ -11,17 +11,17 @@ const Digitalserviceprovider = () => {
     <div className="bg-[#D9D9D9] py-[40px] flex justify-center">
       <div className="lg:w-[80%] flex  flex-col  items-center">
         <div className="flex flex-col justify-center items-center text-center">
-          <span className="lg:text-[32px] text-[24px] font-[500]  lg:font-[700]  text-center flex ">Service We Provide</span>
-          <span  className="lg:text-[24px] text-[20px] font-[400]">
+          <span className="lg:text-[32px] text-[20px] font-[500]  lg:font-[700]  text-center flex ">Service We Provide</span>
+          <span  className="lg:text-[24px] text-[12px] font-[400]">
             We cultivate a collaborative bond with our clients, akin to
             friendship, to ensure the delivery of optimal and tailored
             solutions.
           </span>
         </div>
 
-        <div className="flex flex-col gap-6 py-20 px-[30px]">
+        <div className="flex flex-col gap-6 lg:py-20 px-[15px] py-10 lg:px-[30px]">
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-6  w-full rounded-[5px] h-[437px]    ">
+            <div className=" bg-white  lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-6  w-full rounded-[5px]     ">
               <div className=" flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img1} />
 
@@ -37,7 +37,7 @@ const Digitalserviceprovider = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]   ">
+            <div className=" bg-white   lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-4  w-full rounded-[5px]    ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img2} />
                 <span className=" sm:text-[24px]  font-[600] ">PPC</span>
@@ -53,7 +53,7 @@ const Digitalserviceprovider = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]   ">
+            <div className=" bg-white   lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-4  w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img3} />
                 <span className=" sm:text-[24px]  font-[600] ">
@@ -71,7 +71,7 @@ const Digitalserviceprovider = () => {
           </div>
 
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]   ">
+            <div className=" bg-white  lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-4  w-full rounded-[5px]    ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img4} />
 
@@ -88,7 +88,7 @@ const Digitalserviceprovider = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]    ">
+            <div className=" bg-white   lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-4  w-full rounded-[5px]    ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img5} />
 
@@ -103,7 +103,7 @@ const Digitalserviceprovider = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4  w-full rounded-[5px] h-[437px]   ">
+            <div className=" bg-white  lg:px-[30px] px-[15px] py-[20px] lg:py-[40px] lg:h-[437px] space-y-4  w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <img className="w-[50px] h-[50px]" alt="" src={img6} />
                 <span className=" sm:text-[24px]  font-[600] ">

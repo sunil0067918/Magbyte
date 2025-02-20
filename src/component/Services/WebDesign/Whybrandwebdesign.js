@@ -2,15 +2,15 @@ import React from "react";
 
 const Whybrandwebdesign = () => {
   return (
-    <div className="bg-[#F9F9FF]  py-[100px] flex justify-center">
-      <div className="w-[90%]">
-        <span className="flex justify-center font-[600] text-[32px]">
+    <div className="bg-[#F9F9FF]  py-[50px] lg:py-[100px] flex justify-center">
+      <div className=" px-3 lg:w-[90%]">
+        <span className="flex justify-center font-[600] text-[24px] lg:text-[32px]">
           Why Brands Choose Us
         </span>
 
-        <div className="flex flex-col gap-6 py-20 items-center">
+        <div className="flex flex-col gap-6 py-10 lg:py-20 items-center">
           <div className="flex  gap-9 flex-col  lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-6 md:w-[580px] w-full rounded-[5px]    ">
+            <div className=" bg-white  lg:px-[30px] lg:py-[40px] shadow-md px-[15px] py-[20px] space-y-6 md:w-[580px] w-full rounded-[5px]    ">
               <div className=" flex flex-col">
                 <svg
                   width="56"
@@ -83,7 +83,7 @@ const Whybrandwebdesign = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white  lg:px-[30px] lg:py-[40px] shadow-md px-[15px] py-[20px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -133,7 +133,7 @@ const Whybrandwebdesign = () => {
           </div>
 
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white  lg:px-[30px] lg:py-[40px]  shadow-md px-[15px] py-[20px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -193,7 +193,7 @@ const Whybrandwebdesign = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white lg:px-[30px] lg:py-[40px] shadow-md px-[15px] py-[20px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -255,7 +255,7 @@ const Whybrandwebdesign = () => {
           </div>
 
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white  lg:px-[30px] lg:py-[40px] shadow-md px-[15px] py-[20px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -315,7 +315,7 @@ const Whybrandwebdesign = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white  lg:px-[30px] lg:py-[40px] shadow-md px-[15px] py-[20px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"

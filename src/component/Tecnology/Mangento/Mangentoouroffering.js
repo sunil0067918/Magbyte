@@ -3,9 +3,8 @@ import img1 from "../Mangento/Magentosectionsimages/images1.png";
 import img2 from "../Mangento/Magentosectionsimages/images2.png";
 import img3 from "../Mangento/Magentosectionsimages/images3.png";
 const Mangentoouroffering = () => {
-  const [change, setchange] = useState(false);
-  const [change2, setchange2] = useState(false);
-  const [change3, setchange3] = useState(false);
+  const [change, setchange] = useState(0);
+ 
   return (
     <div className="flex justify-center">
       <div className="py-8 w-[80%]">
@@ -17,11 +16,11 @@ const Mangentoouroffering = () => {
           <div className="flex gap-5 ">
             <button
               className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3  hover:bg-red-500 font-[500]"
-              onClick={() => setchange(!change)}
+              onClick={() => setchange(1)}
             >
               Solutions
             </button>
-            <button className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3 hover:bg-red-500  font-[500]"    onClick={() => setchange(!change2)}>
+            <button className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3 hover:bg-red-500  font-[500]"    onClick={() => setchange(2)}>
               Platforms
             </button>
             <button className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3 hover:bg-red-500  font-[500]">
@@ -114,10 +113,7 @@ const Mangentoouroffering = () => {
               </div>
             </div>
           ) : (
-            ""
-          )}
-
-          <div className="pt-10 text-[15px]  font-[700] ">
+            <div className="pt-10 text-[15px]  font-[700] ">
             <p className="w-[80%]">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Curabitur vehicula neque vel urna malesuada, at ultricies velit
@@ -147,6 +143,8 @@ const Mangentoouroffering = () => {
               </div>
             </div>
           </div>
+          ) } 
+         
         </div>
       </div>
     </div>

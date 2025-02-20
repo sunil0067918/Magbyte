@@ -8,7 +8,7 @@ const Intutive = () => {
   return (
     <div>
       <div className=" flex justify-center">
-        <div className="w-[90%] flex py-20 gap-16 items-center flex-col lg:flex-row">
+        <div className="lg:w-[90%] flex py-10 px-3 lg:py-20 gap-16 items-center flex-col lg:flex-row">
           <div className="space-y-10 lg:w-[50%] w-full">
             <span className="lg:text-[32px] text-[24px]  font-[400] lg:font-[600]">
               Intuitive experience that captures user’s interest
@@ -37,12 +37,12 @@ const Intutive = () => {
             </p>
           </div>
 
-          <img alt="" src={img1} className="w-[571px] h-[393px]" />
+          <img alt="" src={img1} className="w-[571px] h-[393px] object-contain  lg:object-cover" />
         </div>
       </div>
 
-      <div className="bg-[#D9D9D9] lg:h-[955px] flex justify-center  py-[70px]">
-        <div className="w-[90%]">
+      <div className="bg-[#D9D9D9]  flex justify-center py-4  lg:py-[70px]">
+        <div className="lg:w-[90%] px-3">
           <div className="lg:text-[32px] lg:font-[700] text-[24px] font-[500] flex justify-center flex-col items-center text-center space-y-5">
             <span>Service We Provide</span>
             <p className="lg:text-[20px] text-[14px] font-[300] lg:font-[400]">
@@ -52,9 +52,9 @@ const Intutive = () => {
             </p>
           </div>
 
-          <div className="bg-[#4687C7] py-5 px-8 lg:py-10 lg:px-20 mt-10 rounded-[30px]">
+          <div className="bg-[#4687C7] py-5 px-4 lg:py-10 lg:px-20 mt-10 rounded-[30px]">
             <div className="flex gap-10 flex-wrap sm:flex-nowrap lg:flex-row flex-col ">
-              <div className=" bg-white  px-[30px] py-[40px] space-y-4 lg:w-[580px] w-full rounded-[20px]    ">
+              <div className=" bg-white  lg:px-[30px] lg:py-[40px] px-[15px] py-[20px] space-y-4 lg:w-[580px] w-full rounded-[20px]    ">
                 <div className="">
                   <img src={img2} alt="" className="w-[40px]" />
 
@@ -72,7 +72,7 @@ const Intutive = () => {
                   presence through our tried and tested methodologies
                 </p>
               </div>
-              <div className=" bg-white px-[30px] py-[40px] space-y-4  lg:w-[580px] w-full rounded-[20px]   ">
+              <div className=" bg-white lg:px-[30px] lg:py-[40px]  px-[15px] py-[20px] space-y-4  lg:w-[580px] w-full rounded-[20px]   ">
                 <div className="">
                   <img src={img3} alt="" className="w-[40px]" />
                   <span className=" lg:text-[20px] text-[16px] font-[500]  lg:font-[600] ">
@@ -89,7 +89,7 @@ const Intutive = () => {
                   are insightful as well.
                 </p>
               </div>
-              <div className=" bg-white px-[40px] py-[40px] space-y-4  lg:w-[580px] w-full  rounded-[20px]   ">
+              <div className=" bg-white lg:px-[40px] lg:py-[40px]   px-[15px] py-[20px] space-y-4  lg:w-[580px] w-full  rounded-[20px]   ">
                 <div className="">
                   <img src={img2} alt="" className="w-[40px]" />
 

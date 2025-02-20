@@ -399,7 +399,7 @@ const Faq = () => {
         </div>
       </div>
 
-      <div className="  bg-[#282626] flex justify-center items-center text-center flex-col space-y-6 py-20 px-4">
+      <div className="  bg-[#282626] flex justify-center items-center text-center flex-col space-y-6 py-10 lg:py-20 px-4">
         <div className="flex flex-col items-center text-center space-y-6">
           <span className="sm:text-[32px] text-[24px]  font-[400]  sm:font-[700] text-[#FFFFFF]">
             Start Your Project. It’s Risk-Free.

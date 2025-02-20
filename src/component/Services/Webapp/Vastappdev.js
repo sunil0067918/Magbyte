@@ -16,14 +16,14 @@ const Vastappdev = () => {
           </div>
 
           <div className=" flex pt-16 gap-7 flex-wrap">
-            <div className=" flex flex-col border-[1px] border-[#000000]   items-center text-center   px-[10px] py-[10px] bg-[#FFFFFF]  rounded-[20px] space-y-3">
+            <div className=" flex flex-col border-[1px] border-[#000000]  w-full  lg:w-[200px] items-center text-center   px-[10px] py-[10px] bg-[#FFFFFF]  rounded-[20px] space-y-3">
               <img alt="" src={img1} className="w-[74px] h-[74px]" />
               <span className="text-[20px] font-[400]">
                 i<b className="font-[600] text-[20px]">OS</b> App Development
               </span>
             </div>
 
-            <div className=" flex flex-col border-[1px] border-[#000000] text-center   w-[200px] h-[200px] px-[10px] py-[10px] bg-[#FFFFFF] items-center rounded-[20px] space-y-3">
+            <div className=" flex flex-col border-[1px] border-[#000000] text-center    w-full lg:w-[200px]  px-[10px] py-[10px] bg-[#FFFFFF] items-center  justify-center rounded-[20px] space-y-3">
               <img alt="" src={img2} className="w-[74px] h-[74px]" />
               <span className="text-[20px] font-[400]">
                 {" "}
@@ -31,14 +31,14 @@ const Vastappdev = () => {
               </span>
             </div>
 
-            <div className=" flex flex-col border-[1px] border-[#000000]  text-center   w-[200px] h-[200px] px-[10px] py-[10px] bg-[#FFFFFF] items-center rounded-[20px] space-y-3">
+            <div className=" flex flex-col border-[1px] border-[#000000]  text-center   w-full  lg:w-[200px]  px-[10px] py-[10px] bg-[#FFFFFF] items-center justify-center rounded-[20px] space-y-3">
               <img alt="" src={img3} className="w-[74px] h-[74px]" />
               <span className="text-[20px] font-[400]">
                 <b className="font-[600] text-[20px]">Web</b>App Development
               </span>
             </div>
 
-            <div className=" flex flex-col border-[1px] border-[#000000]  text-center   w-[200px] h-[200px] px-[10px] py-[10px] bg-[#FFFFFF] items-center rounded-[20px] space-y-3">
+            <div className=" flex flex-col border-[1px] border-[#000000]  text-center   w-full  lg:w-[200px]  px-[10px] py-[10px] bg-[#FFFFFF] items-center justify-center rounded-[20px] space-y-3">
               <img alt="" src={img4} className="w-[74px] h-[74px]" />
               <span className="text-[20px] font-[400]">
                 i<b className="font-[600] text-[20px]">Hybrid-Native</b>App
