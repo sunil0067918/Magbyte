@@ -10,7 +10,7 @@ const MobileNav = ({ change }) => {
     <div
       className={`transition-all duration-[800ms] absolute ${
         change ? "top-[-12px] left-0" : " top-[-1000px] left-0 "
-      } bg-black text-white w-full h-[800px]   block  lg:hidden z-[40] px-4 pt-20`}
+      } bg-black text-white w-full    block  lg:hidden z-[40] px-4 pt-20`}
     >
       <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
         <li>
@@ -34,9 +34,9 @@ const MobileNav = ({ change }) => {
               </div>
             </div>
             <ul
-               className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 1 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+           className={`overflow-hidden transition-all duration-500 ease-out ${
+            drop === 1 ? "max-h-[500px] block" : "max-h-0 hidden"
+          } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline w-full`}
             >
               <Link to="/webdesign">
                 {" "}
@@ -87,9 +87,9 @@ const MobileNav = ({ change }) => {
               </div>
             </div>
             <ul
-              className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 2 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+              className={`overflow-hidden transition-all duration-500 ease-out ${
+                drop === 2 ? "max-h-[500px] block" : "max-h-0 hidden"
+              } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 overflow-y-scroll items-baseline w-full`}  
             >
               <Link to="/webdesign">
                 {" "}
@@ -266,9 +266,9 @@ const MobileNav = ({ change }) => {
               </div>
             </div>
             <ul
-              className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 3 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+             className={`overflow-hidden transition-all duration-500 ease-out ${
+                drop === 3 ? "max-h-[500px] block" : "max-h-0 hidden "
+              } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll w-full overflow-y-scroll`}
             >
               <Link to="/contact">
                 {" "}

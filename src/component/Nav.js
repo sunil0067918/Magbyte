@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import img1 from "..//images/Layer3.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretUp, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAddressCard,
+  faBriefcase,
+  faCaretUp,
+  faMessage,
+  faPhone,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import img2 from "../component/Tecnology/images/images1.png";
 import img3 from "../component/Tecnology/images/images2.png";
@@ -136,7 +143,7 @@ const Nav = () => {
             />
 
             <button
-              className={`flex border border-[#4687C7]  transition-all duration-[800ms]  
+              className={`flex border border-[#4687C7] w-full  transition-all duration-[800ms]  
                 rounded-[7px]   gap-3 px-2 py-2    items-center  `}
               onClick={() => setchange(!change)}
             >
@@ -198,6 +205,7 @@ const Nav = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="gradient-bg"
                 >
                   <rect width="24" height="24" fill="white" />
                   <g clip-path="url(#clip0_90_38)">
@@ -222,8 +230,8 @@ const Nav = () => {
                   </defs>
                 </svg>
               </div>
-              <p className="">
-                110, H Block, Sector 63, Noida, Uttar Pradesh 201301
+              <p className="text-[14px] font-medium text-white flowing-text">
+                110, H-28, Sector 63, Noida, Uttar Pradesh 201301
               </p>
             </div>
           </div>
@@ -263,11 +271,11 @@ const Nav = () => {
                 <div className="  transition-all duration-[400ms] absolute z-[-10]  top-[110px] group-hover:top-[63px] w-[58vw] group-hover:z-[10]   group-hover:block ">
                   <div className="w-full relative py-[5px] bg-transparent">
                     <FontAwesomeIcon
-                      className="text-white absolute top-0 left-10"
+                      className="text-gray-400 absolute top-0 left-10"
                       icon={faCaretUp}
                     />
                   </div>
-                  <div className=" flex bg-white justify-between   shadow-xl rounded-md px-4 py-10 ">
+                  <div className=" flex bg-white justify-between  bg-gradient-to-r from-black to-gray-500  border-[0.5px] border-gray-400 text-white   px-6 py-7 rounded-lg   shadow-xl  ">
                     <div className="flex  w-[60%] gap-16 ">
                       <ul className="dropdown space-y-10 w-[50%] ">
                         <li className=" flex gap-3  items-center text-[14px]   ">
@@ -672,11 +680,11 @@ const Nav = () => {
                 <div className="transition-all duration-[400ms] absolute left-[-93px] z-[-10] top-[110px] group-hover:top-[63px] w-[88vw] group-hover:z-[10]   group-hover:block   ">
                   <div className="w-full relative py-[5px] bg-transparent left-[76px]">
                     <FontAwesomeIcon
-                      className="text-white absolute top-0 left-10"
+                      className="text-gray-400 absolute top-0 left-10"
                       icon={faCaretUp}
                     />
                   </div>
-                  <div className=" flex bg-white shadow-2xl   px-6 py-7 rounded-lg">
+                  <div className=" flex bg-white shadow-2xl bg-gradient-to-r from-black to-gray-500 border-[0.5px] border-gray-400 text-white   px-6 py-7 rounded-lg">
                     <div className="flex  gap-16">
                       <div className="flex flex-col  ">
                         <div className="flex flex-col gap-2">
@@ -687,10 +695,10 @@ const Nav = () => {
                             />
                             <p className="font-[500]">Custom Development</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
-                        <ul className="dropdown  items-baseline flex flex-col space-y-3  pt-3">
+                        <ul className="dropdown  items-baseline flex flex-col space-y-3  pt-3 ">
                           <li className=" ">
                             <Link
                               to="/digital"
@@ -796,7 +804,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">CMS</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -909,7 +917,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">Ecommarce</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -978,7 +986,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">Mobile Apps</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -1053,7 +1061,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">CRM</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -1112,7 +1120,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">Cloud</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -1172,7 +1180,7 @@ const Nav = () => {
                             />
                             <p className="font-[500]">Full Stack</p>
                           </div>
-                          <hr className="border-[1px] border-black" />
+                          <hr className="border-[1px] border-white" />
                         </div>
 
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
@@ -1276,7 +1284,7 @@ const Nav = () => {
                   />
                 </svg>
 
-                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px] w-[14vw] group-hover:z-[10]   group-hover:block     ">
+                {/* <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px] w-[14vw] group-hover:z-[10]   group-hover:block     ">
                   <div className="w-full relative py-[5px] bg-transparent ">
                     <FontAwesomeIcon
                       className="text-white  absolute  top-0 left-10"
@@ -1298,6 +1306,104 @@ const Nav = () => {
                       Blog
                     </li>
                   </ul>
+                </div> */}
+
+                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px]  w-[68vw] group-hover:z-[10]   group-hover:block ">
+                  <div className="w-full relative py-[5px] bg-transparent">
+                    <FontAwesomeIcon
+                      className="text-gray-400 absolute top-0 left-10"
+                      icon={faCaretUp}
+                    />
+                  </div>
+                  <ul className="px-[20px] py-[80px] bg-gradient-to-r gap-16 flex-col space-y-16 gap from-black to-gray-500 border-[0.5px] border-gray-400  text-white shadow-xl rounded-lg">
+                    <div className="flex gap-4 ">
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faPhone}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">Contact us</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faAddressCard}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">About us</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faBriefcase}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">Career</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+                    </div>
+
+                    <div className="flex gap-4 ">
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faMessage}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">Blogs</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faAddressCard}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">FAQs</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+
+                      <Link to="/contact" className=" flex gap-3  ">
+                        <FontAwesomeIcon
+                          icon={faAddressCard}
+                          className=" border py-1 px-1 rounded-sm"
+                        />
+                        <div className="flex flex-col items-baseline">
+                          <li className="text-white font-[600] ">Privacy</li>
+                          <span className="text-[14px] text-gray-300">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry.
+                          </span>
+                        </div>
+                      </Link>
+                    </div>
+                  </ul>
                 </div>
               </li>
 
@@ -1312,7 +1418,7 @@ const Nav = () => {
               <li className=" ">
                 <span className="relative inline-block group">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
-                  Hire Developers
+                    Hire
                   </span>
                 </span>
               </li>
@@ -1322,7 +1428,7 @@ const Nav = () => {
               className="bg-[#4687C7] px-6 py-3 w-auto h-[44px] text-white tracking-widest rounded-[50px] flex items-center justify-center 
                   transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[#357ab7]"
             >
-              Hire Us
+        Hire on
             </button>
           </div>
         </div>

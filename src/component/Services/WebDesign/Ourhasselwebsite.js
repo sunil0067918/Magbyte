@@ -12,7 +12,7 @@ import img9 from "../../Services/WebDesign/Images/images14.png";
 const Ourhasselwebsite = () => {
   return (
     <div>
-      <div className=" py-10 hidden lg:bllock">
+      <div className=" py-10 hidden lg:block">
         <div className="flex flex-col  justify-center items-center  py-[30px] px-[40px]">
           <span className="text-[32px] font-[600] ">
             Our hassle-free Website Designing Process

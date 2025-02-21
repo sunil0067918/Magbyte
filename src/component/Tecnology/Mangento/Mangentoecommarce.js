@@ -18,10 +18,9 @@ const Mangentoecommarce = () => {
         </div>
 
         <div className="pt-16 px-2">
-          <div className="flex flex-col  gap-7">
-            <div className="flex flex-col flex-wrap lg:flex-nowrap lg:flex-row gap-10">
-              <div className="bg-[white] w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+          <div className="flex flex-col   gap-7">
+            <div className="flex flex-col flex-wrap gap-10 lg:flex-nowrap lg:flex-row">
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -69,19 +68,18 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400] ">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.
                 </p>
               </div>
 
-              <div className="bg-[white]  w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -129,19 +127,18 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400] ">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.
                 </p>
               </div>
 
-              <div className="bg-[white]  w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -189,11 +186,11 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400]">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.
@@ -202,8 +199,7 @@ const Mangentoecommarce = () => {
             </div>
 
             <div className="flex flex-col flex-wrap gap-10 lg:flex-nowrap lg:flex-row">
-              <div className="bg-[white] w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -251,19 +247,18 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400] ">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.
                 </p>
               </div>
 
-              <div className="bg-[white]  w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -311,19 +306,18 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400]">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.
                 </p>
               </div>
 
-              <div className="bg-[white]  w-full lg:w-[600px] py-7  rounded-lg px-6 flex flex-col gap-2">
-                {/* <img  src={img1}/> */}
+              <div className="bg-white w-full lg:w-[600px] py-7 rounded-lg px-6 flex flex-col gap-4">
                 <svg
                   width="40"
                   height="40"
@@ -371,11 +365,11 @@ const Mangentoecommarce = () => {
                     </clipPath>
                   </defs>
                 </svg>
-
-                <span className="lg:text-[20px] text-[16px] lg:font-[600] font-[400]">
+                <span className="lg:text-[20px] text-[16px] lg:font-semibold font-[400] text-gray-800">
                   Adobe Commerce Website Design and Customization Services
                 </span>
-                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] ">
+
+                <p className="lg:text-[14px] text-[12px] lg:font-[400] font-[300] text-gray-600">
                   Our Adobe Commerce experts specialize in creating visually
                   appealing and engaging e-commerce websites that deliver a
                   seamless and enriching online experience.

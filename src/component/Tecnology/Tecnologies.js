@@ -4,6 +4,10 @@ import Mangentoecommarce from "../Tecnology/Mangento/Mangentoecommarce"
 import Mangentobanner from "./Mangento/Mangentobanner";
 import Mangentoouroffering from "./Mangento/Mangentoouroffering";
 
+import Footer from "../Footer"
+import Mangentoagency from "./Mangento/Mangentoagency";
+import Mangetoquestions from "./Mangento/Mangetoquestions"
+
 const Tecnologies = () => {
   return (
     <div className="">
@@ -11,6 +15,10 @@ const Tecnologies = () => {
       <Mangentobanner />
       <Mangentoecommarce/>
       <Mangentoouroffering/>
+      <Mangentoagency/>
+      <Mangetoquestions/>
+     
+      <Footer/>
     </div>
   );
 };
