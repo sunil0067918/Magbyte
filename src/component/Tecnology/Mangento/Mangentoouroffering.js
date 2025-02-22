@@ -3,7 +3,7 @@ import img1 from "../Mangento/Magentosectionsimages/images1.png";
 import img2 from "../Mangento/Magentosectionsimages/images2.png";
 import img3 from "../Mangento/Magentosectionsimages/images3.png";
 const Mangentoouroffering = () => {
-  const [change, setchange] = useState(0);
+  const [change, setchange] = useState(1);
 
   return (
     <div className="flex justify-center bg-black">
@@ -31,9 +31,7 @@ const Mangentoouroffering = () => {
             </button>
           </div>
 
-          {!change ? (
-            
-
+          {change === 1 ? (
             <div className="pt-10 text-center">
               <div className="flex flex-col pt-10 gap-7 lg:flex-row">
                 <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
@@ -153,7 +151,7 @@ const Mangentoouroffering = () => {
                 </div>
               </div>
             </div>
-          ) : (
+          ) : change === 2 ? (
             <div className="pt-10  font-semibold">
               <p className="lg:w-[80%]  text-white leading-relaxed">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -187,6 +185,10 @@ const Mangentoouroffering = () => {
                 </div>
               </div>
             </div>
+          ) : change === 3 ? (
+            <div>qkjehdbkcnwld</div>
+          ) : (
+            ""
           )}
         </div>
       </div>
