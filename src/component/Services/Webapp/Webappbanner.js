@@ -6,10 +6,10 @@ const Webappbanner = () => {
   return (
     <div>
       <div
-        className=" relative lg:h-[540px] sm:h-[800px] h-[900px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
+        className=" relative lg:h-[540px] sm:h-[800px] h-[1300px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
-          backgroundSize :`cover`
+          backgroundSize: `cover`,
         }}
       >
         <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] space-y-4 lg:flex-row flex-col ">
@@ -25,9 +25,9 @@ const Webappbanner = () => {
               </p>
             </div>
 
-            <div className="flex  mt-7 flex-col   ">
-              <div className="flex justify-center sm:justify-between md:flex-nowrap flex-wrap gap-3">
-                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF] w-[178px] justify-center items-center rounded-[16px]  ">
+            <div className="flex  mt-7 flex-col  ">
+              <div className="flex justify-between md:flex-row flex-col  gap-3">
+                <div className="flex flex-col border-[0.74px]  px-[20px] py-[20px] border-[#FFFFFF] md:w-[178px] justify-center items-center rounded-[16px]  ">
                   <svg
                     width="30"
                     height="18"
@@ -52,7 +52,7 @@ const Webappbanner = () => {
                     Android
                   </span>
                 </div>
-                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px] ">
+                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  md:w-[178px] justify-center items-center rounded-[16px] ">
                   <svg
                     width="20"
                     height="22"
@@ -82,7 +82,7 @@ const Webappbanner = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
+                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  md:w-[178px] justify-center items-center rounded-[16px]">
                   <svg
                     width="20"
                     height="22"
@@ -113,8 +113,8 @@ const Webappbanner = () => {
                 </div>
               </div>
 
-              <div className="flex  justify-center sm:justify-between pt-5 md:flex-nowrap flex-wrap gap-3">
-                <div className="flex flex-col border-[0.74px] lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px]  border-[#FFFFFF]  justify-center  w-[178px] items-center rounded-[16px]  ">
+              <div className="flex justify-between pt-5 md:flex-row flex-col gap-3">
+                <div className="flex flex-col border-[0.74px]  px-[20px] py-[20px] border-[#FFFFFF] md:w-[178px] justify-center items-center rounded-[16px]  ">
                   <svg
                     width="24"
                     height="24"
@@ -155,7 +155,7 @@ const Webappbanner = () => {
                     Hybrid
                   </span>
                 </div>
-                <div className="flex flex-col border-[0.74px] lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px] ">
+                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  md:w-[178px] justify-center items-center rounded-[16px] ">
                   <svg
                     width="22"
                     height="18"
@@ -189,7 +189,7 @@ const Webappbanner = () => {
                   </span>
                 </div>
 
-                <div className="flex flex-col border-[0.74px]  lg:px-[70px]  px-[12px] py-[14px] lg:py-[25px] border-[#FFFFFF]  w-[178px] justify-center items-center rounded-[16px]">
+                <div className="flex flex-col border-[0.74px] px-[20px] py-[20px] border-[#FFFFFF]  md:w-[178px] justify-center items-center rounded-[16px]">
                   <img alt="" src={img2} className="w-[20px] h-[20px]" />
                   <span className="tetx-[14px] font-[400] text-white">
                     Flutter
@@ -200,54 +200,61 @@ const Webappbanner = () => {
           </div>
 
           <form
-            action="submit "
-            className=" bg-[#2E2E2E] rounded-[5px] ] py-[15px] px-[20px] sm:px-[14px] md:py-[40px]"
+            action="submit"
+            className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
           >
-            <div className="flex flex-col  text-center ">
-              <span className=" text-[16px] sm:text-[20px]  font-[800] text-[#FFFFFF]">
+            <div className="flex flex-col text-center opacity-0 animate-fadeIn">
+              <span className="text-[16px] sm:text-[20px] font-[800] bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent">
                 Book Free Consultation
               </span>
-              <p className=" text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
-                Fill Out the Form and Our Expert Will Contact You Within 24hrs{" "}
+
+              <p className="text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
+                Fill Out the Form and Our Expert Will Contact You Within 24hrs
               </p>
             </div>
 
-            <div className="flex  flex-col  space-y-5 pt-3 lg:pt-10">
-              <div className="flex  justify-between">
+            <div className="flex flex-col space-y-5 pt-10">
+              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
-                  className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
+                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
                   type="text"
                   placeholder="FirstName*"
                 />
 
                 <input
-                  className="  text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none "
+                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
                   type="email"
                   placeholder="Email*"
                 />
               </div>
 
-              <div className="flex  justify-between flex-col gap-3 sm:flex-row">
+              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
+                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
                   type="number"
                   placeholder="Phone Number*"
                 />
 
                 <input
-                  className=" text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none"
+                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
                   type="text"
                   placeholder="Company Name*"
                 />
               </div>
+
               <input
                 type="text"
                 placeholder="Your Requirement*"
-                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] flex  focus:outline-none"
+                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
               />
 
-              <button className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px]  animate-pulse font-[700] text-white bg-[#4687C7]  rounded-[6px]">
-                Submit Your Requirement!
+              <button class=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-[#4687C7] to-[#1E3A8A] border-2 border-[#4687C7] shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-[#4687C7] focus:ring-opacity-60 focus:border-[#4687C7] focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
+                <span
+                  className="
+                flowing-textt text-[11px] sm:text-[14px]"
+                >
+                  Submit Your Requirement!
+                </span>
               </button>
             </div>
           </form>

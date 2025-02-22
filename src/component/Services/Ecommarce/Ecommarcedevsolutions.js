@@ -5,7 +5,7 @@ const Ecommarcedevsolutions = () => {
     <div className="flex justify-center py-10 sm:py-20  bg-[#F5F5F5] ">
       <div className="w-[90%] ">
         <div className=" flex flex-col items-center space-y-4">
-          <span className=" text-[24px] lg:text-[32px] font-[400] lg:font-[600] sm:text-[28px] sm:font-[300] flex text-center">
+          <span className=" text-[24px] lg:text-[32px] font-[400] lg:font-[600] sm:text-[28px] sm:font-[] flex text-center">
             eCommerce Development Solutions We Offer
           </span>
           <p className=" text-[12px] sm:text-[18px]  sm:font-[500] font-[400] flex text-center">
@@ -16,15 +16,14 @@ const Ecommarcedevsolutions = () => {
 
         <div className=" pt-10 sm:t-20 flex flex-col gap-10 flex-wrap">
           <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row ">
-            <div className=" bg-white  px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%] w-full rounded-[20px] sm:rounded-[27px]  ">
-              <div className="">
+            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div class="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="40"
                   viewBox="0 0 40 40"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-[40px] h-[40px]"
                 >
                   <g clip-path="url(#clip0_498_350)">
                     <path
@@ -66,12 +65,13 @@ const Ecommarcedevsolutions = () => {
                     </clipPath>
                   </defs>
                 </svg>
-                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
+
+                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Migration Services
                 </span>
               </div>
 
-              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
+              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -80,8 +80,9 @@ const Ecommarcedevsolutions = () => {
                 needed.
               </p>
             </div>
-            <div className=" bg-white   px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full    rounded-[20px] sm:rounded-[27px]">
-              <div className="">
+
+            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div class="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="37"
@@ -102,12 +103,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
+                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Design & Development
                 </span>
               </div>
 
-              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
+              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -119,8 +120,8 @@ const Ecommarcedevsolutions = () => {
           </div>
 
           <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row  ">
-            <div className=" bg-white   px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full   rounded-[20px] sm:rounded-[27px] ">
-              <div className="">
+            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div class="flex items-center space-x-4">
                 <svg
                   width="50"
                   height="40"
@@ -145,21 +146,23 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className="  lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400] ">
+                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Strategy & Consultancy
                 </span>
               </div>
 
-              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
-                We don’t believe in jumping the gun. Our team takes time to know
-                your business, industry, and customers to correctly identify
-                your business requirements and devise a marketing and branding
-                strategy that will help you achieve your goals and company
-                milestones.
+              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+                Looking for rapid business growth? Then, you require our
+                eCommerce migration service for a technically advanced yet
+                user-friendly online marketplace. Our team has the expertise to
+                safely migrate all your data to any virtual platform seamlessly,
+                without any added hassle, and offer expert assistance when
+                needed.
               </p>
             </div>
-            <div className="  bg-white  px-[15px] py-[25px] sm:px-[20px] sm:py-[30px]   lg:px-[30px] lg:py-[50px] space-y-4 lg:w-[40%]  w-full  rounded-[20px] sm:rounded-[27px]">
-              <div className="">
+
+            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div class="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="40"
@@ -192,17 +195,18 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span className=" lg:text-[24px] lg:font-[600] sm:text-[22px] sm:font-[500] text-[18px] font-[400]">
-                  eCommerce Integration Services
+                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
+                  eCommerce Migration Services
                 </span>
               </div>
 
-              <p className="flex-wrap sm:text-[18px] sm:font-[400]  font-[300] text-[12px]">
-                Our eCommerce integration services allow you to run your store
-                seamlessly using powerful platforms such as Magento,
-                WooCommerce, Shopify, etc. We can help you connect to
-                third-party services, accept payments, track inventory, manage
-                shipments, and much more.
+              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+                Looking for rapid business growth? Then, you require our
+                eCommerce migration service for a technically advanced yet
+                user-friendly online marketplace. Our team has the expertise to
+                safely migrate all your data to any virtual platform seamlessly,
+                without any added hassle, and offer expert assistance when
+                needed.
               </p>
             </div>
           </div>

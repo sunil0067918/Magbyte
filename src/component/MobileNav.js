@@ -10,7 +10,7 @@ const MobileNav = ({ change }) => {
     <div
       className={`transition-all duration-[800ms] absolute ${
         change ? "top-[-12px] left-0" : " top-[-1000px] left-0 "
-      } bg-black text-white w-full h-[800px]   block  lg:hidden z-[40] px-4 pt-20`}
+      } bg-gradient-to-t from-black to-gray-600  text-white w-full    block  lg:hidden z-[40] px-4 pt-20`}
     >
       <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
         <li>
@@ -33,10 +33,10 @@ const MobileNav = ({ change }) => {
                 </div>
               </div>
             </div>
-            <ul
-               className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 1 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+            {/* <ul
+           className={`overflow-hidden transition-all duration-500 ease-out ${
+            drop === 1 ? "max-h-[500px] block" : "max-h-0 hidden"
+          } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline w-full`}
             >
               <Link to="/webdesign">
                 {" "}
@@ -59,6 +59,34 @@ const MobileNav = ({ change }) => {
               </Link>
               <li className="hover:text-blue-700 text-[14px]">
                 Manitence Support
+              </li>
+            </ul> */}
+
+            <ul
+              className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                drop === 1
+                  ? "max-h-[500px] opacity-100 visible"
+                  : "max-h-0 opacity-0 invisible"
+              } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline w-full`}
+            >
+              <Link to="/webdesign">
+                <li className="hover:text-blue-700 text-[14px]">Web Design</li>
+              </Link>
+              <Link to="/web">
+                <li className="hover:text-blue-700 text-[14px]">
+                  Web and App Development
+                </li>
+              </Link>
+              <Link to="/digital">
+                <li className="hover:text-blue-700 text-[14px]">
+                  Digital Marketing
+                </li>
+              </Link>
+              <Link to="/Ecommerce">
+                <li className="hover:text-blue-700 text-[14px]">E-commerce</li>
+              </Link>
+              <li className="hover:text-blue-700 text-[14px]">
+                Maintenance Support
               </li>
             </ul>
           </div>
@@ -87,9 +115,11 @@ const MobileNav = ({ change }) => {
               </div>
             </div>
             <ul
-              className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 2 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+                className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                  drop === 2
+                    ? "max-h-[500px] opacity-100 visible"
+                    : "max-h-0 opacity-0 invisible"
+                } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3   overflow-y-scroll items-baseline w-full`}
             >
               <Link to="/webdesign">
                 {" "}
@@ -254,21 +284,23 @@ const MobileNav = ({ change }) => {
                 Company
               </span>
               <div>
-              <FontAwesomeIcon
-                      className={`w-[30px] h-[24px] transition-all duration-[800ms] ease-in-out transform ${
-                        drop === 3
-                          ? "rotate-180 opacity-100"
-                          : "rotate-0 opacity-60"
-                      }`}
-                      icon={drop === 2 ? faCaretUp : faCaretDown}
-                      onClick={() => setdrop(drop === 3 ? 0 : 3)}
-                    />
+                <FontAwesomeIcon
+                  className={`w-[30px] h-[24px] transition-all duration-[800ms] ease-in-out transform ${
+                    drop === 3
+                      ? "rotate-180 opacity-100"
+                      : "rotate-0 opacity-60"
+                  }`}
+                  icon={drop === 2 ? faCaretUp : faCaretDown}
+                  onClick={() => setdrop(drop === 3 ? 0 : 3)}
+                />
               </div>
             </div>
             <ul
-              className={` overflow-hidden transition-all duration-500 ease-out ${
-                drop === 3 ? " max-h-[500px]" : "max-h-0"
-              }  text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 py-2 items-baseline overflow-y-scroll max-h-96 w-full `}
+                className={`overflow-hidden transition-all duration-700 ease-in-out ${
+                  drop === 3
+                    ? "max-h-[500px] opacity-100 visible"
+                    : "max-h-0 opacity-0 invisible"
+                } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer flex flex-col bg-gray-800 px-3 p-2 items-baseline w-full`}
             >
               <Link to="/contact">
                 {" "}
