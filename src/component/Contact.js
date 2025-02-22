@@ -8,7 +8,7 @@ const Contact = () => {
     window.scrollTo(0, 0); // Scroll to top of the page on component load
   }, []);
   return (
-    <div className="w-full flex items-center justify-center flex-col">
+    <div className="">
       <Nav />
       <div className="  relative h-[950px] flex  mx-5 flex-col  lg:h-full ">
         <div className="flex justify-center">
