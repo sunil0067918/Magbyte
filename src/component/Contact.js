@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="">
       <Nav />
-      <div className="  relative h-[950px] flex  mx-5 flex-col  lg:h-full ">
+      <div className="  relative h-[1050px] flex  mx-5 flex-col  lg:h-full bg-white ">
         <div className="flex justify-center">
           <svg
             width="1440"
@@ -57,7 +57,7 @@ const Contact = () => {
 
         <div className="flex justify-center  ">
           <div className="  lg:w-[80%] mt-4 lg:mt-14 flex flex-col lg:flex-row items-center ">
-            <div className=" w-full absolute lg:h-[803px] lg:w-[1118px] border bg-[#FFFFFF] shadow-md top-0 lg:mt-24 mt-4 rounded-[14px] px-5 lg:px-10 py-10  ">
+            <div className=" w-full absolute lg:h-[803px] lg:w-[1118px] border bg-[#FFFFFF] shadow-md top-0 lg:mt-24 mt-4 rounded-[14px] px-5 lg:px-10 py-3  ">
               <div className="flex gap-10 justify-center flex-col lg:flex-row">
                 <div className="lg:w-[496px]  lg:h-[573px] ">
                   <div className=" ">
@@ -69,35 +69,51 @@ const Contact = () => {
                       We are here for you! How can we help?
                     </span>
                   </div>
+
                   <form
-                    className="mt-7 space-y-10 flex flex-col "
+                    className="mt-7 space-y-8 flex flex-col items-center"
                     action="submit"
                   >
+                    {/* Name Input */}
                     <input
-                      className=" lg:w-[484px]  bg-[#F4F4F9] lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] focus:outline-none "
-                      placeholder="Enter Your name"
+                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px] rounded-xl shadow-lg focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                      placeholder="Enter Your Name"
                       type="text"
                     />
 
-                    <div className=" lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] flex gap-2  ">
-                      <img src={img1} alt="" />
+                    {/* Email Input */}
+                    <div className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg flex gap-3 items-center focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out">
+                      <img
+                        src={img1}
+                        alt="email icon"
+                        className="w-[20px] h-[20px]"
+                      />
                       <input
+                        className="w-full bg-transparent focus:outline-none"
                         placeholder="Enter Your Email Address"
-                        type="number "
-                        className="lg:w-[484px]  focus:outline-none bg-[#F4F4F9]  "
+                        type="email"
                       />
                     </div>
 
                     <input
-                      className=" lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] text-[16px]  focus:outline-none"
+                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
                       placeholder="Enter Your Phone Number"
+                      type="tel"
                     />
+
+                    {/* Textarea */}
                     <textarea
-                      className="  lg:w-[484px]  bg-[#F4F4F9]  lg:py-[18px] py-[12px] px-[12px] lg:px-[20px] lg:-[205px] text-[16px]  focus:outline-none"
+                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
                       placeholder="Go ahead, we are listening..."
+                      rows="4"
                     ></textarea>
 
-                    <button className="lg:h-[60px] lg:w-[486px]  px-[8px] py-[10px] rounded-[10px] text-[12px] lg:text-[18px] lg:px-[11px]  bg-[#585DD8] text-[#FFFFFF]">
+                    {/* Submit Button */}
+                    {/* <button className="lg:w-[486px] w-[90%] py-[15px] rounded-xl text-lg font-semibold bg-gradient-to-r from-[#585DD8] to-[#7E8BF6] text-[#FFFFFF] transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#4A54D1]">
+                      Submit
+                    </button> */}
+
+                    <button className="lg:w-[486px] w-[90%] py-[7px] lg:py-[15px] rounded-xl text-lg font-semibold text-[#FFFFFF] transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#4A54D1] focus:ring-opacity-50 bg-gradient-to-r from-[#7E8BF6] to-[#585DD8]">
                       Submit
                     </button>
                   </form>

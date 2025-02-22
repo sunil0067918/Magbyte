@@ -1308,7 +1308,7 @@ const Nav = () => {
                   </ul>
                 </div> */}
 
-                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[48px]  w-[68vw] group-hover:z-[10]   group-hover:block ">
+                <div className=" transition-all duration-[400ms] absolute   z-[-10] top-[110px] group-hover:top-[46px]  w-[68vw] group-hover:z-[10]   group-hover:block ">
                   <div className="w-full relative py-[5px] bg-transparent">
                     <FontAwesomeIcon
                       className="text-gray-400 absolute top-0 left-10"
