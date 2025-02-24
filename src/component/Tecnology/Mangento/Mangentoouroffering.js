@@ -85,6 +85,8 @@ const Mangentoouroffering = () => {
 
                   <a
                     href="#"
+                    
+                    
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
