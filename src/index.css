@@ -133,7 +133,7 @@ body {
 .flowing-textt {
   font-size: 18px; /* Adjust text size */
   font-weight: 600; /* Bold text */
-  background-image: linear-gradient(90deg, #ffffff, #4687C7, #ffffff); /* White to blue gradient */
+  background-image: linear-gradient(90deg, #ffffff, #4846c7, #ffffff); /* White to blue gradient */
   background-size: 200% 100%;
   background-position: 0 center;
   color: transparent;
@@ -141,6 +141,17 @@ body {
   animation: flowingText 3s linear infinite; /* Infinite animation */
 }
 
+
+.flowing-texttt {
+  font-size: 18px; /* Adjust text size */
+  font-weight: 600; /* Bold text */
+  background-image: linear-gradient(90deg, #ffffff, #c74646, #ffffff); /* White to blue gradient */
+  background-size: 200% 100%;
+  background-position: 0 center;
+  color: transparent;
+  -webkit-background-clip: text; /* Clips the background to text */
+  animation: flowingText 3s linear infinite; /* Infinite animation */
+}
 
 
 @keyframes singing {
@@ -155,6 +166,5 @@ body {
   }
 }
 
-.singing-animation {
-  animation: singing 1s ease-in-out infinite;
-}
+
+

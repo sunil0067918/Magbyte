@@ -484,7 +484,7 @@ const Contact = () => {
             </div>
 
             <div className=" relative">
-              <div className=" absolute  lg:w-[74px]  lg:h-[283px] bg-[#4687C7] left-[1119px]  top-[-40px] rounded-br-[29px] hidden lg:block">
+              <div className=" absolute  lg:w-[74px]  lg:h-[283px] bg-gradient-to-r from-blue-500 to-blue-800 left-[1119px]  top-[-40px] rounded-br-[29px] hidden lg:block">
                 <div className="flex lg:flex-col justify-center items-center space-y-8 pt-5">
                   <svg
                     width="24"

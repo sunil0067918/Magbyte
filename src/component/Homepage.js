@@ -52,12 +52,13 @@ export const Homepage = () => {
         <div className="lg:w-[85%] flex items-center flex-col  px-[6px] sm:px-[30px]  lg:py-0 lg:px-0  lg:flex-row pt-10 sm:pt-0 text-center sm:text-start">
           <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  pt-5 ">
             <div className="   lg:w-[576px] ">
-              <h1 className="font-[Wix Madefor Display]  text-white lgf:text-[24px] text-[18px]">
-                Web<span className="text-[#FDB92C]">Designing </span>
-                And
-                <span className="text-[#FDB92C]"> Development</span>
+              <h1 className="font-[Wix Madefor Display]  text-white lg:text-[24px] text-[18px]">
+                Web <span class="bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
+                  Designing
+                </span> And
+                <span className=" bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text"> Development</span>
               </h1>
-              <span className=" sm:text-[38px] text-[24px] font-[800]   tracking-wide   sm:w-[553px] text-white text-center  ">
+              <span className=" sm:text-[38px] text-[24px] font-[800]   tracking-wide sm:w-[553px] text-white text-center  ">
                 We Challenge GrandeurAnd Perfectness Standard
               </span>
               <p className="text-white">
@@ -66,8 +67,8 @@ export const Homepage = () => {
                 developers.
               </p>
             </div>
-            <button className="bg-[#4687C7] text-white px-[20px] py-[10px] lg:px-[40px] lg:py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 ">
-              <span> Details</span>
+            <button className="bg-gradient-to-r from-[#1e3a8a] to-[#38bdf8] text-white px-[20px] py-[10px] lg:px-[40px] lg:py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg">
+              <span>Details</span>
               <svg
                 width="16"
                 height="16"
