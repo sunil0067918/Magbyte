@@ -8,6 +8,7 @@ import Webapp from "./component/Services/Webapp";
 import Webdesign from "./component/Services/Webdesign";
 import Digital from "./component/Services/Digital";
 import Tecnologies from "./component/Tecnology/Tecnologies";
+import Laravel from "./component/Tecnology/Laravel/Laravel";
 
 const App = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const App = () => {
           <Route path="/webdesign" element={<Webdesign />} />
           <Route path="/digital" element={<Digital />} />
           <Route path="/tecno" element={<Tecnologies/>} />
+          <Route  path="/Laravel"  element = {<Laravel/>} />
         </Routes>
       </BrowserRouter>
     </>

@@ -82,7 +82,7 @@ const MobileNav = ({ change }) => {
                   Digital Marketing
                 </li>
               </Link>
-              <Link to="/Ecommerce">
+              <Link to="/Ecommarce">
                 <li className="hover:text-blue-700 text-[14px]">E-commerce</li>
               </Link>
               <li className="hover:text-blue-700 text-[14px]">

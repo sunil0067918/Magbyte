@@ -245,9 +245,12 @@ const Footer = () => {
         </div>
       </div>
 
+
+      
+
       <div className="bg-[#111428] flex  items-center flex-col  justify-center lg:hidden  py-3  ">
         <div className=" w-[90%] flex flex-col pt-7 text-center items-center  ">
-          <div  className="flex justify-center flex-col items-center">
+          <div className="flex justify-center flex-col items-center">
             <svg
               width="178"
               height="34"
@@ -363,7 +366,6 @@ const Footer = () => {
               <line opacity="0.11" y1="0.5" x2="375" y2="0.5" stroke="white" />
             </svg>
 
-                
             <div className=" flex flex-col align-baseline ">
               <div
                 onClick={() => (count === 2 ? setcount(0) : setcount(2))}
@@ -403,7 +405,7 @@ const Footer = () => {
               viewBox="0 0 375 1"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-                className="sm:hidden"
+              className="sm:hidden"
             >
               <line opacity="0.11" y1="0.5" x2="375" y2="0.5" stroke="white" />
             </svg>

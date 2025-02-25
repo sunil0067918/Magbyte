@@ -1,23 +1,13 @@
 import React from "react";
-import Nav from "../Nav";
-import Mangentoecommarce from "../Tecnology/Mangento/Mangentoecommarce"
-import Mangentobanner from "./Mangento/Mangentobanner";
+import Manjento from "../Tecnology/Mangento/Manjento";
+// import Laravel from "../Tecnology/Laravel/Laravel"
 
-
-import Footer from "../Footer"
-import Mangentoagency from "./Mangento/Mangentoagency";
-import Mangetoquestions from "./Mangento/Mangetoquestions"
 
 const Tecnologies = () => {
   return (
     <div className="">
-      <Nav />
-      <Mangentobanner />
-      <Mangentoecommarce/>
-      <Mangentoagency/>
-      <Mangetoquestions/>
-     
-      <Footer/>
+    <Manjento/>
+
     </div>
   );
 };

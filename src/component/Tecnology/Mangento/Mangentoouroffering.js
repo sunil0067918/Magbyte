@@ -14,20 +14,33 @@ const Mangentoouroffering = () => {
 
         <div className="     py-5 mt-6 px-3 lg:px-10 rounded-lg">
           <div className="flex gap-5 flex-wrap">
-            <button
-              className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3  hover:bg-red-500 font-[500]"
+          <button
+              className="relative text-[16px] rounded-md text-white px-7 py-3 font-[500] overflow-hidden group bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg"
               onClick={() => setchange(1)}
             >
-              Solutions
+              <span className="absolute inset-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
+              <span className="relative z-10 group-hover:text-orange-500">
+                Solutions
+              </span>
             </button>
             <button
-              className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3 hover:bg-red-500  font-[500]"
+              className="relative text-[16px] rounded-md text-white px-7 py-3 font-[500] overflow-hidden group bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg"
               onClick={() => setchange(2)}
             >
-              Platforms
+              <span className="absolute inset-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
+              <span className="relative z-10 group-hover:text-orange-500">
+                Platforms
+              </span>
             </button>
-            <button className="bg-orange-500  text-[16px] rounded-md text-white px-7 py-3 hover:bg-red-500  font-[500]">
-              Services
+
+            <button
+              className="relative text-[16px] rounded-md text-white px-7 py-3 font-[500] overflow-hidden group bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg"
+              onClick={() => setchange(3)}
+            >
+              <span className="absolute inset-0 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></span>
+              <span className="relative z-10 group-hover:text-orange-500">
+                Services
+              </span>
             </button>
           </div>
 
