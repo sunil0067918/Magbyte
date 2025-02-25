@@ -9,6 +9,9 @@ import Webdesign from "./component/Services/Webdesign";
 import Digital from "./component/Services/Digital";
 import Tecnologies from "./component/Tecnology/Tecnologies";
 import Laravel from "./component/Tecnology/Laravel/Laravel";
+import Framework from "../src/component/Services/Framework"
+import Python from "./component/Tecnology/python/Python";
+import Node from "../src/component/Tecnology/Node/Node"
 
 const App = () => {
   useEffect(() => {
@@ -25,11 +28,14 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/Ecommarce" element={<Service />} />
           <Route path="/web" element={<Webapp />} />
-          <Route path="/homepage" element={<Home />} />
+          <Route path="/homepage" element={<Home/>} />
+          <Route  path="python"  element =  {<Python/>}/>
+          <Route  path="/frame" element = {<Framework/>} />
           <Route path="/webdesign" element={<Webdesign />} />
           <Route path="/digital" element={<Digital />} />
           <Route path="/tecno" element={<Tecnologies/>} />
           <Route  path="/Laravel"  element = {<Laravel/>} />
+          <Route path="/Node" element = {<Node/>}/>
         </Routes>
       </BrowserRouter>
     </>
