@@ -5,11 +5,11 @@ const Laravelsections = () => {
     <div className="flex flex-col ">
       <div className="my-10 flex justify-center">
         <div className="w-[85%] space-y-4">
-          <h1 className="flex justify-center text-3xl font-[500] ">
+          <h1 className="flex justify-center lg:text-3xl font-[500] text-start ">
             <b>MageBytes</b> offers comprehensive end-to-end Laravel development
             solutions
           </h1>
-          <div className="flex  pt-20 gap-9">
+          <div className="flex  pt-20 gap-9 flex-col lg:flex-row">
             <div className=" flex flex-col items-start space-y-7">
               <p className="lg:text-md font-[600]">
                 At Magbytes, we take immense pride in being a leading Laravel

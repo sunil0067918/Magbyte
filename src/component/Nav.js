@@ -771,7 +771,7 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center text-[14px]">
-                          <Link className="flex gap-4 items-center">
+                          <Link className="flex gap-4 items-center" to= "/frame">
                             <svg
                               width="24"
                               height="24"
@@ -1110,7 +1110,7 @@ const Nav = () => {
                           </li>
 
                           <li className=" ">
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center" to="/python">
                               <img alt="" src={img8} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -1120,7 +1120,7 @@ const Nav = () => {
                           </li>
 
                           <li>
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center"  to="/Node">
                               <img alt="" src={img10} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">

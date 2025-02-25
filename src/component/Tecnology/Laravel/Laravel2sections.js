@@ -1,7 +1,7 @@
 import { faPlus, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import img1 from  "../Laravel/Laravelsectionimages/images2.png"
+import img1 from "../Laravel/Laravelsectionimages/images2.png";
 
 const Laravel2sections = () => {
   const [drop, setdrop] = useState(1);
@@ -263,11 +263,22 @@ const Laravel2sections = () => {
           </div>
         </div>
 
+        <div className="pt-20 flex gap-6">
+          <img src={img1} />
+          <div className="flex flex-col gap-4">
+            <span className="text-[24px] font-[600]" >Complex Business Application </span>
+            <p className="text-[20px]  text-gray-700">
+              We specialize in developing small yet complex business
+              applications tailored for brands across the globe. Our tech
+              experts ensure a seamless development process while delivering
+              high-quality apps. Our experienced team provides fast solutions
+              for all types of projects. From Laravel mobile app development to
+              point-of-sale systems, software as a service (SaaS), and
+              progressive web apps, we handle it all.
+            </p>
+          </div>
+        </div>
 
-<div className="pt-20">
-    <img src={img1}/>
-
-</div>
 
       </div>
     </div>

@@ -133,7 +133,7 @@ body {
 .flowing-textt {
   font-size: 18px; /* Adjust text size */
   font-weight: 600; /* Bold text */
-  background-image: linear-gradient(90deg, #ffffff, #4846c7, #ffffff); /* White to blue gradient */
+  background-image: linear-gradient(90deg, #070707, #111118, #ffffff); /* White to blue gradient */
   background-size: 200% 100%;
   background-position: 0 center;
   color: transparent;
@@ -164,6 +164,22 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slideInFromRight {
+  animation: slideInFromRight 1s ease-out forwards; /* "forwards" ensures it stays in the final position */
 }
 
 

@@ -3,6 +3,8 @@ import Nav from "../../Nav";
 import Laravelbanner from "./Laravelbanner";
 import Laravelsections from "./Laravelsections";
 import Laravel2sections from "./Laravel2sections";
+import Footer from "../../Footer";
+import Laravelfaq from "./Laravelfaq";
 
 const Laravel = () => {
   return (
@@ -11,6 +13,8 @@ const Laravel = () => {
       <Laravelbanner/>
       <Laravelsections/>
       <Laravel2sections/>
+      <Laravelfaq/>
+      <Footer/> 
     </div>
   );
 };
