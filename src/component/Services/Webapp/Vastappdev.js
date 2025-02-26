@@ -48,13 +48,13 @@ const Vastappdev = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#F5F5F5] flex justify-center  sm:pt-[100px] sm:pb-[80px] pt-[50px] px-[20px] pb-[30px] w-full ">
-        <div className="lg:w-[80%] w-full  lg:h-[920px] bg-[#263238] lg:py-[60px] px-[30px] py-[20px] lg:px-[90px] rounded-[40px] sm:rounded-[60px] relative ">
+      <div className="bg-[#F5F5F5] flex justify-center  sm:pt-[100px] lg:pb-[80px] pt-[20px] px-[10px] pb-[px] w-full ">
+        <div className="lg:w-[80%] w-full   bg-[#263238] lg:py-[60px] px-[10px] py-[10px] lg:px-[90px] rounded-[40px] sm:rounded-[60px] relative ">
           <div className="flex flex-col  items-center space-y-5 ">
             <span className=" text-[18px] sm:text-[24px]  font-[400] text-[#FFFFFF]">
               Web & App Development
             </span>
-            <span className="  text-[20px] sm:text-[32px] font-[600] text-[#FFFFFF]">
+            <span className="  text-[20px] flex text-center sm:text-[32px] font-[600] text-[#FFFFFF]">
               Perfect app that takes your business forward
             </span>
           </div>
@@ -76,9 +76,9 @@ const Vastappdev = () => {
             />
           </svg>
 
-          <div className=" flex gap-20 items-center pt-[90px] flex-col lg:flex-row">
+          <div className=" flex gap-4 lg:gap-20 items-center lg:pt-[90px] flex-col lg:flex-row">
             <img
-              className="sm:w-[390px] w-[210px] sm:h-[540px]"
+              className=" lg:w-[410px] sm:h-[540px]"
               src={img5}
               alt=""
             />
@@ -113,7 +113,7 @@ const Vastappdev = () => {
           </div>
 
           <div className="flex justify-center pt-10 scale-105 ">
-            <button className="bg-[#4687C7] text-[12px]  rounded-[10px] sm:text-[16px] font-[500] py-5 px-8 text-white">
+            <button className="bg-[#4687C7] text-[12px]  rounded-[10px] sm:text-[16px] font-[500] lg:py-5 py-3 px-3 lg:px-8 text-white">
               Let’s Connect
             </button>
           </div>

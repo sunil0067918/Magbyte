@@ -381,7 +381,7 @@ const Nodsection = () => {
       <div className=" flex justify-center  bg-[#E9F5F6] py-4 lg:py-10 px-4 ">
         <div className="lg:w-[80%] flex flex-col  items-center">
           <div className="flex flex-col items-center gap-4">
-            <span className="lg:text-[32px] font-[800] text-[16px] flex justify-center">
+            <span className="lg:text-[32px] font-[800] text-[16px] text-center flex justify-center">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry
             </span>

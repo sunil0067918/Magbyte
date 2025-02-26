@@ -890,7 +890,7 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center">
-                          <Link className="flex gap-4 items-center">
+                          <Link className="flex gap-4 items-center" to="/QA">
                             <svg
                               width="24"
                               height="30"
@@ -953,7 +953,7 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center">
-                          <Link className="flex gap-4 items-center">
+                          <Link className="flex gap-4 items-center" to = "/Main">
                             <svg
                               width="24"
                               height="24"

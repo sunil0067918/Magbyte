@@ -150,7 +150,7 @@ const Laravel2sections = () => {
                   icon={drop === 5 ? faTimes : faPlus}
                   onClick={() => setdrop(drop === 5 ? 0 : 5)}
                   className={`transition-transform duration-300 ease-in-out transform text-2xl ${
-                    drop === 1 ? "rotate-45" : ""
+                    drop === 5 ? "rotate-45" : ""
                   }`}
                 />
               </div>
