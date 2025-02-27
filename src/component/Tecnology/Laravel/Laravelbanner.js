@@ -6,13 +6,13 @@ import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
 const Laravelbanner = () => {
   return (
     <div
-      className=" relative  sm:h-[880px] lg:h-[540px] h-[790px]  bg-blue-600 flex justify-center pt-5  lg:items-center "
+      className=" relative  sm:h-[880px] lg:h-[540px] h-[740px]  bg-blue-600 flex justify-center pt-5  lg:items-center "
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(${img})`,
         backgroundSize: `contain`,
       }}
     >
-      <div className="flex justify-between gap-10 w-[90%] lg:flex-row flex-col">
+      <div className=" absolute lg:w-[90%] px-4 flex gap-14 sm:items-baseline lg:items-center rounded-[5px] lg:flex-row flex-col">
         <div className="">
           <h1 className="lg:text-4xl text-xl text-white font-[600]">
             <span className="text-red-500 animate-pulse">Laravel</span> Web
@@ -84,7 +84,7 @@ const Laravelbanner = () => {
 
         <form
           action="submit"
-          className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
+          className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[10px] py-[20px] lg:px-[14px] lg:py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
         >
           <div className="flex flex-col text-center opacity-0 animate-fadeIn">
             <span className="text-[16px] sm:text-[20px] font-[800] bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent">
@@ -96,7 +96,7 @@ const Laravelbanner = () => {
             </p>
           </div>
 
-          <div className="flex flex-col space-y-5 pt-10">
+          <div className="flex flex-col space-y-5 pt-3 lg:pt-10">
             <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
               <input
                 className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"

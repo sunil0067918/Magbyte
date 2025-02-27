@@ -386,8 +386,8 @@ const Mangentoagency = () => {
         </div>
       </div>
 
-      <div className=" flex w-full justify-center  items-center gap-12">
-        <form action="submit" className="gap-5 flex flex-col ">
+      <div className=" flex w-full flex-col lg:flex-row justify-center px-3 items-center gap-12">
+        <form action="submit" className="gap-5 flex flex-col w-full ">
           <div className="gap-5 flex flex-col lg:flex-row">
             <input
               className="px-5 py-3 bg-gray-100 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200 ease-in-out w-full"

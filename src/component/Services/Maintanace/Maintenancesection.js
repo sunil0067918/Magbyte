@@ -1,5 +1,7 @@
 import React from "react";
 import img from "../Maintanace/Manitancesetionimages/images.png";
+import img1 from "../Maintanace/Manitancesetionimages/images1.png";
+import img2 from "../Maintanace/Manitancesetionimages/images2.png";
 
 const Maintenancesection = () => {
   return (
@@ -47,14 +49,14 @@ const Maintenancesection = () => {
           </div>
         </div>
       </div>
-      <div className=" flex justify-center items-center flex-col py-20">
+      <div className=" flex justify-center bg-slate-100 my-9 items-center flex-col py-4 px-3 lg:py-20">
         <div className="lg:w-[90%] flex justify-center flex-col items-center gap-10 ">
-          <span className="text-3xl font-[600]">
+          <span className="lg:text-3xl text-[18px] font-[600]">
             Types of software maintenance
           </span>
 
-          <div className="flex gap-5">
-            <div className=" flex flex-col border border-gray-400 shadow-md px-4 py-6 rounded-md lg:w-[350px]">
+          <div className="flex lg:flex-row flex-col  gap-5">
+            <div className=" flex flex-col border bg-white border-gray-400 shadow-md px-2 py-3 lg:px-4 lg:py-6 rounded-md lg:w-[350px]">
               <svg
                 width="40"
                 height="40"
@@ -91,12 +93,12 @@ const Maintenancesection = () => {
                 </defs>
               </svg>
 
-              <span className="text-[20px] font-[700]  ">Corrective</span>
-              <p className="text-[18px]  font-[500]">
+              <span className="lg:text-[20px] font-[700]  ">Corrective</span>
+              <p className="lg:text-[18px]  font-[500]">
                 fixing issues found by clients or identified during monitoring.
               </p>
             </div>
-            <div className=" flex flex-col border border-gray-400 shadow-md px-4 py-6 rounded-md lg:w-[350px]">
+            <div className=" flex flex-col border bg-white border-gray-400 shadow-md px-2 py-3 lg:px-4 lg:py-6 rounded-md lg:w-[350px]">
               <svg
                 width="40"
                 height="40"
@@ -132,12 +134,13 @@ const Maintenancesection = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="text-[20px] font-[700]  ">Corrective</span>
-              <p className="text-[18px]  font-[500]">
-                fixing issues found by clients or identified during monitoring.
+              <span className="lg:text-[20px] font-[700]   ">Adaptive</span>
+              <p className="lg:text-[18px]  font-[500]">
+                Modifying software to keep it in accordance with the changing
+                industry needs.
               </p>
             </div>
-            <div className=" flex flex-col border border-gray-400 shadow-md px-4 py-6 rounded-md lg:w-[350px]">
+            <div className=" flex flex-col border bg-white border-gray-400 shadow-md px-2 py-3 lg:px-4 lg:py-6 rounded-md lg:w-[350px]">
               <svg
                 width="40"
                 height="40"
@@ -174,27 +177,98 @@ const Maintenancesection = () => {
                 </defs>
               </svg>
 
-              <span className="text-[20px] font-[700]  ">Corrective</span>
-              <p className="text-[18px]  font-[500]">
-                fixing issues found by clients or identified during monitoring.
+              <span className="lg:text-[20px] font-[700]  ">Perfective</span>
+              <p className="lg:text-[18px]  font-[500]">
+                persistently improving software functionality, usability,
+                performance, etc.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-   <div  className=" flex justify-center h-[700px]">
-   <div className=" flex flex-col w-[90%] items-center gap-5">
-        <span className="text-[24px] font-[600]    ">What we really want from your side</span>
-        <p className="text-[20px] text-center font-[600]">
-          To offer the best software support solutions, we request that our
-          clients give however much data about the project as possible. Having
-          every one of the subtleties readily available, we can study your
-          business and technical challenges cautiously. In this way, here you
-          see a rundown of the most basic things to prepare for discussion.
-        </p>
+      <div className="flex justify-center  my-5">
+        <div className="lg:w-[90%] bg-gradient-to-r mx-2 from-blue-800 via-blue-700 to-blue-900 px-3 py-5 lg:px-6 lg:py-10 flex items-center text-white flex-col gap-4  rounded-md">
+          <span className="md:text-5xl font-[500] text-[18px] text-center">
+            Our Software Maintenance Services
+          </span>
+          <span className="md:text-[24px] text-[14px] font-semibold text-center">
+            Our skilled teams offer expert guidance and support across a range
+            of maintenance scenarios. KMS provides comprehensive end-to-end
+            services, including:
+          </span>
+          <ul className="flex flex-wrap pt-10 lg:space-x-10 list-disc items-center lg:text-[20px] font-medium gap-5 lg:gap-8">
+           
+            <li className="flex flex-col lg:gap-6">
+              <span>Technology Stack Evaluation</span>
+              <span>Infrastructure Configuration</span>
+            </li>
+            <li className="flex flex-col lg:gap-6   ">
+              <span>Cloud System Integration</span>
+              <span>Strategic Maintenance Planning</span>
+            </li>
+            <li className="flex flex-col lg:gap-6 whitespace-nowrap">
+              <span>Migration of Legacy Systems & Data</span>
+              <span>Cloud System Integration</span>
+            </li>
+          </ul>
+        </div>
       </div>
-   </div>
+
+      <div className=" flex justify-center lg:my-16 h-[700px]">
+        <div className=" flex flex-col w-[90%] items-center gap-5">
+          <div className="flex flex-col  items-center gap-5">
+            <span className="lg:text-[28px] font-[600]    ">
+              What we really want from your side
+            </span>
+            <p className="lg:text-[16px] text-[12px] text-gray-700 text-center font-[600]">
+              To offer the best software support solutions, we request that our
+              clients give however much data about the project as possible.
+              Having every one of the subtleties readily available, we can study
+              your business and technical challenges cautiously. In this way,
+              here you see a rundown of the most basic things to prepare for
+              discussion.
+            </p>
+          </div>
+          <div className=" flex gap-6 flex-col lg:flex-row items-center pt-6">
+            <img src={img1} alt="" className="  object-contain w-[400px]" />
+
+            <ul className="list-disc pl-5 gap-5 flex flex-col lg:text-[18px] font-[500]">
+              <li className="">Project objectives and guide</li>
+              <li className="">High level project requirement</li>
+              <li className="">
+                Project-specific documentation if accessible, for instance,
+                software architecture and mockups
+              </li>
+              <li className="">
+                A contact person from your side to get help from while
+                investigating
+              </li>
+              <li className="">Remote access capacities if required</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" relative  sm:h-[880px] lg:h-[340px] h-[350px] px-2  bg-blue-600 flex justify-center items-center "
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${img2})`,
+
+          backgroundSize: `cover`,
+        }}
+      >
+        <div className="flex flex-col items-center gap-9">
+          <span className="lg:text-4xl text-[18px] text-center text-white font-[600] flex ">
+            Safeguard your software applications with Magbytes Maintenance
+            Support.
+          </span>
+
+          <button className=" bg-transparent text-white hover:text-black py-2 px-4 lg:py-3 lg:px-8 lg:text-lg rounded-lg transform transition duration-300 hover:bg-white hover:scale-105 focus:outline-none border capitalize">
+            Talk to our team
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

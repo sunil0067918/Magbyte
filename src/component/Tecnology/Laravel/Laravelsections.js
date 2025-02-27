@@ -2,7 +2,7 @@ import React from "react";
 import img from "../Laravel/Laravelsectionimages/images1.png";
 const Laravelsections = () => {
   return (
-    <div className="flex flex-col ">
+    <div className=" ">
       <div className="my-10 flex justify-center">
         <div className="w-[85%] space-y-4">
           <h1 className="flex justify-center lg:text-3xl font-[500] text-start ">
@@ -39,13 +39,13 @@ const Laravelsections = () => {
         </div>
       </div>
       <div className="flex justify-center   bg-gray-700 text-white     ">
-        <div className=" py-9 lg:w-[80%]   ">
+        <div className=" lg:py-9 py-4 px-2 w-full lg:w-[80%]   ">
           <div className=" flex flex-col items-center justify-center">
-            <span className="flex justify-center text-3xl items-center  font-[500]">
+            <span className="flex justify-center lg:text-3xl items-center  font-[500]">
               Benefits of Laravel Development Services
             </span>
 
-            <p className="text-md  pt-7 font-[400] text-center w-[75%]      ">
+            <p className="lg:text-md  text-[14px] pt-7 font-[400] text-center  lg:w-[75%]      ">
               Laravel is a versatile framework with numerous built-in
               components, making development quick and efficient for any
               business application, from B2B projects to CRM systems. It’s ideal
@@ -55,8 +55,8 @@ const Laravelsections = () => {
           </div>
 
           <div className="pt-10 flex flex-col gap-7 ">
-            <div className="flex gap-6 ">
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg space-y-3 lg:w-[600px] w-full  flex-col items-start transition-all duration-300 bg-white shadow-md ">
+            <div className="flex flex-col lg:flex-row gap-6 ">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg space-y-3 lg:w-[600px]   flex-col items-start transition-all duration-300 bg-white shadow-md ">
                 <svg
                   width="40"
                   height="40"
@@ -102,7 +102,7 @@ const Laravelsections = () => {
                   functionalities.
                 </p>
               </div>
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300  bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300  bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -149,7 +149,7 @@ const Laravelsections = () => {
                 </p>
               </div>
 
-              <div className="flex  text-gray-800 border px-10 py-7 border-none  rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300  bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none  rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300  bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -196,8 +196,8 @@ const Laravelsections = () => {
               </div>
             </div>
 
-            <div className="flex gap-6 ">
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
+            <div className="flex  flex-col lg:flex-row gap-6 ">
+              <div className="flex  text-gray-800 borderlg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -242,7 +242,7 @@ const Laravelsections = () => {
                   live, and Laravel helps minimize vulnerabilities.
                 </p>
               </div>
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -289,7 +289,7 @@ const Laravelsections = () => {
                 </p>
               </div>
 
-              <div className="flex  text-gray-800 border px-10 py-7 border-none  rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none  rounded-lg space-y-3  lg:w-[600px] w-full flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -337,8 +337,8 @@ const Laravelsections = () => {
               </div>
             </div>
 
-            <div className="flex gap-6 ">
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg   lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
+            <div className="flex gap-6 flex-col lg:flex-row ">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg   lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -384,7 +384,7 @@ const Laravelsections = () => {
                   applications run more quickly and efficiently.
                 </p>
               </div>
-              <div className="flex  text-gray-800 border px-10 py-7 border-none rounded-lg  lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none rounded-lg  lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"
@@ -431,7 +431,7 @@ const Laravelsections = () => {
                 </p>
               </div>
 
-              <div className="flex  text-gray-800 border px-10 py-7 border-none  rounded-lg  lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
+              <div className="flex  text-gray-800 border lg:px-10 lg:py-7 px-5 py-4 border-none  rounded-lg  lg:w-[600px] w-full space-y-3 flex-col items-start transition-all duration-300 bg-white shadow-md">
                 <svg
                   width="40"
                   height="40"

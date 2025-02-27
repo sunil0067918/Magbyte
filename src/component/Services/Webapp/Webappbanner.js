@@ -6,13 +6,13 @@ const Webappbanner = () => {
   return (
     <div>
       <div
-        className=" relative lg:h-[540px] sm:h-[800px] h-[1300px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
+        className=" relative lg:h-[540px] sm:h-[800px] h-[1250px]  bg-blue-600 flex justify-center lg:items-center pt-[20px] lg:pt-0 "
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(${img1})`,
           backgroundSize: `cover`,
         }}
       >
-        <div className=" absolute w-[90%] flex gap-6 justify-between items-center rounded-[5px] space-y-4 lg:flex-row flex-col ">
+        <div className=" absolute  px-3 lg:w-[90%] flex gap-6 justify-between items-center rounded-[5px] space-y-4 lg:flex-row flex-col ">
           <div className="">
             <div className=" space-y-4">
               <span className=" text-[20px] lg:text-[32px] sm:text-[28px] sm:font-[500] lg:font-[700] text-white">
@@ -201,7 +201,7 @@ const Webappbanner = () => {
 
           <form
             action="submit"
-            className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
+            className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[10px] py-[20px] lg:px-[14px] lg:py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
           >
             <div className="flex flex-col text-center opacity-0 animate-fadeIn">
               <span className="text-[16px] sm:text-[20px] font-[800] bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent">
@@ -213,7 +213,7 @@ const Webappbanner = () => {
               </p>
             </div>
 
-            <div className="flex flex-col space-y-5 pt-10">
+            <div className="flex flex-col space-y-5 pt-5 lg:pt-10">
               <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
                 <input
                   className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"

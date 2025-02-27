@@ -7,16 +7,16 @@ const Laravel2sections = () => {
   const [drop, setdrop] = useState(1);
   return (
     <div className=" flex justify-center bg-[#faf8f8]">
-      <div className="w-[80%]  py-10 ">
-        <h1 className="text-[28px] font-[700]">
+      <div className="lg:w-[80%]  lg:py-10 py-4 px-2 ">
+        <h1 className="lg:text-[28px] text-[18px] text-center font-[700]">
           Magbytes most well-known Laravel services
         </h1>
 
-        <div className="pt-16 flex gap-16 ">
+        <div className="pt-16 flex flex-col lg:flex-row gap-16 ">
           <div className="space-y-10 text-start">
             <div className=" flex flex-col  ">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] whitespace-nowrap font-[600]">
+                <span className="lg:text-[24px] text-[16px] whitespace-nowrap font-[600]">
                   {" "}
                   Laravel migration
                 </span>
@@ -47,7 +47,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] whitespace-nowrap font-[600]">
+                <span className="lg:text-[24px] text-[16px] whitespace-nowrap font-[600]">
                   {" "}
                   Laravel Development
                 </span>
@@ -77,7 +77,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] font-[600] whitespace-nowrap">
+                <span className="lg:text-[24px] text-[16px] font-[600] whitespace-nowrap">
                   {" "}
                   Laravel API development
                 </span>
@@ -108,7 +108,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] font-[600] whitespace-nowrap">
+                <span className="lg:text-[24px] text-[16px] font-[600] whitespace-nowrap">
                   {" "}
                   Laravel maintenance and assistance
                 </span>
@@ -142,7 +142,7 @@ const Laravel2sections = () => {
           <div className="space-y-10">
             <div className=" flex flex-col  text-startt">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] whitespace-nowrap font-[600]">
+                <span className="lg:text-[24px] text-[16px] whitespace-nowrap font-[600]">
                   {" "}
                   Laravel Consulting
                 </span>
@@ -172,7 +172,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] whitespace-nowrap font-[600]">
+                <span className="lg:text-[24px] text-[16px] whitespace-nowrap font-[600]">
                   {" "}
                   Looking to hire a Laravel developer?
                 </span>
@@ -202,7 +202,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] font-[600] whitespace-nowrap">
+                <span className="lg:text-[24px] text-[16px] font-[600] whitespace-nowrap">
                   {" "}
                   Laravel development extension
                 </span>
@@ -232,7 +232,7 @@ const Laravel2sections = () => {
             </div>
             <div className=" flex flex-col">
               <div className="flex items-center gap-5">
-                <span className="text-[24px] font-[600] whitespace-nowrap">
+                <span className="lg:text-[24px] text-[16px] font-[600] whitespace-nowrap">
                   {" "}
                   Laravel eCommerce development
                 </span>
@@ -263,11 +263,11 @@ const Laravel2sections = () => {
           </div>
         </div>
 
-        <div className="pt-20 flex gap-6">
-          <img src={img1} />
+        <div className="lg:pt-20 py-8 flex flex-col lg:flex-row gap-6">
+          <img src={img1} alt="" />
           <div className="flex flex-col gap-4">
-            <span className="text-[24px] font-[600]" >Complex Business Application </span>
-            <p className="text-[20px]  text-gray-700">
+            <span className="lg:text-[24px] text-[18px] font-[600]" >Complex Business Application </span>
+            <p className="lg:text-[20px] text-[14px]  text-gray-700">
               We specialize in developing small yet complex business
               applications tailored for brands across the globe. Our tech
               experts ensure a seamless development process while delivering

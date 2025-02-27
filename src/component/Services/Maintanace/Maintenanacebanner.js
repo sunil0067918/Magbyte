@@ -23,9 +23,10 @@ const Maintenanacebanner = () => {
             operations, enabling you to boost productivity, regardless of your
             organization's size or scope!
           </p>
-          <button className="lg:px-5 lg:py-4 px-3 py-2 text-white bg-blue-500 rounded-full transition-transform transform hover:scale-105 hover:shadow-lg">
-            Request a Quote
-          </button>
+          <button className="lg:px-5 lg:py-4 px-3 py-2 text-white bg-gradient-to-r from-blue-700 to-blue-500 rounded-full transition-all transform hover:scale-105 hover:shadow-lg hover:from-blue-500 hover:to-blue-400">
+  Request a Quote
+</button>
+
         </div>
       </div>
     </div>

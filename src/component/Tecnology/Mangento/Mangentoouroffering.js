@@ -77,12 +77,12 @@ const Mangentoouroffering = () => {
                     velit dapibus."
                   </p>
 
-                  <a
+                  <button
                     href="#"
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
-                  </a>
+                  </button>
                 </div>
 
                 <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
@@ -96,14 +96,14 @@ const Mangentoouroffering = () => {
                     velit dapibus."
                   </p>
 
-                  <a
-                    href="#"
+                  <button
+                   
                     
                     
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
-                  </a>
+                  </button>
                 </div>
               </div>
 

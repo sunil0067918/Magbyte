@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const [count, setcount] = useState(0);
   return (
-    <div className="">
+    <div className="  overflow-hidden">
       <div
         className="h-[560px]   text-white  object-cover bg-no-repeat bg-cover hidden lg:block "
         style={{
@@ -85,45 +85,81 @@ const Footer = () => {
             <div className="">
               <div>
                 <div className="pt-3">
+                  <span className="text-[20px] font-[800] border-b-[10px] border-blue-400">
+                    Services
+                  </span>
+                  <ul className="flex gap-5 pt-3 h-[40px] cursor-pointer">
+                    <Link to="/webdesign">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Web Design
+                      </li>
+                    </Link>
+                    <Link to="/web">
+                      {" "}
+                      <li className="text-[15px]  font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Web and App Devlopment
+                      </li>
+                    </Link>
+                    <Link to="/digital">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        {" "}
+                        Digital Markting
+                      </li>
+                    </Link>
+                    <Link to="/Ecommarce">
+                      {" "}
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        E-commarce
+                      </li>
+                    </Link>
+                    <Link to="/QA">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        QA & Testing
+                      </li>
+                    </Link>
+                    <Link to="/Dedicated">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Dedicated Team
+                      </li>
+                    </Link>
+                    <Link to="/Main">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Manitence Support
+                      </li>
+                    </Link>
+                    <Link to="/frame">
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Frameworks
+                      </li>
+                    </Link>
+                  </ul>
+                </div>
+                <div className="pt-3">
                   <span className="text-[20px] font-[800] border-b-[10px] border-blue-400  shadow-text-lg">
                     Technologies
                   </span>
                   <ul className="flex gap-5 pt-5 h-[40px] cursor-pointer">
-                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[blue] ">
-                      Mangento Devlopment
-                    </li>
-                    <li className="text-[15px]  font-[400]">
-                      Python Devlopment
-                    </li>
-                    <li className="text-[15px] font-[400]">
+                    <Link to="/tecno">
+                      {" "}
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white] ">
+                        Mangento Devlopment
+                      </li>
+                    </Link>
+                    <Link to="/python">
+                      {" "}
+                      <li className="text-[15px]  font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Python Devlopment
+                      </li>
+                    </Link>
+                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
                       {" "}
                       Woo Commarce Devlopment
                     </li>
-                    <li className="text-[15px] font-[400]">
+                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
                       Spotify Devlopment
                     </li>
-                    <li className="text-[15px] font-[400]">
+                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
                       Big Commarce Devlopment
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="pt-3">
-                  <span className="text-[20px] font-[800] border-b-[10px] border-blue-400">
-                    Services
-                  </span>
-                  <ul className="flex gap-5 pt-3">
-                    <li className="text-[15px] font-[400]">Web Design</li>
-                    <li className="text-[15px]  font-[400]">
-                      Web and App Devlopment
-                    </li>
-                    <li className="text-[15px] font-[400]">
-                      {" "}
-                      Digital Markting
-                    </li>
-                    <li className="text-[15px] font-[400]">E-commarce</li>
-                    <li className="text-[15px] font-[400]">
-                      Manitence Support
                     </li>
                   </ul>
                 </div>
@@ -132,14 +168,21 @@ const Footer = () => {
                   <span className="text-[20px] font-[800] border-b-[10px] border-blue-400">
                     Company
                   </span>
-                  <ul className="flex gap-5 pt-5">
+                  <ul className="flex gap-5 pt-5 h-[40px] cursor-pointer">
                     <Link to="/about">
-                      <li className="text-[15px] font-[400]">About Us</li>
+                      <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                        About Us
+                      </li>
                     </Link>
                     <Link to="/contact">
-                      <li className="text-[15px]  font-[400]">Contact us</li>
+                      <li className="text-[15px]  font-[400] hover:border-b-2 hover:border-b-[white]">
+                        Contact us
+                      </li>
                     </Link>
-                    <li className="text-[15px] font-[400]"> Blog</li>
+                    <li className="text-[15px] font-[400] hover:border-b-2 hover:border-b-[white]">
+                      {" "}
+                      Blog
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -245,9 +288,6 @@ const Footer = () => {
         </div>
       </div>
 
-
-      
-
       <div className="bg-[#111428] flex  items-center flex-col  justify-center lg:hidden  py-3  ">
         <div className=" w-[90%] flex flex-col pt-7 text-center items-center  ">
           <div className="flex justify-center flex-col items-center">
@@ -348,11 +388,38 @@ const Footer = () => {
                   count === 1 ? "block" : "hidden"
                 } text-white text-[13px] font-bold pt-4 space-y-4  cursor-pointer flex flex-col  items-baseline`}
               >
-                <li className="hover:text-blue-700 ">Web Design</li>
-                <li className="hover:text-blue-700">Web and App Devlopment</li>
-                <li className="hover:text-blue-700">Digital Markting</li>
-                <li className="hover:text-blue-700">E-commarce</li>
-                <li className="hover:text-blue-700">Manitence Support</li>
+                <Link to="/webdesign">
+                  <li className="hover:text-blue-700 ">Web Design</li>
+                </Link>
+                <Link to="/web">
+                  {" "}
+                  <li className="hover:text-blue-700">
+                    Web and App Devlopment
+                  </li>
+                </Link>
+                <Link to="/digital">
+                  {" "}
+                  <li className="hover:text-blue-700">Digital Markting</li>
+                </Link>
+
+                <Link to="/Ecommarce">
+                  {" "}
+                  <li className="hover:text-blue-700">E-commarce</li>
+                </Link>
+                <Link to="/Main">
+                  <li className="hover:text-blue-700">Manitence Support</li>
+                </Link>
+                <Link to="/frame">
+                  <li className="hover:text-blue-700">Frameworks</li>
+                </Link>
+
+                <Link to="/Dedicated">
+                  <li className="hover:text-blue-700">Dedicated Team</li>
+                </Link>
+
+                <Link to="/QA">
+                  <li className="hover:text-blue-700">QA & Testing</li>
+                </Link>
               </ul>
             </div>
             <svg
