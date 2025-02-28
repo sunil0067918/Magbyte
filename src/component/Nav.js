@@ -25,7 +25,7 @@ import img13 from "../component/Tecnology/images/images12.png";
 import img14 from "../component/Tecnology/images/images14.png";
 import img15 from "../component/Tecnology/images/images15.png";
 import img16 from "../component/Tecnology/images/images16.png";
-import img17 from "../component/Tecnology/images/images17.png";
+// import img17 from "../component/Tecnology/images/images17.png";
 import img18 from "../component/Tecnology/images/images18.png";
 import img19 from "../component/Tecnology/images/images19.png";
 import img20 from "../component/Tecnology/images/images20.png";
@@ -722,7 +722,7 @@ const Nav = () => {
                           </li>
 
                           <li>
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center" to = "/code">
                               <img alt="" src={img7} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -773,15 +773,7 @@ const Nav = () => {
                             </Link>
                           </li>
 
-                          <li className=" ">
-                            <Link className="flex gap-3 items-center">
-                              <img alt="" src={img17} className="w-[28px]" />
-
-                              <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
-                                HTML5
-                              </span>
-                            </Link>
-                          </li>
+                        
 
                           <li className=" ">
                             <Link className="flex gap-3 items-center">

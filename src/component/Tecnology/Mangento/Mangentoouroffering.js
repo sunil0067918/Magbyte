@@ -183,17 +183,17 @@ const Mangentoouroffering = () => {
               <div className="pt-16">
                 <div className="flex flex-col lg:flex-row gap-8">
                   <img
-                    alt="Image 1"
+                 alt=""
                     src={img1}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />
                   <img
-                    alt="Image 2"
+                   alt=""
                     src={img2}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />
                   <img
-                    alt="Image 3"
+                   alt=""
                     src={img3}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />

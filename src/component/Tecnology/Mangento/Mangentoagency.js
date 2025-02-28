@@ -132,7 +132,7 @@ const Mangentoagency = () => {
         </div>
       </div>
 
-      <div className=" lg:h-[600px] w-full pt-20  flex justify-center ">
+      <div className=" lg:h-[600px] w-full pt-20 bg-orange-200  flex justify-center ">
         <div className="lg:w-[80%] px-4 ">
           <p className="flex justify-center text-[12px] lg:text-[20px]  font-[600]">
             Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -386,7 +386,8 @@ const Mangentoagency = () => {
         </div>
       </div>
 
-      <div className=" flex w-full flex-col lg:flex-row justify-center px-3 items-center gap-12">
+     <div className="flex w-full justify-center ">
+     <div className=" flex w-[90%] flex-col lg:flex-row  px-3 py-20  gap-12">
         <form action="submit" className="gap-5 flex flex-col w-full ">
           <div className="gap-5 flex flex-col lg:flex-row">
             <input
@@ -426,8 +427,9 @@ const Mangentoagency = () => {
           </button>
         </div>
         </form>
-        <img src={img22} alt=""  className="w-[50%] object-contain"/>
+        <img src={img22} alt=""  className="w-full object-contain"/>
       </div>
+     </div>
     </div>
   );
 };

@@ -16,6 +16,7 @@ import Maintenance from "./component/Services/Maintanace/Maintenance";
 import Rea from "./component/Tecnology/React/Rea";
 import Dediacted from "./component/Services/Dedictedteam/Dediacted";
 import Frameworks from "./component/Services/Frameworks/Frameworks";
+import Codeigniter from "./component/Tecnology/Codeigniterdev/Codeigniter";
 
 const App = () => {
   useEffect(() => {
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/Laravel" element={<Laravel />} />
           <Route path="/Node" element={<Node />} />
           <Route path="/Reactt" element={<Rea />} />
+          <Route path="/code" element = {<Codeigniter/>}/>
           <Route path="/frame" element={<Frameworks />} />
         </Routes>
       </BrowserRouter>

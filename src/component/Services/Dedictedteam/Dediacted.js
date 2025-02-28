@@ -4,6 +4,7 @@ import Dedicatedbanner from "./Dedicatedbanner";
 import Dedicatedsection from "./Dedicatedsection";
 import Dedicatedsection2 from "./Dedicatedsection2";
 import Dedicatedfaq from "./Dedicatedfaq";
+import Footer from "../../Footer";
 
 const Dediacted = () => {
   return (
@@ -13,6 +14,7 @@ const Dediacted = () => {
       <Dedicatedsection/>
       <Dedicatedsection2/>
       <Dedicatedfaq/>
+      <Footer/>
     </div>
   );
 };
