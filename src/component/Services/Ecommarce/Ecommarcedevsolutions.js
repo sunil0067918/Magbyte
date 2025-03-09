@@ -16,8 +16,8 @@ const Ecommarcedevsolutions = () => {
 
         <div className=" pt-10 sm:t-20 flex flex-col gap-10 flex-wrap">
           <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row ">
-            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
-              <div class="flex items-center space-x-4">
+            <div className="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div className="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="40"
@@ -66,12 +66,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
+                <span className="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Migration Services
                 </span>
               </div>
 
-              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+              <p className="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -81,8 +81,8 @@ const Ecommarcedevsolutions = () => {
               </p>
             </div>
 
-            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
-              <div class="flex items-center space-x-4">
+            <div className="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div className="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="37"
@@ -103,12 +103,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
+                <span className="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Design & Development
                 </span>
               </div>
 
-              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+              <p className="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -120,8 +120,8 @@ const Ecommarcedevsolutions = () => {
           </div>
 
           <div className="flex gap-10 justify-center flex-wrap flex-col lg:flex-row  ">
-            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
-              <div class="flex items-center space-x-4">
+            <div className="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div className="flex items-center space-x-4">
                 <svg
                   width="50"
                   height="40"
@@ -146,12 +146,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
+                <span className="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Strategy & Consultancy
                 </span>
               </div>
 
-              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+              <p className="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to
@@ -161,8 +161,8 @@ const Ecommarcedevsolutions = () => {
               </p>
             </div>
 
-            <div class="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
-              <div class="flex items-center space-x-4">
+            <div className="bg-white px-6 py-8 sm:px-8 sm:py-10 lg:px-12 lg:py-16 space-y-6 lg:w-[40%] w-full rounded-[25px] sm:rounded-[30px] shadow-xl">
+              <div className="flex items-center space-x-4">
                 <svg
                   width="40"
                   height="40"
@@ -195,12 +195,12 @@ const Ecommarcedevsolutions = () => {
                   </defs>
                 </svg>
 
-                <span class="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
+                <span className="lg:text-[26px] lg:font-semibold sm:text-[24px] sm:font-medium text-[20px] font-medium text-gray-800">
                   eCommerce Migration Services
                 </span>
               </div>
 
-              <p class="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
+              <p className="text-gray-700 sm:text-lg text-base sm:font-medium font-light leading-relaxed">
                 Looking for rapid business growth? Then, you require our
                 eCommerce migration service for a technically advanced yet
                 user-friendly online marketplace. Our team has the expertise to

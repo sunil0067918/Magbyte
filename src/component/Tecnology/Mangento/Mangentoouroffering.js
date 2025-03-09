@@ -14,7 +14,7 @@ const Mangentoouroffering = () => {
 
         <div className="     py-5 mt-6 px-3 lg:px-10 rounded-lg">
           <div className="flex gap-5 flex-wrap">
-          <button
+            <button
               className="relative text-[16px] rounded-md text-white px-7 py-3 font-[500] overflow-hidden group bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-lg"
               onClick={() => setchange(1)}
             >
@@ -77,12 +77,12 @@ const Mangentoouroffering = () => {
                     velit dapibus."
                   </p>
 
-                  <button
+                  <a
                     href="#"
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
-                  </button>
+                  </a>
                 </div>
 
                 <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
@@ -96,18 +96,34 @@ const Mangentoouroffering = () => {
                     velit dapibus."
                   </p>
 
-                  <button
-                   
-                    
-                    
+                  <a
+                    href="#"
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
-                  </button>
+                  </a>
                 </div>
               </div>
 
               <div className="flex flex-col pt-10 gap-7 lg:flex-row">
+              <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
+                  <span className="text-2xl font-semibold tracking-wide uppercase">
+                    Platform Audit & Consulting
+                  </span>
+
+                  <p className="text-base font-light opacity-90">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur vehicula neque vel urna malesuada, at ultricies
+                    velit dapibus."
+                  </p>
+
+                  <a
+                    href="#"
+                    className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
+                  >
+                    Learn More
+                  </a>
+                </div>
                 <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
                   <span className="text-2xl font-semibold tracking-wide uppercase">
                     Platform Audit & Consulting
@@ -126,7 +142,6 @@ const Mangentoouroffering = () => {
                     Learn More
                   </a>
                 </div>
-
                 <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
                   <span className="text-2xl font-semibold tracking-wide uppercase">
                     Platform Audit & Consulting
@@ -138,31 +153,12 @@ const Mangentoouroffering = () => {
                     velit dapibus."
                   </p>
 
-                  <a
+                  <button
                     href="#"
                     className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
                   >
                     Learn More
-                  </a>
-                </div>
-
-                <div className="bg-gradient-to-r from-gray-500 to-gray-800 rounded-lg text-white py-8 px-6 shadow-lg space-y-6 max-w-md mx-auto transition-transform transform hover:scale-105 duration-300">
-                  <span className="text-2xl font-semibold tracking-wide uppercase">
-                    Platform Audit & Consulting
-                  </span>
-
-                  <p className="text-base font-light opacity-90">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur vehicula neque vel urna malesuada, at ultricies
-                    velit dapibus."
-                  </p>
-
-                  <a
-                    href="#"
-                    className="block text-center py-2 px-6 bg-gray-600 hover:bg-gray-700 rounded-full font-semibold mt-4 transition-colors duration-200"
-                  >
-                    Learn More
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -183,17 +179,17 @@ const Mangentoouroffering = () => {
               <div className="pt-16">
                 <div className="flex flex-col lg:flex-row gap-8">
                   <img
-                 alt=""
+                    alt=""
                     src={img1}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />
                   <img
-                   alt=""
+                    alt=""
                     src={img2}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />
                   <img
-                   alt=""
+                    alt=""
                     src={img3}
                     className="w-[200px] object-contain rounded-md transition-transform duration-300 hover:scale-105"
                   />

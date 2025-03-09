@@ -131,7 +131,9 @@ const MobileNav = ({ change }) => {
                         DotNet
                       </li>
                     </Link>
-                    <li className="hover:text-blue-700 text-[14px]">Angular</li>
+                 <Link to  =  "/angular">
+                 <li className="hover:text-blue-700 text-[14px]">Angular</li>
+                 </Link>
                     <Link to="/Reactt">
                       <li className="hover:text-blue-700 text-[14px]">
                         React JS

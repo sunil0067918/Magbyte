@@ -391,7 +391,7 @@ const Pythonsection = () => {
             </p>
           </div>
 
-          <button class="bg-yellow-400 text-gray-700 py-2 px-4 rounded-md text-lg transition duration-300 ease-in-out transform hover:bg-orange-400 hover:scale-105">
+          <button className="bg-yellow-400 text-gray-700 py-2 px-4 rounded-md text-lg transition duration-300 ease-in-out transform hover:bg-orange-400 hover:scale-105">
             Hire developers
           </button>
         </div>

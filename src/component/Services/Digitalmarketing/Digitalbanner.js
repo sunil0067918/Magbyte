@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../Digitalmarketing/Images/images1.png";
 import img2 from "../Digitalmarketing/Images/images2.png";
 import img3 from "../Digitalmarketing/Images/images3.png";
+import Form from "../../Form"
 
 const Digitalbanner = () => {
   return (
@@ -34,65 +35,7 @@ const Digitalbanner = () => {
             </button>
           </div>
 
-          <form
-            action="submit"
-            className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
-          >
-            <div className="flex flex-col text-center opacity-0 animate-fadeIn">
-              <span className="text-[16px] sm:text-[20px] font-[800] bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent">
-                Book Free Consultation
-              </span>
-
-              <p className="text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
-                Fill Out the Form and Our Expert Will Contact You Within 24hrs
-              </p>
-            </div>
-
-            <div className="flex flex-col space-y-5 pt-10">
-              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
-                  type="text"
-                  placeholder="FirstName*"
-                />
-
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
-                  type="email"
-                  placeholder="Email*"
-                />
-              </div>
-
-              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
-                  type="number"
-                  placeholder="Phone Number*"
-                />
-
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
-                  type="text"
-                  placeholder="Company Name*"
-                />
-              </div>
-
-              <input
-                type="text"
-                placeholder="Your Requirement*"
-                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
-              />
-
-              <button class=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-[#4687C7] to-[#1E3A8A] border-2 border-[#4687C7] shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-[#4687C7] focus:ring-opacity-60 focus:border-[#4687C7] focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
-                <span
-                  className="
-                flowing-textt text-[11px] sm:text-[14px]"
-                >
-                  Submit Your Requirement!
-                </span>
-              </button>
-            </div>
-          </form>
+         <Form/>
         </div>
       </div>
 

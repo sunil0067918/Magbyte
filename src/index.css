@@ -119,19 +119,20 @@ body {
   animation: flowingText 3s linear infinite;
 }
 
-
-
-@keyframes flowingText {
-  0% {
-    background-position: 200% center;
-  }
-  100% {
-    background-position: -200% center;
-  }
+#python .slick-list {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  align-items: center ;
+  gap: 20pxza ;
 }
 
+
+
 .flowing-textt {
-  font-size: 18px; /* Adjust text size */
+ /* Adjust text size */
   font-weight: 600; /* Bold text */
   background-image: linear-gradient(90deg, #070707, #111118, #ffffff); /* White to blue gradient */
   background-size: 200% 100%;

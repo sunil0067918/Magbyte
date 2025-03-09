@@ -17,6 +17,14 @@ import Rea from "./component/Tecnology/React/Rea";
 import Dediacted from "./component/Services/Dedictedteam/Dediacted";
 import Frameworks from "./component/Services/Frameworks/Frameworks";
 import Codeigniter from "./component/Tecnology/Codeigniterdev/Codeigniter";
+import Angular from "./component/Tecnology/Angular/Angular";
+import Php from "./component/Tecnology/php/Php";
+import Dotnet from "./component/Tecnology/Dotnet/Dotnet";
+import Wordpress from "./component/Tecnology/CMS/Wordpress/Wordpress";
+import Drupal from "./component/Tecnology/CMS/Drupal/Drupal";
+import Craft from "./component/Tecnology/CMS/Craft/Craft";
+import Joomla from "./component/Tecnology/CMS/Joomla/Joomla";
+import Sharepoint from "./component/Tecnology/CMS/Sharepoint/Sharepoint";
 
 const App = () => {
   useEffect(() => {
@@ -42,7 +50,15 @@ const App = () => {
           <Route path="/Laravel" element={<Laravel />} />
           <Route path="/Node" element={<Node />} />
           <Route path="/Reactt" element={<Rea />} />
-          <Route path="/code" element = {<Codeigniter/>}/>
+          <Route path="/code" element={<Codeigniter />} />
+          <Route path="/angular" element={<Angular />} />
+          <Route path="/php" element={<Php />} />
+          <Route path="/dot" element={<Dotnet />} />
+          <Route path="/Wordpress" element={<Wordpress />} />
+          <Route path="/drupal" element={<Drupal />} />
+          <Route path="/craftt" element={<Craft />} />
+          <Route path="/joomla" element={<Joomla />} />
+          <Route path="/share" element={<Sharepoint />} />
           <Route path="/frame" element={<Frameworks />} />
         </Routes>
       </BrowserRouter>

@@ -337,7 +337,7 @@ const Mangentoagency = () => {
               ""
             )}
 
-            {/* {changes3 === 4 ? (
+            {changes3 === 4 ? (
               <ul className=" lg:flex justify-between items-center grid grid-cols-3 gap-3 ">
                 <li>
                   <img
@@ -381,7 +381,7 @@ const Mangentoagency = () => {
               </ul>
             ) : (
               ""
-            )} */}
+            )}
           </div>
         </div>
       </div>

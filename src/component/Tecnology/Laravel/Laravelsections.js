@@ -30,7 +30,7 @@ const Laravelsections = () => {
                 your online presence with Laravel-driven solutions that make a
                 real difference.
               </p>
-              <button class="bg-gradient-to-r from-red-500 to-pink-500 text-white py-2 px-4 rounded-md transition-colors duration-300 hover:from-pink-500 hover:to-red-500">
+              <button className="bg-gradient-to-r from-red-500 to-pink-500 text-white py-2 px-4 rounded-md transition-colors duration-300 hover:from-pink-500 hover:to-red-500">
                 Contact us
               </button>
             </div>

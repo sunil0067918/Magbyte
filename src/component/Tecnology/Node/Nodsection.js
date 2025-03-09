@@ -369,7 +369,7 @@ const Nodsection = () => {
                 </div>
               </div>
               <div className="flex justify-center">
-                <button class="bg-gradient-to-r from-green-500 to-green-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-green-600 hover:to-green-800 active:scale-95">
+                <button className="bg-gradient-to-r from-green-500 to-green-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gradient-to-r hover:from-green-600 hover:to-green-800 active:scale-95">
                   LET'S DISCUSS YOUR PROJECT
                 </button>
               </div>
@@ -529,7 +529,7 @@ const Nodsection = () => {
           <span className="lg:text-[18px] text-[16px] text-gray-200 font-[500]">
             Get a detailed estimate of your project with all risks included.
           </span>
-          <button class="bg-blue-800 text-white font-bold py-3 px-6 rounded-lg lg:*:text-lg uppercase transform transition-all duration-300 hover:bg-blue-700 hover:translate-y-1 focus:outline-none focus:ring-4 focus:ring-pink-500 focus:ring-offset-2 active:translate-y-0.5">
+          <button className="bg-blue-800 text-white font-bold py-3 px-6 rounded-lg lg:*:text-lg uppercase transform transition-all duration-300 hover:bg-blue-700 hover:translate-y-1 focus:outline-none focus:ring-4 focus:ring-pink-500 focus:ring-offset-2 active:translate-y-0.5">
             Get in Touch
           </button>
         </div>

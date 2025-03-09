@@ -2,6 +2,7 @@ import React from "react";
 import img from "../Laravel/Bannnerimages/images.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
+import Form from "../../Form";
 
 const Laravelbanner = () => {
   return (
@@ -82,7 +83,7 @@ const Laravelbanner = () => {
           </div>
         </div>
 
-        <form
+        {/* <form
           action="submit"
           className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[10px] py-[20px] lg:px-[14px] lg:py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]"
         >
@@ -131,7 +132,7 @@ const Laravelbanner = () => {
               className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
             />
 
-            <button class=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-red-600 to-[#e66161] border-2 border-red-500 shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500 focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
+            <button className=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-red-600 to-[#e66161] border-2 border-red-500 shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500 focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
               <span
                 className="
                 flowing-texttt text-[11px] sm:text-[14px]"
@@ -140,7 +141,9 @@ const Laravelbanner = () => {
               </span>
             </button>
           </div>
-        </form>
+        </form> */}
+
+        <Form/>
       </div>
     </div>
   );

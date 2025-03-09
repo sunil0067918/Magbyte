@@ -275,7 +275,6 @@ const Nav = () => {
                       icon={faCaretUp}
                     />
                   </div>
-              
 
                   <div className="flex bg-white justify-between bg-gradient-to-r from-black to-gray-500 border-[0.5px] border-gray-400 text-white px-6 py-7 rounded-lg shadow-xl">
                     <div className="flex w-[60%] gap-16">
@@ -393,7 +392,7 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center text-[14px]">
-                          <Link className="flex gap-4 items-center" to= "/frame">
+                          <Link className="flex gap-4 items-center" to="/frame">
                             <svg
                               width="24"
                               height="24"
@@ -575,7 +574,7 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center">
-                          <Link className="flex gap-4 items-center" to = "/Main">
+                          <Link className="flex gap-4 items-center" to="/Main">
                             <svg
                               width="24"
                               height="24"
@@ -626,7 +625,10 @@ const Nav = () => {
                         </li>
 
                         <li className="flex gap-3 items-center">
-                          <Link className="flex gap-4 items-center" to="/Dedicated">
+                          <Link
+                            className="flex gap-4 items-center"
+                            to="/Dedicated"
+                          >
                             <svg
                               width="24"
                               height="15"
@@ -722,7 +724,10 @@ const Nav = () => {
                           </li>
 
                           <li>
-                            <Link className="flex gap-3 items-center" to = "/code">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/code"
+                            >
                               <img alt="" src={img7} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -732,7 +737,10 @@ const Nav = () => {
                           </li>
 
                           <li className=" ">
-                            <Link className="flex gap-3 items-center" to="/python">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/python"
+                            >
                               <img alt="" src={img8} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -742,7 +750,10 @@ const Nav = () => {
                           </li>
 
                           <li>
-                            <Link className="flex gap-3 items-center"  to="/Node">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/Node"
+                            >
                               <img alt="" src={img10} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -764,7 +775,10 @@ const Nav = () => {
                           </li>
 
                           <li className=" ">
-                            <Link className="flex gap-3 items-center">
+                            <Link
+                              className="flex gap-3 items-cente"
+                              to="/angular"
+                            >
                               <img alt="" src={img11} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -773,10 +787,8 @@ const Nav = () => {
                             </Link>
                           </li>
 
-                        
-
                           <li className=" ">
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center" to="/php">
                               <img alt="" src={img18} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -786,7 +798,7 @@ const Nav = () => {
                           </li>
 
                           <li className=" ">
-                            <Link className="flex gap-3">
+                            <Link className="flex gap-3" to="/dot">
                               <img alt="" src={img19} className="w-[30px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -803,6 +815,7 @@ const Nav = () => {
                             <img
                               src={img29}
                               className="w-[25px] object-contain "
+                              alt=""
                             />
                             <p className="font-[500]">CMS</p>
                           </div>
@@ -812,7 +825,7 @@ const Nav = () => {
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
                           <li className="    ">
                             <Link
-                              to="/tecno"
+                              to="/Wordpress"
                               className="flex gap-3 items-center"
                             >
                               <img
@@ -827,7 +840,10 @@ const Nav = () => {
                           </li>
 
                           <li className="  ">
-                            <Link className="flex gap-3 items-center">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/drupal"
+                            >
                               <img
                                 alt=""
                                 src={img31}
@@ -842,7 +858,7 @@ const Nav = () => {
 
                           <li className=" flex gap-3  items-center text-[14px]">
                             <Link
-                              to="/webdesign"
+                              to="/craftt"
                               className="flex gap-3 items-center"
                             >
                               <img
@@ -857,7 +873,10 @@ const Nav = () => {
                           </li>
 
                           <li className=" flex gap-3  items-center text-[14px]">
-                            <Link className="flex gap-3 items-center">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/joomla"
+                            >
                               <img alt="" src={img33} className="w-[30px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -867,7 +886,10 @@ const Nav = () => {
                           </li>
 
                           <li className=" flex gap-3  items-center text-[14px]">
-                            <Link className="flex gap-3 items-center">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/share"
+                            >
                               <img
                                 alt=""
                                 src={img34}
@@ -916,6 +938,7 @@ const Nav = () => {
                             <img
                               src={img16}
                               className="w-[15px] object-contain"
+                              alt=""
                             />
                             <p className="font-[500]">Ecommarce</p>
                           </div>
@@ -985,6 +1008,7 @@ const Nav = () => {
                             <img
                               src={img20}
                               className="w-[15px] object-contain"
+                              alt=""
                             />
                             <p className="font-[500] whitespace-nowrap">
                               Mobile Apps
@@ -1062,6 +1086,7 @@ const Nav = () => {
                             <img
                               src={img24}
                               className="w-[35px] object-contain "
+                              alt=""
                             />
                             <p className="font-[500]">CRM</p>
                           </div>
@@ -1121,6 +1146,7 @@ const Nav = () => {
                             <img
                               src={img37}
                               className="w-[35px] object-contain "
+                              alt=""
                             />
                             <p className="font-[500]">Cloud</p>
                           </div>

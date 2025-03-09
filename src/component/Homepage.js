@@ -53,7 +53,7 @@ export const Homepage = () => {
           <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  pt-5 ">
             <div className="   lg:w-[576px] ">
               <h1 className="font-[Wix Madefor Display]  text-white lg:text-[24px] text-[18px]">
-                Web <span class="bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
+                Web <span className="bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
                   Designing
                 </span> And
                 <span className=" bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text"> Development</span>

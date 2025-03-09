@@ -3,6 +3,7 @@ import img1 from "../Mangento/bannerimages/images1.png";
 import img2 from "../images/images13.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
+import Form from "../../Form"
 
 const Mangentobanner = () => {
   return (
@@ -18,7 +19,7 @@ const Mangentobanner = () => {
           <div>
             <h1 className="text-white lg:text-[40px] text-[20px] font-[400] lg:font-[800]     ">
               Adobe Commerce and Magento <br />
-              <span className="text-orange-500  animate-pulse">
+              <span className="bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent  animate-pulse">
                 Development
               </span>
             </h1>
@@ -76,60 +77,7 @@ const Mangentobanner = () => {
               </div>
             </div>
           </div>
-          <form
-            action="submit"
-            className="bg-[#2E2E2E] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromBottom"
-          >
-            <div className="flex flex-col text-center opacity-0 animate-fadeIn">
-              <span className="text-[16px] sm:text-[20px] font-[800] bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent">
-                Book Free Consultation
-              </span>
-
-              <p className="text-[12px] sm:text-[14px] font-[500] text-[#FFFFFF] text-center">
-                Fill Out the Form and Our Expert Will Contact You Within 24hrs
-              </p>
-            </div>
-
-            <div className="flex flex-col space-y-5 pt-10">
-              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all duration-300"
-                  type="text"
-                  placeholder="FirstName*"
-                />
-
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all duration-300"
-                  type="email"
-                  placeholder="Email*"
-                />
-              </div>
-
-              <div className="flex justify-between sm:flex-row flex-col gap-5 sm:gap-0">
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all duration-300"
-                  type="number"
-                  placeholder="Phone Number*"
-                />
-
-                <input
-                  className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all duration-300"
-                  type="text"
-                  placeholder="Company Name*"
-                />
-              </div>
-
-              <input
-                type="text"
-                placeholder="Your Requirement*"
-                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all duration-300"
-              />
-
-              <button class="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-orange-500 to-yellow-500 border-2 border-orange-500 shadow-[0_0_10px_2px_rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px_rgba(70,135,199,1)] focus:ring focus:border-[#4687C7] focus:shadow-[0_0_20px_4px_rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
-                Submit Your Requirement!
-              </button>
-            </div>
-          </form>
+          <Form/>
         </div>
       </div>
 
@@ -177,7 +125,7 @@ const Mangentobanner = () => {
             </div>
 
             <img
-              alt="Magento Image"
+              alt=""
               src={img2}
               className="lg:w-[50%] rounded-md object-cover animate-pulse"
               style={{

@@ -557,15 +557,15 @@ const Reactsection2 = () => {
         </div>
       </div>
 
-      <div className=" flex justify-center py-9 px-5   bg-black text-white">
-        <div className="lg:w-[80%] w-full flex flex-col items-center justify-center">
+      <div className=" flex justify-center py-9 lg:px-5  px-3  bg-black text-white">
+        <div className="lg:w-[80%] w-full flex flex-col items-center ">
           <span className="lg:text-4xl text-center font-[600]">
             The Advantages of Working with Magbytes for Development
           </span>
 
           <div className="flex flex-col pt-5  lg:pt-10 gap-6">
             <div className="flex lg:flex-row flex-col  gap-5">
-              <div className=" lg:w-[400px] w-full lg:py-4 px-3 py-2 lg:px-6 flex flex-col  gap-4  bg-gray-900 rounded-md   hover:scale-105 hover:transition-all hover:duration-300 ">
+              <div className=" lg:w-[400px]  lg:py-4 px-3 py-2 lg:px-6 flex flex-col  gap-4  bg-gray-900 rounded-md   hover:scale-105 hover:transition-all hover:duration-300 ">
                 <svg
                   width="50"
                   height="40"
@@ -773,7 +773,7 @@ const Reactsection2 = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-r from-blue-500 to-sky-400 flex justify-center px-3 lg:py-20 py-10">
+      <div className="bg-gradient-to-r from-blue-500 to-sky-400 flex justify-center px-3 lg:py-20 py-5">
         <div className="flex justify-center gap-3 flex-col items-center text-white">
           <span className="lg:text-[24px] font-[700]">
             Bring Your Vision to Life

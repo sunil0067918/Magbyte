@@ -1,5 +1,6 @@
 import React from 'react'
 import img from  "../Node/Nodebannerimages/images.png"
+import Form from '../../Form'
 const Nodebanner = () => {
   return (
     <div>
@@ -314,9 +315,9 @@ const Nodebanner = () => {
               </div>
             </div>
           </div>
-
+<Form />
          
-          <form
+          {/* <form
             action="submit"
             className="bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] px-[14px] py-[40px] opacity-0 animate-slideInFromRight border-2 border-[#333333]"
           >
@@ -365,7 +366,7 @@ const Nodebanner = () => {
                 className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-0 focus:border-[#333333] lighting-border transition-all duration-300"
               />
 
-              <button class=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-[#4ac746] to-[#308a1e] border-2 border-[#5bc746] shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-[#4687C7] focus:ring-opacity-60 focus:border-[#4687C7] focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
+              <button className=" px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] font-[700] text-white bg-gradient-to-r from-[#4ac746] to-[#308a1e] border-2 border-[#5bc746] shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105 hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:ring-[#4687C7] focus:ring-opacity-60 focus:border-[#4687C7] focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all duration-300 ease-in-out">
                 <span
                   className="
                 flowing-textt text-[11px] sm:text-[14px]"
@@ -374,7 +375,7 @@ const Nodebanner = () => {
                 </span>
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
         

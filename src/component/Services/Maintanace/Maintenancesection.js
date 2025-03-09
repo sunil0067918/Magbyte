@@ -215,7 +215,7 @@ const Maintenancesection = () => {
         </div>
       </div>
 
-      <div className=" flex justify-center lg:my-16 h-[700px]">
+      <div className=" flex justify-center lg:my-16 ">
         <div className=" flex flex-col w-[90%] items-center gap-5">
           <div className="flex flex-col  items-center gap-5">
             <span className="lg:text-[28px] font-[600]    ">
