@@ -25,6 +25,8 @@ import Drupal from "./component/Tecnology/CMS/Drupal/Drupal";
 import Craft from "./component/Tecnology/CMS/Craft/Craft";
 import Joomla from "./component/Tecnology/CMS/Joomla/Joomla";
 import Sharepoint from "./component/Tecnology/CMS/Sharepoint/Sharepoint";
+import Umbarco from "./component/Tecnology/CMS/Umbaraco/Umbarco";
+import Sitecore from "./component/Tecnology/CMS/Sitecore/Sitecore";
 
 const App = () => {
   useEffect(() => {
@@ -59,6 +61,8 @@ const App = () => {
           <Route path="/craftt" element={<Craft />} />
           <Route path="/joomla" element={<Joomla />} />
           <Route path="/share" element={<Sharepoint />} />
+          <Route path="/um" element={<Umbarco />} />
+          <Route path="/site" element={<Sitecore />} />
           <Route path="/frame" element={<Frameworks />} />
         </Routes>
       </BrowserRouter>

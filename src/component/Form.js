@@ -74,10 +74,14 @@ const Form = () => {
                 ? "bg-gradient-to-r from-blue-800 to-white bg-clip-text text-transparent "
                 : location.pathname === "/craftt"
                 ? "bg-gradient-to-r from-orange-700 to-orange-500 bg-clip-text text-transparent "
-                :  location.pathname === "/joomla"
+                : location.pathname === "/joomla"
                 ? "bg-gradient-to-r from-blue-800 to-white bg-clip-text text-transparent "
                 : location.pathname === "/share"
                 ? "bg-gradient-to-r from-sky-300 to-white bg-clip-text text-transparent "
+                : location.pathname === "/um"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/site"
+                ? "bg-gradient-to-r from-red-800 to-white bg-clip-text text-transparent "
                 : ""
             } text-[16px] sm:text-[20px] font-[800] `}
           >
@@ -224,13 +228,14 @@ const Form = () => {
                 ? "bg-gradient-to-r from-[rgb(48,23,192)] to-[#4507d7] border-2 border-[#492aa5] "
                 : location.pathname === "/share"
                 ? "bg-gradient-to-r from-[rgb(78,226,234)] to-[#86dddf] border-2 border-[#6ee3e9] "
+                : location.pathname === "/um"
+                ? "bg-gradient-to-r from-[rgb(42,18,152)] to-[#0404a3] border-2 border-[#4333d3] "
+                : location.pathname === "/site"
+                ? "bg-gradient-to-r from-red-600 to-[#e66161] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500 "
                 : ""
             } px-[4px] py-[4px] mt-[20px] lg:mt-0 sm:px-[10px] sm:py-[10px] font-[700]  text-white
-          
               shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105
-               hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4
-              
-                 focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all
+               hover:shadow-[0_0_20px_4px rgba(70,135,199,1)] focus:ring-4 focus:shadow-[0_0_20px_4px rgba(70,135,199,1)] rounded-[6px] transition-all
                   duration-300 ease-in-out `}
           >
             <span

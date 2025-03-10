@@ -903,7 +903,7 @@ const Nav = () => {
                           </li>
 
                           <li className=" flex gap-3  items-center text-[14px]">
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center" to="/um">
                               <img
                                 alt=""
                                 src={img35}
@@ -917,7 +917,7 @@ const Nav = () => {
                           </li>
 
                           <li className=" flex gap-3  items-center text-[14px]">
-                            <Link className="flex gap-3 items-center">
+                            <Link className="flex gap-3 items-center" to= "/site">
                               <img
                                 alt=""
                                 src={img36}
