@@ -201,3 +201,13 @@ body {
   animation: slideInFromTop 1s ease-out forwards; /* Added 'forwards' to retain the final state */
 }
 
+/* Hide the scrollbar but allow scrolling */
+.hide-scrollbar {
+  overflow: auto; /* Allow scrolling */
+  -ms-overflow-style: none;  /* For Internet Explorer */
+  scrollbar-width: none; /* For Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* For Chrome, Safari, and Opera */
+}

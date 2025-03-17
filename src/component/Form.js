@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 
 const Form = () => {
   let location = useLocation();
-
+  console.log(location);
   const {
     register,
     handleSubmit,
@@ -36,8 +36,10 @@ const Form = () => {
         onSubmit={handleSubmit(onSubmit)}
         action="submit"
         className={`${
-          location.pathname === "/anugular" ? "animate-slideInFromRight" : ""
-        }bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] lg:px-[14px] py-[20px] px-[10px] lg:py-[40px] opacity-0 animate-slideInFromBottom border-2 border-[#333333]`}
+          location.pathname === "/angular"
+            ? "animate-slideInFromRight"
+            : "animate-slideInFromBottom " 
+        } bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] lg:px-[14px] py-[20px] px-[10px] lg:py-[40px] opacity-0 border-2 border-[#333333]`}
       >
         <div className="flex flex-col text-center opacity-0 animate-fadeIn">
           <span
@@ -82,6 +84,32 @@ const Form = () => {
                 ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
                 : location.pathname === "/site"
                 ? "bg-gradient-to-r from-red-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/woo"
+                ? "bg-gradient-to-r from-pink-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/spotify"
+                ? "bg-gradient-to-r from-green-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/bigco"
+                ? "bg-gradient-to-r from-purple-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/adobe"
+                ? "bg-gradient-to-r from-red-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/android"
+                ? "bg-gradient-to-r from-green-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/Reactnative"
+                ? "bg-gradient-to-r from-blue-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/flutter"
+                ? "bg-gradient-to-r from-sky-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/ios"
+                ? "bg-gradient-to-r from-gray-800 to-white bg-clip-text text-transparent "
+                : location.pathname === "/servicenow"
+                ? "bg-gradient-to-r from-green-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/sales"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/hub"
+                ? "bg-gradient-to-r from-orange-600 to-white bg-clip-text text-transparent "
+                : location.pathname === "/zoho"
+                ? "bg-gradient-to-r from-red-600 to-white bg-clip-text text-transparent "
+                : location.pathname === "/awsa"
+                ? "bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent "
                 : ""
             } text-[16px] sm:text-[20px] font-[800] `}
           >
@@ -232,6 +260,32 @@ const Form = () => {
                 ? "bg-gradient-to-r from-[rgb(42,18,152)] to-[#0404a3] border-2 border-[#4333d3] "
                 : location.pathname === "/site"
                 ? "bg-gradient-to-r from-red-600 to-[#e66161] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500 "
+                : location.pathname === "/woo"
+                ? "bg-gradient-to-r from-pink-600 to-[#ab087a] border-2 border-pink-500 focus:ring-4 focus:ring-pink-500 focus:ring-opacity-60 focus:border-pink-500 "
+                : location.pathname === "/spotify"
+                ? "bg-gradient-to-r from-green-600 to-[#17de63] border-2 border-green-500 focus:ring-4 focus:ring-green-500 focus:ring-opacity-60 focus:border-green-500 "
+                : location.pathname === "/bigco"
+                ? "bg-gradient-to-r from-purple-600 to-[#c514b9] border-2 border-purple-500 focus:ring-4 focus:ring-purple-500 focus:ring-opacity-60 focus:border-purple-500 "
+                : location.pathname === "/adobe"
+                ? "bg-gradient-to-r from-red-600 to-[#9d0505] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500 "
+                : location.pathname === "/android"
+                ? "bg-gradient-to-r from-green-600 to-[#17b93a] border-2 border-green-500 focus:ring-4 focus:ring-green-500 focus:ring-opacity-60 focus:border-green-500 "
+                : location.pathname === "/Reactnative"
+                ? "bg-gradient-to-r from-blue-600 to-[#2c0dba] border-2 border-blue-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                : location.pathname === "/flutter"
+                ? "bg-gradient-to-r from-blue-600 to-[#32aee3] border-2 border-blue-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                : location.pathname === "/ios"
+                ? "bg-gradient-to-r from-gray-500 to-[#a3a3b9] border-2 border-black-500 focus:ring-4 focus:ring-gray-500 focus:ring-opacity-60 focus:border-gray-500 "
+                : location.pathname === "/servicenow"
+                ? "bg-gradient-to-r from-green-900 to-[#096d10] border-2 border-black-500 focus:ring-4 focus:ring-green-500 focus:ring-opacity-60 focus:border-green-500 "
+                : location.pathname === "/sales"
+                ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                :  location.pathname === "/hub"
+                ? "bg-gradient-to-r from-orange-600 to-[#98870a] border-2 border-black-500 focus:ring-4 focus:ring-orange-600 focus:ring-opacity-60 focus:border-orange-500 "
+                : location.pathname === "/zoho"
+                ? "bg-gradient-to-r from-red-600 to-[#9d0505] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500  "
+                : location.pathname === "/awsa"
+                ? "bg-gradient-to-r from-yellow-600 to-[#dff141] border-2 border-yellow-500 focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-60 focus:border-yellow-500  "
                 : ""
             } px-[4px] py-[4px] mt-[20px] lg:mt-0 sm:px-[10px] sm:py-[10px] font-[700]  text-white
               shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105

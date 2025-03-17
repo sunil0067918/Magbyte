@@ -403,7 +403,7 @@ const Craftsection = () => {
             </button>
           </div>
           <div className="lg:w-[600px] flex flex-col gap-5">
-            <p className="lg:text-[18px] text-[12px]">
+            <p className="lg:text-[16px] text-[12px]">
               At Magbytes, our Web UX design process is thorough and carefully
               planned. It begins with a detailed briefing where we gather
               requirements, analyze functionalities, define the target audience,
@@ -411,7 +411,7 @@ const Craftsection = () => {
               crucial in ensuring a seamless user experience throughout the
               project.
             </p>
-            <p className="lg:text-[18px] text-[12px]">
+            <p className="lg:text-[16px] text-[12px]">
               After the briefing, our team performs an in-depth analysis of the
               requirements. This includes client meetings, competitor research,
               planning the website structure, creating prototypes, and
@@ -421,7 +421,7 @@ const Craftsection = () => {
               ensuring everything aligns with the client’s business goals and
               meets the needs of their users.
             </p>
-            <p className="lg:text-[18px] text-[12px]">
+            <p className="lg:text-[16px] text-[12px]">
               Throughout this process, we emphasize the creation of user-centric
               designs, adhering to UX best practices. Our focus remains on
               ensuring clear navigation, device responsiveness, and optimizing

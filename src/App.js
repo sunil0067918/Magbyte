@@ -27,6 +27,19 @@ import Joomla from "./component/Tecnology/CMS/Joomla/Joomla";
 import Sharepoint from "./component/Tecnology/CMS/Sharepoint/Sharepoint";
 import Umbarco from "./component/Tecnology/CMS/Umbaraco/Umbarco";
 import Sitecore from "./component/Tecnology/CMS/Sitecore/Sitecore";
+import Woocommarce from "./component/Tecnology/Ecomar/Woocomarce/Woocommarce";
+import Spotify from "./component/Tecnology/Ecomar/Spotify/Spotify";
+import Bigcommarce from "./component/Tecnology/Ecomar/Bigcommarce/Bigcommarce";
+import Adobe from "./component/Tecnology/Ecomar/Adobe/Adobe";
+import Android from "./component/Tecnology/MobileApps/Android/Android";
+import Reactnavtive from "./component/Tecnology/MobileApps/Reactnative/Reactnavtive";
+import Flutter from "./component/Tecnology/MobileApps/Flutter/Flutter";
+import Ios from "./component/Tecnology/MobileApps/IOS/Ios";
+import Servicenow from "./component/Tecnology/CRM/Servicenow/Servicenow";
+import Salesforcee from "./component/Tecnology/CRM/Salesforce/Salesforcee";
+import Hubspot from "./component/Tecnology/CRM/Hubspot/Hubspot";
+import Zoho from "./component/Tecnology/CRM/ZOHO/Zoho";
+import Awtt from "./component/Tecnology/Cloud/AWS/Awtt";
 
 const App = () => {
   useEffect(() => {
@@ -63,6 +76,19 @@ const App = () => {
           <Route path="/share" element={<Sharepoint />} />
           <Route path="/um" element={<Umbarco />} />
           <Route path="/site" element={<Sitecore />} />
+          <Route path="woo" element={<Woocommarce />} />
+          <Route path="/spotify" element={<Spotify />} />
+          <Route path="/bigco" element={<Bigcommarce />} />
+          <Route path="/adobe" element={<Adobe />} />
+          <Route path="/android" element={<Android />} />
+          <Route path="/Reactnative" element={<Reactnavtive />} />
+          <Route path="/flutter" element={<Flutter />} />
+          <Route path="/ios" element={<Ios />} />
+          <Route path="/servicenow" element={<Servicenow />} />
+          <Route path="/sales" element={<Salesforcee />} />
+          <Route path="/hub" element={<Hubspot />} />
+          <Route path="/zoho" element={<Zoho />} />
+          <Route path="/awsa" element={<Awtt />} />
           <Route path="/frame" element={<Frameworks />} />
         </Routes>
       </BrowserRouter>

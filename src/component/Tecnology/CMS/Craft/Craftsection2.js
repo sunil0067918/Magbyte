@@ -52,8 +52,8 @@ const Craftsection2 = () => {
         <div className="w-[90%] flex lg:flex-row flex-col">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-5">
-              <span className="lg:text-[28px] text-[20px] text-center">Why Should You Hire Dedicated CMS Developers?</span>
-              <p  className="lg:text-[18px] text-[14px] text-center">
+              <span className="lg:text-[28px] text-[20px] text-center lg:text-start">Why Should You Hire Dedicated CMS Developers?</span>
+              <p  className="lg:text-[18px] text-[14px] text-center lg:text-start">
                 Access a comprehensive suite of CMS development services to
                 obtain customized CMS solutions tailored to your business needs.
                 Enhance the efficiency of managing your content and enterprise
