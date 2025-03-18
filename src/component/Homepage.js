@@ -34,7 +34,6 @@ import img32 from "../images/Groupimages2/images15.png";
 import img33 from "../images/Groupimages2/images16.png";
 import img34 from "../images/Groupimages2/images17.png";
 
-import img35 from "../images/Groupimages3/image1.png";
 import img36 from "../images/Groupimages3/image2.png";
 import img37 from "../images/Groupimages3/image3.png";
 import img38 from "../images/Groupimages3/image4.png";
@@ -53,10 +52,15 @@ export const Homepage = () => {
           <div className=" space-y-8 w-full sm:items-start items-center flex flex-col  pt-5 ">
             <div className="   lg:w-[576px] ">
               <h1 className="font-[Wix Madefor Display]  text-white lg:text-[24px] text-[18px]">
-                Web <span className="bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
+                Web{" "}
+                <span className="bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
                   Designing
-                </span> And
-                <span className=" bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text"> Development</span>
+                </span>{" "}
+                And
+                <span className=" bg-gradient-to-r from-[#FF6F00] to-[#FFA500] text-transparent bg-clip-text">
+                  {" "}
+                  Development
+                </span>
               </h1>
               <span className=" sm:text-[38px] text-[24px] font-[800]   tracking-wide sm:w-[553px] text-white text-center  ">
                 We Challenge GrandeurAnd Perfectness Standard
@@ -826,7 +830,7 @@ export const Homepage = () => {
           </svg>
         </div>
 
-        <span className="flex justify-center text-[#5e5c5c]   text-center lg:text-[100px] text-[40px] capitalize font-[800]  ">
+        <span className="flex justify-center text-[#5e5c5c]   text-center lg:text-[70px] text-[40px] capitalize font-[800]  ">
           ABOUT US
         </span>
         <div className="flex justify-center ">
@@ -865,13 +869,13 @@ export const Homepage = () => {
                   </defs>
                 </svg>
               </div>
-              <div className="sm:w-[80%] space-y-3 pt-5 ">
-                <span className="font-[400]  w-[400px] lg:text-[36px] text-[20px]">
+              <div className="sm:w-[80%] flex items-start flex-col space-y-3 pt-5 ">
+                <span className="font-[400]   lg:text-[36px] text-center lg:text-start  text-[20px]">
                   We Shape Future By Building{" "}
-                  <span className="font-[600] "> Stunning Products</span>{" "}
+                  <span className="font-[600]  "> Stunning Products</span>{" "}
                 </span>
 
-                <p className="lg:text-[20px] text-[16px] mt-4 text-wrap">
+                <p className="lg:text-[20px] text-[12px] mt-4 ">
                   We are a group of digital strategists, technologists, and
                   masterminds. Together, we aspire to co-imagine the future by
                   adding our unparalleled ability pulled from a different
@@ -881,17 +885,17 @@ export const Homepage = () => {
                   prepare us to carry elegance and insight to each project we
                   attempt.
                 </p>
-
-                <button className="bg-[#4687C7] text-white md:px-[50px] md:py-[16px] px-[30px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 mt-[45px] sm:text-[16px] text-[12px] font-[600] ">
-                  <span className="text-[12px] sm:text-[16px] ">
-                    LET'S CONNET
+                <button className="bg-gradient-to-r from-[#87CEEB] to-[#6CC1E1] text-white md:px-[50px] md:py-[16px] px-[30px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 mt-[45px] sm:text-[16px] text-[12px] font-[600] transition-all duration-300 ease-in-out">
+                  <span className="text-black text-[12px] sm:text-[16px] font-[600]">
+                    LET'S CONNECT
                   </span>
                   <svg
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg text-[20px] "
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-[20px]"
                   >
                     <path
                       d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
@@ -1021,24 +1025,6 @@ export const Homepage = () => {
                   Dedicated Team
                 </li>
               </ul>
-
-              <svg
-                width="1"
-                height="812"
-                viewBox="0 0 1 812"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className=" absolute left-[379px] top-[-136px] hidden lg:block"
-              >
-                <line
-                  opacity="0.5"
-                  x1="0.5"
-                  y1="2.18557e-08"
-                  x2="0.499965"
-                  y2="812"
-                  stroke="#060606"
-                />
-              </svg>
 
               <div className=" lg:w-[70%] w-full  flex justify-center  px-4 py-8  mt-3 sm:mt-0">
                 <div>
@@ -1231,7 +1217,7 @@ export const Homepage = () => {
           </span>
           <div className=" flex  gap-16 justify-center mt-10 flex-wrap px-5 flex-col md:flex-row h-full mb-6  ">
             <div className="flex gap-10  flex-col md:flex-row">
-              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]  md:w-[378px]  hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]  md:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1276,7 +1262,7 @@ export const Homepage = () => {
                     10 + Years of Experience
                   </span>
                 </div>
-                <p className="font-[400]  sm:text-[20px] text-[16px] ">
+                <p className="font-[400]  sm:text-[16px] text-[12px] ">
                   We have 10+ years of experience with creating eCommerce
                   websites. Our group is knowledgeable in Shopify, Magento,
                   Magento 2, Laravel, Woo Commerce, and WordPress.
@@ -1316,13 +1302,13 @@ export const Homepage = () => {
                     Dedicated Team
                   </span>
                 </div>
-                <p className="font-[400]  text-[16px]   sm:text-[20px]">
+                <p className="font-[400]  sm:text-[16px] text-[12px]">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
                 </p>
               </div>
 
-              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]    md:w-[378px] space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]    md:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1355,7 +1341,7 @@ export const Homepage = () => {
                     Precise Quote and ETA
                   </span>
                 </div>
-                <p className="font-[400]  text-[16px]  leading-[30px] text-wrap  sm:text-[20px]">
+                <p className="font-[400]      sm:text-[16px] text-[12px]">
                   We have 10+ years of experience with creating eCommerce
                   websites. Our group is knowledgeable in Shopify, Magento,
                   Magento 2, Laravel, Woo Commerce, and WordPress.
@@ -1363,7 +1349,7 @@ export const Homepage = () => {
               </div>
             </div>
             <div className="flex gap-10 flex-col md:flex-row">
-              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]  md:w-[378px] sm:py-7 py-2   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]  md:w-[378px] sm:py-7 py-2   space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1396,14 +1382,14 @@ export const Homepage = () => {
                     Non-Disclosure Agreement
                   </span>
                 </div>
-                <p className="font-[400]  text-[16px]  leading-[30px]  sm:text-[20px]">
+                <p className="font-[400]     sm:text-[16px] text-[12px]">
                   We have 10+ years of experience with creating eCommerce
                   websites. Our group is knowledgeable in Shopify, Magento,
                   Magento 2, Laravel, Woo Commerce, and WordPress.
                 </p>
               </div>
 
-              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2  bg-[#FFFFFF]   md:w-[378px]  space-y-2 sm:space-y-5   hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2  bg-[#FFFFFF]   md:w-[378px]  space-y-2 sm:space-y-3   hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -1436,7 +1422,7 @@ export const Homepage = () => {
                     Optimal Solutions
                   </span>
                 </div>
-                <p className="font-[400]  text-[16px]  leading-[30px]  sm:text-[20px]">
+                <p className="font-[400]      sm:text-[16px] text-[12px]">
                   We will not only implement all your requirements to the letter
                   but also offer you the best solution for your specific
                   project. Helping you succeed is our top priority.
@@ -1638,13 +1624,6 @@ export const Homepage = () => {
 
           <div className=" space-y-4 pt-4 md:pt-0">
             <div className="flex gap-4 flex-wrap">
-              <div className="border-[0.5px] border-[#4687C7] p-1 rounded-[10px] ">
-                <img
-                  src={img35}
-                  alt=""
-                  className="sm:h-[87px] sm:w-[106px] w-[80px]  h-[66px] object-contain"
-                />
-              </div>
               <div className="border-[0.5px] border-[#4687C7] p-1 rounded-[10px] ">
                 <img
                   src={img36}

@@ -177,7 +177,7 @@ const Sharepointsection = () => {
       <div className="py-10 px-5 flex justify-center items-center  ">
         <div className="flex flex-col lg:w-[90%]">
           <div className="flex flex-col items-center gap-3">
-            <span className="lg:text-4xl text-[18px] text-orange-400 font-[600] text-center">
+            <span className="lg:text-4xl text-[18px] text-blue-600 font-[600] text-center">
               Magbytes- A Trusted Provider of Custom and Leading SharePoint
               Solutions.
             </span>
@@ -241,10 +241,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     Design and Customization of SharePoint Websites
                   </span>
-                  <p className="lg:text-[16px] text-[13px]  font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     The design and customization of SharePoint websites involves
                     creating a unique and functional online platform tailored to
                     an organization's needs. This process includes modifying the
@@ -306,10 +306,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     SharePoint Integration
                   </span>
-                  <p className="lg:text-[16px] text-[13px]  font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     SharePoint integration refers to the process of connecting
                     SharePoint with other systems, applications, or platforms to
                     streamline workflows and improve productivity. This
@@ -374,10 +374,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     SharePoint E-commerce Solutions
                   </span>
-                  <p className="lg:text-[16px] text-[13px]  font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     Magbyte's custom SharePoint e-commerce solutions are
                     designed to enhance your digital presence, providing
                     seamless management of products, orders, customers, and
@@ -440,10 +440,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     SharePoint Headless Solutions
                   </span>
-                  <p className="lg:text-[16px] text-[13px]  font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     SharePoint headless solutions refer to the decoupling of the
                     back-end SharePoint platform from the front-end user
                     interface, allowing for more flexibility in how content is
@@ -506,10 +506,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     SharePoint Consulting
                   </span>
-                  <p className="lg:text-[16px] text-[13px]  font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     SharePoint consulting involves providing expert advice and
                     services to help organizations optimize their use of
                     SharePoint for document management, collaboration, and
@@ -571,10 +571,10 @@ const Sharepointsection = () => {
                       </clipPath>
                     </defs>
                   </svg>
-                  <span className="lg:text-[20px] text-[16px] font-[500] text-orange-400">
+                  <span className="lg:text-[20px] text-[16px] font-[500] text-blue-600">
                     Expert SharePoint Support Solutions
                   </span>
-                  <p className="lg:text-[16px] text-[13px]   font-[400] text-gray-700">
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                     Expert SharePoint support solutions provide businesses with
                     the ongoing assistance and technical expertise needed to
                     ensure their SharePoint environment runs smoothly and

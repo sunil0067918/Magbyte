@@ -2,8 +2,9 @@ import React from "react";
 import Nav from "../../../Nav";
 import Awbanner from "./Awbanner";
 import Awsection from "./Awsection";
-// import Awfaq from  "../AWS/Awfaq"
+
 import Footer from   "../../../Footer"
+import Awfaqss from "./Awfaqss";
 
 const Awtt = () => {
   return (
@@ -11,8 +12,8 @@ const Awtt = () => {
       <Nav />
       <Awbanner />
       <Awsection/>  
- 
-      {/* <Awfaq/> */}
+      <Awfaqss/>
+
       <Footer/>
     </div>
   );

@@ -110,6 +110,8 @@ const Form = () => {
                 ? "bg-gradient-to-r from-red-600 to-white bg-clip-text text-transparent "
                 : location.pathname === "/awsa"
                 ? "bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent "
+                : location.pathname === "/hire"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
                 : ""
             } text-[16px] sm:text-[20px] font-[800] `}
           >
@@ -286,6 +288,8 @@ const Form = () => {
                 ? "bg-gradient-to-r from-red-600 to-[#9d0505] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500  "
                 : location.pathname === "/awsa"
                 ? "bg-gradient-to-r from-yellow-600 to-[#dff141] border-2 border-yellow-500 focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-60 focus:border-yellow-500  "
+                : location.pathname === "/hire"
+                ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500  "
                 : ""
             } px-[4px] py-[4px] mt-[20px] lg:mt-0 sm:px-[10px] sm:py-[10px] font-[700]  text-white
               shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105

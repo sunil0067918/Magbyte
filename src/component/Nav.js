@@ -1462,13 +1462,15 @@ const Nav = () => {
                 </span>
               </li>
 
-              <li className=" ">
+          <Link to = "/hire">
+          <li className=" ">
                 <span className="relative inline-block group">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
                     Hire Devlopers
                   </span>
                 </span>
               </li>
+          </Link>
             </ul>
 
             <button

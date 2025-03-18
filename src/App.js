@@ -40,6 +40,7 @@ import Salesforcee from "./component/Tecnology/CRM/Salesforce/Salesforcee";
 import Hubspot from "./component/Tecnology/CRM/Hubspot/Hubspot";
 import Zoho from "./component/Tecnology/CRM/ZOHO/Zoho";
 import Awtt from "./component/Tecnology/Cloud/AWS/Awtt";
+import Hiredev from "./component/Hiredevlopers/Hiredev";
 
 const App = () => {
   useEffect(() => {
@@ -90,6 +91,7 @@ const App = () => {
           <Route path="/zoho" element={<Zoho />} />
           <Route path="/awsa" element={<Awtt />} />
           <Route path="/frame" element={<Frameworks />} />
+          <Route path="/hire"  element = {<Hiredev/> }/>
         </Routes>
       </BrowserRouter>
     </>

@@ -45,7 +45,7 @@ const Sharesection2 = () => {
                 <span className="lg:text-[20px] text-[16px] font-[600]">
                   HR Analytics for SharePoint HR Management System{" "}
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   HR Analytics for SharePoint HR Management System combines the
                   power of data analysis with SharePoint’s collaborative
                   platform to optimize human resource management. By integrating
@@ -59,7 +59,7 @@ const Sharesection2 = () => {
                   Intelligent Project Monitoring for SharePoint Project
                   Management{" "}
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   Intelligent Project Monitoring for SharePoint Project
                   Management utilizes advanced tools and analytics to provide
                   real-time insights into project progress, performance, and
@@ -72,7 +72,7 @@ const Sharesection2 = () => {
                 <span className="lg:text-[20px] text-[16px] font-[600]">
                   Intelligent Search for SharePoint Online
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   Intelligent Search for SharePoint Online enhances the search
                   functionality by using advanced AI and machine learning
                   algorithms to deliver more accurate and relevant results. With
@@ -87,7 +87,7 @@ const Sharesection2 = () => {
                 <span className="lg:text-[20px] text-[16px] font-[600]">
                   AI-Driven API Error Handling for SharePoint API
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   AI-Driven API Error Handling for SharePoint API uses
                   artificial intelligence to automatically detect, diagnose, and
                   resolve errors within the SharePoint API. By leveraging
@@ -100,7 +100,7 @@ const Sharesection2 = () => {
                 <span className="lg:text-[20px] text-[16px] font-[600]">
                   AI-Based Knowledge Management for SharePoint Online
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   AI-Based Knowledge Management for SharePoint Online leverages
                   artificial intelligence to streamline the organization,
                   discovery, and sharing of knowledge across an organization. By
@@ -114,7 +114,7 @@ const Sharesection2 = () => {
                 <span className="lg:text-[20px] text-[16px] font-[600]">
                   Automated Task Assignment for SharePoint Project Management
                 </span>
-                <p className="lg:text-[16px]  text-[12px]">
+                <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose mx-auto ">
                   Automated Task Assignment for SharePoint Project Management
                   streamlines the process of allocating tasks to team members
                   based on predefined criteria such as availability, skills, and
