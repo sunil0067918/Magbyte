@@ -1,5 +1,6 @@
 import {
   faCartShopping,
+  faCheck,
   faCloud,
   faGear,
   faLaptop,
@@ -7,11 +8,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import img from "./Hiresectionimage/image3.png";
+import Slider1 from "../Slider/Slider1";
+import Footer from  "../Footer"
 
-// import img from "./Hiresectionimage/image2.png";
 
 const Hiredevsection2 = () => {
   const [change, setchange] = useState(1);
+
   return (
     <div className="">
       {/* <div className=" flex justify-center py-10">
@@ -206,7 +210,7 @@ const Hiredevsection2 = () => {
               Technologies that we are well versed in :{" "}
             </span>
           </div>
-          <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800   rounded-md mt-10">
+          <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800    rounded-md mt-3 lg:mt-10">
             <div className=" flex lg:gap-6 gap-2  flex-wrap lg:flex-nowrap">
               <div
                 className="flex items-centerlg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
@@ -221,7 +225,10 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
 
-              <div className="flex items-center space-x-4 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300">
+              <div
+                className="flex items-center space-x-4 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
+                onClick={() => setchange(2)}
+              >
                 <FontAwesomeIcon
                   icon={faMobile}
                   className="text-[20px] text-blue-600"
@@ -231,7 +238,10 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
 
-              <div className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300">
+              <div
+                className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
+                onClick={() => setchange(3)}
+              >
                 <FontAwesomeIcon
                   icon={faCartShopping}
                   className="text-[20px] text-blue-600"
@@ -241,7 +251,10 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
 
-              <div className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300">
+              <div
+                className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
+                onClick={() => setchange(4)}
+              >
                 <FontAwesomeIcon
                   icon={faLaptop}
                   className="text-[20px] text-blue-600"
@@ -251,7 +264,10 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
 
-              <div className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300">
+              <div
+                className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
+                onClick={() => setchange(5)}
+              >
                 <FontAwesomeIcon
                   icon={faLaptop}
                   className="text-[20px] text-blue-600"
@@ -261,7 +277,10 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
 
-              <div className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300">
+              <div
+                className="flex items-center lg:space-x-4 space-x-2 border lg:w-[220px] lg:px-4 lg:py-3 px-2 py-1 border-blue-700 rounded-lg hover:bg-blue-50 transition-all duration-300"
+                onClick={() => setchange(6)}
+              >
                 <FontAwesomeIcon
                   icon={faCloud}
                   className="text-[20px] text-blue-600"
@@ -271,91 +290,313 @@ const Hiredevsection2 = () => {
                 </span>
               </div>
             </div>
-          {
-            change === 1 ? (
+            {change === 1 ? (
               <div className="flex  flex-col ">
-              <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800  rounded-md mt-10">
-                <div className=" flex flex-col  lg:space-y-3">
-                  <span className="lg:text-[16px] text-[16px] font-[500] text-[blue] ">
-                    {" "}
-                    Frontend Development{" "}
-                  </span>
-                  <hr />
+                <div className="   lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[16px] text-[16px] font-[500] text-[blue] ">
+                      {" "}
+                      Frontend Development{" "}
+                    </span>
+                    <hr />
 
-                  <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-5 text-[12px] lg:text-[14px] font-[500]">
-                    <li>javascript</li>
-                    <li>React.js</li>
-                    <li>Angular</li>
-                    <li>vue.js</li>
-                    <li>tailwind</li>
-                    <li>Typescript</li>
-                    <li>Next.js</li>
-                    <li>Gatsby.js</li>
-                  </ul>
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>javascript</li>
+                      <li>React.js</li>
+                      <li>Angular</li>
+                      <li>vue.js</li>
+                      <li>tailwind</li>
+                      <li>Typescript</li>
+                      <li>Next.js</li>
+                      <li>Gatsby.js</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Backend Development{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>Django</li>
+                      <li>Ruby and Rails</li>
+                      <li>ASP.Net</li>
+                      <li>Springboot</li>
+                      <li>Sitecore</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Database{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>SQlite</li>
+                      <li>MSSQL</li>
+                      <li>Postgresql</li>
+                      <li>MongoDB</li>
+                      <li>Oracle</li>
+                      <li>Redis</li>
+                      <li>MYSQL</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  space-y-3">
+                    <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Full stack Development{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Mean stack</li>
+                      <li>Full stack</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+            ) : change === 2 ? (
+              <div className="flex  flex-col ">
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Database{" "}
+                    </span>
+                    <hr />
 
-              <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800  rounded-md mt-10">
-                <div className=" flex flex-col  lg:space-y-3">
-                  <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
-                    {" "}
-                    Backend Development{" "}
-                  </span>
-                  <hr />
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Flutter</li>
+                      <li>Reactnavtive</li>
+                      <li>Xamarine</li>
+                      <li>Nativescript</li>
+                      <li>Cordova</li>
+                    </ul>
+                  </div>
+                </div>
 
-                  <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-5 text-[12px] lg:text-[14px] font-[500]">
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>Django</li>
-                    <li>Ruby and Rails</li>
-                    <li>ASP.Net</li>
-                    <li>Springboot</li>
-                    <li>Sitecore</li>
-                  </ul>
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Android Development{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Java</li>
+                      <li>Kotline</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      IOS Development{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Swift </li>
+                      <li>Swift UI</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800  rounded-md mt-10">
-                <div className=" flex flex-col  space-y-3">
-                  <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
-                    {" "}
-                    Full stack Development{" "}
-                  </span>
-                  <hr />
+            ) : change === 3 ? (
+              <div className="flex  flex-col ">
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Tecnologies{" "}
+                    </span>
+                    <hr />
 
-                  <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-5 text-[12px] lg:text-[14px] font-[500]">
-                    <li>Mean stack</li>
-                    <li>Full stack</li>
-                  </ul>
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Prstashop</li>
+                      <li>Opencart</li>
+                      <li>Zencart</li>
+                      <li>CSCart</li>
+                      <li>Bigcommarce</li>
+                      <li>Mangento</li>
+                      <li>Spotify</li>
+                      <li>Woocommarce</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200  rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[16px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Android Development{" "}
+                    </span>
+                    <hr />
+
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Java</li>
+                      <li>Kotline</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+            ) : change === 4 ? (
+              <div className="flex  flex-col ">
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Tecnologies{" "}
+                    </span>
+                    <hr />
 
-              <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800  rounded-md mt-10">
-                <div className=" flex flex-col  space-y-3">
-                  <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
-                    {" "}
-                    Database{" "}
-                  </span>
-                  <hr />
-
-                  <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-5 text-[12px] lg:text-[14px] font-[500]">
-                    <li>SQlite</li>
-                    <li>MSSQL</li>
-                    <li>Postgresql</li>
-                    <li>MongoDB</li>
-                    <li>Oracle</li>
-                    <li>Redis</li>
-                    <li>MYSQL</li>
-                  </ul>
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Drupal</li>
+                      <li>Craft</li>
+                      <li>Joomla</li>
+                      <li>Sharepoint</li>
+                      <li>Sitecore</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            ) : ""
+            ) : change === 5 ? (
+              <div className="flex  flex-col ">
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Tecnologies{" "}
+                    </span>
+                    <hr />
 
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>Service</li>
+                      <li>Salesforcee</li>
+                      <li>Hubspot</li>
+                      <li>Zoho</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ) : change === 6 ? (
+              <div className="flex  flex-col ">
+                <div className=" lg:px-5 lg:py-5 px-2 py-2 border border-blue-800 bg-slate-200   rounded-md mt-3 lg:mt-10">
+                  <div className=" flex flex-col  lg:space-y-3">
+                    <span className="lg:text-[18px] font-[500] text-[12px] text-[blue]">
+                      {" "}
+                      Tecnologies{" "}
+                    </span>
+                    <hr />
 
-          }
+                    <ul className="lg:flex  grid grid-cols-2 lg:space-x-20 pt-2 lg:pt-5 text-[12px] lg:text-[14px] font-[500]">
+                      <li>AWS</li>
+                      <li>Azure</li>
+                      <li>Google Cloud</li>
+                      <li>Devops</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
+
+      <div className=" flex justify-center py-5">
+        <div className="lg:w-[90%] flex flex-col  items-center px-1">
+          <div className="flex flex-col items-center space-x-1 lg:space-y-3">
+            <span className="lg:text-[28px] text-[19px] text-center  font-[700] ">
+              Hire remotely based on your requirement
+            </span>
+            <p className="lg:text-[18px] text-[13px] text-center  ">
+              Hire a team or an individual for full time or part time to lessen
+              your work load and boost your delivery.
+            </p>
+          </div>
+          <div className="flex lg:flex-row   flex-col-reverse  lg:gap-0 gap-4 pt-10 lg:space-x-6">
+            <img src={img} alt="" className="lg:w-[700px]" />
+            <div className=" lg:w-[700px] flex flex-col gap-7">
+              <div className=" flex flex-col gap-2 items-start border px-3 py-2 rounded-md shadow-xl border-gray-500 ">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="py-2 px-2 bg-blue-600 rounded-full text-white"
+                />
+
+                <div className="w-full">
+                  <span className="lg:text-[18px] text-[14px] font-[500]">
+                    Dedicated Developer
+                  </span>
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose  ">
+                    Hire a dedicated developer to speed up your project’s
+                    delivery. An individual will be allocated to your project
+                    that will work with your in-house team.
+                  </p>
+                </div>
+              </div>
+
+              <div className=" flex flex-col gap-2 items-start border px-3 py-2 rounded-md shadow-xl border-gray-500 ">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="py-2 px-2 bg-blue-600 rounded-full text-white"
+                />
+
+                <div className="w-full">
+                  <span className="lg:text-[18px] text-[14px] font-[500]">
+                    Dedicated Team
+                  </span>
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose  ">
+                    Hire a dedicated team of experts to avail best in class
+                    service for your project. A complete team will be appointed
+                    that will work only on your project and will be directly in
+                    touch with you.
+                  </p>
+                </div>
+              </div>
+
+              <div className=" flex flex-col gap-2 items-start border px-3 py-2 rounded-md shadow-xl border-gray-500 ">
+                <FontAwesomeIcon
+                  icon={faCheck}
+                  className="py-2 px-2 bg-blue-600 rounded-full text-white"
+                />
+
+                <div className="w-full">
+                  <span className="lg:text-[18px] text-[14px] font-[500]">
+                    Part time
+                  </span>
+                  <p className=" lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose  ">
+                    Based on how much work hours per day your project requires,
+                    you can opt for part time. This will save your money and
+                    will boost your project’s delivery.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="py-20">
+        <Slider1 />
+      </div>
+   <Footer/>
     </div>
   );
 };

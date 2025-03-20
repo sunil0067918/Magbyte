@@ -59,7 +59,6 @@ body {
   animation: slideFromTop 1s ease-out; /* 1s duration with ease-out for smoothness */
 }
 
-
 @keyframes gradientFlow {
   0% {
     background-position: 0% 50%;
@@ -77,10 +76,6 @@ body {
   animation: gradientFlow 3s linear infinite;
 }
 
-
-
-
-
 @keyframes flowing-text {
   0% {
     background-position: -200% 0;
@@ -91,15 +86,17 @@ body {
 }
 
 .flowing-text {
-  background: linear-gradient(to right, #1E3A8A, #87CEEB, #1E3A8A); /* Blue and Sky Blue gradient */
+  background: linear-gradient(
+    to right,
+    #1e3a8a,
+    #87ceeb,
+    #1e3a8a
+  ); /* Blue and Sky Blue gradient */
   background-size: 200% auto;
   color: transparent;
   background-clip: text;
   animation: flowing-text 4s linear infinite;
 }
-
-
- 
 
 @keyframes flowingText {
   0% {
@@ -125,35 +122,41 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  align-items: center ;
-  gap: 20pxza ;
+  align-items: center;
+  gap: 20px;
 }
 
-
-
 .flowing-textt {
- /* Adjust text size */
+  /* Adjust text size */
   font-weight: 600; /* Bold text */
-  background-image: linear-gradient(90deg, #070707, #111118, #ffffff); /* White to blue gradient */
+  background-image: linear-gradient(
+    90deg,
+    #070707,
+    #111118,
+    #ffffff
+  ); /* White to blue gradient */
   background-size: 200% 100%;
   background-position: 0 center;
   color: transparent;
   -webkit-background-clip: text; /* Clips the background to text */
   animation: flowingText 3s linear infinite; /* Infinite animation */
 }
-
 
 .flowing-texttt {
   font-size: 18px; /* Adjust text size */
   font-weight: 600; /* Bold text */
-  background-image: linear-gradient(90deg, #ffffff, #c74646, #ffffff); /* White to blue gradient */
+  background-image: linear-gradient(
+    90deg,
+    #ffffff,
+    #c74646,
+    #ffffff
+  ); /* White to blue gradient */
   background-size: 200% 100%;
   background-position: 0 center;
   color: transparent;
   -webkit-background-clip: text; /* Clips the background to text */
   animation: flowingText 3s linear infinite; /* Infinite animation */
 }
-
 
 @keyframes singing {
   0% {
@@ -166,7 +169,6 @@ body {
     transform: translateY(0);
   }
 }
-
 
 @keyframes slideInFromRight {
   0% {
@@ -182,9 +184,6 @@ body {
 .animate-slideInFromRight {
   animation: slideInFromRight 1s ease-out forwards; /* "forwards" ensures it stays in the final position */
 }
-
-
-
 
 @keyframes slideInFromTop {
   0% {
@@ -204,10 +203,46 @@ body {
 /* Hide the scrollbar but allow scrolling */
 .hide-scrollbar {
   overflow: auto; /* Allow scrolling */
-  -ms-overflow-style: none;  /* For Internet Explorer */
+  -ms-overflow-style: none; /* For Internet Explorer */
   scrollbar-width: none; /* For Firefox */
 }
 
 .hide-scrollbar::-webkit-scrollbar {
-  display: none;  /* For Chrome, Safari, and Opera */
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease-out; /* Adjust time for speed */
+}
+
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounceInUp {
+  animation: bounceInUp 1s ease-out;
 }

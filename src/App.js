@@ -41,6 +41,9 @@ import Hubspot from "./component/Tecnology/CRM/Hubspot/Hubspot";
 import Zoho from "./component/Tecnology/CRM/ZOHO/Zoho";
 import Awtt from "./component/Tecnology/Cloud/AWS/Awtt";
 import Hiredev from "./component/Hiredevlopers/Hiredev";
+import Azure from "./component/Tecnology/Cloud/Azure/Azure";
+import Goog from "./component/Tecnology/Cloud/Goocloud/Goog";
+import Devops from "./component/Tecnology/Cloud/Devops/Devops";
 
 const App = () => {
   useEffect(() => {
@@ -90,8 +93,11 @@ const App = () => {
           <Route path="/hub" element={<Hubspot />} />
           <Route path="/zoho" element={<Zoho />} />
           <Route path="/awsa" element={<Awtt />} />
+          <Route path="/azure" element={<Azure />} />
           <Route path="/frame" element={<Frameworks />} />
-          <Route path="/hire"  element = {<Hiredev/> }/>
+          <Route path="/googl" element={<Goog />} />
+          <Route path="/dev" element = {<Devops/>} />
+          <Route path="/hire" element={<Hiredev />} />
         </Routes>
       </BrowserRouter>
     </>

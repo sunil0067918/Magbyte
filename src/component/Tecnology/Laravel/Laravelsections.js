@@ -3,15 +3,15 @@ import img from "../Laravel/Laravelsectionimages/images1.png";
 const Laravelsections = () => {
   return (
     <div className=" ">
-      <div className="my-10 flex justify-center">
-        <div className="w-[85%] space-y-4">
-          <h1 className="flex justify-center lg:text-3xl font-[500] text-start ">
-            <b>MageBytes</b> offers comprehensive end-to-end Laravel development
+      <div className="lg:my-10 my-2 flex justify-center">
+        <div className="lg:w-[85%] lg:space-y-4 px-2">
+          <h1 className="flex justify-center lg:text-3xl text-[20px]  text-center font-[500] lg:text-start ">
+            MageBytes offers comprehensive end-to-end Laravel development
             solutions
           </h1>
-          <div className="flex  pt-20 gap-9 flex-col lg:flex-row">
+          <div className="flex  pt-5 lg:pt-20 gap-9 flex-col lg:flex-row">
             <div className=" flex flex-col items-start space-y-7">
-              <p className="lg:text-md font-[600]">
+              <p className="lg:text-[18px] text-[12px] font-[600]">
                 At Magbytes, we take immense pride in being a leading Laravel
                 development company, delivering customized web solutions
                 designed to elevate your business. Leveraging the power of
@@ -34,18 +34,18 @@ const Laravelsections = () => {
                 Contact us
               </button>
             </div>
-            <img src={img} alt="" className="w-[700px] object-contain" />
+            <img src={img} alt="" className="lg:w-[700px] w-full object-contain" />
           </div>
         </div>
       </div>
       <div className="flex justify-center   bg-gray-700 text-white     ">
         <div className=" lg:py-9 py-4 px-2 w-full lg:w-[80%]   ">
           <div className=" flex flex-col items-center justify-center">
-            <span className="flex justify-center lg:text-3xl items-center  font-[500]">
+            <span className="flex justify-center lg:text-3xl text-[20px]  text-center items-center  font-[500]">
               Benefits of Laravel Development Services
             </span>
 
-            <p className="lg:text-md  text-[14px] pt-7 font-[400] text-center  lg:w-[75%]      ">
+            <p className="lg:text-md  text-[12px] pt-7 font-[400] text-center  lg:w-[75%]      ">
               Laravel is a versatile framework with numerous built-in
               components, making development quick and efficient for any
               business application, from B2B projects to CRM systems. It’s ideal

@@ -36,9 +36,25 @@ const Form = () => {
         onSubmit={handleSubmit(onSubmit)}
         action="submit"
         className={`${
-          location.pathname === "/angular"
+          [
+            "/angular",
+            "/Reactt",
+            "/azure",
+            "/zoho",
+            "/servicenow",
+            "/flutter",
+            "/ios",
+            "/adobe",
+            "/android",
+            "/drupal",
+            "/joomla",
+            "/Node",
+            "/php",
+            "/googl",
+            "/dev",
+          ].includes(location.pathname)
             ? "animate-slideInFromRight"
-            : "animate-slideInFromBottom " 
+            : "animate-slideInFromBottom "
         } bg-gradient-to-r from-[#333333] to-[#000000] rounded-[5px] lg:px-[14px] py-[20px] px-[10px] lg:py-[40px] opacity-0 border-2 border-[#333333]`}
       >
         <div className="flex flex-col text-center opacity-0 animate-fadeIn">
@@ -112,6 +128,12 @@ const Form = () => {
                 ? "bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent "
                 : location.pathname === "/hire"
                 ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/azure"
+                ? "bg-gradient-to-r from-sky-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/googl"
+                ? "bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent "
+                : location.pathname === "/dev"
+                ? "bg-gradient-to-r from-sky-900 to-white bg-clip-text text-transparent "
                 : ""
             } text-[16px] sm:text-[20px] font-[800] `}
           >
@@ -282,7 +304,7 @@ const Form = () => {
                 ? "bg-gradient-to-r from-green-900 to-[#096d10] border-2 border-black-500 focus:ring-4 focus:ring-green-500 focus:ring-opacity-60 focus:border-green-500 "
                 : location.pathname === "/sales"
                 ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
-                :  location.pathname === "/hub"
+                : location.pathname === "/hub"
                 ? "bg-gradient-to-r from-orange-600 to-[#98870a] border-2 border-black-500 focus:ring-4 focus:ring-orange-600 focus:ring-opacity-60 focus:border-orange-500 "
                 : location.pathname === "/zoho"
                 ? "bg-gradient-to-r from-red-600 to-[#9d0505] border-2 border-red-500 focus:ring-4 focus:ring-red-500 focus:ring-opacity-60 focus:border-red-500  "
@@ -290,6 +312,12 @@ const Form = () => {
                 ? "bg-gradient-to-r from-yellow-600 to-[#dff141] border-2 border-yellow-500 focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-60 focus:border-yellow-500  "
                 : location.pathname === "/hire"
                 ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500  "
+                : location.pathname === "/azure"
+                ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500  "
+                : location.pathname === "/googl"
+                ? "bg-gradient-to-r from-yellow-500 to-[#e0ef10] border-2 border-black-500 focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-60 focus:border-yellow-500  "
+                : location.pathname === "/dev"
+                ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
                 : ""
             } px-[4px] py-[4px] mt-[20px] lg:mt-0 sm:px-[10px] sm:py-[10px] font-[700]  text-white
               shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105
