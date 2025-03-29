@@ -4,6 +4,7 @@ import Hirebanner from './Hirebanner'
 import Hiresection from './Hiresection'
 import Hiredevsection2 from './Hiredevsection2'
 
+
 const Hiredev = () => {
   return (
     <div className=' cursor-pointer'>

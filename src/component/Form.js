@@ -2,6 +2,7 @@
 import axios from "axios";
 import { useLocation } from "react-router";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 const Form = () => {
   let location = useLocation();
@@ -14,20 +15,29 @@ const Form = () => {
   } = useForm();
   console.log(errors);
 
-  const onSubmit = (data) => {
-    let payload = {
+  const onSubmit = async (data) => {
+    const payload = {
       firstName: data.firstName,
       Email: data.Email,
       number: data.number,
       company: data.company,
       requriement: data.requriement,
     };
-    alert("success");
 
-    axios
-      .post("http://localhost:3000/register", payload)
-      .then((result) => console.log(result), reset())
-      .catch((err) => console.log(err));
+    try {
+      const result = await axios.post(
+        "http://localhost:3000/register",
+        payload
+      );
+
+      console.log(result);
+      toast.success(" Your consultation has been scheduled!");
+
+      reset();
+    } catch (err) {
+      console.error(err);
+      toast.error(" please the all the field");
+    }
   };
 
   return (
@@ -52,6 +62,9 @@ const Form = () => {
             "/php",
             "/googl",
             "/dev",
+            "/mean",
+            "/javaa",
+            "/portt"
           ].includes(location.pathname)
             ? "animate-slideInFromRight"
             : "animate-slideInFromBottom "
@@ -134,6 +147,14 @@ const Form = () => {
                 ? "bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent "
                 : location.pathname === "/dev"
                 ? "bg-gradient-to-r from-sky-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/mern"
+                ? "bg-gradient-to-r from-green-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/mean"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/javaa"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
+                : location.pathname === "/portt"
+                ? "bg-gradient-to-r from-blue-900 to-white bg-clip-text text-transparent "
                 : ""
             } text-[16px] sm:text-[20px] font-[800] `}
           >
@@ -318,6 +339,12 @@ const Form = () => {
                 ? "bg-gradient-to-r from-yellow-500 to-[#e0ef10] border-2 border-black-500 focus:ring-4 focus:ring-yellow-500 focus:ring-opacity-60 focus:border-yellow-500  "
                 : location.pathname === "/dev"
                 ? "bg-gradient-to-r from-blue-900 to-[#0f0a98] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                : location.pathname === "/mean"
+                ? "bg-gradient-to-r from-blue-900 to-[#4016d6] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                : location.pathname === "/javaa"
+                ? "bg-gradient-to-r from-blue-900 to-[#4016d6] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
+                :  location.pathname === "/portt"
+                ? "bg-gradient-to-r from-blue-900 to-[#4016d6] border-2 border-black-500 focus:ring-4 focus:ring-blue-500 focus:ring-opacity-60 focus:border-blue-500 "
                 : ""
             } px-[4px] py-[4px] mt-[20px] lg:mt-0 sm:px-[10px] sm:py-[10px] font-[700]  text-white
               shadow-[0_0_10px_2px rgba(70,135,199,0.7)] hover:scale-105

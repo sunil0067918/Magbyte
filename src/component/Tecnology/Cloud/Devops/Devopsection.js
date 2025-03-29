@@ -1,4 +1,5 @@
 import React from "react";
+import Slider1 from "../../../Slider/Slider1";
 
 const Devopsection = () => {
   return (
@@ -394,6 +395,159 @@ const Devopsection = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="  flex justify-center bg-gradient-to-r m from-gray-900 to-black text-white  py-16 ">
+        <div className=" lg:w-[90%] flex lg:flex-row flex-col items-center justify-center px-3">
+          <div className=" flex flex-col items-center gap-5">
+            <span className=" lg:text-[28px] font-[600]  text-[20px] text-center">
+              Achieve enhanced agility and scalability with our tailored DevOps
+              solutions.
+            </span>
+            <button className="relative overflow-hidden lg:px-8 lg:py-3 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
+              <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
+                Contact us Today
+              </span>
+              <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className=" flex justify-center  py-10 px-2">
+        <div className=" lg:w-[90%] flex flex-col gap-10">
+          <div className="flex flex-col gap-3 items-center">
+            <span className=" lg:text-[28px] text-[20px] text-center font-[700]">
+              We offer tailored DevOps solutions for a variety of industries.
+            </span>
+            <p className=" text-gray-800 text-center lg:text-[18px]  text-[14px]">
+              We specialize in providing customized DevOps solutions designed to
+              meet the unique needs of diverse industries
+            </p>
+          </div>
+          <div className="  flex  flex-col items-center gap-5 ">
+            <div className=" flex  lg:flex-row flex-col  gap-5 ">
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Healthcare Industry
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the healthcare industry, we deliver customized DevOps
+                  solutions that streamline development and operational
+                  processes while ensuring compliance with industry regulations.
+                  By integrating automation, continuous integration, and secure
+                  deployment practices, we help healthcare organizations improve
+                  the efficiency of their software delivery pipeline
+                </p>
+              </div>
+
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Online Shopping
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the digital commerce space, we provide customized DevOps
+                  solutions designed to enhance the efficiency and scalability
+                  of online retail platforms. Our tailored approach helps
+                  businesses streamline their development processes, integrate
+                  new features faster, and ensure seamless user experiences.
+                </p>
+              </div>
+            </div>
+
+            <div className=" flex  lg:flex-row flex-col  gap-5 ">
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Delivery Services
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the logistics sector, we offer specialized DevOps solutions
+                  to streamline operations and enhance the efficiency of supply
+                  chain management. By leveraging automation, continuous
+                  integration, and secure deployment practices, we help
+                  logistics companies optimize their delivery processes, reduce
+                  downtime, and improve real-time tracking systems
+                </p>
+              </div>
+
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Financial Technology
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the financial technology sector, we provide customized
+                  DevOps solutions to help fintech companies enhance the
+                  scalability, security, and efficiency of their services. By
+                  integrating continuous integration and delivery processes, we
+                  enable faster and more reliable software updates, ensuring
+                  that new financial products and services are rolled out
+                  seamlessly
+                </p>
+              </div>
+            </div>
+
+            <div className=" flex  lg:flex-row flex-col  gap-5">
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Educational Industry{" "}
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the educational field, we provide customized DevOps
+                  solutions that help institutions enhance their digital
+                  infrastructure and streamline operations. By implementing
+                  automation and continuous integration, we enable schools,
+                  universities, and other educational organizations to deliver
+                  more effective learning experiences
+                </p>
+              </div>
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Governmental Bodies
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the public sector, we offer tailored DevOps solutions
+                  designed to improve the efficiency and security of
+                  governmental processes. Our solutions help streamline
+                  operations within government institutions, ensuring faster
+                  delivery of services, enhanced collaboration across
+                  departments, and seamless integration of new technologies
+                </p>
+              </div>
+            </div>
+
+            <div className=" flex  lg:flex-row flex-col  gap-5">
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Automotive Industry{" "}
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the automotive industry, we offer specialized DevOps
+                  solutions designed to enhance the efficiency of vehicle
+                  manufacturing and development processes. By integrating
+                  automation, continuous integration, and secure deployment
+                  practices, we help automotive companies streamline their
+                  operations, improve the quality of their products, and
+                  accelerate time-to-market
+                </p>
+              </div>
+              <div className=" flex flex-col border lg:px-4 px-3  py-2 border-gray-600 rounded-md lg:w-[600px] lg:py-3 gap-4">
+                <span className="lg:text-[20px] text-[18px] font-[700]">
+                  Agricultural Sector
+                </span>
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  In the agricultural sector, we offer innovative DevOps
+                  solutions that help streamline farm management, enhance
+                  productivity, and optimize resource utilization. By
+                  integrating automation and continuous integration processes,
+                  we enable agricultural businesses to improve their operations,
+                  from crop production to distribution
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className=" py-16">
+        <Slider1 />
       </div>
     </div>
   );

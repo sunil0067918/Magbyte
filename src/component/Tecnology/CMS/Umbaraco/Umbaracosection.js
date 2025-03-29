@@ -535,7 +535,7 @@ const Umbaracosection = () => {
               ) : change === 2 ? (
                 <div className=" bg-white lg:w-[800px] text-black py-5 px-3 rounded-md">
                   <div className="flex flex-col gap-7 items-start ">
-                    <span className="lg:text-[28px] font-[600]">
+                    <span className="lg:text-[28px] font-[700]">
                       Why Choose Magbyte as Your Umbraco Development Partner?
                     </span>
                     <ul className=" list-disc pl-4 flex flex-col gap-4 lg:text-[16px] text-[12px]">

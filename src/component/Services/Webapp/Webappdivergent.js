@@ -12,13 +12,14 @@ import img4 from "../Webapp/Images/Sliderimages/images4.png";
 import img5 from "../Webapp/Images/Webappdivergentiamges/images5.png";
 import img6 from "../Webapp/Images/Webappdivergentiamges/images6.png";
 // import img7 from "../Webapp/Images/Webappdivergentiamges/images7.png";
-import img8 from "../Webapp/Images/Webappdivergentiamges/image8.png";
-import img9 from "../Webapp/Images/Webappdivergentiamges/images9.png";
+import img8 from "../Webapp/image5.png";
+import img9 from "../Webapp/image6.png";
+import { Link } from "react-router-dom";
 
 const Webappdivergent = () => {
   var settings = {
     infinite: true,
-    dots :true,
+    dots: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -94,58 +95,53 @@ const Webappdivergent = () => {
           </span>
         </div> */}
 
-          <Slider {...settings} className="w-full">
-              <img
-                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
-                src={img1}
-                alt="clients121"
-                
-              />
-     
-              <img
-                className="md:w-[400px] w-[300px] h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
-                src={img2}
-                alt="clientsanarock"
-                
-              />
- 
-              <img
-                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
-                src={img3}
-                alt="clientsbharat"
-                
-              />
-             <img
-                className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
-                src={img4}
-                alt="clientsByju"
-                width={200}
-                loading="lazy"
-                height={70}
-              />
-            
-          
-            
-            {/* <div>
+        <Slider {...settings} className="w-full">
+          <img
+            className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+            src={img1}
+            alt="clients121"
+          />
+
+          <img
+            className="md:w-[400px] w-[300px] h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+            src={img2}
+            alt="clientsanarock"
+          />
+
+          <img
+            className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+            src={img3}
+            alt="clientsbharat"
+          />
+          <img
+            className="md:w-[200px] w-[180px]  h-[500px]  grayscale hover:grayscale-0 cursor-pointer"
+            src={img4}
+            alt="clientsByju"
+            width={200}
+            loading="lazy"
+            height={70}
+          />
+
+          {/* <div>
             <img className="w-[200px] h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer" src={nine} alt="clients" />
           </div> */}
-            
-            {/* <div className="p-3">
+
+          {/* <div className="p-3">
               <img
                 className="md:w-[200px] w-[180px]  h-[70px] object-contain grayscale hover:grayscale-0 cursor-pointer"
                 src={eleven}
                 alt="clients"
               />
             </div> */}
-            
-          </Slider>
-      
+        </Slider>
       </div>
 
       <div className="flex  w-full justify-center items-center">
-        <div className=" w-[90%]  flex flex-col justify-center">
+        <div className=" lg:w-[90%]  flex flex-col justify-center  px-2">
           <div className=" flex pt-10 justify-between ">
-            <span className="text-[32px] font-[500]">Why Choose Us</span>
+            <span className="lg:text-[32px] text-[24px] font-[500]">
+              Why Choose Us
+            </span>
 
             <div className="flex items-center gap-4">
               <svg
@@ -207,18 +203,18 @@ const Webappdivergent = () => {
           </div>
 
           <div className="flex  gap-9 flex-col sm:flex-row  py-16 justify-start items-start w-full ">
-            <div className=" bg-white   px-[30px] py-[40px] space-y-6 sm:w-[580px] w-full  rounded-[8px]  border-[2px] border-[#4687C7]   ">
+            <div className=" bg-white  px-[15px] py-[20px]  lg:px-[30px] lg:py-[40px] flex flex-col sm:w-[580px] w-full  rounded-[8px]  border-[2px] border-[#4687C7]   ">
               <div className=" flex flex-col w-full">
                 <img alt="" src={img5} className="w-[60px]" />
 
-                <span className=" sm:text-[24px]  font-[600] ">
+                <span className=" md:text-[24px]  text-[18px]  font-[600] ">
                   Well-versed with Modern Mobile Tech
                   <br />
                   Stacks
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                 The team comprises senior mobile app developers and core
                 contributors to popular mobile app development frameworks like
                 React Native and Flutter. This gives a big advantage of being
@@ -226,7 +222,7 @@ const Webappdivergent = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[8px]  border-[2px] border-[#4687C7]   ">
+            <div className=" bg-white px-[15px] py-[20px]  lg:px-[30px] lg:py-[40px] flex flex-col md:w-[580px] w-full rounded-[8px]  border-[2px] border-[#4687C7]   ">
               <div className="flex flex-col">
                 <img alt="" src={img6} className="w-[60px]" />
 
@@ -235,7 +231,7 @@ const Webappdivergent = () => {
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                 Our portfolio includes high-performing apps of industry leaders.
                 Some of them are a multifunctional app for Darden, a video
                 conferencing app for 100ms, a gaming app for mobile premier
@@ -243,62 +239,38 @@ const Webappdivergent = () => {
                 Scroll News
               </p>
             </div>
-          
           </div>
         </div>
       </div>
 
       <div
-        className=" relative  h-[700px] sm:h-[600px] lg:h-[342px] flex justify-center py-10"
+        className=" relative  h-[600px] sm:h-[600px] lg:h-[342px] flex justify-center py-10"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 139, 0.5), rgba(0, 0, 139, 0.5)), url(${img8})`,
         }}
       >
-        <div className="  absolute w-[90%] flex justify-between flex-col lg:flex-row  ">
+        <div className="  absolute w-[90%] flex justify-between flex-col gap-10 lg:flex-row  ">
           <div className="">
-            <div className="flex flex-col space-y-5">
-              <span className="text-[33px] text-white font-[600]">
+            <div className="flex flex-col space-y-5 items-center lg:items-start">
+              <span className="lg:text-[33px] text-[24px] lg:text-start text-center text-white font-[600]">
                 Start Building Your Mobile <br /> App Today
               </span>
 
-              <span className="text-[18px]  font-[500] text-white">
+              <span className="lg:text-[18px]  text-[14px]  text-center font-[500] text-white">
                 Book a free discovery session.
               </span>
 
               <div>
-                <button className="border-[0.75px border-[#FFFFFF] bg-[#FFFFFF]  text-[13px]  font-[600]  px-[30px]  py-[10px] rounded-[24px]">
+  <Link to =   "/contact">
+  <button className="border-[0.75px border-[#FFFFFF] bg-[#FFFFFF]  text-[13px]  font-[600]  px-[30px]  py-[10px] rounded-[24px]">
                   GET A QUOTE
                 </button>
+  </Link>
               </div>
             </div>
           </div>
 
-          <div className="  relative ">
-            <svg
-              width="484"
-              height="342"
-              viewBox="0 0 484 342"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className=" absolute sm:w-[350px] w-[300px]  lg:top-[-11px] lg:right "
-            >
-              <ellipse
-                opacity="0.2"
-                cx="242"
-                cy="171"
-                rx="242"
-                ry="171"
-                fill="white"
-              />
-            </svg>
-
-            <img
-              src={img9}
-              alt=""
-              className=" absolute  lg:w-[340px] w-[190px] right-[63px] top-[100px] left-[54px] sm:top-[94px] 
-              -[24px] sm:left-[59px] sm:w-[225px]  "
-            />
-          </div>
+          <img src={img9} alt="" className="h-[285px] rounded-md object-contain " />
         </div>
       </div>
 

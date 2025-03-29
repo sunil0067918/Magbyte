@@ -1,16 +1,13 @@
 import React from "react";
-import img from "../Codeigniterdev/Codeignitersectionsimages/images.png";
-import img1 from "../Codeigniterdev/Codeignitersectionsimages/image1.png";
-import img2 from "../Codeigniterdev/Codeignitersectionsimages/images2.png";
-import img3 from "../Codeigniterdev/Codeignitersectionsimages/images3.png";
+import Slider1 from "../../../Slider/Slider1";
 
-const Codeigntersection = () => {
+const Javasection = () => {
   return (
-    <div>
+    <div className="">
       <div className=" flex justify-center lg:py-16 py-8 px-3 cursor-pointer">
         <div className="lg:w-[90%] flex justify-center flex-col gap-20">
           <span className="lg:text-[28px] font-[600] text-center">
-            Our Expertise in CodeIgniter Development Solutions
+            Java Applications with Expert Precision for High Performance
           </span>
 
           <div className="flex flex-col gap-10 ">
@@ -65,12 +62,16 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]  ">
-                  CodeIgniter Custom Development Services
+                  Development of Java Applications
                 </span>
-                <p className="lg:text-[17px] text-[12px] ">
-                  We create highly functional and tailored applications,
-                  incorporating custom templates, plugins, and modules to
-                  enhance the app’s capabilities and meet your specific needs.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose ">
+                  Java application development involves creating robust,
+                  scalable, and efficient software solutions using the Java
+                  programming language. By leveraging its platform independence,
+                  rich libraries, and strong community support, developers can
+                  build high-performance applications for various environments.
+                  The focus is on writing clean, maintainable code that meets
+                  user requirements while optimizing speed and resource usage.
                 </p>
               </div>
               <div className="lg:w-[600px] shadow-lg bg-gray-200 rounded-md gap-3 flex flex-col  border-gray-500  px-6 py-3 lg:py-6 lg:px-9 hover:scale-105 duration-200 transition-all">
@@ -123,12 +124,14 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]">
-                  CodeIgniter Web Development Services
+                  Web Development with Java
                 </span>
-                <p className="lg:text-[17px] text-[12px]">
-                  Expertise in developing high-quality CodeIgniter web
-                  applications and advanced portals that are fully functional
-                  and provide significant value to your business.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose">
+                  Java web development involves creating dynamic and interactive
+                  websites and web applications using Java technologies. It
+                  utilizes frameworks like Spring and JavaServer Pages (JSP) to
+                  build secure and scalable web solutions. This approach ensures
+                  seamless user experiences and efficient backend performance.
                 </p>
               </div>
 
@@ -182,13 +185,16 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]">
-                  CodeIgniter eCommerce Development
+                  Development of Java APIs
                 </span>
-                <p className="lg:text-[17px] text-[12px]">
-                  Developing a secure and flexible CodeIgniter-based eCommerce
-                  website with features such as product browsing, seamless
-                  checkout, secure payment processing, shipping integration, and
-                  more.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose">
+                  Java API development focuses on creating robust and efficient
+                  application programming interfaces (APIs) using Java. These
+                  APIs enable seamless communication between different software
+                  systems, providing essential functionality and data exchange.
+                  With proper design and implementation, Java APIs ensure
+                  scalability, security, and maintainability for diverse
+                  applications.
                 </p>
               </div>
             </div>
@@ -244,12 +250,16 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]">
-                  CodeIgniter Migration Services
+                  Java Microservices Architecture Design
                 </span>
-                <p className="lg:text-[17px] text-[12px]">
-                  Effortless and efficient CodeIgniter app migration services,
-                  ensuring a smooth transition with minimal downtime, while
-                  leveraging the powerful features of the CodeIgniter framework.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose">
+                  Java microservices architecture involves designing software
+                  applications as a collection of small, independent services
+                  that communicate with each other. Each microservice is built
+                  around a specific business function and can be developed,
+                  deployed, and scaled individually. This approach offers
+                  flexibility, fault tolerance, and easier maintenance, making
+                  it ideal for complex, large-scale systems.
                 </p>
               </div>
               <div className="lg:w-[600px] shadow-lg bg-gray-200 rounded-md gap-3 flex flex-col  border-gray-500  px-6 py-3 lg:py-6 lg:px-9 hover:scale-105 duration-200 transition-all">
@@ -302,13 +312,17 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]">
-                  CodeIgniter Upgrade Solutions
+                  Java Testing and Quality Control
                 </span>
-                <p className="lg:text-[17px] text-[12px]">
-                  We provide CodeIgniter upgrade services, including the
-                  installation of the latest version and modification of
-                  plugins, ensuring your web application operates seamlessly and
-                  efficiently.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose">
+                  Java testing and quality assurance focus on ensuring the
+                  reliability, performance, and functionality of Java
+                  applications through comprehensive testing methods. This
+                  process includes unit tests, integration tests, and automated
+                  testing to identify bugs and optimize code. Effective testing
+                  practices help maintain high-quality standards and reduce
+                  defects, ensuring that applications perform as expected in
+                  real-world scenarios.
                 </p>
               </div>
 
@@ -362,12 +376,16 @@ const Codeigntersection = () => {
                 </svg>
 
                 <span className="lg:text-[20px] text-[16px]  font-[600]">
-                  Custom Module & Plugin Development
+                  Java Application Maintenance and Support
                 </span>
-                <p className="lg:text-[17px] text-[12px]">
-                  Develop dynamic, interactive, and custom modules and plugins
-                  tailored to clients across various industries, enhancing web
-                  applications and elevating user experiences.
+                <p className="lg:text-[16px]  text-[12px] text-gray-800 leading-relaxed max-w-prose">
+                  Java application maintenance and support involve the ongoing
+                  process of monitoring, updating, and troubleshooting
+                  Java-based systems. This ensures the continued performance,
+                  security, and functionality of applications over time. Regular
+                  maintenance helps to address issues, implement improvements,
+                  and keep the software aligned with evolving user needs and
+                  technological advancements.
                 </p>
               </div>
             </div>
@@ -375,168 +393,389 @@ const Codeigntersection = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-orange-800 to-orange-400 text-white py-5 px-4 flex justify-center">
-        <div className="lg:w-[90%] flex flex-col items-center justify-center space-y-10">
-          <span className="lg:text-[28px] font-[600] text-center text-shadow-lg">
-            Boost Your Online Presence with Our Expert CodeIgniter Development
-            Services.
+      <div className=" flex justify-center py-10  bg-gradient-to-r from-blue-400 to-blue-800">
+        <div className=" flex flex-col items-center space-y-3 lg:space-y-8 ">
+          <span className="lg:text-[28px] font-[700] text-white text-center">
+            Enhance Your Java Applications with Professional Solutions
           </span>
-          <span className="lg:text-[18px] text-[13px] font-[400] text-center text-gray-200">
-            Elevate your online presence with our top-tier CodeIgniter
-            development services. Our skilled team specializes in building
-            dynamic, scalable, and high-performance web applications using the
-            CodeIgniter framework. We provide custom solutions that cater to
-            your unique business needs, ensuring seamless integration, optimized
-            performance, and a user-friendly experience.
-          </span>
-
-          {/* Updated button */}
-          <button className="bg-gradient-to-r from-blue-500 to-blue-900 text-white py-2 px-5 lg:py-3 lg:px-10 rounded-full lg:text-lg font-semibold hover:scale-105 transition-transform duration-300 ease-in-out shadow-md hover:shadow-lg">
-            Contact Us
+          <button className="relative overflow-hidden lg:px-8 lg:py-3 px-3 py-1 font-semibold rounded-md text-white border-2 border-white hover:border-orange-600    capitalize group">
+            <span className="z-10 relative group-hover:text-white  text-[12px] lg:text-[18px]">
+              Hire Developer
+            </span>
+            <span className="absolute top-0 left-0 w-full h-full bg-orange-600 transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
           </button>
         </div>
       </div>
 
-      <div className="flex justify-center py-10">
-        <div className="lg:w-[90%] flex flex-col gap-10 px-3  justify-center  items-center ">
-          <span className="lg:text-[28px] text-[20px] font-[700] text-center ">
-            Tailored CodeIgniter Development Services
+
+      <div className=" flex justify-center  lg:py-10">
+        <div className="lg:w-[90%]  flex  flex-col  items-center  px-3">
+          <span className="lg:text-[28px]  text-[20px] font-[700] text-center">
+          The Advantages of Working with Magbyte for Development
           </span>
 
-          <p className="text-gray-700 text-[12px] lg:text-[16px] font-[500] text-center">
-            Unlock top-tier CodeIgniter development services in India to
-            accelerate growth and transform your web applications! Our expert
-            team specializes in building dynamic websites using PHP, following
-            the popular model-view-controller (MVC) development pattern. With
-            our extensive experience in CodeIgniter web application development,
-            we help clients drive industry-leading transformation. As a leading
-            CodeIgniter web development company in India, we leverage the
-            framework’s robust functionality to deliver exceptional results.
-            Through innovative strategies in CodeIgniter development, we focus
-            on pushing the boundaries of web applications. When you hire
-            CodeIgniter developers from us, you’ll receive high-quality,
-            speed-optimized web solutions packed with powerful features,
-            ensuring results-driven applications.
-          </p>
+          <div className=" pt-10 flex flex-col gap-5">
+            <div className="flex gap-5 lg:flex-row flex-col">
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
 
-          <ul className="list-disc flex flex-col gap-8 lg:gap-20 lg:flex-row text-gray-700 text-[14px] justify-center items-center w-full lg:text-[18px]">
-            <li className="space-y-4">
-              <li>HMVC </li>
-              <li>Protected Web Application</li>
-              <li>API-Driven Web Application</li>
-            </li>
-
-            <li className="space-y-4">
-              <li>Payment Gateway Integration</li>
-              <li>Application Migration</li>
-              <li>Tailored Library Development</li>
-            </li>
-
-            <li className="space-y-4">
-              <li>Template Implementation</li>
-              <li>Application Upgrade Services</li>
-              <li>External Integration Services</li>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="flex justify-center py-16 px-3 cursor-pointer">
-        <div className="lg:w-[90%] flex flex-col gap-16 items-center">
-          <span className="lg:text-[28px] text-center     font-[600] ">
-            Collaborating with Innovative Businesses and a Wide Range of Clients
-          </span>
-          <div className="flex flex-col lg:flex-row  gap-3   ">
-            <div className="border shadow-md lg:w-[350px] lg:h-[500px] rounded-md hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden">
-                <img
-                  src={img}
-                  alt=""
-                  className="w-full lg:h-[200px] transition-transform duration-300 hover:scale-110 rounded-md"
-                />
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  Clear Communication
+                </span>
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we prioritize clear and tr ansparent communication
+                  throughout the entire development process. We believe in
+                  keeping you informed at every stage, ensuring that your ideas
+                  and feedback are incorporated seamlessly into the project. Our
+                  team works closely with you to understand your goals,
+                  providing regular updates and addressing any concerns
+                  promptly.
+                </p>
               </div>
 
-              <div className="px-5 py-6 flex flex-col gap-3">
-                <span className="lg:text-[18px] font-semibold">Startups</span>
-                <p className=" text-[12px] lg:text-[16px] text-gray-700">
-                  From aspiring entrepreneurs to venture capital-backed
-                  startups, we, as leading mobile app developers, have assisted
-                  startups in their technological journey, turning ideas into
-                  reality by developing revenue-generating apps.
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
+
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  On-Time Delivery
+                </span>
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we are committed to delivering projects on time
+                  without compromising quality. We understand the importance of
+                  meeting deadlines and ensuring that your e-commerce store is
+                  up and running as scheduled. Our team follows a
+                  well-structured development process, keeping track of
+                  milestones and managing time efficiently, so you can launch
+                  your store or project on time.
+                </p>
+              </div>
+
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
+
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  Solutions Built for Your Needs
+                </span>
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we focus on creating tailored solutions that are
+                  specifically designed to meet your unique business
+                  requirements. We take the time to understand your goals and
+                  challenges, crafting e-commerce platforms that are not only
+                  functional but also optimized for your specific needs. Whether
+                  it's customizing features, integrating third-party tools, or
+                  ensuring scalability, our solutions are built to grow with
+                  your business.
                 </p>
               </div>
             </div>
+            <div className="flex gap-5 lg:flex-row flex-col">
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
 
-            <div className="border shadow-md lg:w-[350px] lg:h-[500px] rounded-md hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden">
-                <img
-                  src={img1}
-                  alt=""
-                  className="w-full lg:h-[200px] transition-transform duration-300 hover:scale-110 rounded-md object-cover"
-                />
-              </div>
-
-              <div className="px-5 py-6 flex flex-col gap-3">
-                <span className="lg:text-[18px] font-semibold">
-                  Product-Based Companies
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  Direct Collaboration
                 </span>
-                <p className="text-[12px] lg:text-[16px] text-gray-700">
-                  We have collaborated with product-focused businesses, helping
-                  them develop and enhance their web design and development
-                  services to meet market demands and stay ahead of the
-                  competition..
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we believe in the power of direct collaboration to
+                  ensure the best outcomes for your project. By working closely
+                  with you throughout the development process, we ensure that
+                  your ideas, feedback, and goals are fully understood and
+                  integrated. This hands-on approach fosters a more transparent
+                  and efficient workflow, enabling us to deliver results that
+                  align perfectly with your vision.
                 </p>
               </div>
-            </div>
 
-            <div className="border shadow-md lg:w-[350px] lg:h-[500px] rounded-md hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden">
-                <img
-                  src={img2}
-                  alt=""
-                  className="w-full lg:h-[200px] transition-transform duration-300 hover:scale-110 rounded-md object-cover"
-                />
-              </div>
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
 
-              <div className="px-5 py-6 flex flex-col gap-3">
-                <span className="lg:text-[18px] font-semibold">
-                  Marketing and Development Agencies
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  Elevated User Experience
                 </span>
-                <p className="text-[12px] lg:text-[16px] text-gray-700">
-                  By partnering with digital agencies, we have helped craft
-                  engaging digital experiences, using our expertise to deliver
-                  innovative and impactful solutions that captivate and inspire
-                  audiences.
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we prioritize creating an elevated user experience
+                  that drives engagement and customer satisfaction. Our team
+                  focuses on designing intuitive, responsive, and visually
+                  appealing interfaces that make navigation seamless and
+                  enjoyable for your users. By optimizing every aspect of your
+                  e-commerce store—from load times to mobile responsiveness—we
+                  ensure a smooth and frictionless shopping journey.
                 </p>
               </div>
-            </div>
 
-            <div className="border shadow-md lg:w-[350px] lg:h-[500px] rounded-md hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden">
-                <img
-                  src={img3}
-                  alt=""
-                  className="w-full lg:h-[200px] transition-transform duration-300 hover:scale-110 rounded-md  object-cover   "
-                />
-              </div>
+              <div className="lg:py-3 lg:px-5 px-3 py-2 lg:w-[400px] border  border-green-500 hover:scale-105 rounded-md flex flex-col gap-3">
+                <svg
+                  width="56"
+                  height="56"
+                  viewBox="0 0 56 56"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.3333 0H18.6667C8.35735 0 0 8.35735 0 18.6667V37.3333C0 47.6426 8.35735 56 18.6667 56H37.3333C47.6426 56 56 47.6426 56 37.3333V18.6667C56 8.35735 47.6426 0 37.3333 0Z"
+                    fill="#4C49E1"
+                  />
+                  <path
+                    d="M25.3261 24.1534C25.168 23.9555 24.8514 23.916 24.6535 24.0741L22.0815 26.2508C21.9628 26.3299 21.9233 26.4881 21.9233 26.6068C21.9233 26.765 22.0025 26.884 22.0815 26.9629L24.6535 29.1395C24.7326 29.2187 24.8514 29.2582 24.9701 29.2582C25.1283 29.2582 25.2472 29.1789 25.3261 29.1C25.4843 28.9021 25.4843 28.5855 25.2469 28.4274L23.1102 26.6466L25.2469 24.8659C25.4846 24.6677 25.4846 24.3513 25.3261 24.1534Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M33.9184 26.3738L31.3464 24.1972C31.1485 24.039 30.8319 24.0785 30.6737 24.2765C30.5155 24.4744 30.5155 24.791 30.753 24.9491L32.8896 26.7299L30.753 28.5106C30.555 28.6688 30.5155 28.9854 30.6737 29.1833C30.753 29.3021 30.9111 29.3415 31.0298 29.3415C31.1485 29.3415 31.2672 29.3021 31.3465 29.2228L33.9184 27.0462C34.0372 26.967 34.0766 26.8088 34.0766 26.6901C34.0768 26.5717 34.0372 26.4924 33.9184 26.3738Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.3304 21.9005C29.093 21.8213 28.8159 21.9797 28.737 22.2171L26.0065 30.9627C25.9272 31.2001 26.0856 31.4772 26.3231 31.5562C26.3625 31.5562 26.4022 31.5957 26.4811 31.5957C26.6791 31.5957 26.877 31.477 26.9559 31.2395L29.6467 22.5335C29.7259 22.2563 29.6073 21.9798 29.3304 21.9005Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M35.8948 9H20.1057C18.879 9 17.8105 10.0288 17.8105 11.2952V43.7055C17.8105 44.9322 18.8394 46.0007 20.1057 46.0007H35.8948C37.1213 46.0007 38.1898 44.9719 38.1898 43.7055L38.1896 11.2952C38.1896 10.0685 37.1214 9 35.8948 9ZM36.9237 43.7055C36.9237 44.2989 36.4884 44.7344 35.8949 44.7344H20.106C19.5125 44.7344 19.0771 44.299 19.0771 43.7055V40.1835H36.9634L36.9631 43.7055H36.9237ZM36.9237 38.9565H19.0375V13.5903H36.9237V38.9565ZM36.9237 12.3239H19.0375V11.2951C19.0375 10.7016 19.4727 10.2663 20.0662 10.2663H25.7248C25.7643 10.5037 25.9621 10.6621 26.1996 10.6621H29.6819C29.9193 10.6621 30.1172 10.4642 30.1566 10.2663H35.8153C36.4087 10.2663 36.8441 10.7016 36.8441 11.2951L36.8445 12.3239H36.9237Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                  <path
+                    d="M29.0488 42.4832C29.0488 43.0735 28.5704 43.5518 27.9803 43.5518C27.3905 43.5518 26.9121 43.0735 26.9121 42.4832C26.9121 41.8934 27.3905 41.415 27.9803 41.415C28.5705 41.415 29.0488 41.8934 29.0488 42.4832Z"
+                    fill="white"
+                    stroke="white"
+                    stroke-width="0.322114"
+                  />
+                </svg>
 
-              <div className="px-5 py-6 flex flex-col gap-3">
-                <span className="lg:text-[18px] font-semibold">
-                  Large-Scale Enterprises
+                <span className="lg:text-[20px] text-[16px] font-[600]  ">
+                  Flexible Engagement Models
                 </span>
-                <p className="text-[12px] lg:text-[16px] text-gray-700">
-                  With our vast experience working with large enterprises, we
-                  deliver scalable web applications capable of handling high
-                  traffic volumes, extensive data sets, and complex business
-                  processes, ensuring peak performance and efficiency.
+                <p className="lg:text-[16px]  text-[12px]">
+                  At Magbyte, we offer flexible engagement models to cater to
+                  your unique project requirements and business needs. Whether
+                  you prefer a fixed-price model, hourly billing, or dedicated
+                  team setup, we provide adaptable solutions that give you the
+                  freedom to choose the approach that works best for you. Our
+                  flexible models allow for greater collaboration, ensuring that
+                  we can scale our resources and adjust to your evolving needs
+                  throughout the project.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="py-16">
+        <Slider1 />
+      </div>
+
     </div>
   );
 };
 
-export default Codeigntersection;
+export default Javasection;

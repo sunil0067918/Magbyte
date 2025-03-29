@@ -35,7 +35,7 @@ const Faq = () => {
                   onClick={() => (count === 1 ? setcount(0) : setcount(1))}
                 >
                   <span className="text-gray-800 font-semibold">
-                    What is the best eCommerce solution for small businesses?
+                    What is the best eCommerce solution for small bussiness 
                   </span>
                   <FontAwesomeIcon
                     icon={count === 1 ? faMinus : faPlus}

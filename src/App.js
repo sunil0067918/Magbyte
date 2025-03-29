@@ -44,6 +44,12 @@ import Hiredev from "./component/Hiredevlopers/Hiredev";
 import Azure from "./component/Tecnology/Cloud/Azure/Azure";
 import Goog from "./component/Tecnology/Cloud/Goocloud/Goog";
 import Devops from "./component/Tecnology/Cloud/Devops/Devops";
+import Mernn from "./component/Tecnology/Fullstack/Mern/Mernn";
+import Meann from "./component/Tecnology/Fullstack/Mean/Meann";
+import { ToastContainer } from "react-toastify";
+import Javaa from "./component/Tecnology/Fullstack/Javaa/Javaa";
+import Portfoliyo from "./component/Company/Portt/Portfoliyo";
+import Freeconstaform from "./component/Freeconstaform";
 
 const App = () => {
   useEffect(() => {
@@ -51,6 +57,18 @@ const App = () => {
   }, []);
   return (
     <>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -61,7 +79,7 @@ const App = () => {
           <Route path="/web" element={<Webapp />} />
           <Route path="/QA" element={<Qatesting />} />
           <Route path="/Main" element={<Maintenance />} />
-          <Route path="/homepage" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/python" element={<Python />} />
           <Route path="/webdesign" element={<Webdesign />} />
           <Route path="/digital" element={<Digital />} />
@@ -96,8 +114,13 @@ const App = () => {
           <Route path="/azure" element={<Azure />} />
           <Route path="/frame" element={<Frameworks />} />
           <Route path="/googl" element={<Goog />} />
-          <Route path="/dev" element = {<Devops/>} />
+          <Route path="/dev" element={<Devops />} />
+          <Route path="/mern" element={<Mernn />} />
+          <Route path="/mean" element={<Meann />} />
+          <Route path="/javaa" element={<Javaa />} />
+          <Route path="/portt" element={<Portfoliyo />} />
           <Route path="/hire" element={<Hiredev />} />
+          <Route path="/book" element = {<Freeconstaform/>}/>
         </Routes>
       </BrowserRouter>
     </>

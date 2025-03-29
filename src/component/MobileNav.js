@@ -12,11 +12,11 @@ const MobileNav = ({ change }) => {
         change ? "top-[-12px] left-0" : " top-[-1000px] left-0 "
       } bg-gradient-to-t from-black to-gray-600  text-white w-full    block  lg:hidden z-[40] px-4 pt-16 pb-10`}
     >
-      <ul className="flex justify-between gap-10   tracking-wider  flex-col capitalize ">
+      <ul className="flex justify-between gap-5   tracking-wider  flex-col capitalize ">
         <li>
           <div className="flex  gap-1     flex-col ">
             <div className="flex justify-between">
-              <span className="hover:text-[#4687C7]  text-[20px] font-[600]   ">
+              <span className="hover:text-[#4687C7]     text-[16px] font-[600]   ">
                 Services
               </span>
               <div>
@@ -82,7 +82,7 @@ const MobileNav = ({ change }) => {
         <li>
           <div className="flex  gap-1     flex-col ">
             <div className="flex justify-between">
-              <span className="hover:text-[#4687C7]  text-[20px] font-[600]   ">
+              <span className="hover:text-[#4687C7]  text-[16px] font-[600]   ">
                 Technologies
               </span>
               <div>
@@ -126,7 +126,7 @@ const MobileNav = ({ change }) => {
                         Laravel
                       </li>
                     </Link>
-                    <Link>
+                    <Link to = "/dot">
                       <li className="hover:text-blue-700 text-[14px]">
                         DotNet
                       </li>
@@ -139,10 +139,14 @@ const MobileNav = ({ change }) => {
                         React JS
                       </li>
                     </Link>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      JavaScript
-                    </li>
-                    <li className="hover:text-blue-700 text-[14px]">PHP</li>
+                   
+                   <Link  to = "/code">
+                   <li className="hover:text-blue-700 text-[14px]"> Codeigniter </li>
+                   </Link>
+                
+                <Link to  =  "/php">
+                <li className="hover:text-blue-700 text-[14px]">PHP</li>
+                </Link>
                   </ul>
                 </div>
                 <div className="pt-3">
@@ -260,7 +264,7 @@ const MobileNav = ({ change }) => {
         <li>
           <div className="flex  gap-1     flex-col ">
             <div className="flex justify-between">
-              <span className="hover:text-[#4687C7]  text-[20px] font-[600]   ">
+              <span className="hover:text-[#4687C7]  text-[16px] font-[600]   ">
                 Company
               </span>
               <div>
@@ -298,11 +302,11 @@ const MobileNav = ({ change }) => {
           </div>
         </li>
 
-        <li className=" hover:text-[#4687C7]  text-[20px] font-[600] ">
+        <li className=" hover:text-[#4687C7]  text-[16px] font-[600] ">
           Industries
         </li>
 
-        <li className=" hover:text-[#4687C7]  text-[20px] font-[600] ">
+        <li className=" hover:text-[#4687C7] text-[16px] font-[600] ">
           <span>Hire Developers</span>
         </li>
       </ul>

@@ -121,7 +121,7 @@ const Vastappdev = () => {
       </div>
 
       <div className="flex justify-center ">
-        <div className=" bg-[#FFFFFF] w-[90%]  py-[40px] px-[30px] lg:py-[80px] lg:px-[50px] flex gap-16 items-center flex-col lg:flex-row ">
+        <div className=" bg-[#FFFFFF] lg:w-[90%]  py-[20px] px-[5px] lg:py-[80px] lg:px-[50px] flex gap-16 items-center flex-col lg:flex-row ">
           <div className="flex flex-col space-y-6 items-center   ">
             <svg
               width="287"
@@ -311,7 +311,7 @@ const Vastappdev = () => {
               </defs>
             </svg>
 
-            <span className=" sm:text-[18px] text-[12px]text-center">
+            <span className=" md:text-[18px] text-[16px] text-center">
               <b>Valuable Data and Insights</b>
               <br /> into Customer Preferences
             </span>

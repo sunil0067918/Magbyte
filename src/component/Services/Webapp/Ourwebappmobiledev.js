@@ -1,16 +1,16 @@
 import React from "react";
-import img2 from "../../../component/Services/Webapp/images2.png"
+import img from   "../../Services/Webapp/image4.png"
 
 const Ourwebappmobiledev = () => {
   return (
     <div>
-      <div className="bg-[#F5F5F5] flex justify-center  pt-[80px] pb-[60px] cursor-pointer">
-        <div className="w-[90%] ">
+      <div className="bg-[#F5F5F5] flex justify-center   py-5 lg:py-10  cursor-pointer">
+        <div className="lg:w-[90%] flex flex-col px-3">
           <div className="flex justify-center  flex-col items-center text-center space-y-4">
-            <span className="lg:text-[32px]  text-[24px] font-[600]">
+            <span className="lg:text-[32px]  text-[24px] font-[700]">
               Our Web & Mobile Application Development Services
             </span>
-            <p className="lg:text-[18px] text-[14px] font-[500] lg:w-[866px]  ">
+            <p className="lg:text-[18px] text-[14px] font-[400] lg:w-[866px]  ">
               From Android and iOS to hybrid apps and PWAs, our offerings cover
               all things mobile! And that is not all of it: whether it’s IoT
               apps, m-Commerce, or gaming apps, you can count on us!
@@ -21,10 +21,10 @@ const Ourwebappmobiledev = () => {
             <div className=" flex  gap-16  lg:gap-8 flex-wrap justify-center ">
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px] relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px]">
+                  <span className="font-[700] text-[16px] lg:text-[20px]">
                     Android App Development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     Delivering a website for the application is a staggeringly
                     significant step towards the success of your app. Our team
                     has all the knowledge and tools to make it happen
@@ -80,10 +80,10 @@ const Ourwebappmobiledev = () => {
 
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]   relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px] ">
+                  <span className="font-[700] text-[16px] lg:text-[20px] ">
                     Back end development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     We develop a backend for an app and If any application
                     requires the storge and transfer of any data to servers, our
                     team delivers the solution.
@@ -131,10 +131,10 @@ const Ourwebappmobiledev = () => {
 
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]   relative rounded-tr-[40px] rounded-bl-[40px] hover:bg-[#4687C7] hover:text-white">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px] ">
+                  <span className="font-[700] text-[16px] lg:text-[20px] ">
                     Custom Software development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     We develop a backend for an app and If any application
                     requires the storge and transfer of any data to servers, our
                     team delivers the solution.
@@ -192,10 +192,10 @@ const Ourwebappmobiledev = () => {
             <div className=" flex gap-16  lg:gap-8  flex-wrap  justify-center">
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px]">
+                  <span className="font-[700] text-[16px] lg:text-[20px]">
                     Android App Development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     Delivering a website for the application is a staggeringly
                     significant step towards the success of your app. Our team
                     has all the knowledge and tools to make it happen
@@ -243,10 +243,10 @@ const Ourwebappmobiledev = () => {
 
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px] ">
+                  <span className="font-[700] text-[16px] lg:text-[20px]">
                     Back end development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     We develop a backend for an app and If any application
                     requires the storge and transfer of any data to servers, our
                     team delivers the solution.
@@ -306,10 +306,10 @@ const Ourwebappmobiledev = () => {
 
               <div className="lg:w-[366px]  bg-[#FFFFFF] lg:px-[40px] lg:py-[40px] py-[30px] px-[20px]  hover:bg-[#4687C7] hover:text-white  relative rounded-tr-[40px] rounded-bl-[40px]">
                 <div className="space-y-7 pt-5">
-                  <span className="font-[700] text-[20px] ">
+                  <span className="font-[700] text-[16px] lg:text-[20px] ">
                     Custom Software development
                   </span>
-                  <p className="text-[18px]  font-[500]">
+                  <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                     We develop a backend for an app and If any application
                     requires the storge and transfer of any data to servers, our
                     team delivers the solution.
@@ -370,19 +370,19 @@ const Ourwebappmobiledev = () => {
           </div>
 
           <div className="flex justify-center pt-10">
-            <button className="text-[24px] border-[0.75px] px-[60px] py-[15px] rounded-[40px] bg-white">
+            <button className="  text-[16 px] lg:text-[24px] border-[0.75px] py-[10px] px-[30px]   lg:px-[60px] lg:py-[15px] rounded-[40px] bg-white">
               GET A QUOTE
             </button>
           </div>
         </div>
       </div>
 
-      <div className=" flex justify-center bg-[#7938AD]  overflow-hidden pt-[50px]">
-        <div className="  w-[90%] text-white flex  flex-col sm:flex-row sm:items-center gap-9  justify-center">
-          <div className="flex flex-col space-y-4">
-            <span className="text-[24px] font-[500]">Work</span>
-            <span className="text-[32px] font-[700]">Dealing Application</span>
-            <p className="text-[20px] font-[500]">
+      <div className=" flex justify-center bg-[#7938AD]  overflow-hidden lg:py-10 py-5 ">
+        <div className="  lg:w-[90%] text-white flex px-2   flex-col sm:flex-row items-center  gap-9  justify-center">
+          <div className="flex flex-col space-y-4 items-center lg:items-start">
+            <span className="lg:text-[24px] text-[20px] font-[500]">Work</span>
+            <span className="lg:text-[32px]  text-[24px] font-[700]">Dealing Application</span>
+            <p className="lg:text-[20px]  text-[14px]  lg:text-start text-center   leading-relaxed max-w-prose">
               A dealing application is a software platform designed to
               facilitate trading and transactions in financial markets. It
               provides users with tools for executing buy and sell orders,
@@ -394,60 +394,7 @@ const Ourwebappmobiledev = () => {
             </div>
           </div>
 
-          <div>
-            <div className="relative">
-             <div>
-             <svg
-                width="447"
-                height="447"
-                viewBox="0 0 447 447"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className=" w-[171px] sm:w-[400px] "
-              >
-                <circle
-                  opacity="0.05"
-                  cx="223.5"
-                  cy="223.5"
-                  r="223.5"
-                  fill="white"
-                />
-              </svg>
-
-              <svg
-                width="404"
-                height="404"
-                viewBox="0 0 404 404"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className=" absolute top-[22px] left-[21px] w-[359px]  "
-              >
-                <circle opacity="0.1" cx="202" cy="202" r="202" fill="white" />
-              </svg>
-
-              <svg
-                width="351"
-                height="351"
-                viewBox="0 0 351 351"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className=" absolute top-[50px]  w-[309px] left-[46px]"
-              >
-                <circle
-                  opacity="0.3"
-                  cx="175.5"
-                  cy="175.5"
-                  r="175.5"
-                  fill="white"
-                />
-              </svg>
-             </div>
-
-             <img alt="" src={img2} className=" absolute top-[27px] left-[85px] "/>
-
-             
-            </div>
-          </div>
+     <img  alt=""  src  =  {img}/>
         </div>
       </div>
     </div>

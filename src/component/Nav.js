@@ -55,16 +55,20 @@ import img43 from "../component/Tecnology/images/images43.png";
 import img44 from "../component/Tecnology/images/images44.png";
 import img45 from "../component/Tecnology/images/images45.png";
 import MobileNav from "./MobileNav";
+import Popupform from "./Popupform";
 
 const Nav = () => {
   const [change, setchange] = useState(false);
+  const [showmodel, setshowmodal] = useState(false);
+  const handleopen = () => setshowmodal(true);
+  const handleclose = () => setshowmodal(false);
 
   return (
     <div className="w-full">
       {/* upper nav-- */}
       <div className=" w-full flex justify-center items-center lg:mt-5 py-3 lg:py-0 relative cursor-pointer  ">
         <div className=" flex  justify-between items-center w-[85%]  ">
-          <Link to="/homepage">
+          <Link to="/">
             <div className="logo  h-full ">
               <svg
                 width="243"
@@ -1182,7 +1186,10 @@ const Nav = () => {
                           </li>
 
                           <li className="  ">
-                            <Link className="flex gap-3 items-center" to = "/azure">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/azure"
+                            >
                               <img alt="" src={img39} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -1204,7 +1211,7 @@ const Nav = () => {
                           </li>
 
                           <li className=" flex gap-3  items-center text-[14px]">
-                            <Link className="flex gap-3 items-center" to = "/dev">
+                            <Link className="flex gap-3 items-center" to="/dev">
                               <img alt="" src={img41} className="w-[30px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -1233,7 +1240,7 @@ const Nav = () => {
                         <ul className="dropdown space-y-3 w-[50%]  pt-3">
                           <li className="    ">
                             <Link
-                              to="/tecno"
+                              to="/mean"
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img43} className="w-[25px]" />{" "}
@@ -1244,7 +1251,10 @@ const Nav = () => {
                           </li>
 
                           <li className="  ">
-                            <Link className="flex gap-3 items-center">
+                            <Link
+                              className="flex gap-3 items-center"
+                              to="/mern"
+                            >
                               <img alt="" src={img44} className="w-[25px]" />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
@@ -1255,7 +1265,7 @@ const Nav = () => {
 
                           <li className=" flex gap-3  items-center text-[14px]">
                             <Link
-                              to="/webdesign"
+                              to="/javaa"
                               className="flex gap-3 items-center"
                             >
                               <img alt="" src={img45} className="w-[20px]" />{" "}
@@ -1436,13 +1446,13 @@ const Nav = () => {
                         </div>
                       </Link>
 
-                      <Link to="/contact" className=" flex gap-3  ">
+                      <Link to="/portt" className=" flex gap-3  ">
                         <FontAwesomeIcon
                           icon={faAddressCard}
                           className=" border py-1 px-1 rounded-sm"
                         />
                         <div className="flex flex-col items-baseline">
-                          <li className="text-white font-[600] ">Privacy</li>
+                          <li className="text-white font-[600] ">Portfoliyo</li>
                           <span className="text-[14px] text-gray-300">
                             Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry.
@@ -1462,23 +1472,27 @@ const Nav = () => {
                 </span>
               </li>
 
-          <Link to = "/hire">
-          <li className=" ">
-                <span className="relative inline-block group">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
-                    Hire Devlopers
+              <Link to="/hire">
+                <li className=" ">
+                  <span className="relative inline-block group">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                      Hire Devlopers
+                    </span>
                   </span>
-                </span>
-              </li>
-          </Link>
+                </li>
+              </Link>
             </ul>
 
-            <button
-              className="bg-[#4687C7] px-6 py-3 w-auto h-[44px] text-white tracking-widest rounded-[50px] flex items-center justify-center 
+            <div>
+              <button
+                className="bg-[#4687C7] px-6 py-3 w-auto h-[44px] text-white tracking-widest rounded-[50px] flex items-center justify-center 
                   transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-[#357ab7]"
-            >
-              Hire on
-            </button>
+                onClick={handleopen}
+              >
+                Hire on
+              </button>
+              <Popupform show={showmodel} handleclose={handleclose} />
+            </div>
           </div>
         </div>
       </div>

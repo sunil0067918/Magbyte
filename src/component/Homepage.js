@@ -47,12 +47,51 @@ import img45 from "../images/Groupimage4/image4.png";
 import img46 from "../images/Groupimage4/image5.png";
 
 import heroImage from "../images/Group images/Group15.png";
+import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import axios from "axios";
+import { toast } from "react-toastify";
 // import Nav from "./Nav";
 
 export const Homepage = () => {
   const [change, setchange] = useState(1);
+  const {
+    register,
+    reset,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  console.log(errors);
+
+  const onSubmit = async (data) => {
+    const payload = {
+      inquryfirstname: data.inquryfirstname,
+      inqueryemail: data.inqueryemail,
+      inquerylastname: data.inquerylastname,
+      inqueynumber: data.inqueynumber,
+      inqurymessage: data.inqurymessage,
+    };
+
+    try {
+      const inqueryform = await axios.post(
+        "http://localhost:3000/inquerform",
+        payload
+      );
+      if (inqueryform.data.status) {
+        toast.success(inqueryform.data.message);
+      } else {
+        toast.warn("something was worng");
+      }
+    
+      console.log(inqueryform);
+      reset();
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
-    <div  className=" cursor-pointer " >
+    <div className=" cursor-pointer ">
       {/* <Nav/> */}
       <div className=" bg-gradient-to-b  from-[#111429] to-[#4687C7]    flex justify-center items-center ">
         <div className="lg:w-[85%] flex items-center flex-col  px-[6px] sm:px-[30px]  lg:py-0 lg:px-0  lg:flex-row pt-10 sm:pt-0 text-center sm:text-start">
@@ -893,9 +932,11 @@ export const Homepage = () => {
                   attempt.
                 </p>
                 <button className="bg-gradient-to-r from-[#87CEEB] to-[#6CC1E1] text-white md:px-[50px] md:py-[16px] px-[30px] py-[16px] rounded-[50px] flex gap-5 items-center justify-center hover:scale-105 mt-[45px] sm:text-[16px] text-[12px] font-[600] transition-all duration-300 ease-in-out">
-                  <span className="text-white text-[12px] sm:text-[16px] font-[600]">
-                    LET'S CONNECT
-                  </span>
+                  <Link to="/contact">
+                    <span className="text-white text-[12px] sm:text-[16px] font-[600]">
+                      LET'S CONNECT
+                    </span>
+                  </Link>
                   <svg
                     width="16"
                     height="16"
@@ -1651,7 +1692,7 @@ export const Homepage = () => {
                     </div>
 
                     <div className="pt-4">
-                      <button className="     rounded-[50px] hover:scale-105 ">
+                      <button className="rounded-[50px] hover:scale-105 ">
                         <svg
                           width="24"
                           height="30"
@@ -2555,12 +2596,14 @@ export const Homepage = () => {
                 business goals.
               </p>
 
-              <button className="relative overflow-hidden lg:px-8 lg:py-3 mt-5 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
+         <Link to = "/book">
+         <button className="relative overflow-hidden lg:px-8 lg:py-3 mt-5 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
                 <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
                   FREE EXPERT CONSULTATION
                 </span>
                 <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
               </button>
+         </Link>
             </div>
           </div>
         </div>
@@ -2657,12 +2700,15 @@ export const Homepage = () => {
           <span className="sm:text-[30px] text-[20px]  font-[500] text-[#FFFFFF]">
             See something that excites you?
           </span>
-          <button className="relative overflow-hidden lg:px-8 lg:py-3 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
-            <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
-              Let's Connect
-            </span>
-            <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
-          </button>
+          <Link to="/contact">
+            <button className="relative overflow-hidden lg:px-8 lg:py-3 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
+              <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
+                Let's Connect
+              </span>
+
+              <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -2809,7 +2855,10 @@ export const Homepage = () => {
 
         <div className=" flex justify-center  ">
           <div className=" flex sm:w-[75%] w-full   py-8 sm:py-16 gap-8 flex-col lg:flex-row px-2">
-            <form className="md:w-[604px] w-full   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-6 sm:py-20  z-[10]  ">
+            <form
+              className="md:w-[604px] w-full   bg-[#FFFFFF] rounded-[15px]  shadow-md pt-5 py-6 sm:py-20  z-[10]  "
+              onSubmit={handleSubmit(onSubmit)}
+            >
               <span className=" sm:text-[34px] text-[24px] font-[700]  flex justify-center text-center">
                 For Project Inquiries
               </span>
@@ -2823,9 +2872,19 @@ export const Homepage = () => {
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black   text-[#E0E0E0] focus:outline-none w-full "
+                        className=" border-0 border-b border-black lg:text-[16px]  text-[12px]   focus:outline-none w-full "
                         type="text"
+                        name="inquryfirstname"
+                        {...register("inquryfirstname", {
+                          required: "Firstname is reqired",
+                        })}
                       />
+
+                      {errors.inquryfirstname && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.inquryfirstname.message}
+                        </p>
+                      )}
                     </div>
                     <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
@@ -2833,9 +2892,19 @@ export const Homepage = () => {
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black   text-[#E0E0E0] focus:outline-none w-full "
-                        type="text"
+                        className=" border-0 border-b border-black  lg:text-[16px]  text-[12px]   focus:outline-none w-full "
+                        type="email"
+                        name="inqueryemail"
+                        {...register("inqueryemail", {
+                          required: "email is reqired",
+                        })}
                       />
+
+                      {errors.inqueryemail && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.inqueryemail.message}
+                        </p>
+                      )}
                     </div>
                   </div>
                   <div className="  space-y-3  flex flex-col">
@@ -2845,9 +2914,18 @@ export const Homepage = () => {
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black w-full text-[#E0E0E0] focus:outline-none  "
+                        className=" border-0 border-b border-black w-full lg:text-[16px]  text-[12px]   focus:outline-none  "
                         type="text"
+                        name="inquerylastname"
+                        {...register("inquerylastname", {
+                          required: "last name is reqired",
+                        })}
                       />
+                      {errors.inquerylastname && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.inquerylastname.message}
+                        </p>
+                      )}
                     </div>
                     <div className="flex flex-col">
                       <label className="text-[#33475B] text-[14px]  sm:text-[18px] ">
@@ -2855,9 +2933,19 @@ export const Homepage = () => {
                       </label>
                       <br />
                       <input
-                        className=" border-0 border-b border-black sm:w-[250px] w-full text-[#E0E0E0] focus:outline-none text-[14px]  sm:text-[18px]   "
+                        className=" border-0 border-b border-black sm:w-[250px] w-full lg:text-[16px]  text-[12px]  focus:outline-none text-[14px]  sm:text-[18px]   "
                         type="text"
+                        name="inqueynumber"
+                        {...register("inqueynumber", {
+                          required: " phone number is required",
+                        })}
                       />
+
+                      {errors.inqueynumber && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.inqueynumber.message}
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -2865,11 +2953,20 @@ export const Homepage = () => {
                   <label className="text-[#33475B]">Message*</label>
                   <br />
                   <textarea
-                    className="border-0 border-b border-black w-full text-[#E0E0E0] focus:outline-none    "
+                    className="border-0 border-b border-black w-full focus:outline-none    "
                     type=" text"
+                    name="inqurymessage"
+                    {...register("inqurymessage", {
+                      required: "please fill  your inqury",
+                    })}
                   ></textarea>
+                  {errors.inqurymessage && (
+                    <p className="text-red-700 lg:text-[14px] text-[12px]">
+                      {errors.inqurymessage.message}
+                    </p>
+                  )}
                 </div>
-                <button className="sm:w-[169px] sm:h-[56px] h-[30px] font-[600] text-[10px] sm:text-[16px]  rounded-[50px] px-[30px] md:px-[20px] bg-[#4687C7] sm:py-[16px] flex items-center  justify-center mt-6 text-white ">
+                <button className="sm:w-[169px] sm:h-[56px] h-[30px] font-[600] text-[14px] sm:text-[16px]  rounded-[50px] px-[30px] md:px-[20px] bg-[#4687C7] sm:py-[16px] flex items-center  justify-center mt-6 text-white ">
                   Let’s connect
                 </button>
               </div>

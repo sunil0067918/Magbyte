@@ -3,6 +3,7 @@ import img1 from "../../../images/ServicesEcommarceimages/images2.png";
 import img2 from "../../../images/ServicesEcommarceimages/images3.png";
 import img3 from "../../../images/ServicesEcommarceimages/images4.png";
 import img4 from "../../../images/ServicesEcommarceimages/images5.png";
+import { Link } from "react-router-dom";
 
 const Ourecommarcedevsolutions = () => {
   return (
@@ -352,9 +353,11 @@ const Ourecommarcedevsolutions = () => {
               </div>
             </div>
             <div className="flex justify-center">
-              <button className="text-[16px]   font-[500]  text-white bg-[#4687C7] px-[10px] py-[10px]  mt-7 rounded-[10px]">
+          <Link to = "/contact">
+          <button className="text-[16px]   font-[500]  text-white bg-[#4687C7] px-[10px] py-[10px]  mt-7 rounded-[10px]">
                 Let’s Connect
               </button>
+          </Link>
             </div>
           </div>
         </div>

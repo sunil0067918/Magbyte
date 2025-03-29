@@ -2,17 +2,17 @@ import React from "react";
 
 const Benfitsworkingwithus = () => {
   return (
-    <div className="bg-[#F9F9FF] flex justify-center pt-[80px]">
-      <div className="w-[80%] flex flex-col items-center ">
+    <div className="bg-[#F9F9FF] flex justify-center lg:py-10 py-5">
+      <div className="lg:w-[80%] flex flex-col items-center  px-2">
         <div>
-          <span className="text-[32px] text-center flex  justify-center">
+          <span className="lg:text-[32px] text-[26px] font-[600] text-center flex  justify-center">
             Benefits of working with us
           </span>
         </div>
 
-        <div className="flex flex-col gap-6 py-20">
+        <div className="flex flex-col gap-6 py-10 lg:py-20">
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-6 md:w-[580px] w-full rounded-[5px]    ">
+            <div className=" bg-white lg:px-8 lg:py-6 px-4 py-3 flex flex-col gap-3 md:w-[580px] w-full rounded-[5px]    ">
               <div className=" flex flex-col">
                 <svg
                   width="56"
@@ -57,14 +57,14 @@ const Benfitsworkingwithus = () => {
                   />
                 </svg>
 
-                <span className=" sm:text-[24px]  font-[600] ">
+                <span className=" md:text-[24px] text-[16px] font-[700] ">
                   Well-versed with Modern Mobile Tech
                   <br />
                   Stacks
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                 The team comprises senior mobile app developers and core
                 contributors to popular mobile app development frameworks like
                 React Native and Flutter. This gives a big advantage of being
@@ -72,7 +72,7 @@ const Benfitsworkingwithus = () => {
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white   lg:px-8 lg:py-6 px-4 py-3 flex flex-col gap-3 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -98,12 +98,12 @@ const Benfitsworkingwithus = () => {
                   </defs>
                 </svg>
 
-                <span className=" sm:text-[24px]  font-[600] ">
+                <span className="  md:text-[24px] text-[16px] font-[700]  ">
                   Strong Mobile <br /> Portfolio
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]   leading-relaxed max-w-prose">
                 Our portfolio includes high-performing apps of industry leaders.
                 Some of them are a multifunctional app for Darden, a video
                 conferencing app for 100ms, a gaming app for mobile premier
@@ -114,7 +114,7 @@ const Benfitsworkingwithus = () => {
           </div>
 
           <div className="flex  gap-9 flex-col lg:flex-row">
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white   lg:px-8 lg:py-6 px-4 py-3 flex flex-col gap-3 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -144,21 +144,21 @@ const Benfitsworkingwithus = () => {
                   </defs>
                 </svg>
 
-                <span className=" sm:text-[24px]  font-[600] ">
+                <span className="  md:text-[24px] text-[16px] font-[700]  ">
                   15+ Open-Source products in the mobile
                   <br />
                   Space
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]    leading-relaxed max-w-prose">
                 We are big on open source projects. Native base that we created
                 that currently has 18k+ stars on GitHub. Apart from this, we are
                 creators of NativeBase Startup+, and more.
               </p>
             </div>
 
-            <div className=" bg-white  px-[30px] py-[40px] space-y-4 md:w-[580px] w-full rounded-[5px]   ">
+            <div className=" bg-white   lg:px-8 lg:py-6 px-4 py-3 flex flex-col gap-3 md:w-[580px] w-full rounded-[5px]   ">
               <div className="flex flex-col">
                 <svg
                   width="56"
@@ -184,13 +184,13 @@ const Benfitsworkingwithus = () => {
                   </defs>
                 </svg>
 
-                <span className=" text-[20px]  font-[600] ">
+                <span className=" md:text-[24px] text-[16px] font-[700]  ">
                   End-to-end Support from ideation to <br />
                   post-launch
                 </span>
               </div>
 
-              <p className="flex-wrap text-[16px] font-[400]">
+              <p className="lg:text-[16px]  text-[12px]  hover:text-white  leading-relaxed max-w-prose">
                 We take the onus of ensuring your business benefits from the
                 mobile app. From ideation and development to post-deployment
                 support, our team will guide you in the complete journey of the
@@ -200,9 +200,9 @@ const Benfitsworkingwithus = () => {
           </div>
         </div>
 
-        <div className="flex justify-center pb-10">
+        <div className="flex justify-center lg:pb-10">
 
-            <button className=" rounded-[32px]  border-[1px]  border-[#4687C7] px-[40px] py-[10px] bg-[#FFFFFF]">Let’s get started</button>
+            <button className=" rounded-[32px]  border-[1px]  border-[#4687C7]  px-[20px] py-[5px] lg:px-[40px] lg:py-[10px] bg-[#FFFFFF]">Let’s get started</button>
         </div>
       </div>
     </div>

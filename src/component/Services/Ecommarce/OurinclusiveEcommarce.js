@@ -3,7 +3,7 @@ import React from "react";
 const OurinclusiveEcommarce = () => {
   return (
     <div className="bg-[#FFFFFF]  flex justify-center lg:pt-[60px] pt-[30px]  lg:pb-[50px]">
-      <div className=" lg:w-[90%] flex flex-col items-center gap-y-[200px] ">
+      <div className=" lg:w-[90%] flex flex-col items-center gap-y-[200px] px-2">
         <div className="flex justify-center text-center flex-col  w-full lg:w-[782px] space-y-3 ">
           <span className="  text-[20px] lg:text-[32px]  font-[600]">
             Our All-inclusive Ecommerce Development Process

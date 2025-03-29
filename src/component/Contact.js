@@ -2,11 +2,47 @@ import Nav from "./Nav";
 import img1 from "../images/Contactimages/images1.png";
 import Footer from "./Footer";
 import { useEffect } from "react";
+import { useForm } from "react-hook-form";
+import axios from "axios";
+import { toast } from "react-toastify";
 
 const Contact = () => {
+  const {
+    register,
+    reset,
+    formState: { errors },
+    handleSubmit,
+  } = useForm();
+  console.log(errors );
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to top of the page on component load
+    window.scrollTo(0, 0);
   }, []);
+
+  const onSubmit = async (data) => {
+    const payload = {
+      Firstname: data.Firstname,
+      Contactemail: data.Contactemail,
+      Contactnumber: data.Contactnumber,
+      textareamessage: data.textareamessage,
+    };
+
+    try {
+      const Conatactresult = await axios.post(
+        "http://localhost:3000/contactregister",
+        payload
+      );
+      reset()
+      if(Conatactresult.data.status){
+        toast.success(Conatactresult.data.message)
+      }else{
+        toast.warn("something wentwrong")
+      }
+      console.log(Conatactresult);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <div className="">
       <Nav />
@@ -72,48 +108,88 @@ const Contact = () => {
 
                   <form
                     className="mt-7 space-y-8 flex flex-col items-center"
-                    action="submit"
+                    onSubmit={handleSubmit(onSubmit)}
                   >
-                    {/* Name Input */}
-                    <input
-                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px] rounded-xl shadow-lg focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
-                      placeholder="Enter Your Name"
-                      type="text"
-                    />
-
-                    {/* Email Input */}
-                    <div className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg flex gap-3 items-center focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out">
-                      <img
-                        src={img1}
-                        alt="email icon"
-                        className="w-[20px] h-[20px]"
-                      />
+                    <div className="flex flex-col gap-2 w-full">
                       <input
-                        className="w-full bg-transparent focus:outline-none"
-                        placeholder="Enter Your Email Address"
-                        type="email"
+                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px] rounded-xl shadow-lg focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                        placeholder="Enter Your Name"
+                        type="text"
+                        name="Firstname"
+                        {...register("Firstname", {
+                          required: "First name is required",
+                        })}
                       />
+                      {errors.Firstname && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.Firstname.message}
+                        </p>
+                      )}
                     </div>
 
-                    <input
-                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
-                      placeholder="Enter Your Phone Number"
-                      type="tel"
-                    />
+                    <div className="flex flex-col gap-2 w-full">
+                      <div className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg flex gap-3 items-center focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out">
+                        <img
+                          src={img1}
+                          alt="email icon"
+                          className="w-[20px] h-[20px]"
+                        />
+                        <input
+                          className="w-full bg-transparent focus:outline-none"
+                          placeholder="Enter Your phone number"
+                          type="number"
+                          name="Contactnumber"
+                          {...register("Contactnumber", {
+                            required: "Enter your phone number",
+                          })}
+                        />
+                      </div>
+                      {errors.Contactnumber && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.Contactnumber.message}
+                        </p>
+                      )}
+                    </div>
 
-                    {/* Textarea */}
-                    <textarea
-                      className="lg:w-[484px] w-[90%] bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
-                      placeholder="Go ahead, we are listening..."
-                      rows="4"
-                    ></textarea>
+                    <div className="flex flex-col gap-2 w-full">
+                      <input
+                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                        placeholder="Enter Your Email"
+                        type="email"
+                        name="Contactemail"
+                        {...register("Contactemail", {
+                          required: "Enter your Email",
+                        })}
+                      />
+                      {errors.Contactemail && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.Contactemail.message}
+                        </p>
+                      )}
+                    </div>
 
-                    {/* Submit Button */}
-                    {/* <button className="lg:w-[486px] w-[90%] py-[15px] rounded-xl text-lg font-semibold bg-gradient-to-r from-[#585DD8] to-[#7E8BF6] text-[#FFFFFF] transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#4A54D1]">
-                      Submit
-                    </button> */}
+                    <div className="flex flex-col w-full">
+                      <textarea
+                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]    rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                        placeholder="Go ahead, we are listening..."
+                        rows="4"
+                        type="text"
+                        name="textareamessage"
+                        {...register("textareamessage", {
+                          required: "Enter your details",
+                        })}
+                      ></textarea>
+                      {errors.textareamessage && (
+                        <p className="text-red-700 lg:text-[14px] text-[12px]">
+                          {errors.textareamessage.message}
+                        </p>
+                      )}
+                    </div>
 
-                    <button className="lg:w-[486px] w-[90%] py-[7px] lg:py-[15px] rounded-xl text-lg font-semibold text-[#FFFFFF] transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#4A54D1] focus:ring-opacity-50 bg-gradient-to-r from-[#7E8BF6] to-[#585DD8]">
+                    <button
+                      className="lg:w-[486px] w-[90%] py-[7px] lg:py-[15px] rounded-xl text-lg font-semibold text-[#FFFFFF] transition-all duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#4A54D1] focus:ring-opacity-50 bg-gradient-to-r from-[#7E8BF6] to-[#585DD8]"
+                      type="submit"
+                    >
                       Submit
                     </button>
                   </form>
