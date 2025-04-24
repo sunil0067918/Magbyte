@@ -881,7 +881,7 @@ const Nav = () => {
                               className="flex gap-3 items-center"
                               to="/joomla"
                             >
-                              <img alt="" src={img33} className="w-[30px]" />
+                              <img alt="" src={img33} className="w-[30px] " />
 
                               <span className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
                                 Joomla
@@ -889,7 +889,7 @@ const Nav = () => {
                             </Link>
                           </li>
 
-                          <li className=" flex gap-3  items-center text-[14px]">
+                          <li className=" flex gap-3 md items-center text-[14px] ">
                             <Link
                               className="flex gap-3 items-center"
                               to="/share"
@@ -1388,7 +1388,7 @@ const Nav = () => {
                         </div>
                       </Link>
 
-                      <Link to="/contact" className=" flex gap-3  ">
+                      <Link to="/about" className=" flex gap-3  ">
                         <FontAwesomeIcon
                           icon={faAddressCard}
                           className=" border py-1 px-1 rounded-sm"
@@ -1464,13 +1464,15 @@ const Nav = () => {
                 </div>
               </li>
 
-              <li className=" ">
+  <Link to =  "/industries">
+  <li className=" ">
                 <span className="relative inline-block group">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
                     Industries
                   </span>
                 </span>
               </li>
+  </Link>
 
               <Link to="/hire">
                 <li className=" ">

@@ -26,7 +26,7 @@ const Form = () => {
 
     try {
       const result = await axios.post(
-        "http://localhost:3000/register",
+        `${process.env.REACT_APP_API_URL}/register`,
         payload
       );
 
@@ -74,7 +74,7 @@ const Form = () => {
           <span
             className={`${
               location.pathname === "/Ecommarce"
-                ? "bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent"
+                ? "bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent p- "
                 : location.pathname === "/web"
                 ? "bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent"
                 : location.pathname === "/webdesign"
@@ -82,7 +82,7 @@ const Form = () => {
                 : location.pathname === "/digital"
                 ? "bg-gradient-to-r from-blue-500 to-white bg-clip-text text-transparent"
                 : location.pathname === "/Laravel"
-                ? "bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent"
+                ? "bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent text-xl"
                 : location.pathname === "/code"
                 ? "bg-gradient-to-r from-orange-500 to-white bg-clip-text text-transparent"
                 : location.pathname === "/python"
@@ -187,10 +187,10 @@ const Form = () => {
               )}
             </div>
 
-            <div className=" relative pt-1 lg:pt-0 ">
+            <div className=" relative pt-1 lg:pt-0">
               <input
                 id="email"
-                className="text-[11px] sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-2 focus:ring-[#007BFF] focus:border-[#333333] transition-all duration-300 w-full mt-1"
+                className="text-[11px]  sm:text-[14px] px-[6px] py-[6px] sm:px-[10px] sm:py-[10px] rounded-[6px] border-2 border-[#333333] focus:outline-none focus:ring-2 focus:ring-[#007BFF] focus:border-[#333333] transition-all duration-300 w-full mt-1"
                 type="email"
                 name="Email"
                 placeholder="Enter your email"
@@ -225,6 +225,7 @@ const Form = () => {
                 </p>
               )}
             </div>
+          
 
             <div className=" relative pt-3 lg:pt-0">
               <input

@@ -39,14 +39,14 @@ const Faq = () => {
                   </span>
                   <FontAwesomeIcon
                     icon={count === 1 ? faMinus : faPlus}
-                    className="text-blue-500 transition-all duration-300"
+                    className="text-blue-500 transition-all duration-300  px mt-5  text-xl   rounded-t-[]4px border border-l-0  border-t "
                   />
                 </div>
 
                 {/* Smooth Transition */}
                 <div
                   className={`overflow-hidden transition-all duration-500 ${
-                    count === 1 ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                    count === 1 ? "max-h-96 opacity-100" : "max-h-0 h- opacity-0"
                   }`}
                 >
                   <p className="text-gray-600">

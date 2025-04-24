@@ -39,7 +39,7 @@ const MobileNav = ({ change }) => {
                 drop === 1
                   ? "max-h-[500px] opacity-100 visible"
                   : "max-h-0 opacity-0 invisible"
-              } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer   overflow-y-scroll flex flex-col bg-gray-800 px-3 py-2 items-baseline w-full`}
+              } text-[13px] font-bold pt-1 space-y-4 text-white cursor-pointer up   overflow-y-scroll flex flex-col bg-gray-800 px-3 py-2 items-baseline w-full`}
             >
               <Link to="/webdesign">
                 <li className="hover:text-blue-700 text-[14px]">Web Design</li>
@@ -55,7 +55,9 @@ const MobileNav = ({ change }) => {
                 </li>
               </Link>
               <Link to="/Ecommarce">
-                <li className="hover:text-blue-700 text-[14px]">E-commerce</li>
+                <li className="hover:text-blue-700 text-[14px]  rounded-t ">
+                  E-commerce
+                </li>
               </Link>
               <Link to="/Main">
                 <li className="hover:text-blue-700 text-[14px]">
@@ -68,7 +70,7 @@ const MobileNav = ({ change }) => {
                 </li>
               </Link>
               <Link to="/QA">
-                <li className="hover:text-blue-700 text-[14px]">
+                <li className="hover:text-blue-700 text-[14px] ri">
                   QA & Testing
                 </li>
               </Link>
@@ -118,35 +120,47 @@ const MobileNav = ({ change }) => {
                   <ul className="flex flex-col gap-3 pt-5 text-gray-300">
                     <Link to="/python">
                       <li className="hover:text-blue-700 text-[14px]">
-                        Python
+                        Python Development
                       </li>
                     </Link>
                     <Link to="/Laravel">
                       <li className="hover:text-blue-700 text-[14px]">
-                        Laravel
+                        Laravel Development
                       </li>
                     </Link>
-                    <Link to = "/dot">
+                    <Link to="/Node">
                       <li className="hover:text-blue-700 text-[14px]">
-                        DotNet
+                        Node Development
                       </li>
                     </Link>
-                 <Link to  =  "/angular">
-                 <li className="hover:text-blue-700 text-[14px]">Angular</li>
-                 </Link>
+                    <Link to="/dot">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        DotNet Development
+                      </li>
+                    </Link>
+                    <Link to="/angular">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Angular Development
+                      </li>
+                    </Link>
                     <Link to="/Reactt">
                       <li className="hover:text-blue-700 text-[14px]">
-                        React JS
+                        React JS Development
                       </li>
                     </Link>
-                   
-                   <Link  to = "/code">
-                   <li className="hover:text-blue-700 text-[14px]"> Codeigniter </li>
-                   </Link>
-                
-                <Link to  =  "/php">
-                <li className="hover:text-blue-700 text-[14px]">PHP</li>
-                </Link>
+
+                    <Link to="/code">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        {" "}
+                        Codeigniter Development{" "}
+                      </li>
+                    </Link>
+
+                    <Link to="/php">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        PHP Development
+                      </li>
+                    </Link>
                   </ul>
                 </div>
                 <div className="pt-3">
@@ -155,19 +169,42 @@ const MobileNav = ({ change }) => {
                   </span>
                   <hr />
                   <ul className="flex flex-col gap-3 pt-5 text-gray-300">
-                    <li className="hover:text-blue-700 text-[14px]">
-                      WordPress
-                    </li>
-                    <li className="hover:text-blue-700 text-[14px]">Drupal</li>
-                    <li className="hover:text-blue-700 text-[14px]">Craft</li>
-                    <li className="hover:text-blue-700 text-[14px]">Joomla</li>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      SharePoint
-                    </li>
-                    <li className="hover:text-blue-700 text-[14px]">Umbraco</li>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      Sitecore
-                    </li>
+                    <Link to="/Wordpress">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Wordpress Develpment
+                      </li>
+                    </Link>
+                    <Link to="/drupal">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Drupal Develpment
+                      </li>
+                    </Link>
+
+                    <Link to="/craftt">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Craft Develpment
+                      </li>
+                    </Link>
+                    <Link to="/joomla">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Joomla Develpment
+                      </li>
+                    </Link>
+                    <Link to="/share">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        SharePoint Develpment
+                      </li>
+                    </Link>
+                    <Link to="/um">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Umbraco Develpment
+                      </li>
+                    </Link>
+                    <Link to="/site">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        SitecoreDevelpment
+                      </li>
+                    </Link>
                   </ul>
                 </div>
 
@@ -177,28 +214,38 @@ const MobileNav = ({ change }) => {
                   </span>
                   <hr />
                   <ul className="flex flex-col gap-3 pt-5 text-gray-300">
-                    <Link to="/tecno">
+                    <Link to="/majento">
                       {" "}
                       <li className="hover:text-blue-700 text-[14px]">
-                        Magento
+                        Magento Develpment
                       </li>
                     </Link>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      Adobe Commerce
-                    </li>
-                    <li className="hover:text-blue-700 text-[14px]">Craft</li>
-                    <li className="hover:text-blue-700 text-[14px]">Shopify</li>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      BigCommerce
-                    </li>
-                    <li className="hover:text-blue-700 text-[14px]">
-                      WooCommerce
-                    </li>
+                    <Link to="/adobe">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Adobe Commerce Develpment
+                      </li>
+                    </Link>
+
+                    <Link to="/spotify">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        Shopify Develpment
+                      </li>
+                    </Link>
+                    <Link to="/bigco">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        BigCommerce Develpment
+                      </li>
+                    </Link>
+                    <Link to="/adobe  ">
+                      <li className="hover:text-blue-700 text-[14px]">
+                        WooCommerce Develpment
+                      </li>
+                    </Link>
                   </ul>
                 </div>
 
                 <div className="pt-3">
-                  <span className="hover:text-blue-700 text-white font-[600] text-[16px]">
+                  <span className="hover:text-blue-700 text-white font-[600] text-[16px]   ">
                     Mobile Apps
                   </span>
                   <hr />

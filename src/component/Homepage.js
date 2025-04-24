@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import img1 from "../images/Layer1.png";
 import img2 from "../images/Layer2.png";
-// import img3 from "../images/Group images/Group1.png";
-// import img4 from "../images/Group images/Group.png";
-// import img5 from "../images/Group images/Group3.png";
-// import img6 from "../images/Group images/Group4.png";
-// import img7 from "../images/Group images/Group5.png";
-// import img8 from "../images/Group images/Group6.png";
-// import img9 from "../images/Group images/Group7.png";
-// import img10 from "../images/Group images/Group8.png";
-// import img11 from "../images/Group images/Group9.png";
-// import img12 from "../images/Group images/Group10.png";
+import img3 from "../images/Group images/Group1.png";
+import img4 from "../images/Group images/Group.png";
+import img5 from "../images/Group images/Group3.png";
+import img6 from "../images/Group images/Group4.png";
+import img7 from "../images/Group images/Group5.png";
+import img8 from "../images/Group images/Group6.png";
+import img9 from "../images/Group images/Group7.png";
+import img10 from "../images/Group images/Group8.png";
+import img11 from "../images/Group images/Group9.png";
+import img12 from "../images/Group images/Group10.png";
 import img13 from "../images/Group images/Group11.png";
 import img14 from "../images/Group images/Group12.png";
 import img15 from "../images/Group images/Group13.png";
@@ -27,13 +27,11 @@ import img25 from "../images/Groupimages2/images8.png";
 import img26 from "../images/Groupimages2/images9.png";
 import img27 from "../images/Groupimages2/images10.png";
 import img28 from "../images/Groupimages2/images11.png";
-
 import img29 from "../images/Groupimages2/images12.png";
 // import img31 from "../images/Groupimages2/images14.png";
 import img32 from "../images/Groupimages2/images15.png";
 import img33 from "../images/Groupimages2/images16.png";
 import img34 from "../images/Groupimages2/images17.png";
-
 import img36 from "../images/Groupimages3/image2.png";
 import img37 from "../images/Groupimages3/image3.png";
 import img38 from "../images/Groupimages3/image4.png";
@@ -45,13 +43,13 @@ import img43 from "../images/Groupimage4/image2.png";
 import img44 from "../images/Groupimage4/image3.png";
 import img45 from "../images/Groupimage4/image4.png";
 import img46 from "../images/Groupimage4/image5.png";
-
+import img47 from "../images/Groupimage4/Mantain.png";
+import img48 from "../images/Groupimage4/Dedicatedteam.png";
 import heroImage from "../images/Group images/Group15.png";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { toast } from "react-toastify";
-// import Nav from "./Nav";
 
 export const Homepage = () => {
   const [change, setchange] = useState(1);
@@ -82,7 +80,7 @@ export const Homepage = () => {
       } else {
         toast.warn("something was worng");
       }
-    
+
       console.log(inqueryform);
       reset();
     } catch (err) {
@@ -117,21 +115,23 @@ export const Homepage = () => {
                 developers.
               </p>
             </div>
-            <button className="bg-gradient-to-r from-[#1e3a8a] to-[#38bdf8] text-white px-[20px] py-[10px] lg:px-[40px] lg:py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg">
-              <span>Details</span>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
+            <Link to="/web">
+              <button className="bg-gradient-to-r from-[#1e3a8a] to-[#38bdf8] text-white px-[20px] py-[10px] lg:px-[40px] lg:py-[16px] rounded-[50px] flex gap-3 items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-lg">
+                <span>Details</span>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </Link>
           </div>
 
           <div className=" flex items-center justify-center relative lg:w-6/12 mt-6">
@@ -150,6 +150,66 @@ export const Homepage = () => {
       </div>
 
       {/* hompage section */}
+
+      <div className="flex justify-center lg:py-16 py-5">
+        <div className=" lg:w-[90%] w-full flex  px-3 lg:flex-col justify-center items-center        ">
+          <div className="flex flex-col lg:flex-row   ">
+            <img
+              src={img3}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0  border-t-0   lg:w-[226px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img4}
+              alt=" "
+              className="w-[150px] h-[50px]  border-[1px] border-black px-5 py-2 border-l-0 border-t-0  lg:w-[226px] lg:h-[70px] object-contain "
+            />
+            <img
+              src={img5}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 lg:w-[226px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img6}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 lg:w-[226px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img7}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 border-b-0 lg:border-b-[1px] lg:border-r-0 lg:w-[226px] lg:h-[70px] object-contain"
+            />
+          </div>
+
+          <div className="flex  flex-col lg:flex-row ">
+            <img
+              src={img8}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0  lg:border-b-0 lg:w-[226px] border-r-0 lg:border-r-[1px]  lg:h-[70px] object-cover"
+            />
+            <img
+              src={img9}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 lg:border-b-0 lg:w-[226px] border-r-0  lg:border-r-[1px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img10}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 lg:border-b-0 lg:w-[226px] border-r-0  lg:border-r-[1px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img11}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 lg:border-b-0 lg:w-[226px] border-r-0  lg:border-r-[1px] lg:h-[70px] object-contain"
+            />
+            <img
+              src={img12}
+              alt=" "
+              className="w-[150px] h-[50px] border-[1px] border-black px-5 py-2 border-l-0 border-t-0 border-r-0 border-b-0   lg:w-[226px] lg:h-[70px] object-contain"
+            />
+          </div>
+        </div>
+      </div>
 
       <div className=" bg-gradient-to-b  pb-24 md:pb-36 from-[#151D36] w-full to-[#111429] relative overflow-hidden ">
         <svg
@@ -916,7 +976,7 @@ export const Homepage = () => {
                 </svg>
               </div>
               <div className="sm:w-[80%] flex items-start flex-col space-y-3 pt-5 ">
-                <span className="font-[400]   lg:text-[36px] text-center lg:text-start  text-[20px]">
+                <span className="font-[400]   lg:text-[36px]  lg:text-start  text-[20px]">
                   We Shape Future By Building{" "}
                   <span className="font-[600]  "> Stunning Products</span>{" "}
                 </span>
@@ -1010,11 +1070,11 @@ export const Homepage = () => {
 
         <div className=" lg:w-[85%] w-full sm:pt-20 relative  flex  mx-2   justify-center ">
           <div className="lg:w-[92%] w-full pt-6">
-            <span className=" text-[16px]  sm:text-[24px]  text-[#4687C7] font-[600]  lg:text-[30px] ">
+            <span className=" text-[20px]  sm:text-[24px]  text-[#4687C7] font-[700]  lg:text-[30px] ">
               We offer{" "}
             </span>
             <div className="  relative">
-              <span className="lg:text-[44px] sm:text-[24px]  text-[16px] font-[700] text-white lg:w-[509px]  ">
+              <span className="lg:text-[44px] sm:text-[24px]  text-[16px] font-[500] text-white lg:w-[509px]  ">
                 On-Demand IT Services
               </span>
 
@@ -1936,7 +1996,7 @@ export const Homepage = () => {
                     <div>
                       <img
                         alt=" "
-                        src={img15}
+                        src={img47}
                         className=" object-cover w-full  sm:h-[414px]  "
                       />
                     </div>
@@ -2046,7 +2106,7 @@ export const Homepage = () => {
                     <div>
                       <img
                         alt=" "
-                        src={img15}
+                        src={img48}
                         className=" object-cover w-full  sm:h-[414px]  "
                       />
                     </div>
@@ -2224,13 +2284,13 @@ export const Homepage = () => {
       </div>
 
       <div className="relative   items-center flex justify-center   bg-[#F3F5F8] py-10 ">
-        <div className=" flex justify-between items-center flex-col md:w-[90%] ">
+        <div className=" flex justify-between items-center flex-col lg:w-[90%] ">
           <span className="text-[#001943] sm:text-[36px] text-[24px] font-[700] flex justify-center ">
             Why Choose Us
           </span>
           <div className=" flex  gap-16 justify-center mt-10 flex-wrap px-5 flex-col md:flex-row h-full mb-6  ">
-            <div className="flex gap-10  flex-col md:flex-row">
-              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]  md:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
+            <div className="flex gap-10  flex-col lg:flex-row">
+              <div className="   px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px]  bg-[#FFFFFF]  lg:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -2271,7 +2331,7 @@ export const Homepage = () => {
                     />
                   </svg>
 
-                  <span className=" text-[20px] lg:text-[20px] font-[700]">
+                  <span className=" text-[20px] lg:text-[20px]  obfont-[700]">
                     10 + Years of Experience
                   </span>
                 </div>
@@ -2282,7 +2342,7 @@ export const Homepage = () => {
                 </p>
               </div>
 
-              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF] md:w-[378px]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF] lg:w-[378px]   space-y-2 sm:space-y-5 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -2321,7 +2381,7 @@ export const Homepage = () => {
                 </p>
               </div>
 
-              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]     md:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="  px-3 sm:px-5 sm:py-7 py-2 shadow-lg rounded-[7px] bg-[#FFFFFF]     lg:w-[378px] space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -2362,7 +2422,7 @@ export const Homepage = () => {
               </div>
             </div>
             <div className="flex gap-10 flex-col md:flex-row">
-              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]  md:w-[378px] sm:py-7 py-2   space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3  bg-[#FFFFFF]  lg:w-[378px] sm:py-7 py-2   space-y-2 sm:space-y-3 hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -2402,7 +2462,7 @@ export const Homepage = () => {
                 </p>
               </div>
 
-              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2  bg-[#FFFFFF]   md:w-[378px]  space-y-2 sm:space-y-3   hover:bg-[#4687C7] hover:text-white scale-105">
+              <div className="   shadow-lg rounded-[7px] px-3 sm:px-5 sm:py-7 py-2  bg-[#FFFFFF]   lg:w-[378px]  space-y-2 sm:space-y-3   hover:bg-[#4687C7] hover:text-white scale-105">
                 <div className="space-y-4">
                   <svg
                     width="60"
@@ -2596,14 +2656,14 @@ export const Homepage = () => {
                 business goals.
               </p>
 
-         <Link to = "/book">
-         <button className="relative overflow-hidden lg:px-8 lg:py-3 mt-5 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
-                <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
-                  FREE EXPERT CONSULTATION
-                </span>
-                <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
-              </button>
-         </Link>
+              <Link to="/book">
+                <button className="relative overflow-hidden lg:px-8 lg:py-3 mt-5 px-3 py-1 font-semibold rounded-md text-white border-2 border-white capitalize group">
+                  <span className="z-10 relative group-hover:text-black text-[12px] lg:text-[18px]">
+                    FREE EXPERT CONSULTATION
+                  </span>
+                  <span className="absolute top-0 left-0 w-full h-full bg-white transition-all duration-500 scale-x-0 group-hover:scale-x-100 group-hover:left-0 group-hover:right-0 transform origin-left"></span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

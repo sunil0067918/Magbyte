@@ -18,6 +18,7 @@ import Footer from "./Footer";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   useEffect(() => {
@@ -102,7 +103,7 @@ const About = () => {
                 We empower brands to succeed in digital
               </span>
 
-              <p className="lg:w-[636px] text-[12px] lg:text-[18px]   lg:font-[800] ">
+              <p className="lg:w-[636px] text-[12px] lg:text-[18px]   ">
                 <b>Magebytes</b> is an agency that combines expertise in design,
                 technology, and psychology to deliver measurable business
                 outcomes for growing startups and established companies.
@@ -162,7 +163,7 @@ const About = () => {
             />
           </svg>
 
-          <div className="flex justify-center   lgpt-12 lg:pt-16 text-center px-3 ">
+          <div className="flex justify-center  py-5 lg:py-16 text-center px-3 ">
             <div className=" lg:w-[60%]  ">
               <div className=" space-y-12 flex items-center flex-col">
                 <div className="relative   items-center">
@@ -187,10 +188,10 @@ const About = () => {
                     About Us
                   </span>
                 </div>
-                <span className="lg:text-[32px] text-[24px]  font-[400]  lg:font-[600] lg:w-[430px}">
+                <span className="lg:text-[32px] text-[24px]  font-[600]  lg:font-[600] lg:w-[430px}">
                   We shape future by building stunning products
                 </span>
-                <p className="flex-wrap  text-[16px]  font-[300] lg:font-[400]  lg:text-[20px]  ">
+                <p className="  text-[16px]  font-[300] lg:font-[400]  lg:text-[18px]  ">
                   We are a group of digital strategists, technologists, and
                   masterminds. Together, we aspire to co-imagine the future by
                   adding our unparalleled ability pulled from a different
@@ -201,10 +202,12 @@ const About = () => {
                   attempt.
                 </p>
                 <div>
-                  <button className="   rounded-[50px] py-[10px] px-[16px]  lg:py-[16px]  lg:px-[20px ] border  capitalize  border-[#3464FD] font-[600]  text-[16px] text-[#3464FD]   ">
+       <Link to = "/contact">
+       <button className="   rounded-[50px] py-[10px] px-[16px]  lg:py-[16px]  lg:px-[20px ] border  capitalize  border-[#3464FD] font-[600]  text-[16px] text-[#3464FD]   ">
                     {" "}
                     Let’s connect
                   </button>
+       </Link>
                 </div>
               </div>
             </div>
@@ -288,14 +291,14 @@ const About = () => {
           </svg>
         </div>
 
-        <div className="  p-7 lg:py-20   bg-gradient-to-b from-[#36243D] to-[#202C4B]">
+        <div className="  p-7 lg:py-16 py-10   bg-gradient-to-b from-[#36243D] to-[#202C4B]">
           <div className="flex justify-center pt-10 ">
             <div className=" w-[90%]">
               <span className=" text-[24px]  lg:text-[32px]  font-[500] text-center justify-center flex text-white ">
                 Our Values
               </span>
 
-              <div className="pt-16 flex flex-col gap gap-y-16 ">
+              <div className="pt-16 flex flex-col gap gap-y-10 ">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap gap-y-10">
                   <div className=" flex  flex-col gap-y-3 text-white lg:w-[358px] ">
                     <svg
@@ -594,7 +597,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose ">
                   We have 10+ years of experience with creating eCommerce
                   websites.
                 </span>
@@ -650,7 +653,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose ">
                   Our group is knowledgeable in Shopify, Magento, Magento 2,
                   Laravel, WooCommerce, and WordPress.
                 </span>
@@ -707,7 +710,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                   Along with these technologies we are also well versed in
                   digital marketing and graphic designing. Our experts know
                   their way in and out of the technological world.
@@ -765,7 +768,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose  ">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
                 </span>
@@ -822,7 +825,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose  ">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
                 </span>
@@ -879,7 +882,7 @@ const About = () => {
               </svg>
 
               <div className="w-[350px]   h-[322px] bg-[#FFFFFF] border-[4.27px] rounded-[24px] border-[#406EF1] flex justify-center items-center text-center ">
-                <span className="text-[20px]  font-[400]  ">
+                <span className="lg:text-[16px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose  ">
                   We also provide dedicated teams and resources for your project
                   and monthly/yearly support for eCommerce websites.
                 </span>
@@ -926,7 +929,7 @@ const About = () => {
               <span className=" text-[18px]  font-[400]  lg:text-[24px] lg:font-[600] ">
                 Our Mission
               </span>
-              <p className=" text-[16px] lg:text-[20px]  text-wrap ">
+              <p className=" lg:text-[18px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose">
                 Our mission is to convey the best services by creating fantastic
                 sites that reflect business values with an impeccably adjusted
                 UI and UX. Our obligation to quality and integrity assists us
@@ -974,7 +977,7 @@ const About = () => {
               <span className="  text-[18px]  font-[400]  lg:text-[24px] lg:font-[600] ">
                 Our Vision
               </span>
-              <p className=" text-[16px] lg:text-[20px] text-wrap ">
+              <p className=" lg:text-[18px]  text-[12px]  text-gray-800  leading-relaxed max-w-prose ">
                 One can acquire as much knowledge as they can but still it is
                 not enough. We keep striving hard to be ahead in this
                 technological era and with our expertise and wisdom, we thrive
@@ -1338,9 +1341,11 @@ const About = () => {
             <span className="sm:text-[30px] text-[20px]  font-[500] text-[#FFFFFF]">
               See something that excites you?
             </span>
-            <button className="font-[600]  sm:text-[16px] text-[14px] w-[133px] sm:w-[146px]   bg-[#FFFFFF] py-[10px]  px-[10px] lg:py-[16px] lg:px-[20px] rounded-[50px]  border-[1px] ">
+        <Link  to =  "/contact" >
+        <button className="font-[600]  sm:text-[16px] text-[14px] w-[133px] sm:w-[146px]   bg-[#FFFFFF] py-[10px]  px-[10px] lg:py-[16px] lg:px-[20px] rounded-[50px]  border-[1px] ">
               Let’s Connect
             </button>
+        </Link>
           </div>
         </div>
 

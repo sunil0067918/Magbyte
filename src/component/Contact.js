@@ -13,7 +13,7 @@ const Contact = () => {
     formState: { errors },
     handleSubmit,
   } = useForm();
-  console.log(errors );
+  console.log(errors);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -31,16 +31,23 @@ const Contact = () => {
         "http://localhost:3000/contactregister",
         payload
       );
-      reset()
-      if(Conatactresult.data.status){
-        toast.success(Conatactresult.data.message)
-      }else{
-        toast.warn("something wentwrong")
+      reset();
+      if (Conatactresult.data.status) {
+        toast.success(Conatactresult.data.message);
+      } else {
+        toast.warn("something wentwrong");
       }
       console.log(Conatactresult);
     } catch (err) {
       console.log(err);
     }
+  };
+
+  const handleClick = () => {
+    window.open(
+      "https://www.linkedin.com/company/magebytestech/posts/?feedView=all",
+      "_blank"
+    );
   };
 
   return (
@@ -562,20 +569,8 @@ const Contact = () => {
             <div className=" relative">
               <div className=" absolute  lg:w-[74px]  lg:h-[283px] bg-gradient-to-r from-blue-500 to-blue-800 left-[1119px]  top-[-40px] rounded-br-[29px] hidden lg:block">
                 <div className="flex lg:flex-col justify-center items-center space-y-8 pt-5">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className=""
-                  >
-                    <path
-                      d="M24 12.0729C24 18.0983 19.606 23.0935 13.87 24V15.5862H16.659L17.19 12.1051H13.87V9.84649C13.87 8.89373 14.334 7.96613 15.82 7.96613H17.329V5.00222C17.329 5.00222 15.959 4.7668 14.65 4.7668C11.916 4.7668 10.13 6.43387 10.13 9.4511V12.1041H7.091V15.5852H10.13V23.999C4.395 23.0915 0 18.0973 0 12.0729C0 5.40566 5.373 0 12 0C18.627 0 24 5.40465 24 12.0729Z"
-                      fill="white"
-                    />
-                  </svg>
-
+                  <button></button>
+                  onClick={handleClick}
                   <svg
                     width="24"
                     height="24"
@@ -595,7 +590,6 @@ const Contact = () => {
                       </clipPath>
                     </defs>
                   </svg>
-
                   <svg
                     width="24"
                     height="24"
@@ -608,7 +602,6 @@ const Contact = () => {
                       fill="white"
                     />
                   </svg>
-
                   <svg
                     width="24"
                     height="24"

@@ -3,7 +3,7 @@ import Nav from '../Nav'
 import Hirebanner from './Hirebanner'
 import Hiresection from './Hiresection'
 import Hiredevsection2 from './Hiredevsection2'
-
+import New from  "./New"
 
 const Hiredev = () => {
   return (
@@ -11,6 +11,7 @@ const Hiredev = () => {
         <Nav/>
         <Hirebanner/>
         <Hiresection/>
+        <New/>
         <Hiredevsection2/>
     </div>
   )

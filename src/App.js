@@ -7,7 +7,7 @@ import Service from "./component/Services/Service";
 import Webapp from "./component/Services/Webapp";
 import Webdesign from "./component/Services/Webdesign";
 import Digital from "./component/Services/Digital";
-import Tecnologies from "./component/Tecnology/Tecnologies";
+
 import Laravel from "./component/Tecnology/Laravel/Laravel";
 import Python from "./component/Tecnology/python/Python";
 import Node from "../src/component/Tecnology/Node/Node";
@@ -50,6 +50,8 @@ import { ToastContainer } from "react-toastify";
 import Javaa from "./component/Tecnology/Fullstack/Javaa/Javaa";
 import Portfoliyo from "./component/Company/Portt/Portfoliyo";
 import Freeconstaform from "./component/Freeconstaform";
+import Manjento from "./component/Tecnology/Mangento/Manjento";
+import Industries from "./component/Industruies/Industries"
 
 const App = () => {
   useEffect(() => {
@@ -83,7 +85,7 @@ const App = () => {
           <Route path="/python" element={<Python />} />
           <Route path="/webdesign" element={<Webdesign />} />
           <Route path="/digital" element={<Digital />} />
-          <Route path="/tecno" element={<Tecnologies />} />
+          <Route path="/majento" element={<Manjento/>} />
           <Route path="/Laravel" element={<Laravel />} />
           <Route path="/Node" element={<Node />} />
           <Route path="/Reactt" element={<Rea />} />
@@ -120,6 +122,7 @@ const App = () => {
           <Route path="/javaa" element={<Javaa />} />
           <Route path="/portt" element={<Portfoliyo />} />
           <Route path="/hire" element={<Hiredev />} />
+          <Route path="/industries"  element ={<Industries/>}/>
           <Route path="/book" element = {<Freeconstaform/>}/>
         </Routes>
       </BrowserRouter>

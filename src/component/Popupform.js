@@ -10,7 +10,7 @@ const Popupform = ({ show, handleclose }) => {
     formState: { errors },
     handleSubmit,
   } = useForm();
-
+  console.log(`${process.env.REACT_APP_API_URL}/hireresister`)
   const onSubmit = async (data) => {
     const payload = {
       fullName: data.fullName,
@@ -21,7 +21,7 @@ const Popupform = ({ show, handleclose }) => {
 
     try {
       const hireresult = await axios.post(
-        "http://localhost:3000/hireresister",
+        `${process.env.REACT_APP_API_URL}/hireresister`,
         payload
       );
 
@@ -46,7 +46,7 @@ const Popupform = ({ show, handleclose }) => {
     <div>
       <div className="fixed inset-0 bg-black bg-opacity-50  flex justify-center items-center z-50">
         <div className="bg-white p-6 rounded-lg shadow-lg bg-gradient-to-r from-gray-300 to-bg-white lg:w-96">
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form onSubmit={handleSubmit(onSubmit)} >
             <h2 className="text-2xl font-semibold mb-4  text-center text-blue-900">
               Magbytes Job Application Form
             </h2>
@@ -85,7 +85,7 @@ const Popupform = ({ show, handleclose }) => {
               <input
                 type="email"
                 id="email"
-                placeholder="Enter your email address"
+                placeholder="Enter your email address "
                 name="email"
                 {...register("email", {
                   required: "Email is required",
