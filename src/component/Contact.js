@@ -53,7 +53,7 @@ const Contact = () => {
   return (
     <div className="">
       <Nav />
-      <div className="  relative h-[1050px] flex  mx-5 flex-col  lg:h-full bg-white ">
+      <div className="  relative h-[1050px] flex  mx-5 flex-col ga  lg:h-full bg-white ">
         <div className="flex justify-center">
           <svg
             width="1440"
@@ -160,7 +160,7 @@ const Contact = () => {
 
                     <div className="flex flex-col gap-2 w-full">
                       <input
-                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]   s  rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
                         placeholder="Enter Your Email"
                         type="email"
                         name="Contactemail"
@@ -177,7 +177,7 @@ const Contact = () => {
 
                     <div className="flex flex-col w-full">
                       <textarea
-                        className="lg:w-[484px]  bg-gradient-to-r from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]    rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
+                        className="lg:w-[484px]  2xl  bg-gradient-to-r  from-[#F4F4F9] to-[#e0e4e8] py-[12px] px-[12px] lg:py-[18px] lg:px-[20px]    rounded-xl shadow-lg text-[16px] focus:ring-2 focus:ring-[#585DD8] focus:outline-none transition-all duration-300 ease-in-out"
                         placeholder="Go ahead, we are listening..."
                         rows="4"
                         type="text"
@@ -448,7 +448,7 @@ const Contact = () => {
                     </defs>
                   </svg>
                   <div className="space-y-7 mt-5">
-                    <div className=" lg:w-[455px] h-[48px] flex gap-[10px]  ">
+                    <div className=" lg:w-[455px]  flex gap-[10px]  ">
                       <svg
                         width="44"
                         height="44"
@@ -474,11 +474,16 @@ const Contact = () => {
                           </clipPath>
                         </defs>
                       </svg>
+                      <div className=" flex flex-col gap-1">
+                        <span className=" lg:text-[20px] text-[16px] font-[300] lg:font-[400]">
+                          Suite-106, H-28, H Block, Sector 63, Noida, Uttar
+                          Pradesh 201301
+                        </span>
 
-                      <span className=" lg:text-[20px] text-[16px] font-[300] lg:font-[400]">
-                        Suite-106, H-28, H Block, Sector 63, Noida, Uttar
-                        Pradesh 201301
-                      </span>
+                        <span className=" lg:text-[20px] text-[16px] font-[300] lg:font-[400]">
+                          3771 Graham Way SW, Lilburn GA, 30047
+                        </span>
+                      </div>
                     </div>
 
                     <div className="flex gap-[10px]   w-[236px] items-center ">

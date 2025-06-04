@@ -39,7 +39,7 @@ const Faq = () => {
                   </span>
                   <FontAwesomeIcon
                     icon={count === 1 ? faMinus : faPlus}
-                    className="text-blue-500 transition-all duration-300  px mt-5  text-xl   rounded-t-[]4px border border-l-0  border-t "
+                    className="text-blue-500 transition-all duration-300   px mt-5  text-xl   rounded-t-[]4px border border-l-0  border-t "
                   />
                 </div>
 

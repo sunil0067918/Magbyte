@@ -1035,7 +1035,7 @@ export const Homepage = () => {
 </svg> */}
       </div>
 
-      <div className="lg:h-[814px] h-[800px] bg-[#242424] flex justify-center relative ">
+      <div className="lg:h-[814px] h-[800px] bg-[#242424] flex justify-center relative       ">
         <svg
           width="224"
           height="224"
@@ -3138,8 +3138,9 @@ export const Homepage = () => {
                   </span>
                   <br />
                   <span className="sm:text-[20px] text-[14px]  fort-[500]">
-                    110, H-28 Block, Sector 63, Noida, Uttar Pradesh 201301
-                  </span>
+                   H-28 Block, Sector 63, Noida, Uttar Pradesh 201301
+                  </span><br></br>
+                  <span className="sm:text-[20px] text-[14px]  fort-[500]">3771 Graham Way SW, Lilburn GA, 30047</span>
                   <br />
                 </div>
               </div>

@@ -17,7 +17,7 @@ const Hirebanner = () => {
             <span className="lg:text-[32px]  text-[20px] font-[600] text-blue-700">
               Hire Dedicated Developers
             </span>
-            <span className="lg:text-[18px] font-[500] lg:w-[600px] lg:text-start text-center  text-[12px]">
+            <span className="lg:text-[18px] font-[500] lg:w-[600px]  lg:text-start text-center  text-[12px]">
               Hiring the highly professional and dedicated developers has become
               one of the most rewarding and prosperous trend in these days in
               the worldwide of an online business.
