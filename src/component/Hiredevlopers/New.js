@@ -50,7 +50,7 @@ const New = () => {
               />
             </div>
             <div class="flex flex-col items-center text-center gap-2">
-              <span class="lg:text-xl text-lg font-semibold text-[#201D1D]">
+              <span class="lg:text-xl text-lg font-semibold text-[#201D1D]  pl-">
                 FREE SHIPPING
               </span>
               <span class="text-base text-normal text-[#878787]  leading-[100%] text-center">
@@ -76,8 +76,8 @@ const New = () => {
             </div>
           </div>
 
-          <div class="lg:w-1/4 flex flex-col items-center gap-4  lg:gap-8">
-            <div class="lg:w-[180px] lg:h-[180px] w-[122px] h-[122px] rounded-full bg-[#E8E8E8] flex justify-center items-center">
+          <div class="lg:w-1/4 flex flex-col items-center gap-4  lg:gap-8 ">
+            <div class="lg:w-[180px] lg:h-[180px] w-[122px] h-[122px] rounded-full  bg-[#E8E8E8] flex justify-center items-center">
               <img
                 src="https://mirage.test/media/.renditions/wysiwyg/box-open.png"
                 alt=""

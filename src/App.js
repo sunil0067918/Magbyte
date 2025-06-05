@@ -52,6 +52,7 @@ import Portfoliyo from "./component/Company/Portt/Portfoliyo";
 import Freeconstaform from "./component/Freeconstaform";
 import Manjento from "./component/Tecnology/Mangento/Manjento";
 import Industries from "./component/Industruies/Industries"
+import Oodo from "./component/Tecnology/CRM/Oodo/Oodo";
 
 const App = () => {
   useEffect(() => {
@@ -124,6 +125,7 @@ const App = () => {
           <Route path="/hire" element={<Hiredev />} />
           <Route path="/industries"  element ={<Industries/>}/>
           <Route path="/book" element = {<Freeconstaform/>}/>
+          <Route path="/odo"  element = {<Oodo/>}/>
         </Routes>
       </BrowserRouter>
     </>

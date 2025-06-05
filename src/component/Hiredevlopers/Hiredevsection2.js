@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import img from "./Hiresectionimage/image3.png";
 import Slider1 from "../Slider/Slider1";
+
 import Footer from  "../Footer"
 
 
@@ -18,6 +19,7 @@ const Hiredevsection2 = () => {
 
   return (
     <div className="">
+
       {/* <div className=" flex justify-center py-10">
         <div className="lg:w-[90%] flex flex-col items-center lg:gap-20">
           <span className="lg:text-[28px] text-[20px]   font-[700] ">

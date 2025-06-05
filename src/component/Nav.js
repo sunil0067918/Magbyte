@@ -76,7 +76,7 @@ const Nav = () => {
                 viewBox="0 0 243 47"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="  animate-bounce  sm:w-[242px] w-[146px] sm:h-[47px] h-[44px]  "
+                className="    sm:w-[242px] w-[146px] sm:h-[47px] h-[44px]  "
               >
                 <path
                   fill-rule="evenodd"
@@ -145,7 +145,6 @@ const Nav = () => {
                 z-[90]  px-2  right-[-6px] mt-[10px] border border-gray-400 rounded-md text-white transition-all duration-[800ms] `}
               onClick={() => setchange(!change)}
             />
-
             <button
               className={`flex border border-[#4687C7] w-full  transition-all duration-[800ms]  
                 rounded-[7px]   gap-3 px-2 py-2    items-center  `}
@@ -204,8 +203,8 @@ const Nav = () => {
             <div className=" flex items-center gap-2 ">
               <div className="logo">
                 <svg
-                  width="24"
-                  height="24"
+                  width="34"
+                  height="34"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -234,9 +233,14 @@ const Nav = () => {
                   </defs>
                 </svg>
               </div>
-              <p className="text-[14px] font-medium text-white flowing-text">
-                110, H-28, Sector 63, Noida, Uttar Pradesh 201301
-              </p>
+              <div>
+                <p className="text-[14px] font-medium text-white flowing-text">
+                  H-28, Sector 63, Noida, Uttar Pradesh 201301
+                </p>
+                <p className="text-[14px] font-medium text-white flowing-text">
+                  3771 Graham Way SW, Lilburn GA, 30047
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -670,7 +674,7 @@ const Nav = () => {
                 </div>
               </li>
 
-              <li className="flex py-4 items-center gap-1  relative group  ">
+              <li className="flex py-4 items-center gap-1  relative group   ">
                 <span className="relative inline-block group">
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
                     Technologies
@@ -693,7 +697,7 @@ const Nav = () => {
                 <div className="transition-all duration-[400ms] absolute left-[-93px] z-[-10] top-[110px] group-hover:top-[63px] w-[88vw] group-hover:z-[70]   group-hover:block   ">
                   <div className="w-full relative py-[5px] bg-transparent left-[76px]">
                     <FontAwesomeIcon
-                      className="text-gray-400 absolute top-0 left-10"
+                      className="text-gray-400 absolute top-0 left-10   "
                       icon={faCaretUp}
                     />
                   </div>
@@ -1144,7 +1148,7 @@ const Nav = () => {
                             </Link>
                           </li>
 
-                          <li className=" flex gap-3  items-center text-[14px]">
+                          <li className=" flex gap-3 font leading-1    items-center text-[14px]">
                             <Link
                               className="flex gap-3 items-center"
                               to="/zoho"
@@ -1156,6 +1160,11 @@ const Nav = () => {
                               </span>
                             </Link>
                           </li>
+                          <Link to="/odo">
+                            <li className="text-[12px] font-[500] whitespace-nowrap hover:text-[#4687C7] hover:underline transition-all duration-300 ease-in-out">
+                              Oodo
+                            </li>
+                          </Link>
                         </ul>
                       </div>
 
@@ -1464,15 +1473,15 @@ const Nav = () => {
                 </div>
               </li>
 
-  <Link to =  "/industries">
-  <li className=" ">
-                <span className="relative inline-block group">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
-                    Industries
+              <Link to="/industries">
+                <li className=" ">
+                  <span className="relative inline-block group">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 group-hover:bg-gradient-to-l group-hover:from-blue-500 group-hover:to-red-500 transition-all duration-500">
+                      Industries
+                    </span>
                   </span>
-                </span>
-              </li>
-  </Link>
+                </li>
+              </Link>
 
               <Link to="/hire">
                 <li className=" ">

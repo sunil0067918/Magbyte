@@ -16,7 +16,7 @@ const MobileNav = ({ change }) => {
         <li>
           <div className="flex  gap-1     flex-col ">
             <div className="flex justify-between">
-              <span className="hover:text-[#4687C7]     text-[16px] font-[600]   ">
+              <span className="hover:text-[#4687C7] text-[16px] font-[600]   ">
                 Services
               </span>
               <div>
